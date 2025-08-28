@@ -1,0 +1,101 @@
+Roadmap Statistics:
+
+  Number of Nodes: 500
+  Number of Edges: 1456
+
+  There are 50 connected components:
+    CC[0]: 333 (vid 0)
+    CC[1]: 103 (vid 7)
+    CC[2]: 2 (vid 46)
+    CC[3]: 1 (vid 57)
+    CC[4]: 1 (vid 61)
+    CC[5]: 3 (vid 69)
+    CC[6]: 2 (vid 78)
+    CC[7]: 3 (vid 94)
+    CC[8]: 1 (vid 95)
+    CC[9]: 1 (vid 96)
+    CC[10]: 3 (vid 100)
+    CC[11]: 1 (vid 119)
+    CC[12]: 1 (vid 129)
+    CC[13]: 1 (vid 130)
+    CC[14]: 3 (vid 142)
+    CC[15]: 1 (vid 145)
+    CC[16]: 2 (vid 208)
+    CC[17]: 3 (vid 235)
+    CC[18]: 1 (vid 239)
+    CC[19]: 1 (vid 241)
+    CC[20]: 1 (vid 245)
+    CC[21]: 1 (vid 262)
+    CC[22]: 1 (vid 290)
+    CC[23]: 1 (vid 301)
+    CC[24]: 2 (vid 303)
+    CC[25]: 1 (vid 309)
+    CC[26]: 1 (vid 318)
+    CC[27]: 1 (vid 326)
+    CC[28]: 1 (vid 329)
+    CC[29]: 1 (vid 331)
+    CC[30]: 1 (vid 336)
+    CC[31]: 1 (vid 353)
+    CC[32]: 1 (vid 356)
+    CC[33]: 2 (vid 362)
+    CC[34]: 1 (vid 363)
+    CC[35]: 1 (vid 375)
+    CC[36]: 1 (vid 395)
+    CC[37]: 1 (vid 397)
+    CC[38]: 1 (vid 399)
+    CC[39]: 1 (vid 400)
+    CC[40]: 2 (vid 417)
+    CC[41]: 1 (vid 426)
+    CC[42]: 1 (vid 453)
+    CC[43]: 1 (vid 464)
+    CC[44]: 1 (vid 468)
+    CC[45]: 1 (vid 470)
+    CC[46]: 1 (vid 472)
+    CC[47]: 1 (vid 484)
+    CC[48]: 1 (vid 487)
+    CC[49]: 1 (vid 492)
+
+
+Sampler Statistics                                            Attempts Successes
+
+  UniformRandomSampler::UniformRandomPQPQuick                    21914       500
+  All Samplers                                                   21914       500
+  Success Rate: 2.28%
+
+
+Local Planner Statistics                        Attempts Connections    CD Calls
+
+  StraightLine::slpq                                1494         728       37542
+
+
+Collision Detection Calls                                                  Count
+
+  Skeleton Clearance                                                       18728
+  Skeleton Point Validity                                                  17857
+  All Collision Detectors                                                  36585
+
+
+Other Statistics                                                           Value
+
+  BruteForceNF::BFNF::NumQueries                                             500
+
+
+Clock Name                                                        Time (Seconds)
+
+  BasicPRM::PQPQuick::EvaluateMap                                         0.0441
+  BasicPRM::PQPQuick::Run                                                    456
+  BruteForceNF::BFNF::Query                                                0.174
+  BruteForceNF::BFNF::Total                                                0.175
+  CollisionDetection::pqp::SelfCheckInside                                  3.75
+  CollisionDetection::pqp_solid::SelfCheck                                0.0166
+  CollisionDetection::pqp_solid::Total                                      0.72
+  ConditionalEvaluator::NodesEval                                         0.0143
+  NeighborhoodConnector::ClosestPQ                                          4.76
+  QueryMethod::GeneratingQuery                                             2e-06
+  QuickValidity::qvp::SelfCheck                                             3.86
+  QuickValidity::qvp::Total                                                  455
+  QuickValidity::qvp::Validity Check                                        5.82
+  QuickValidity::qvp::Validity Initialization                                449
+  Total Connection                                                           4.8
+  Total Node Generation                                                      451
+  UniformRandomSampler::UniformRandomPQPQuick                                451

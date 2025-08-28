@@ -1,0 +1,49 @@
+Roadmap Statistics:
+
+  Number of Nodes: 1000
+  Number of Edges: 1998
+
+  There are 1 connected components:
+    CC[0]: 1000 (vid 0)
+
+
+Sampler Statistics                                            Attempts Successes
+
+  UniformRandomSampler::UniformRandomFree                            1         1
+  All Samplers                                                       1         1
+  Success Rate: 100%
+
+
+Collision Detection Calls                                                  Count
+
+  BasicExtender::Expand                                                   166676
+  BasicRRTStrategy                                                             7
+  Skeleton Clearance                                                       44241
+  Skeleton Point Validity                                                  42670
+  UniformRandomSampler::UniformRandomFree::SampleImpl()                        1
+  All Collision Detectors                                                 253595
+
+
+Other Statistics                                                           Value
+
+  BasicRRTExtend                                                        3.03e+03
+  BruteForceNF::Nearest::NumQueries                                      2.3e+03
+
+
+Clock Name                                                        Time (Seconds)
+
+  BasicRRT::AddNode                                                       0.0257
+  BasicRRT::DisperseSampling                                              0.0113
+  BasicRRT::Extend                                                           216
+  BasicRRT::NeighborhoodFinding                                             0.83
+  BasicRRTStrategy::RapidQuickRRT::EvaluateMap                            0.0066
+  BasicRRTStrategy::RapidQuickRRT::Run                                       216
+  BruteForceNF::Nearest::Query                                             0.811
+  BruteForceNF::Nearest::Total                                             0.815
+  CollisionDetection::pqp_solid::Total                                      1.92
+  CollisionDetection::rapid::Total                                           213
+  ConditionalEvaluator::NodesEval                                         0.0022
+  QueryMethod::GeneratingQuery                                           0.00186
+  QuickValidity::qv::Total                                                   364
+  QuickValidity::qv::Validity Check                                          214
+  QuickValidity::qv::Validity Initialization                                 149

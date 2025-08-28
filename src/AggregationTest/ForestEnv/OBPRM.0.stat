@@ -1,0 +1,236 @@
+
+
+Samplers Statistics:
+                                    Name            Attempts         Successes
+
+             ObstacleBasedSampler::OBPRM                 923                 734
+  Total Sampler Attempts: 923
+  Total Succeeded: 734
+  Success %: 79.5233
+
+
+Local Planners:
+                Name       Attempts    Connections Coll Det Calls
+    StraightLine::sl           5432           1538          58608
+
+
+ Graph Operation Statistics:
+
+                               Statistic                                   Value
+
+                           CC Operations                                   34935
+                            Graph Search                                     195
+
+
+ Neighborhood Finder Statistics:
+
+                               Statistic                                   Value
+
+          BruteForceNF::BFNF::NumQueries                                   17535
+
+
+Number of Nodes: 739
+Number of Edges: 1722
+
+
+There are 179 connected components:
+CC[0]: 311 (vid=0)
+CC[1]: 8 (vid=1)
+CC[2]: 10 (vid=3)
+CC[3]: 6 (vid=5)
+CC[4]: 7 (vid=9)
+CC[5]: 3 (vid=14)
+CC[6]: 4 (vid=17)
+CC[7]: 1 (vid=18)
+CC[8]: 2 (vid=20)
+CC[9]: 35 (vid=23)
+CC[10]: 13 (vid=24)
+CC[11]: 28 (vid=25)
+CC[12]: 4 (vid=26)
+CC[13]: 1 (vid=29)
+CC[14]: 8 (vid=30)
+CC[15]: 1 (vid=32)
+CC[16]: 5 (vid=37)
+CC[17]: 1 (vid=47)
+CC[18]: 4 (vid=52)
+CC[19]: 1 (vid=60)
+CC[20]: 2 (vid=63)
+CC[21]: 5 (vid=65)
+CC[22]: 3 (vid=67)
+CC[23]: 9 (vid=69)
+CC[24]: 11 (vid=74)
+CC[25]: 4 (vid=78)
+CC[26]: 6 (vid=84)
+CC[27]: 4 (vid=88)
+CC[28]: 1 (vid=91)
+CC[29]: 1 (vid=92)
+CC[30]: 3 (vid=93)
+CC[31]: 1 (vid=104)
+CC[32]: 21 (vid=105)
+CC[33]: 1 (vid=107)
+CC[34]: 3 (vid=108)
+CC[35]: 2 (vid=117)
+CC[36]: 2 (vid=124)
+CC[37]: 1 (vid=127)
+CC[38]: 3 (vid=128)
+CC[39]: 1 (vid=130)
+CC[40]: 6 (vid=137)
+CC[41]: 1 (vid=138)
+CC[42]: 1 (vid=139)
+CC[43]: 11 (vid=142)
+CC[44]: 1 (vid=143)
+CC[45]: 1 (vid=145)
+CC[46]: 1 (vid=146)
+CC[47]: 2 (vid=151)
+CC[48]: 1 (vid=167)
+CC[49]: 1 (vid=178)
+CC[50]: 1 (vid=182)
+CC[51]: 1 (vid=184)
+CC[52]: 1 (vid=187)
+CC[53]: 1 (vid=194)
+CC[54]: 3 (vid=196)
+CC[55]: 2 (vid=198)
+CC[56]: 2 (vid=199)
+CC[57]: 1 (vid=209)
+CC[58]: 2 (vid=216)
+CC[59]: 2 (vid=219)
+CC[60]: 1 (vid=225)
+CC[61]: 1 (vid=231)
+CC[62]: 1 (vid=247)
+CC[63]: 1 (vid=248)
+CC[64]: 1 (vid=249)
+CC[65]: 2 (vid=256)
+CC[66]: 1 (vid=257)
+CC[67]: 1 (vid=261)
+CC[68]: 4 (vid=262)
+CC[69]: 1 (vid=268)
+CC[70]: 2 (vid=272)
+CC[71]: 1 (vid=277)
+CC[72]: 1 (vid=284)
+CC[73]: 1 (vid=286)
+CC[74]: 3 (vid=290)
+CC[75]: 1 (vid=291)
+CC[76]: 2 (vid=294)
+CC[77]: 1 (vid=295)
+CC[78]: 1 (vid=297)
+CC[79]: 2 (vid=298)
+CC[80]: 3 (vid=301)
+CC[81]: 2 (vid=302)
+CC[82]: 1 (vid=304)
+CC[83]: 1 (vid=311)
+CC[84]: 1 (vid=314)
+CC[85]: 4 (vid=315)
+CC[86]: 1 (vid=318)
+CC[87]: 1 (vid=322)
+CC[88]: 1 (vid=323)
+CC[89]: 5 (vid=326)
+CC[90]: 3 (vid=328)
+CC[91]: 1 (vid=339)
+CC[92]: 1 (vid=348)
+CC[93]: 1 (vid=349)
+CC[94]: 1 (vid=354)
+CC[95]: 1 (vid=358)
+CC[96]: 1 (vid=359)
+CC[97]: 1 (vid=360)
+CC[98]: 2 (vid=364)
+CC[99]: 1 (vid=365)
+CC[100]: 1 (vid=368)
+CC[101]: 2 (vid=374)
+CC[102]: 2 (vid=378)
+CC[103]: 1 (vid=380)
+CC[104]: 2 (vid=383)
+CC[105]: 1 (vid=388)
+CC[106]: 3 (vid=391)
+CC[107]: 2 (vid=405)
+CC[108]: 5 (vid=406)
+CC[109]: 1 (vid=409)
+CC[110]: 1 (vid=410)
+CC[111]: 1 (vid=411)
+CC[112]: 1 (vid=413)
+CC[113]: 1 (vid=418)
+CC[114]: 2 (vid=437)
+CC[115]: 1 (vid=451)
+CC[116]: 2 (vid=453)
+CC[117]: 1 (vid=454)
+CC[118]: 1 (vid=458)
+CC[119]: 1 (vid=459)
+CC[120]: 1 (vid=464)
+CC[121]: 2 (vid=473)
+CC[122]: 1 (vid=478)
+CC[123]: 2 (vid=480)
+CC[124]: 1 (vid=482)
+CC[125]: 2 (vid=484)
+CC[126]: 2 (vid=492)
+CC[127]: 1 (vid=494)
+CC[128]: 1 (vid=500)
+CC[129]: 1 (vid=501)
+CC[130]: 1 (vid=506)
+CC[131]: 1 (vid=508)
+CC[132]: 2 (vid=511)
+CC[133]: 1 (vid=531)
+CC[134]: 1 (vid=535)
+CC[135]: 1 (vid=545)
+CC[136]: 1 (vid=548)
+CC[137]: 1 (vid=549)
+CC[138]: 1 (vid=551)
+CC[139]: 1 (vid=561)
+CC[140]: 1 (vid=564)
+CC[141]: 1 (vid=575)
+CC[142]: 1 (vid=578)
+CC[143]: 1 (vid=587)
+CC[144]: 1 (vid=588)
+CC[145]: 1 (vid=594)
+CC[146]: 1 (vid=596)
+CC[147]: 1 (vid=600)
+CC[148]: 1 (vid=602)
+CC[149]: 1 (vid=604)
+CC[150]: 1 (vid=605)
+CC[151]: 1 (vid=609)
+CC[152]: 1 (vid=610)
+CC[153]: 1 (vid=615)
+CC[154]: 1 (vid=618)
+CC[155]: 1 (vid=619)
+CC[156]: 1 (vid=623)
+CC[157]: 3 (vid=625)
+CC[158]: 1 (vid=627)
+CC[159]: 1 (vid=629)
+CC[160]: 1 (vid=637)
+CC[161]: 1 (vid=639)
+CC[162]: 1 (vid=645)
+CC[163]: 1 (vid=652)
+CC[164]: 1 (vid=653)
+CC[165]: 1 (vid=655)
+CC[166]: 1 (vid=657)
+CC[167]: 1 (vid=660)
+CC[168]: 1 (vid=661)
+CC[169]: 1 (vid=663)
+CC[170]: 1 (vid=681)
+CC[171]: 1 (vid=689)
+CC[172]: 1 (vid=690)
+CC[173]: 1 (vid=692)
+CC[174]: 1 (vid=694)
+CC[175]: 1 (vid=696)
+CC[176]: 1 (vid=709)
+CC[177]: 1 (vid=717)
+CC[178]: 1 (vid=722)
+
+Cfg::isCollision() Exact Counts:
+0) 734 ObstacleBasedSampler::OBPRM::GenerateShells()
+1) 463169 ObstacleBasedSampler::OBPRM::Sampler()
+2) 23009 StraightLine::sl::IsConnectedSLBinary
+Total Cfg::isCollision() = 486912
+
+Clocks 
+
+                                    Name                          Time (Seconds)
+
+       BasicPRM::BasicPRM::EvaluateMap()                                0.477312
+               BasicPRM::BasicPRM::Run()                                 10.8969
+               BruteForceNF::BFNF::Query                                0.222099
+               BruteForceNF::BFNF::Total                                0.228049
+          NeighborhoodConnector::Closest                                 1.03917
+             ObstacleBasedSampler::OBPRM                                 9.37689
+                      Query Graph Search                                0.052169
+                            Query::Query                                0.477258
+                        Total Connection                                 1.03921
+                   Total Node Generation                                 9.38021

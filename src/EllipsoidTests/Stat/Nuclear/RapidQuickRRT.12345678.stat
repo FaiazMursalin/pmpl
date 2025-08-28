@@ -1,0 +1,41 @@
+Roadmap Statistics:
+
+  Number of Nodes: 1001
+  Number of Edges: 2000
+
+  There are 1 connected components:
+    CC[0]: 1001 (vid 0)
+
+
+Collision Detection Calls                                                  Count
+
+  BasicExtender::Expand                                                    14363
+  BasicRRTStrategy                                                             2
+  Skeleton Clearance                                                      146612
+  Skeleton Point Validity                                                 146291
+  All Collision Detectors                                                 307268
+
+
+Other Statistics                                                           Value
+
+  BasicRRTExtend                                                            1143
+  BruteForceNF::Nearest::NumQueries                                          465
+
+
+Clock Name                                                        Time (Seconds)
+
+  BasicRRT::AddNode                                                      0.01967
+  BasicRRT::DisperseSampling                                            0.038891
+  BasicRRT::Extend                                                       205.552
+  BasicRRT::NeighborhoodFinding                                          0.21944
+  BasicRRTStrategy::RapidQuickRRT::EvaluateMap                          0.001542
+  BasicRRTStrategy::RapidQuickRRT::Run                                   205.839
+  BruteForceNF::Nearest::Query                                          0.214913
+  BruteForceNF::Nearest::Total                                          0.215693
+  CollisionDetection::pqp_solid::Total                                   25.7632
+  CollisionDetection::rapid::Total                                       204.788
+  ConditionalEvaluator::NodesEval                                       0.000522
+  QueryMethod::GeneratingQuery                                             2e-06
+  QuickValidity::qv::Total                                               408.001
+  QuickValidity::qv::Validity Check                                      205.264
+  QuickValidity::qv::Validity Initialization                             202.674

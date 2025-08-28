@@ -1,0 +1,4459 @@
+Automatically computed position resolution as 0.0209141
+Warning: MPTask is currently creating constraint boundaries from only the first constraint in each set!
+Warning: MPTask is currently creating constraint boundaries from only the first constraint in each set!
+Query generation:
+	Start boundary : CSpaceBoundingBox [-6.66667:-6.66667 ; 16.2667:16.2667 ]
+	Start cfg: 0  -6.66666999999999987e+00   1.62667000000000002e+01 
+	Goal boundary  : CSpaceBoundingBox [-0.80000000000000004:-0.80000000000000004 ; -16.2667:-16.2667 ]
+	Goal cfg: 0  -8.00000000000000044e-01  -1.62667000000000002e+01 
+Warning: MPTask is currently creating constraint boundaries from only the first constraint in each set!
+Warning: MPTask is currently creating constraint boundaries from only the first constraint in each set!
+Query generation:
+	Start boundary : CSpaceBoundingBox [-6.6666699999999999:-6.6666699999999999 ; 16.2667:16.2667 ]
+	Start cfg: 0  -6.66666999999999987e+00   1.62667000000000002e+01 
+	Goal boundary  : CSpaceBoundingBox [-0.80000000000000004:-0.80000000000000004 ; -16.2667:-16.2667 ]
+	Goal cfg: 0  -8.00000000000000044e-01  -1.62667000000000002e+01 
+Warning: MPTask is currently creating constraint boundaries from only the first constraint in each set!
+Warning: MPTask is currently creating constraint boundaries from only the first constraint in each set!
+Query generation:
+	Start boundary : CSpaceBoundingBox [-6.6666699999999999:-6.6666699999999999 ; 16.2667:16.2667 ]
+	Start cfg: 0  -6.66666999999999987e+00   1.62667000000000002e+01 
+	Goal boundary  : CSpaceBoundingBox [-0.80000000000000004:-0.80000000000000004 ; -16.2667:-16.2667 ]
+	Goal cfg: 0  -8.00000000000000044e-01  -1.62667000000000002e+01 
+Warning: MPTask is currently creating constraint boundaries from only the first constraint in each set!
+Warning: MPTask is currently creating constraint boundaries from only the first constraint in each set!
+Query generation:
+	Start boundary : CSpaceBoundingBox [-6.6666699999999999:-6.6666699999999999 ; 16.2667:16.2667 ]
+	Start cfg: 0  -6.66666999999999987e+00   1.62667000000000002e+01 
+	Goal boundary  : CSpaceBoundingBox [-0.80000000000000004:-0.80000000000000004 ; -16.2667:-16.2667 ]
+	Goal cfg: 0  -8.00000000000000044e-01  -1.62667000000000002e+01 
+Warning: MPTask is currently creating constraint boundaries from only the first constraint in each set!
+Warning: MPTask is currently creating constraint boundaries from only the first constraint in each set!
+Query generation:
+	Start boundary : CSpaceBoundingBox [-6.6666699999999999:-6.6666699999999999 ; 16.2667:16.2667 ]
+	Start cfg: 0  -6.66666999999999987e+00   1.62667000000000002e+01 
+	Goal boundary  : CSpaceBoundingBox [-0.80000000000000004:-0.80000000000000004 ; -16.2667:-16.2667 ]
+	Goal cfg: 0  -8.00000000000000044e-01  -1.62667000000000002e+01 
+Warning: MPTask is currently creating constraint boundaries from only the first constraint in each set!
+Warning: MPTask is currently creating constraint boundaries from only the first constraint in each set!
+Query generation:
+	Start boundary : CSpaceBoundingBox [-6.6666699999999999:-6.6666699999999999 ; 16.2667:16.2667 ]
+	Start cfg: 0  -6.66666999999999987e+00   1.62667000000000002e+01 
+	Goal boundary  : CSpaceBoundingBox [-0.80000000000000004:-0.80000000000000004 ; -16.2667:-16.2667 ]
+	Goal cfg: 0  -8.00000000000000044e-01  -1.62667000000000002e+01 
+
+
+MPLibrary is solving with MPStrategyMethod labeled MorseFunction using seed 12345678.
+MorseFunction::MorseFunction
+	Sampling method: UniformRandomFree
+	MapEvaluator :	MorseQuery
+Node vertex ID 0
+Node vertex ID 1
+Node vertex ID 2
+Node vertex ID 3
+Node vertex ID 4
+Node vertex ID 5
+Node vertex ID 6
+Node vertex ID 7
+Node vertex ID 8
+Node vertex ID 9
+Node vertex ID 10
+Node vertex ID 11
+Node vertex ID 12
+Node vertex ID 13
+Node vertex ID 14
+Node vertex ID 15
+Node vertex ID 16
+Node vertex ID 17
+Node vertex ID 18
+Node vertex ID 19
+Node vertex ID 20
+Node vertex ID 21
+Node vertex ID 22
+Node vertex ID 23
+Node vertex ID 24
+Node vertex ID 25
+Node vertex ID 26
+Node vertex ID 27
+Node vertex ID 28
+Node vertex ID 29
+Node vertex ID 30
+Node vertex ID 31
+Node vertex ID 32
+Node vertex ID 33
+Node vertex ID 34
+Node vertex ID 35
+Node vertex ID 36
+Node vertex ID 37
+Node vertex ID 38
+Node vertex ID 39
+Node vertex ID 40
+Node vertex ID 41
+Node vertex ID 42
+Node vertex ID 43
+Node vertex ID 44
+Node vertex ID 45
+Node vertex ID 46
+Node vertex ID 47
+Node vertex ID 48
+Node vertex ID 49
+Node vertex ID 50
+Node vertex ID 51
+Node vertex ID 52
+Node vertex ID 53
+Node vertex ID 54
+Node vertex ID 55
+Node vertex ID 56
+Node vertex ID 57
+Node vertex ID 58
+Node vertex ID 59
+Node vertex ID 60
+Node vertex ID 61
+Node vertex ID 62
+Node vertex ID 63
+Node vertex ID 64
+Node vertex ID 65
+Node vertex ID 66
+Node vertex ID 67
+Node vertex ID 68
+Node vertex ID 69
+Node vertex ID 70
+Node vertex ID 71
+Node vertex ID 72
+Node vertex ID 73
+Node vertex ID 74
+Node vertex ID 75
+Node vertex ID 76
+Node vertex ID 77
+Node vertex ID 78
+Node vertex ID 79
+Node vertex ID 80
+Node vertex ID 81
+Node vertex ID 82
+Node vertex ID 83
+Node vertex ID 84
+Node vertex ID 85
+Node vertex ID 86
+Node vertex ID 87
+Number of obstacle points: 1006
+Node vertex ID 88
+Node vertex ID 89
+Node vertex ID 90
+Node vertex ID 91
+Node vertex ID 92
+Node vertex ID 93
+Node vertex ID 94
+Node vertex ID 95
+Node vertex ID 96
+Node vertex ID 97
+Node vertex ID 98
+Node vertex ID 99
+Node vertex ID 100
+Node vertex ID 101
+Node vertex ID 102
+Node vertex ID 103
+Node vertex ID 104
+Node vertex ID 105
+Node vertex ID 106
+Node vertex ID 107
+Node vertex ID 108
+Node vertex ID 109
+Node vertex ID 110
+Node vertex ID 111
+Node vertex ID 112
+Node vertex ID 113
+Node vertex ID 114
+Node vertex ID 115
+Node vertex ID 116
+Node vertex ID 117
+Node vertex ID 118
+Node vertex ID 119
+Node vertex ID 120
+Node vertex ID 121
+Node vertex ID 122
+Node vertex ID 123
+Node vertex ID 124
+Node vertex ID 125
+Node vertex ID 126
+Node vertex ID 127
+Node vertex ID 128
+Node vertex ID 129
+Node vertex ID 130
+Node vertex ID 131
+Node vertex ID 132
+Node vertex ID 133
+Node vertex ID 134
+Node vertex ID 135
+Node vertex ID 136
+Node vertex ID 137
+Node vertex ID 138
+Node vertex ID 139
+Node vertex ID 140
+Node vertex ID 141
+Node vertex ID 142
+Node vertex ID 143
+Node vertex ID 144
+Node vertex ID 145
+Node vertex ID 146
+Node vertex ID 147
+Node vertex ID 148
+Node vertex ID 149
+Node vertex ID 150
+Node vertex ID 151
+Node vertex ID 152
+Node vertex ID 153
+Node vertex ID 154
+Node vertex ID 155
+Node vertex ID 156
+Node vertex ID 157
+Node vertex ID 158
+Node vertex ID 159
+Node vertex ID 160
+Node vertex ID 161
+Node vertex ID 162
+Node vertex ID 163
+Node vertex ID 164
+Node vertex ID 165
+Node vertex ID 166
+Node vertex ID 167
+Node vertex ID 168
+Node vertex ID 169
+Node vertex ID 170
+Node vertex ID 171
+Node vertex ID 172
+Node vertex ID 173
+Node vertex ID 174
+Node vertex ID 175
+Node vertex ID 176
+Node vertex ID 177
+Node vertex ID 178
+Node vertex ID 179
+Node vertex ID 180
+Node vertex ID 181
+Node vertex ID 182
+Node vertex ID 183
+Node vertex ID 184
+Node vertex ID 185
+Node vertex ID 186
+Node vertex ID 187
+Node vertex ID 188
+Node vertex ID 189
+Node vertex ID 190
+Node vertex ID 191
+Node vertex ID 192
+Node vertex ID 193
+Node vertex ID 194
+Node vertex ID 195
+Node vertex ID 196
+Node vertex ID 197
+Node vertex ID 198
+Node vertex ID 199
+Node vertex ID 200
+Node vertex ID 201
+Node vertex ID 202
+Node vertex ID 203
+Node vertex ID 204
+Node vertex ID 205
+Node vertex ID 206
+Node vertex ID 207
+Node vertex ID 208
+Node vertex ID 209
+Node vertex ID 210
+Node vertex ID 211
+Node vertex ID 212
+Node vertex ID 213
+Node vertex ID 214
+Node vertex ID 215
+Node vertex ID 216
+Node vertex ID 217
+Node vertex ID 218
+Node vertex ID 219
+Node vertex ID 220
+Node vertex ID 221
+Node vertex ID 222
+Node vertex ID 223
+Node vertex ID 224
+Node vertex ID 225
+Node vertex ID 226
+Node vertex ID 227
+Node vertex ID 228
+Node vertex ID 229
+Node vertex ID 230
+Node vertex ID 231
+Node vertex ID 232
+Node vertex ID 233
+Node vertex ID 234
+Node vertex ID 235
+Node vertex ID 236
+Node vertex ID 237
+Node vertex ID 238
+Node vertex ID 239
+Node vertex ID 240
+Node vertex ID 241
+Node vertex ID 242
+Node vertex ID 243
+Node vertex ID 244
+Node vertex ID 245
+Node vertex ID 246
+Node vertex ID 247
+Node vertex ID 248
+Node vertex ID 249
+Node vertex ID 250
+Node vertex ID 251
+Node vertex ID 252
+Node vertex ID 253
+Node vertex ID 254
+Node vertex ID 255
+Node vertex ID 256
+Node vertex ID 257
+Node vertex ID 258
+Node vertex ID 259
+Node vertex ID 260
+Node vertex ID 261
+Node vertex ID 262
+Node vertex ID 263
+Node vertex ID 264
+Node vertex ID 265
+Node vertex ID 266
+Node vertex ID 267
+Node vertex ID 268
+Node vertex ID 269
+Node vertex ID 270
+Node vertex ID 271
+Node vertex ID 272
+Node vertex ID 273
+Node vertex ID 274
+Node vertex ID 275
+Node vertex ID 276
+Node vertex ID 277
+Node vertex ID 278
+Node vertex ID 279
+Node vertex ID 280
+Node vertex ID 281
+Node vertex ID 282
+Node vertex ID 283
+Node vertex ID 284
+Node vertex ID 285
+Node vertex ID 286
+Node vertex ID 287
+Node vertex ID 288
+Node vertex ID 289
+Node vertex ID 290
+Node vertex ID 291
+Node vertex ID 292
+Node vertex ID 293
+Node vertex ID 294
+Node vertex ID 295
+Node vertex ID 296
+Node vertex ID 297
+Node vertex ID 298
+Node vertex ID 299
+Node vertex ID 300
+Node vertex ID 301
+Node vertex ID 302
+Node vertex ID 303
+Node vertex ID 304
+Node vertex ID 305
+Node vertex ID 306
+Node vertex ID 307
+Node vertex ID 308
+Node vertex ID 309
+Node vertex ID 310
+Node vertex ID 311
+Node vertex ID 312
+Node vertex ID 313
+Node vertex ID 314
+Node vertex ID 315
+Node vertex ID 316
+Node vertex ID 317
+Node vertex ID 318
+Node vertex ID 319
+Node vertex ID 320
+Node vertex ID 321
+Node vertex ID 322
+Node vertex ID 323
+Node vertex ID 324
+Node vertex ID 325
+Node vertex ID 326
+Node vertex ID 327
+Node vertex ID 328
+Node vertex ID 329
+Node vertex ID 330
+Node vertex ID 331
+Node vertex ID 332
+Node vertex ID 333
+Node vertex ID 334
+Node vertex ID 335
+Node vertex ID 336
+Node vertex ID 337
+Node vertex ID 338
+Node vertex ID 339
+Node vertex ID 340
+Node vertex ID 341
+Node vertex ID 342
+Node vertex ID 343
+Node vertex ID 344
+Node vertex ID 345
+Node vertex ID 346
+Node vertex ID 347
+Node vertex ID 348
+Node vertex ID 349
+Node vertex ID 350
+Node vertex ID 351
+Node vertex ID 352
+Node vertex ID 353
+Node vertex ID 354
+Node vertex ID 355
+Node vertex ID 356
+Node vertex ID 357
+Node vertex ID 358
+Node vertex ID 359
+Node vertex ID 360
+Node vertex ID 361
+Node vertex ID 362
+Node vertex ID 363
+Node vertex ID 364
+Node vertex ID 365
+Node vertex ID 366
+Node vertex ID 367
+Node vertex ID 368
+Node vertex ID 369
+Node vertex ID 370
+Node vertex ID 371
+Node vertex ID 372
+Node vertex ID 373
+Node vertex ID 374
+Node vertex ID 375
+Node vertex ID 376
+Node vertex ID 377
+Node vertex ID 378
+Node vertex ID 379
+Node vertex ID 380
+Node vertex ID 381
+Node vertex ID 382
+Node vertex ID 383
+Node vertex ID 384
+Node vertex ID 385
+Node vertex ID 386
+Node vertex ID 387
+Node vertex ID 388
+Node vertex ID 389
+Node vertex ID 390
+Node vertex ID 391
+Node vertex ID 392
+Node vertex ID 393
+Node vertex ID 394
+Node vertex ID 395
+Node vertex ID 396
+Node vertex ID 397
+Node vertex ID 398
+Node vertex ID 399
+Node vertex ID 400
+Node vertex ID 401
+Node vertex ID 402
+Node vertex ID 403
+Node vertex ID 404
+Node vertex ID 405
+Node vertex ID 406
+Node vertex ID 407
+Node vertex ID 408
+Node vertex ID 409
+Node vertex ID 410
+Node vertex ID 411
+Node vertex ID 412
+Node vertex ID 413
+Node vertex ID 414
+Node vertex ID 415
+Node vertex ID 416
+Node vertex ID 417
+Node vertex ID 418
+Node vertex ID 419
+Node vertex ID 420
+Node vertex ID 421
+Node vertex ID 422
+Node vertex ID 423
+Node vertex ID 424
+Node vertex ID 425
+Node vertex ID 426
+Node vertex ID 427
+Node vertex ID 428
+Graph vertices: 429
+Total Connection: 4.0662380000000002 sec
+Number of cliques1221
+Number of vertices deleted:0
+ClosestNode	0   1.60312101604672819e+01  -1.05833359100455482e+01 
+16.031210160467282 -10.583335910045548 0 
+size of obstacle poibts1006
+road 429
+Eval loop: MorseQuery
+GetName == MorseQuery
+Warning: MPTask is currently creating constraint boundaries from only the first constraint in each set!
+Warning: MPTask is currently creating constraint boundaries from only the first constraint in each set!
+Query generation:
+	Start boundary : CSpaceBoundingBox [-6.6666699999999999:-6.6666699999999999 ; 16.2667:16.2667 ]
+	Start cfg: 0  -6.66666999999999987e+00   1.62667000000000002e+01 
+	Goal boundary  : CSpaceBoundingBox [-0.80000000000000004:-0.80000000000000004 ; -16.2667:-16.2667 ]
+	Goal cfg: 0  -8.00000000000000044e-01  -1.62667000000000002e+01 
+Initialize should be called
+Number of above/below avg -sd points7
+Number of critical points: 7
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 3
+critical information for clusters 3
+critical information for clusters 3
+critical information for clusters 3
+critical information for clusters 3
+critical information for clusters 3
+critical information for clusters 3
+critical information for clusters 3
+critical information for clusters 3
+critical information for clusters 4
+critical information for clusters 4
+critical information for clusters 4
+critical information for clusters 4
+critical information for clusters 4
+critical information for clusters 4
+critical information for clusters 4
+critical information for clusters 4
+critical information for clusters 4
+critical information for clusters 4
+critical information for clusters 4
+critical information for clusters 4
+critical information for clusters 4
+critical information for clusters 4
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 6
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 4
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 0
+Number of clusters7
+Number of vertices in graph: 429 500
+Run evaluate map
+number of edges: 18860
+Evaluating sub-query:
+	from 0  -6.66666999999999987e+00   1.62667000000000002e+01 
+	to   0  -8.00000000000000044e-01  -1.62667000000000002e+01 
+cc size:1
+connected1
+map passed 1
+path size found line 542: 1583
+map passed 1
+path size found line 542: 1594
+map passed 1
+path size found line 542: 1598
+map passed 1
+path size found line 542: 1612
+map passed 1
+path size found line 542: 1618
+Total number of paths at the end of GetPaths = 3
+Reading dynamic agent path
+Reading dynamic agent path file 'newDpathsTest.paths
+File stream ready for dynamic agent path
+Reading dynamic agent from: ZigZag/boxy_original.robot
+Gets dynamic agent
+0x63d44e3515d0
+DOF 2
+PosDOF 2
+OrientationDOF 0
+JointDOF 0
+Number of dynamic agents: 3
+Should read lines: 2088 for path 0
+Read 2088 for path 0
+Should read lines: 1014 for path 1
+Read 1014 for path 1
+Should read lines: 1842 for path 2
+Read 1842 for path 2
+Read 3 paths for dynamic agent path
+Paths size3
+Path index = 0 paths size = 3
+For path: 0x63d44ead0be0 found 7 edges.
+Evaluating Edge from vertex: 429 to vertex:69
+endcfg
+cfg size: 304
+Valid path called. Tick limit: 304
+Robot at: [-6.6667, 16.267]
+Dynamic agent 0 at: [-15, -15]
+Dynamic agent 1 at: [13.067, 1.8667]
+Dynamic agent 2 at: [-16.267, 16.267]
+Robot at: [-6.6369, 16.212]
+Dynamic agent 0 at: [-14.969, -14.946]
+Dynamic agent 1 at: [13.108, 1.8198]
+Dynamic agent 2 at: [-16.263, 16.204]
+Robot at: [-6.607, 16.157]
+Dynamic agent 0 at: [-14.938, -14.891]
+Dynamic agent 1 at: [13.15, 1.7729]
+Dynamic agent 2 at: [-16.26, 16.142]
+Robot at: [-6.5772, 16.102]
+Dynamic agent 0 at: [-14.907, -14.837]
+Dynamic agent 1 at: [13.192, 1.726]
+Dynamic agent 2 at: [-16.257, 16.079]
+Robot at: [-6.5474, 16.047]
+Dynamic agent 0 at: [-14.876, -14.782]
+Dynamic agent 1 at: [13.233, 1.6791]
+Dynamic agent 2 at: [-16.253, 16.016]
+Robot at: [-6.5176, 15.992]
+Dynamic agent 0 at: [-14.845, -14.728]
+Dynamic agent 1 at: [13.275, 1.6322]
+Dynamic agent 2 at: [-16.25, 15.954]
+Robot at: [-6.4878, 15.937]
+Dynamic agent 0 at: [-14.814, -14.673]
+Dynamic agent 1 at: [13.317, 1.5853]
+Dynamic agent 2 at: [-16.247, 15.891]
+Robot at: [-6.4579, 15.882]
+Dynamic agent 0 at: [-14.782, -14.619]
+Dynamic agent 1 at: [13.358, 1.5384]
+Dynamic agent 2 at: [-16.243, 15.829]
+Robot at: [-6.4281, 15.827]
+Dynamic agent 0 at: [-14.751, -14.564]
+Dynamic agent 1 at: [13.4, 1.4915]
+Dynamic agent 2 at: [-16.24, 15.766]
+Robot at: [-6.3983, 15.772]
+Dynamic agent 0 at: [-14.72, -14.51]
+Dynamic agent 1 at: [13.442, 1.4446]
+Dynamic agent 2 at: [-16.237, 15.704]
+Robot at: [-6.3685, 15.717]
+Dynamic agent 0 at: [-14.689, -14.456]
+Dynamic agent 1 at: [13.483, 1.3978]
+Dynamic agent 2 at: [-16.233, 15.641]
+Robot at: [-6.3387, 15.662]
+Dynamic agent 0 at: [-14.658, -14.401]
+Dynamic agent 1 at: [13.525, 1.3509]
+Dynamic agent 2 at: [-16.23, 15.578]
+Robot at: [-6.3089, 15.607]
+Dynamic agent 0 at: [-14.627, -14.347]
+Dynamic agent 1 at: [13.567, 1.304]
+Dynamic agent 2 at: [-16.227, 15.516]
+Robot at: [-6.279, 15.552]
+Dynamic agent 0 at: [-14.596, -14.292]
+Dynamic agent 1 at: [13.608, 1.2571]
+Dynamic agent 2 at: [-16.223, 15.453]
+Robot at: [-6.2492, 15.497]
+Dynamic agent 0 at: [-14.565, -14.238]
+Dynamic agent 1 at: [13.65, 1.2102]
+Dynamic agent 2 at: [-16.22, 15.391]
+Robot at: [-6.2194, 15.442]
+Dynamic agent 0 at: [-14.534, -14.183]
+Dynamic agent 1 at: [13.692, 1.1633]
+Dynamic agent 2 at: [-16.217, 15.328]
+Robot at: [-6.1896, 15.386]
+Dynamic agent 0 at: [-14.503, -14.129]
+Dynamic agent 1 at: [13.733, 1.1164]
+Dynamic agent 2 at: [-16.213, 15.266]
+Robot at: [-6.1598, 15.331]
+Dynamic agent 0 at: [-14.472, -14.075]
+Dynamic agent 1 at: [13.775, 1.0695]
+Dynamic agent 2 at: [-16.21, 15.203]
+Robot at: [-6.1299, 15.276]
+Dynamic agent 0 at: [-14.441, -14.02]
+Dynamic agent 1 at: [13.817, 1.0226]
+Dynamic agent 2 at: [-16.206, 15.14]
+Robot at: [-6.1001, 15.221]
+Dynamic agent 0 at: [-14.409, -13.966]
+Dynamic agent 1 at: [13.859, 0.97572]
+Dynamic agent 2 at: [-16.203, 15.078]
+Robot at: [-6.0703, 15.166]
+Dynamic agent 0 at: [-14.378, -13.911]
+Dynamic agent 1 at: [13.9, 0.92883]
+Dynamic agent 2 at: [-16.2, 15.015]
+Robot at: [-6.0405, 15.111]
+Dynamic agent 0 at: [-14.347, -13.857]
+Dynamic agent 1 at: [13.942, 0.88194]
+Dynamic agent 2 at: [-16.196, 14.953]
+Robot at: [-6.0107, 15.056]
+Dynamic agent 0 at: [-14.316, -13.802]
+Dynamic agent 1 at: [13.984, 0.83505]
+Dynamic agent 2 at: [-16.193, 14.89]
+Robot at: [-5.9809, 15.001]
+Dynamic agent 0 at: [-14.285, -13.748]
+Dynamic agent 1 at: [14.025, 0.78816]
+Dynamic agent 2 at: [-16.19, 14.828]
+Robot at: [-5.951, 14.946]
+Dynamic agent 0 at: [-14.254, -13.693]
+Dynamic agent 1 at: [14.067, 0.74127]
+Dynamic agent 2 at: [-16.186, 14.765]
+Robot at: [-5.9212, 14.891]
+Dynamic agent 0 at: [-14.223, -13.639]
+Dynamic agent 1 at: [14.109, 0.69437]
+Dynamic agent 2 at: [-16.183, 14.702]
+Robot at: [-5.8914, 14.836]
+Dynamic agent 0 at: [-14.192, -13.585]
+Dynamic agent 1 at: [14.15, 0.64748]
+Dynamic agent 2 at: [-16.18, 14.64]
+Robot at: [-5.8616, 14.781]
+Dynamic agent 0 at: [-14.161, -13.53]
+Dynamic agent 1 at: [14.192, 0.60059]
+Dynamic agent 2 at: [-16.176, 14.577]
+Robot at: [-5.8318, 14.726]
+Dynamic agent 0 at: [-14.13, -13.476]
+Dynamic agent 1 at: [14.234, 0.5537]
+Dynamic agent 2 at: [-16.173, 14.515]
+Robot at: [-5.8019, 14.671]
+Dynamic agent 0 at: [-14.099, -13.421]
+Dynamic agent 1 at: [14.275, 0.50681]
+Dynamic agent 2 at: [-16.17, 14.452]
+Robot at: [-5.7721, 14.616]
+Dynamic agent 0 at: [-14.068, -13.367]
+Dynamic agent 1 at: [14.317, 0.45991]
+Dynamic agent 2 at: [-16.166, 14.39]
+Robot at: [-5.7423, 14.561]
+Dynamic agent 0 at: [-14.037, -13.312]
+Dynamic agent 1 at: [14.359, 0.41302]
+Dynamic agent 2 at: [-16.163, 14.327]
+Robot at: [-5.7125, 14.506]
+Dynamic agent 0 at: [-14.005, -13.258]
+Dynamic agent 1 at: [14.4, 0.36613]
+Dynamic agent 2 at: [-16.16, 14.264]
+Robot at: [-5.6827, 14.451]
+Dynamic agent 0 at: [-13.974, -13.203]
+Dynamic agent 1 at: [14.442, 0.31924]
+Dynamic agent 2 at: [-16.156, 14.202]
+Robot at: [-5.6529, 14.396]
+Dynamic agent 0 at: [-13.943, -13.149]
+Dynamic agent 1 at: [14.484, 0.27235]
+Dynamic agent 2 at: [-16.153, 14.139]
+Robot at: [-5.623, 14.341]
+Dynamic agent 0 at: [-13.912, -13.095]
+Dynamic agent 1 at: [14.525, 0.22545]
+Dynamic agent 2 at: [-16.15, 14.077]
+Robot at: [-5.5932, 14.286]
+Dynamic agent 0 at: [-13.881, -13.04]
+Dynamic agent 1 at: [14.567, 0.17856]
+Dynamic agent 2 at: [-16.146, 14.014]
+Robot at: [-5.5634, 14.231]
+Dynamic agent 0 at: [-13.85, -12.986]
+Dynamic agent 1 at: [14.609, 0.13167]
+Dynamic agent 2 at: [-16.143, 13.952]
+Robot at: [-5.5336, 14.176]
+Dynamic agent 0 at: [-13.819, -12.931]
+Dynamic agent 1 at: [14.65, 0.084779]
+Dynamic agent 2 at: [-16.14, 13.889]
+Robot at: [-5.5038, 14.121]
+Dynamic agent 0 at: [-13.788, -12.877]
+Dynamic agent 1 at: [14.692, 0.037887]
+Dynamic agent 2 at: [-16.136, 13.826]
+Robot at: [-5.474, 14.066]
+Dynamic agent 0 at: [-13.757, -12.822]
+Dynamic agent 1 at: [14.734, -0.009005]
+Dynamic agent 2 at: [-16.133, 13.764]
+Robot at: [-5.4441, 14.011]
+Dynamic agent 0 at: [-13.726, -12.768]
+Dynamic agent 1 at: [14.775, -0.055897]
+Dynamic agent 2 at: [-16.13, 13.701]
+Robot at: [-5.4143, 13.956]
+Dynamic agent 0 at: [-13.695, -12.714]
+Dynamic agent 1 at: [14.817, -0.10279]
+Dynamic agent 2 at: [-16.126, 13.639]
+Robot at: [-5.3845, 13.901]
+Dynamic agent 0 at: [-13.664, -12.659]
+Dynamic agent 1 at: [14.859, -0.14968]
+Dynamic agent 2 at: [-16.123, 13.576]
+Robot at: [-5.3547, 13.846]
+Dynamic agent 0 at: [-13.632, -12.605]
+Dynamic agent 1 at: [14.9, -0.19657]
+Dynamic agent 2 at: [-16.12, 13.514]
+Robot at: [-5.3249, 13.791]
+Dynamic agent 0 at: [-13.601, -12.55]
+Dynamic agent 1 at: [14.942, -0.24346]
+Dynamic agent 2 at: [-16.116, 13.451]
+Robot at: [-5.295, 13.736]
+Dynamic agent 0 at: [-13.57, -12.496]
+Dynamic agent 1 at: [14.984, -0.29036]
+Dynamic agent 2 at: [-16.113, 13.388]
+Robot at: [-5.2652, 13.681]
+Dynamic agent 0 at: [-13.539, -12.441]
+Dynamic agent 1 at: [15.025, -0.33725]
+Dynamic agent 2 at: [-16.109, 13.326]
+Robot at: [-5.2354, 13.626]
+Dynamic agent 0 at: [-13.508, -12.387]
+Dynamic agent 1 at: [15.067, -0.38414]
+Dynamic agent 2 at: [-16.106, 13.263]
+Robot at: [-5.2056, 13.571]
+Dynamic agent 0 at: [-13.477, -12.332]
+Dynamic agent 1 at: [15.109, -0.43103]
+Dynamic agent 2 at: [-16.103, 13.201]
+Robot at: [-5.1758, 13.516]
+Dynamic agent 0 at: [-13.446, -12.278]
+Dynamic agent 1 at: [15.15, -0.47792]
+Dynamic agent 2 at: [-16.099, 13.138]
+Robot at: [-5.146, 13.461]
+Dynamic agent 0 at: [-13.415, -12.224]
+Dynamic agent 1 at: [15.192, -0.52482]
+Dynamic agent 2 at: [-16.096, 13.076]
+Robot at: [-5.1161, 13.406]
+Dynamic agent 0 at: [-13.384, -12.169]
+Dynamic agent 1 at: [15.234, -0.57171]
+Dynamic agent 2 at: [-16.093, 13.013]
+Robot at: [-5.0863, 13.351]
+Dynamic agent 0 at: [-13.353, -12.115]
+Dynamic agent 1 at: [15.275, -0.6186]
+Dynamic agent 2 at: [-16.089, 12.95]
+Robot at: [-5.0565, 13.296]
+Dynamic agent 0 at: [-13.322, -12.06]
+Dynamic agent 1 at: [15.317, -0.66549]
+Dynamic agent 2 at: [-16.086, 12.888]
+Robot at: [-5.0267, 13.241]
+Dynamic agent 0 at: [-13.291, -12.006]
+Dynamic agent 1 at: [15.359, -0.71238]
+Dynamic agent 2 at: [-16.083, 12.825]
+Robot at: [-4.9969, 13.186]
+Dynamic agent 0 at: [-13.26, -11.951]
+Dynamic agent 1 at: [15.4, -0.75927]
+Dynamic agent 2 at: [-16.079, 12.763]
+Robot at: [-4.967, 13.131]
+Dynamic agent 0 at: [-13.228, -11.897]
+Dynamic agent 1 at: [15.442, -0.80617]
+Dynamic agent 2 at: [-16.076, 12.7]
+Robot at: [-4.9372, 13.076]
+Dynamic agent 0 at: [-13.197, -11.843]
+Dynamic agent 1 at: [15.484, -0.85306]
+Dynamic agent 2 at: [-16.073, 12.638]
+Robot at: [-4.9074, 13.021]
+Dynamic agent 0 at: [-13.166, -11.788]
+Dynamic agent 1 at: [15.526, -0.89995]
+Dynamic agent 2 at: [-16.069, 12.575]
+Robot at: [-4.8776, 12.966]
+Dynamic agent 0 at: [-13.135, -11.734]
+Dynamic agent 1 at: [15.567, -0.94684]
+Dynamic agent 2 at: [-16.066, 12.512]
+Robot at: [-4.8478, 12.911]
+Dynamic agent 0 at: [-13.104, -11.679]
+Dynamic agent 1 at: [15.609, -0.99373]
+Dynamic agent 2 at: [-16.063, 12.45]
+Robot at: [-4.818, 12.856]
+Dynamic agent 0 at: [-13.073, -11.625]
+Dynamic agent 1 at: [15.651, -1.0406]
+Dynamic agent 2 at: [-16.059, 12.387]
+Robot at: [-4.7881, 12.801]
+Dynamic agent 0 at: [-13.042, -11.57]
+Dynamic agent 1 at: [15.692, -1.0875]
+Dynamic agent 2 at: [-16.056, 12.325]
+Robot at: [-4.7583, 12.746]
+Dynamic agent 0 at: [-13.011, -11.516]
+Dynamic agent 1 at: [15.734, -1.1344]
+Dynamic agent 2 at: [-16.053, 12.262]
+Robot at: [-4.7285, 12.691]
+Dynamic agent 0 at: [-12.98, -11.461]
+Dynamic agent 1 at: [15.776, -1.1813]
+Dynamic agent 2 at: [-16.049, 12.2]
+Robot at: [-4.6987, 12.636]
+Dynamic agent 0 at: [-12.949, -11.407]
+Dynamic agent 1 at: [15.817, -1.2282]
+Dynamic agent 2 at: [-16.046, 12.137]
+Robot at: [-4.6689, 12.581]
+Dynamic agent 0 at: [-12.918, -11.353]
+Dynamic agent 1 at: [15.859, -1.2751]
+Dynamic agent 2 at: [-16.038, 12.075]
+Robot at: [-4.639, 12.526]
+Dynamic agent 0 at: [-12.887, -11.298]
+Dynamic agent 1 at: [15.901, -1.322]
+Dynamic agent 2 at: [-16.027, 12.013]
+Robot at: [-4.6092, 12.471]
+Dynamic agent 0 at: [-12.856, -11.244]
+Dynamic agent 1 at: [15.942, -1.3689]
+Dynamic agent 2 at: [-16.016, 11.951]
+Robot at: [-4.5794, 12.416]
+Dynamic agent 0 at: [-12.824, -11.189]
+Dynamic agent 1 at: [15.984, -1.4158]
+Dynamic agent 2 at: [-16.005, 11.89]
+Robot at: [-4.5496, 12.361]
+Dynamic agent 0 at: [-12.793, -11.135]
+Dynamic agent 1 at: [16.026, -1.4627]
+Dynamic agent 2 at: [-15.994, 11.828]
+Robot at: [-4.5198, 12.306]
+Dynamic agent 0 at: [-12.762, -11.08]
+Dynamic agent 1 at: [16.067, -1.5095]
+Dynamic agent 2 at: [-15.983, 11.766]
+Robot at: [-4.49, 12.251]
+Dynamic agent 0 at: [-12.731, -11.026]
+Dynamic agent 1 at: [16.109, -1.5564]
+Dynamic agent 2 at: [-15.972, 11.704]
+Robot at: [-4.4601, 12.196]
+Dynamic agent 0 at: [-12.7, -10.971]
+Dynamic agent 1 at: [16.151, -1.6033]
+Dynamic agent 2 at: [-15.961, 11.643]
+Robot at: [-4.4303, 12.141]
+Dynamic agent 0 at: [-12.669, -10.917]
+Dynamic agent 1 at: [16.192, -1.6502]
+Dynamic agent 2 at: [-15.95, 11.581]
+Robot at: [-4.4005, 12.086]
+Dynamic agent 0 at: [-12.638, -10.863]
+Dynamic agent 1 at: [16.234, -1.6971]
+Dynamic agent 2 at: [-15.939, 11.519]
+Robot at: [-4.3707, 12.031]
+Dynamic agent 0 at: [-12.607, -10.808]
+Dynamic agent 1 at: [16.276, -1.744]
+Dynamic agent 2 at: [-15.928, 11.458]
+Robot at: [-4.3409, 11.976]
+Dynamic agent 0 at: [-12.576, -10.754]
+Dynamic agent 1 at: [16.317, -1.7909]
+Dynamic agent 2 at: [-15.917, 11.396]
+Robot at: [-4.3111, 11.921]
+Dynamic agent 0 at: [-12.545, -10.699]
+Dynamic agent 1 at: [16.359, -1.8378]
+Dynamic agent 2 at: [-15.906, 11.334]
+Robot at: [-4.2812, 11.866]
+Dynamic agent 0 at: [-12.514, -10.645]
+Dynamic agent 1 at: [16.401, -1.8847]
+Dynamic agent 2 at: [-15.895, 11.272]
+Robot at: [-4.2514, 11.811]
+Dynamic agent 0 at: [-12.483, -10.59]
+Dynamic agent 1 at: [16.442, -1.9316]
+Dynamic agent 2 at: [-15.884, 11.211]
+Robot at: [-4.2216, 11.756]
+Dynamic agent 0 at: [-12.451, -10.536]
+Dynamic agent 1 at: [16.484, -1.9785]
+Dynamic agent 2 at: [-15.873, 11.149]
+Robot at: [-4.1918, 11.701]
+Dynamic agent 0 at: [-12.42, -10.482]
+Dynamic agent 1 at: [16.526, -2.0254]
+Dynamic agent 2 at: [-15.862, 11.087]
+Robot at: [-4.162, 11.646]
+Dynamic agent 0 at: [-12.389, -10.427]
+Dynamic agent 1 at: [16.567, -2.0722]
+Dynamic agent 2 at: [-15.851, 11.025]
+Robot at: [-4.1321, 11.591]
+Dynamic agent 0 at: [-12.358, -10.373]
+Dynamic agent 1 at: [16.609, -2.1191]
+Dynamic agent 2 at: [-15.84, 10.964]
+Robot at: [-4.1023, 11.536]
+Dynamic agent 0 at: [-12.327, -10.318]
+Dynamic agent 1 at: [16.651, -2.166]
+Dynamic agent 2 at: [-15.83, 10.902]
+Robot at: [-4.0725, 11.481]
+Dynamic agent 0 at: [-12.296, -10.264]
+Dynamic agent 1 at: [16.692, -2.2129]
+Dynamic agent 2 at: [-15.819, 10.84]
+Robot at: [-4.0427, 11.426]
+Dynamic agent 0 at: [-12.265, -10.209]
+Dynamic agent 1 at: [16.734, -2.2598]
+Dynamic agent 2 at: [-15.808, 10.778]
+Robot at: [-4.0129, 11.371]
+Dynamic agent 0 at: [-12.234, -10.155]
+Dynamic agent 1 at: [16.776, -2.3067]
+Dynamic agent 2 at: [-15.797, 10.717]
+Robot at: [-3.9831, 11.316]
+Dynamic agent 0 at: [-12.203, -10.1]
+Dynamic agent 1 at: [16.817, -2.3536]
+Dynamic agent 2 at: [-15.786, 10.655]
+Robot at: [-3.9532, 11.261]
+Dynamic agent 0 at: [-12.172, -10.046]
+Dynamic agent 1 at: [16.859, -2.4005]
+Dynamic agent 2 at: [-15.775, 10.593]
+Robot at: [-3.9234, 11.205]
+Dynamic agent 0 at: [-12.141, -9.9916]
+Dynamic agent 1 at: [16.901, -2.4474]
+Dynamic agent 2 at: [-15.764, 10.532]
+Robot at: [-3.8936, 11.15]
+Dynamic agent 0 at: [-12.11, -9.9371]
+Dynamic agent 1 at: [16.942, -2.4943]
+Dynamic agent 2 at: [-15.753, 10.47]
+Robot at: [-3.8638, 11.095]
+Dynamic agent 0 at: [-12.079, -9.8827]
+Dynamic agent 1 at: [16.984, -2.5412]
+Dynamic agent 2 at: [-15.742, 10.408]
+Robot at: [-3.834, 11.04]
+Dynamic agent 0 at: [-12.047, -9.8283]
+Dynamic agent 1 at: [17.026, -2.5881]
+Dynamic agent 2 at: [-15.731, 10.346]
+Robot at: [-3.8041, 10.985]
+Dynamic agent 0 at: [-12.016, -9.7738]
+Dynamic agent 1 at: [17.067, -2.6349]
+Dynamic agent 2 at: [-15.72, 10.285]
+Robot at: [-3.7743, 10.93]
+Dynamic agent 0 at: [-11.985, -9.7194]
+Dynamic agent 1 at: [17.109, -2.6818]
+Dynamic agent 2 at: [-15.709, 10.223]
+Robot at: [-3.7445, 10.875]
+Dynamic agent 0 at: [-11.93, -9.6909]
+Dynamic agent 1 at: [17.151, -2.7287]
+Dynamic agent 2 at: [-15.698, 10.161]
+Robot at: [-3.7147, 10.82]
+Dynamic agent 0 at: [-11.874, -9.6624]
+Dynamic agent 1 at: [17.192, -2.7756]
+Dynamic agent 2 at: [-15.687, 10.099]
+Robot at: [-3.6849, 10.765]
+Dynamic agent 0 at: [-11.818, -9.6339]
+Dynamic agent 1 at: [17.234, -2.8225]
+Dynamic agent 2 at: [-15.676, 10.038]
+Robot at: [-3.6551, 10.71]
+Dynamic agent 0 at: [-11.762, -9.6054]
+Dynamic agent 1 at: [17.276, -2.8694]
+Dynamic agent 2 at: [-15.665, 9.9759]
+Edge from vertex: 429 to vertex:69is valid.
+Evaluating Edge from vertex: 69 to vertex:351
+endcfg
+cfg size: 266
+Valid path called. Tick limit: 266
+Robot at: [-3.6551, 10.71]
+Dynamic agent 0 at: [-11.744, -9.5959]
+Dynamic agent 1 at: [17.29, -2.885]
+Dynamic agent 2 at: [-15.662, 9.9553]
+Robot at: [-3.644, 10.649]
+Dynamic agent 0 at: [-11.688, -9.5675]
+Dynamic agent 1 at: [17.331, -2.9319]
+Dynamic agent 2 at: [-15.651, 9.8936]
+Robot at: [-3.633, 10.587]
+Dynamic agent 0 at: [-11.632, -9.539]
+Dynamic agent 1 at: [17.373, -2.9788]
+Dynamic agent 2 at: [-15.64, 9.8318]
+Robot at: [-3.622, 10.526]
+Dynamic agent 0 at: [-11.577, -9.5105]
+Dynamic agent 1 at: [17.415, -3.0257]
+Dynamic agent 2 at: [-15.629, 9.7701]
+Robot at: [-3.6109, 10.464]
+Dynamic agent 0 at: [-11.521, -9.482]
+Dynamic agent 1 at: [17.456, -3.0726]
+Dynamic agent 2 at: [-15.618, 9.7084]
+Robot at: [-3.5999, 10.403]
+Dynamic agent 0 at: [-11.465, -9.4535]
+Dynamic agent 1 at: [17.498, -3.1195]
+Dynamic agent 2 at: [-15.607, 9.6466]
+Robot at: [-3.5888, 10.341]
+Dynamic agent 0 at: [-11.409, -9.425]
+Dynamic agent 1 at: [17.54, -3.1664]
+Dynamic agent 2 at: [-15.596, 9.5849]
+Robot at: [-3.5778, 10.279]
+Dynamic agent 0 at: [-11.354, -9.3965]
+Dynamic agent 1 at: [17.581, -3.2133]
+Dynamic agent 2 at: [-15.585, 9.5232]
+Robot at: [-3.5668, 10.218]
+Dynamic agent 0 at: [-11.298, -9.3681]
+Dynamic agent 1 at: [17.623, -3.2602]
+Dynamic agent 2 at: [-15.574, 9.4614]
+Robot at: [-3.5557, 10.156]
+Dynamic agent 0 at: [-11.242, -9.3396]
+Dynamic agent 1 at: [17.665, -3.3071]
+Dynamic agent 2 at: [-15.563, 9.3997]
+Robot at: [-3.5447, 10.095]
+Dynamic agent 0 at: [-11.187, -9.3111]
+Dynamic agent 1 at: [17.706, -3.354]
+Dynamic agent 2 at: [-15.552, 9.3379]
+Robot at: [-3.5337, 10.033]
+Dynamic agent 0 at: [-11.131, -9.2826]
+Dynamic agent 1 at: [17.748, -3.4009]
+Dynamic agent 2 at: [-15.541, 9.2762]
+Robot at: [-3.5226, 9.9717]
+Dynamic agent 0 at: [-11.075, -9.2541]
+Dynamic agent 1 at: [17.79, -3.4477]
+Dynamic agent 2 at: [-15.53, 9.2145]
+Robot at: [-3.5116, 9.9101]
+Dynamic agent 0 at: [-11.019, -9.2256]
+Dynamic agent 1 at: [17.832, -3.4946]
+Dynamic agent 2 at: [-15.519, 9.1527]
+Robot at: [-3.5006, 9.8486]
+Dynamic agent 0 at: [-10.964, -9.1971]
+Dynamic agent 1 at: [17.873, -3.5415]
+Dynamic agent 2 at: [-15.508, 9.091]
+Robot at: [-3.4895, 9.787]
+Dynamic agent 0 at: [-10.908, -9.1687]
+Dynamic agent 1 at: [17.915, -3.5884]
+Dynamic agent 2 at: [-15.498, 9.0293]
+Robot at: [-3.4785, 9.7255]
+Dynamic agent 0 at: [-10.852, -9.1402]
+Dynamic agent 1 at: [17.957, -3.6353]
+Dynamic agent 2 at: [-15.487, 8.9675]
+Robot at: [-3.4675, 9.6639]
+Dynamic agent 0 at: [-10.796, -9.1117]
+Dynamic agent 1 at: [17.973, -3.6843]
+Dynamic agent 2 at: [-15.476, 8.9058]
+Robot at: [-3.4564, 9.6023]
+Dynamic agent 0 at: [-10.741, -9.0832]
+Dynamic agent 1 at: [17.94, -3.7373]
+Dynamic agent 2 at: [-15.465, 8.8441]
+Robot at: [-3.4454, 9.5408]
+Dynamic agent 0 at: [-10.685, -9.0547]
+Dynamic agent 1 at: [17.907, -3.7903]
+Dynamic agent 2 at: [-15.454, 8.7823]
+Robot at: [-3.4344, 9.4792]
+Dynamic agent 0 at: [-10.629, -9.0262]
+Dynamic agent 1 at: [17.875, -3.8434]
+Dynamic agent 2 at: [-15.443, 8.7206]
+Robot at: [-3.4233, 9.4177]
+Dynamic agent 0 at: [-10.574, -8.9977]
+Dynamic agent 1 at: [17.842, -3.8964]
+Dynamic agent 2 at: [-15.432, 8.6589]
+Robot at: [-3.4123, 9.3561]
+Dynamic agent 0 at: [-10.518, -8.9693]
+Dynamic agent 1 at: [17.809, -3.9494]
+Dynamic agent 2 at: [-15.421, 8.5971]
+Robot at: [-3.4012, 9.2946]
+Dynamic agent 0 at: [-10.462, -8.9408]
+Dynamic agent 1 at: [17.776, -4.0025]
+Dynamic agent 2 at: [-15.41, 8.5354]
+Robot at: [-3.3902, 9.233]
+Dynamic agent 0 at: [-10.406, -8.9123]
+Dynamic agent 1 at: [17.743, -4.0555]
+Dynamic agent 2 at: [-15.399, 8.4736]
+Robot at: [-3.3792, 9.1714]
+Dynamic agent 0 at: [-10.351, -8.8838]
+Dynamic agent 1 at: [17.71, -4.1085]
+Dynamic agent 2 at: [-15.388, 8.4119]
+Robot at: [-3.3681, 9.1099]
+Dynamic agent 0 at: [-10.295, -8.8553]
+Dynamic agent 1 at: [17.677, -4.1616]
+Dynamic agent 2 at: [-15.377, 8.3502]
+Robot at: [-3.3571, 9.0483]
+Dynamic agent 0 at: [-10.239, -8.8268]
+Dynamic agent 1 at: [17.644, -4.2146]
+Dynamic agent 2 at: [-15.366, 8.2884]
+Robot at: [-3.3461, 8.9868]
+Dynamic agent 0 at: [-10.183, -8.7983]
+Dynamic agent 1 at: [17.611, -4.2677]
+Dynamic agent 2 at: [-15.355, 8.2267]
+Robot at: [-3.335, 8.9252]
+Dynamic agent 0 at: [-10.128, -8.7699]
+Dynamic agent 1 at: [17.578, -4.3207]
+Dynamic agent 2 at: [-15.344, 8.165]
+Robot at: [-3.324, 8.8637]
+Dynamic agent 0 at: [-10.072, -8.7414]
+Dynamic agent 1 at: [17.545, -4.3737]
+Dynamic agent 2 at: [-15.333, 8.1032]
+Robot at: [-3.313, 8.8021]
+Dynamic agent 0 at: [-10.016, -8.7129]
+Dynamic agent 1 at: [17.512, -4.4268]
+Dynamic agent 2 at: [-15.322, 8.0415]
+Robot at: [-3.3019, 8.7406]
+Dynamic agent 0 at: [-9.9605, -8.6844]
+Dynamic agent 1 at: [17.479, -4.4798]
+Dynamic agent 2 at: [-15.311, 7.9798]
+Robot at: [-3.2909, 8.679]
+Dynamic agent 0 at: [-9.9048, -8.6559]
+Dynamic agent 1 at: [17.446, -4.5328]
+Dynamic agent 2 at: [-15.3, 7.918]
+Robot at: [-3.2799, 8.6174]
+Dynamic agent 0 at: [-9.8491, -8.6274]
+Dynamic agent 1 at: [17.413, -4.5859]
+Dynamic agent 2 at: [-15.29, 7.8563]
+Robot at: [-3.2688, 8.5559]
+Dynamic agent 0 at: [-9.7933, -8.5989]
+Dynamic agent 1 at: [17.381, -4.6389]
+Dynamic agent 2 at: [-15.279, 7.7945]
+Robot at: [-3.2578, 8.4943]
+Dynamic agent 0 at: [-9.7376, -8.5705]
+Dynamic agent 1 at: [17.348, -4.6919]
+Dynamic agent 2 at: [-15.268, 7.7328]
+Robot at: [-3.2468, 8.4328]
+Dynamic agent 0 at: [-9.6819, -8.542]
+Dynamic agent 1 at: [17.315, -4.745]
+Dynamic agent 2 at: [-15.257, 7.6711]
+Robot at: [-3.2357, 8.3712]
+Dynamic agent 0 at: [-9.6261, -8.5135]
+Dynamic agent 1 at: [17.282, -4.798]
+Dynamic agent 2 at: [-15.246, 7.6093]
+Robot at: [-3.2247, 8.3097]
+Dynamic agent 0 at: [-9.5704, -8.485]
+Dynamic agent 1 at: [17.249, -4.8511]
+Dynamic agent 2 at: [-15.235, 7.5476]
+Robot at: [-3.2136, 8.2481]
+Dynamic agent 0 at: [-9.5147, -8.4565]
+Dynamic agent 1 at: [17.216, -4.9041]
+Dynamic agent 2 at: [-15.224, 7.4859]
+Robot at: [-3.2026, 8.1865]
+Dynamic agent 0 at: [-9.459, -8.428]
+Dynamic agent 1 at: [17.183, -4.9571]
+Dynamic agent 2 at: [-15.213, 7.4241]
+Robot at: [-3.1916, 8.125]
+Dynamic agent 0 at: [-9.4032, -8.3995]
+Dynamic agent 1 at: [17.15, -5.0102]
+Dynamic agent 2 at: [-15.202, 7.3624]
+Robot at: [-3.1805, 8.0634]
+Dynamic agent 0 at: [-9.3475, -8.3711]
+Dynamic agent 1 at: [17.117, -5.0632]
+Dynamic agent 2 at: [-15.191, 7.3007]
+Robot at: [-3.1695, 8.0019]
+Dynamic agent 0 at: [-9.2918, -8.3426]
+Dynamic agent 1 at: [17.084, -5.1162]
+Dynamic agent 2 at: [-15.18, 7.2389]
+Robot at: [-3.1585, 7.9403]
+Dynamic agent 0 at: [-9.2361, -8.3141]
+Dynamic agent 1 at: [17.051, -5.1693]
+Dynamic agent 2 at: [-15.169, 7.1772]
+Robot at: [-3.1474, 7.8788]
+Dynamic agent 0 at: [-9.1803, -8.2856]
+Dynamic agent 1 at: [17.018, -5.2223]
+Dynamic agent 2 at: [-15.161, 7.1152]
+Robot at: [-3.1364, 7.8172]
+Dynamic agent 0 at: [-9.1246, -8.2571]
+Dynamic agent 1 at: [16.985, -5.2753]
+Dynamic agent 2 at: [-15.153, 7.053]
+Robot at: [-3.1254, 7.7556]
+Dynamic agent 0 at: [-9.0689, -8.2286]
+Dynamic agent 1 at: [16.952, -5.3284]
+Dynamic agent 2 at: [-15.146, 6.9908]
+Robot at: [-3.1143, 7.6941]
+Dynamic agent 0 at: [-9.0131, -8.2001]
+Dynamic agent 1 at: [16.92, -5.3814]
+Dynamic agent 2 at: [-15.139, 6.9286]
+Robot at: [-3.1033, 7.6325]
+Dynamic agent 0 at: [-8.9574, -8.1717]
+Dynamic agent 1 at: [16.887, -5.4345]
+Dynamic agent 2 at: [-15.132, 6.8665]
+Robot at: [-3.0923, 7.571]
+Dynamic agent 0 at: [-8.9017, -8.1432]
+Dynamic agent 1 at: [16.854, -5.4875]
+Dynamic agent 2 at: [-15.124, 6.8043]
+Robot at: [-3.0812, 7.5094]
+Dynamic agent 0 at: [-8.846, -8.1147]
+Dynamic agent 1 at: [16.821, -5.5405]
+Dynamic agent 2 at: [-15.117, 6.7421]
+Robot at: [-3.0702, 7.4479]
+Dynamic agent 0 at: [-8.7902, -8.0862]
+Dynamic agent 1 at: [16.788, -5.5936]
+Dynamic agent 2 at: [-15.11, 6.68]
+Robot at: [-3.0592, 7.3863]
+Dynamic agent 0 at: [-8.7345, -8.0577]
+Dynamic agent 1 at: [16.755, -5.6466]
+Dynamic agent 2 at: [-15.103, 6.6178]
+Robot at: [-3.0481, 7.3247]
+Dynamic agent 0 at: [-8.6788, -8.0292]
+Dynamic agent 1 at: [16.722, -5.6996]
+Dynamic agent 2 at: [-15.095, 6.5556]
+Robot at: [-3.0371, 7.2632]
+Dynamic agent 0 at: [-8.6231, -8.0007]
+Dynamic agent 1 at: [16.689, -5.7527]
+Dynamic agent 2 at: [-15.088, 6.4935]
+Robot at: [-3.026, 7.2016]
+Dynamic agent 0 at: [-8.5673, -7.9723]
+Dynamic agent 1 at: [16.656, -5.8057]
+Dynamic agent 2 at: [-15.081, 6.4313]
+Robot at: [-3.015, 7.1401]
+Dynamic agent 0 at: [-8.5116, -7.9438]
+Dynamic agent 1 at: [16.623, -5.8588]
+Dynamic agent 2 at: [-15.073, 6.3691]
+Robot at: [-3.004, 7.0785]
+Dynamic agent 0 at: [-8.4559, -7.9153]
+Dynamic agent 1 at: [16.59, -5.9118]
+Dynamic agent 2 at: [-15.066, 6.307]
+Robot at: [-2.9929, 7.017]
+Dynamic agent 0 at: [-8.4001, -7.8868]
+Dynamic agent 1 at: [16.557, -5.9648]
+Dynamic agent 2 at: [-15.059, 6.2448]
+Robot at: [-2.9819, 6.9554]
+Dynamic agent 0 at: [-8.3444, -7.8583]
+Dynamic agent 1 at: [16.524, -6.0179]
+Dynamic agent 2 at: [-15.052, 6.1826]
+Robot at: [-2.9709, 6.8938]
+Dynamic agent 0 at: [-8.2887, -7.8298]
+Dynamic agent 1 at: [16.491, -6.0709]
+Dynamic agent 2 at: [-15.044, 6.1204]
+Robot at: [-2.9598, 6.8323]
+Dynamic agent 0 at: [-8.233, -7.8014]
+Dynamic agent 1 at: [16.458, -6.1239]
+Dynamic agent 2 at: [-15.037, 6.0583]
+Robot at: [-2.9488, 6.7707]
+Dynamic agent 0 at: [-8.1772, -7.7729]
+Dynamic agent 1 at: [16.426, -6.177]
+Dynamic agent 2 at: [-15.03, 5.9961]
+Robot at: [-2.9378, 6.7092]
+Dynamic agent 0 at: [-8.1215, -7.7444]
+Dynamic agent 1 at: [16.393, -6.23]
+Dynamic agent 2 at: [-15.023, 5.9339]
+Robot at: [-2.9267, 6.6476]
+Dynamic agent 0 at: [-8.0658, -7.7159]
+Dynamic agent 1 at: [16.36, -6.283]
+Dynamic agent 2 at: [-15.015, 5.8718]
+Robot at: [-2.9157, 6.5861]
+Dynamic agent 0 at: [-8.0101, -7.6874]
+Dynamic agent 1 at: [16.327, -6.3361]
+Dynamic agent 2 at: [-15.008, 5.8096]
+Robot at: [-2.9047, 6.5245]
+Dynamic agent 0 at: [-7.9543, -7.6589]
+Dynamic agent 1 at: [16.294, -6.3891]
+Dynamic agent 2 at: [-15.001, 5.7474]
+Robot at: [-2.8936, 6.4629]
+Dynamic agent 0 at: [-7.8986, -7.6304]
+Dynamic agent 1 at: [16.261, -6.4422]
+Dynamic agent 2 at: [-14.994, 5.6853]
+Robot at: [-2.8826, 6.4014]
+Dynamic agent 0 at: [-7.8429, -7.602]
+Dynamic agent 1 at: [16.228, -6.4952]
+Dynamic agent 2 at: [-14.986, 5.6231]
+Robot at: [-2.8716, 6.3398]
+Dynamic agent 0 at: [-7.7871, -7.5735]
+Dynamic agent 1 at: [16.195, -6.5482]
+Dynamic agent 2 at: [-14.979, 5.5609]
+Robot at: [-2.8605, 6.2783]
+Dynamic agent 0 at: [-7.7314, -7.545]
+Dynamic agent 1 at: [16.162, -6.6013]
+Dynamic agent 2 at: [-14.972, 5.4987]
+Robot at: [-2.8495, 6.2167]
+Dynamic agent 0 at: [-7.6757, -7.5165]
+Dynamic agent 1 at: [16.129, -6.6543]
+Dynamic agent 2 at: [-14.965, 5.4366]
+Robot at: [-2.8385, 6.1552]
+Dynamic agent 0 at: [-7.62, -7.488]
+Dynamic agent 1 at: [16.11, -6.7129]
+Dynamic agent 2 at: [-14.957, 5.3744]
+Robot at: [-2.8274, 6.0936]
+Dynamic agent 0 at: [-7.5642, -7.4595]
+Dynamic agent 1 at: [16.098, -6.7742]
+Dynamic agent 2 at: [-14.95, 5.3122]
+Robot at: [-2.8164, 6.032]
+Dynamic agent 0 at: [-7.5085, -7.431]
+Dynamic agent 1 at: [16.086, -6.8356]
+Dynamic agent 2 at: [-14.943, 5.2501]
+Robot at: [-2.8053, 5.9705]
+Dynamic agent 0 at: [-7.4528, -7.4026]
+Dynamic agent 1 at: [16.073, -6.8969]
+Dynamic agent 2 at: [-14.936, 5.1879]
+Robot at: [-2.7943, 5.9089]
+Dynamic agent 0 at: [-7.397, -7.3741]
+Dynamic agent 1 at: [16.061, -6.9582]
+Dynamic agent 2 at: [-14.928, 5.1257]
+Robot at: [-2.7833, 5.8474]
+Dynamic agent 0 at: [-7.3413, -7.3456]
+Dynamic agent 1 at: [16.049, -7.0196]
+Dynamic agent 2 at: [-14.921, 5.0636]
+Robot at: [-2.7722, 5.7858]
+Dynamic agent 0 at: [-7.2856, -7.3171]
+Dynamic agent 1 at: [16.037, -7.0809]
+Dynamic agent 2 at: [-14.914, 5.0014]
+Robot at: [-2.7612, 5.7243]
+Dynamic agent 0 at: [-7.2299, -7.2886]
+Dynamic agent 1 at: [16.024, -7.1423]
+Dynamic agent 2 at: [-14.906, 4.9392]
+Robot at: [-2.7502, 5.6627]
+Dynamic agent 0 at: [-7.1741, -7.2601]
+Dynamic agent 1 at: [16.012, -7.2036]
+Dynamic agent 2 at: [-14.899, 4.877]
+Robot at: [-2.7391, 5.6011]
+Dynamic agent 0 at: [-7.1184, -7.2316]
+Dynamic agent 1 at: [16, -7.2649]
+Dynamic agent 2 at: [-14.892, 4.8149]
+Robot at: [-2.7281, 5.5396]
+Dynamic agent 0 at: [-7.0627, -7.2032]
+Dynamic agent 1 at: [15.988, -7.3263]
+Dynamic agent 2 at: [-14.885, 4.7527]
+Robot at: [-2.7171, 5.478]
+Dynamic agent 0 at: [-7.007, -7.1747]
+Dynamic agent 1 at: [15.976, -7.3876]
+Dynamic agent 2 at: [-14.877, 4.6905]
+Robot at: [-2.706, 5.4165]
+Dynamic agent 0 at: [-6.9512, -7.1462]
+Dynamic agent 1 at: [15.963, -7.449]
+Dynamic agent 2 at: [-14.87, 4.6284]
+Robot at: [-2.695, 5.3549]
+Dynamic agent 0 at: [-6.8955, -7.1177]
+Dynamic agent 1 at: [15.951, -7.5103]
+Dynamic agent 2 at: [-14.863, 4.5662]
+Robot at: [-2.684, 5.2934]
+Dynamic agent 0 at: [-6.8398, -7.0892]
+Dynamic agent 1 at: [15.939, -7.5716]
+Dynamic agent 2 at: [-14.856, 4.504]
+Edge from vertex: 69 to vertex:351is valid.
+Evaluating Edge from vertex: 351 to vertex:427
+endcfg
+cfg size: 230
+Valid path called. Tick limit: 230
+Robot at: [-2.6803, 5.2728]
+Dynamic agent 0 at: [-6.8026, -7.0702]
+Dynamic agent 1 at: [15.931, -7.6125]
+Dynamic agent 2 at: [-14.851, 4.4626]
+Robot at: [-2.6788, 5.2103]
+Dynamic agent 0 at: [-6.7469, -7.0417]
+Dynamic agent 1 at: [15.918, -7.6739]
+Dynamic agent 2 at: [-14.844, 4.4004]
+Robot at: [-2.6772, 5.1477]
+Dynamic agent 0 at: [-6.6912, -7.0133]
+Dynamic agent 1 at: [15.906, -7.7352]
+Dynamic agent 2 at: [-14.836, 4.3382]
+Robot at: [-2.6757, 5.0851]
+Dynamic agent 0 at: [-6.6354, -6.9848]
+Dynamic agent 1 at: [15.894, -7.7965]
+Dynamic agent 2 at: [-14.829, 4.2761]
+Robot at: [-2.6742, 5.0226]
+Dynamic agent 0 at: [-6.5797, -6.9563]
+Dynamic agent 1 at: [15.882, -7.8579]
+Dynamic agent 2 at: [-14.822, 4.2139]
+Robot at: [-2.6726, 4.96]
+Dynamic agent 0 at: [-6.524, -6.9278]
+Dynamic agent 1 at: [15.87, -7.9192]
+Dynamic agent 2 at: [-14.814, 4.1517]
+Robot at: [-2.6711, 4.8974]
+Dynamic agent 0 at: [-6.4683, -6.8993]
+Dynamic agent 1 at: [15.857, -7.9806]
+Dynamic agent 2 at: [-14.807, 4.0896]
+Robot at: [-2.6696, 4.8349]
+Dynamic agent 0 at: [-6.4125, -6.8708]
+Dynamic agent 1 at: [15.845, -8.0419]
+Dynamic agent 2 at: [-14.8, 4.0274]
+Robot at: [-2.6681, 4.7723]
+Dynamic agent 0 at: [-6.3568, -6.8423]
+Dynamic agent 1 at: [15.833, -8.1032]
+Dynamic agent 2 at: [-14.793, 3.9652]
+Robot at: [-2.6665, 4.7097]
+Dynamic agent 0 at: [-6.3011, -6.8139]
+Dynamic agent 1 at: [15.821, -8.1646]
+Dynamic agent 2 at: [-14.785, 3.903]
+Robot at: [-2.665, 4.6472]
+Dynamic agent 0 at: [-6.2453, -6.7854]
+Dynamic agent 1 at: [15.808, -8.2259]
+Dynamic agent 2 at: [-14.778, 3.8409]
+Robot at: [-2.6635, 4.5846]
+Dynamic agent 0 at: [-6.1896, -6.7569]
+Dynamic agent 1 at: [15.796, -8.2873]
+Dynamic agent 2 at: [-14.771, 3.7787]
+Robot at: [-2.662, 4.522]
+Dynamic agent 0 at: [-6.1339, -6.7284]
+Dynamic agent 1 at: [15.784, -8.3486]
+Dynamic agent 2 at: [-14.764, 3.7165]
+Robot at: [-2.6604, 4.4594]
+Dynamic agent 0 at: [-6.0782, -6.6999]
+Dynamic agent 1 at: [15.772, -8.4099]
+Dynamic agent 2 at: [-14.756, 3.6544]
+Robot at: [-2.6589, 4.3969]
+Dynamic agent 0 at: [-6.0224, -6.6714]
+Dynamic agent 1 at: [15.76, -8.4713]
+Dynamic agent 2 at: [-14.749, 3.5922]
+Robot at: [-2.6574, 4.3343]
+Dynamic agent 0 at: [-5.9667, -6.6429]
+Dynamic agent 1 at: [15.747, -8.5326]
+Dynamic agent 2 at: [-14.742, 3.53]
+Robot at: [-2.6558, 4.2717]
+Dynamic agent 0 at: [-5.911, -6.6145]
+Dynamic agent 1 at: [15.735, -8.594]
+Dynamic agent 2 at: [-14.735, 3.4679]
+Robot at: [-2.6543, 4.2092]
+Dynamic agent 0 at: [-5.8553, -6.586]
+Dynamic agent 1 at: [15.723, -8.6553]
+Dynamic agent 2 at: [-14.727, 3.4057]
+Robot at: [-2.6528, 4.1466]
+Dynamic agent 0 at: [-5.7995, -6.5575]
+Dynamic agent 1 at: [15.711, -8.7166]
+Dynamic agent 2 at: [-14.72, 3.3435]
+Robot at: [-2.6513, 4.084]
+Dynamic agent 0 at: [-5.7438, -6.529]
+Dynamic agent 1 at: [15.698, -8.778]
+Dynamic agent 2 at: [-14.713, 3.2813]
+Robot at: [-2.6497, 4.0215]
+Dynamic agent 0 at: [-5.6881, -6.5005]
+Dynamic agent 1 at: [15.686, -8.8393]
+Dynamic agent 2 at: [-14.706, 3.2192]
+Robot at: [-2.6482, 3.9589]
+Dynamic agent 0 at: [-5.6354, -6.4676]
+Dynamic agent 1 at: [15.674, -8.9007]
+Dynamic agent 2 at: [-14.698, 3.157]
+Robot at: [-2.6467, 3.8963]
+Dynamic agent 0 at: [-5.5889, -6.4257]
+Dynamic agent 1 at: [15.662, -8.962]
+Dynamic agent 2 at: [-14.691, 3.0948]
+Robot at: [-2.6452, 3.8337]
+Dynamic agent 0 at: [-5.5424, -6.3838]
+Dynamic agent 1 at: [15.649, -9.0233]
+Dynamic agent 2 at: [-14.684, 3.0327]
+Robot at: [-2.6436, 3.7712]
+Dynamic agent 0 at: [-5.4958, -6.342]
+Dynamic agent 1 at: [15.637, -9.0847]
+Dynamic agent 2 at: [-14.676, 2.9705]
+Robot at: [-2.6421, 3.7086]
+Dynamic agent 0 at: [-5.4493, -6.3001]
+Dynamic agent 1 at: [15.625, -9.146]
+Dynamic agent 2 at: [-14.669, 2.9083]
+Robot at: [-2.6406, 3.646]
+Dynamic agent 0 at: [-5.4028, -6.2582]
+Dynamic agent 1 at: [15.613, -9.2074]
+Dynamic agent 2 at: [-14.662, 2.8462]
+Robot at: [-2.6391, 3.5835]
+Dynamic agent 0 at: [-5.3562, -6.2164]
+Dynamic agent 1 at: [15.601, -9.2687]
+Dynamic agent 2 at: [-14.655, 2.784]
+Robot at: [-2.6375, 3.5209]
+Dynamic agent 0 at: [-5.3097, -6.1745]
+Dynamic agent 1 at: [15.588, -9.33]
+Dynamic agent 2 at: [-14.647, 2.7218]
+Robot at: [-2.636, 3.4583]
+Dynamic agent 0 at: [-5.2632, -6.1326]
+Dynamic agent 1 at: [15.576, -9.3914]
+Dynamic agent 2 at: [-14.64, 2.6597]
+Robot at: [-2.6345, 3.3958]
+Dynamic agent 0 at: [-5.2167, -6.0907]
+Dynamic agent 1 at: [15.564, -9.4527]
+Dynamic agent 2 at: [-14.633, 2.5975]
+Robot at: [-2.6329, 3.3332]
+Dynamic agent 0 at: [-5.1701, -6.0489]
+Dynamic agent 1 at: [15.552, -9.5141]
+Dynamic agent 2 at: [-14.626, 2.5353]
+Robot at: [-2.6314, 3.2706]
+Dynamic agent 0 at: [-5.1236, -6.007]
+Dynamic agent 1 at: [15.539, -9.5754]
+Dynamic agent 2 at: [-14.618, 2.4731]
+Robot at: [-2.6299, 3.2081]
+Dynamic agent 0 at: [-5.0771, -5.9651]
+Dynamic agent 1 at: [15.527, -9.6367]
+Dynamic agent 2 at: [-14.611, 2.411]
+Robot at: [-2.6284, 3.1455]
+Dynamic agent 0 at: [-5.0305, -5.9233]
+Dynamic agent 1 at: [15.515, -9.6981]
+Dynamic agent 2 at: [-14.604, 2.3488]
+Robot at: [-2.6268, 3.0829]
+Dynamic agent 0 at: [-4.984, -5.8814]
+Dynamic agent 1 at: [15.503, -9.7594]
+Dynamic agent 2 at: [-14.597, 2.2866]
+Robot at: [-2.6253, 3.0203]
+Dynamic agent 0 at: [-4.9375, -5.8395]
+Dynamic agent 1 at: [15.491, -9.8208]
+Dynamic agent 2 at: [-14.589, 2.2245]
+Robot at: [-2.6238, 2.9578]
+Dynamic agent 0 at: [-4.8909, -5.7977]
+Dynamic agent 1 at: [15.478, -9.8821]
+Dynamic agent 2 at: [-14.582, 2.1623]
+Robot at: [-2.6223, 2.8952]
+Dynamic agent 0 at: [-4.8444, -5.7558]
+Dynamic agent 1 at: [15.466, -9.9434]
+Dynamic agent 2 at: [-14.575, 2.1001]
+Robot at: [-2.6207, 2.8326]
+Dynamic agent 0 at: [-4.7979, -5.7139]
+Dynamic agent 1 at: [15.454, -10.005]
+Dynamic agent 2 at: [-14.568, 2.038]
+Robot at: [-2.6192, 2.7701]
+Dynamic agent 0 at: [-4.7514, -5.6721]
+Dynamic agent 1 at: [15.442, -10.066]
+Dynamic agent 2 at: [-14.56, 1.9758]
+Robot at: [-2.6177, 2.7075]
+Dynamic agent 0 at: [-4.7048, -5.6302]
+Dynamic agent 1 at: [15.429, -10.127]
+Dynamic agent 2 at: [-14.553, 1.9136]
+Robot at: [-2.6161, 2.6449]
+Dynamic agent 0 at: [-4.6583, -5.5883]
+Dynamic agent 1 at: [15.417, -10.189]
+Dynamic agent 2 at: [-14.546, 1.8514]
+Robot at: [-2.6146, 2.5824]
+Dynamic agent 0 at: [-4.6118, -5.5465]
+Dynamic agent 1 at: [15.405, -10.25]
+Dynamic agent 2 at: [-14.538, 1.7893]
+Robot at: [-2.6131, 2.5198]
+Dynamic agent 0 at: [-4.5652, -5.5046]
+Dynamic agent 1 at: [15.393, -10.311]
+Dynamic agent 2 at: [-14.531, 1.7271]
+Robot at: [-2.6116, 2.4572]
+Dynamic agent 0 at: [-4.5187, -5.4627]
+Dynamic agent 1 at: [15.381, -10.373]
+Dynamic agent 2 at: [-14.524, 1.6649]
+Robot at: [-2.61, 2.3946]
+Dynamic agent 0 at: [-4.4722, -5.4208]
+Dynamic agent 1 at: [15.368, -10.434]
+Dynamic agent 2 at: [-14.517, 1.6028]
+Robot at: [-2.6085, 2.3321]
+Dynamic agent 0 at: [-4.4257, -5.379]
+Dynamic agent 1 at: [15.356, -10.495]
+Dynamic agent 2 at: [-14.509, 1.5406]
+Robot at: [-2.607, 2.2695]
+Dynamic agent 0 at: [-4.3791, -5.3371]
+Dynamic agent 1 at: [15.344, -10.557]
+Dynamic agent 2 at: [-14.502, 1.4784]
+Robot at: [-2.6055, 2.2069]
+Dynamic agent 0 at: [-4.3326, -5.2952]
+Dynamic agent 1 at: [15.332, -10.618]
+Dynamic agent 2 at: [-14.495, 1.4163]
+Robot at: [-2.6039, 2.1444]
+Dynamic agent 0 at: [-4.2861, -5.2534]
+Dynamic agent 1 at: [15.319, -10.68]
+Dynamic agent 2 at: [-14.488, 1.3541]
+Robot at: [-2.6024, 2.0818]
+Dynamic agent 0 at: [-4.2395, -5.2115]
+Dynamic agent 1 at: [15.307, -10.741]
+Dynamic agent 2 at: [-14.46, 1.3007]
+Robot at: [-2.6009, 2.0192]
+Dynamic agent 0 at: [-4.193, -5.1696]
+Dynamic agent 1 at: [15.295, -10.802]
+Dynamic agent 2 at: [-14.421, 1.2518]
+Robot at: [-2.5994, 1.9567]
+Dynamic agent 0 at: [-4.1465, -5.1278]
+Dynamic agent 1 at: [15.283, -10.864]
+Dynamic agent 2 at: [-14.383, 1.2029]
+Robot at: [-2.5978, 1.8941]
+Dynamic agent 0 at: [-4.1, -5.0859]
+Dynamic agent 1 at: [15.27, -10.925]
+Dynamic agent 2 at: [-14.344, 1.1539]
+Robot at: [-2.5963, 1.8315]
+Dynamic agent 0 at: [-4.0534, -5.044]
+Dynamic agent 1 at: [15.258, -10.986]
+Dynamic agent 2 at: [-14.306, 1.105]
+Robot at: [-2.5948, 1.769]
+Dynamic agent 0 at: [-4.0069, -5.0022]
+Dynamic agent 1 at: [15.246, -11.048]
+Dynamic agent 2 at: [-14.267, 1.056]
+Robot at: [-2.5932, 1.7064]
+Dynamic agent 0 at: [-3.9604, -4.9603]
+Dynamic agent 1 at: [15.234, -11.109]
+Dynamic agent 2 at: [-14.229, 1.0071]
+Robot at: [-2.5917, 1.6438]
+Dynamic agent 0 at: [-3.9138, -4.9184]
+Dynamic agent 1 at: [15.222, -11.17]
+Dynamic agent 2 at: [-14.191, 0.95815]
+Robot at: [-2.5902, 1.5812]
+Dynamic agent 0 at: [-3.8673, -4.8766]
+Dynamic agent 1 at: [15.209, -11.232]
+Dynamic agent 2 at: [-14.152, 0.9092]
+Robot at: [-2.5887, 1.5187]
+Dynamic agent 0 at: [-3.8208, -4.8347]
+Dynamic agent 1 at: [15.197, -11.293]
+Dynamic agent 2 at: [-14.114, 0.86026]
+Robot at: [-2.5871, 1.4561]
+Dynamic agent 0 at: [-3.7742, -4.7928]
+Dynamic agent 1 at: [15.185, -11.354]
+Dynamic agent 2 at: [-14.075, 0.81132]
+Robot at: [-2.5856, 1.3935]
+Dynamic agent 0 at: [-3.7277, -4.7509]
+Dynamic agent 1 at: [15.173, -11.416]
+Dynamic agent 2 at: [-14.037, 0.76238]
+Robot at: [-2.5841, 1.331]
+Dynamic agent 0 at: [-3.6812, -4.7091]
+Dynamic agent 1 at: [15.16, -11.477]
+Dynamic agent 2 at: [-13.999, 0.71344]
+Robot at: [-2.5826, 1.2684]
+Dynamic agent 0 at: [-3.6347, -4.6672]
+Dynamic agent 1 at: [15.148, -11.538]
+Dynamic agent 2 at: [-13.96, 0.6645]
+Robot at: [-2.581, 1.2058]
+Dynamic agent 0 at: [-3.5881, -4.6253]
+Dynamic agent 1 at: [15.136, -11.6]
+Dynamic agent 2 at: [-13.922, 0.61556]
+Robot at: [-2.5795, 1.1433]
+Dynamic agent 0 at: [-3.5416, -4.5835]
+Dynamic agent 1 at: [15.124, -11.661]
+Dynamic agent 2 at: [-13.883, 0.56662]
+Robot at: [-2.578, 1.0807]
+Dynamic agent 0 at: [-3.4951, -4.5416]
+Dynamic agent 1 at: [15.112, -11.722]
+Dynamic agent 2 at: [-13.845, 0.51768]
+Robot at: [-2.5765, 1.0181]
+Dynamic agent 0 at: [-3.4485, -4.4997]
+Dynamic agent 1 at: [15.099, -11.784]
+Dynamic agent 2 at: [-13.806, 0.46873]
+Robot at: [-2.5749, 0.95555]
+Dynamic agent 0 at: [-3.402, -4.4579]
+Dynamic agent 1 at: [15.087, -11.845]
+Dynamic agent 2 at: [-13.768, 0.41979]
+Robot at: [-2.5734, 0.89298]
+Dynamic agent 0 at: [-3.3555, -4.416]
+Dynamic agent 1 at: [15.075, -11.906]
+Dynamic agent 2 at: [-13.73, 0.37085]
+Robot at: [-2.5719, 0.83041]
+Dynamic agent 0 at: [-3.309, -4.3741]
+Dynamic agent 1 at: [15.063, -11.968]
+Dynamic agent 2 at: [-13.691, 0.32191]
+Robot at: [-2.5703, 0.76784]
+Dynamic agent 0 at: [-3.2624, -4.3323]
+Dynamic agent 1 at: [15.05, -12.029]
+Dynamic agent 2 at: [-13.653, 0.27297]
+Robot at: [-2.5688, 0.70527]
+Dynamic agent 0 at: [-3.2159, -4.2904]
+Dynamic agent 1 at: [15.038, -12.09]
+Dynamic agent 2 at: [-13.614, 0.22403]
+Robot at: [-2.5673, 0.6427]
+Dynamic agent 0 at: [-3.1694, -4.2485]
+Dynamic agent 1 at: [15.026, -12.152]
+Dynamic agent 2 at: [-13.576, 0.17509]
+Robot at: [-2.5658, 0.58013]
+Dynamic agent 0 at: [-3.1228, -4.2067]
+Dynamic agent 1 at: [15.014, -12.213]
+Dynamic agent 2 at: [-13.537, 0.12615]
+Robot at: [-2.5642, 0.51756]
+Dynamic agent 0 at: [-3.0763, -4.1648]
+Dynamic agent 1 at: [15.002, -12.274]
+Dynamic agent 2 at: [-13.499, 0.077205]
+Edge from vertex: 351 to vertex:427is valid.
+Evaluating Edge from vertex: 427 to vertex:15
+endcfg
+cfg size: 181
+Valid path called. Tick limit: 181
+Robot at: [-2.5637, 0.49671]
+Dynamic agent 0 at: [-3.0453, -4.1369]
+Dynamic agent 1 at: [14.993, -12.315]
+Dynamic agent 2 at: [-13.473, 0.044578]
+Robot at: [-2.555, 0.4346]
+Dynamic agent 0 at: [-2.9988, -4.095]
+Dynamic agent 1 at: [14.981, -12.377]
+Dynamic agent 2 at: [-13.435, -0.0043633]
+Robot at: [-2.5462, 0.37249]
+Dynamic agent 0 at: [-2.9522, -4.0531]
+Dynamic agent 1 at: [14.969, -12.438]
+Dynamic agent 2 at: [-13.396, -0.053304]
+Robot at: [-2.5374, 0.31038]
+Dynamic agent 0 at: [-2.9057, -4.0113]
+Dynamic agent 1 at: [14.957, -12.499]
+Dynamic agent 2 at: [-13.358, -0.10225]
+Robot at: [-2.5286, 0.24828]
+Dynamic agent 0 at: [-2.8592, -3.9694]
+Dynamic agent 1 at: [14.944, -12.561]
+Dynamic agent 2 at: [-13.32, -0.15119]
+Robot at: [-2.5198, 0.18617]
+Dynamic agent 0 at: [-2.8126, -3.9275]
+Dynamic agent 1 at: [14.932, -12.622]
+Dynamic agent 2 at: [-13.281, -0.20013]
+Robot at: [-2.5111, 0.12406]
+Dynamic agent 0 at: [-2.7661, -3.8857]
+Dynamic agent 1 at: [14.92, -12.683]
+Dynamic agent 2 at: [-13.243, -0.24907]
+Robot at: [-2.5023, 0.061956]
+Dynamic agent 0 at: [-2.7196, -3.8438]
+Dynamic agent 1 at: [14.908, -12.745]
+Dynamic agent 2 at: [-13.204, -0.29801]
+Robot at: [-2.4935, -0.00015107]
+Dynamic agent 0 at: [-2.6731, -3.8019]
+Dynamic agent 1 at: [14.896, -12.806]
+Dynamic agent 2 at: [-13.166, -0.34695]
+Robot at: [-2.4847, -0.062258]
+Dynamic agent 0 at: [-2.6265, -3.7601]
+Dynamic agent 1 at: [14.883, -12.867]
+Dynamic agent 2 at: [-13.128, -0.39589]
+Robot at: [-2.476, -0.12437]
+Dynamic agent 0 at: [-2.58, -3.7182]
+Dynamic agent 1 at: [14.871, -12.929]
+Dynamic agent 2 at: [-13.089, -0.44483]
+Robot at: [-2.4672, -0.18647]
+Dynamic agent 0 at: [-2.5335, -3.6763]
+Dynamic agent 1 at: [14.859, -12.99]
+Dynamic agent 2 at: [-13.051, -0.49377]
+Robot at: [-2.4584, -0.24858]
+Dynamic agent 0 at: [-2.4869, -3.6344]
+Dynamic agent 1 at: [14.847, -13.051]
+Dynamic agent 2 at: [-13.001, -0.53194]
+Robot at: [-2.4496, -0.31069]
+Dynamic agent 0 at: [-2.4404, -3.5926]
+Dynamic agent 1 at: [14.834, -13.113]
+Dynamic agent 2 at: [-12.951, -0.57011]
+Robot at: [-2.4409, -0.37279]
+Dynamic agent 0 at: [-2.3939, -3.5507]
+Dynamic agent 1 at: [14.822, -13.174]
+Dynamic agent 2 at: [-12.902, -0.60828]
+Robot at: [-2.4321, -0.4349]
+Dynamic agent 0 at: [-2.3474, -3.5088]
+Dynamic agent 1 at: [14.798, -13.231]
+Dynamic agent 2 at: [-12.852, -0.64645]
+Robot at: [-2.4233, -0.49701]
+Dynamic agent 0 at: [-2.3008, -3.467]
+Dynamic agent 1 at: [14.767, -13.285]
+Dynamic agent 2 at: [-12.802, -0.68462]
+Robot at: [-2.4145, -0.55911]
+Dynamic agent 0 at: [-2.2543, -3.4251]
+Dynamic agent 1 at: [14.736, -13.339]
+Dynamic agent 2 at: [-12.753, -0.72279]
+Robot at: [-2.4058, -0.62122]
+Dynamic agent 0 at: [-2.2078, -3.3832]
+Dynamic agent 1 at: [14.705, -13.393]
+Dynamic agent 2 at: [-12.703, -0.76096]
+Robot at: [-2.397, -0.68333]
+Dynamic agent 0 at: [-2.1612, -3.3414]
+Dynamic agent 1 at: [14.674, -13.447]
+Dynamic agent 2 at: [-12.654, -0.79913]
+Robot at: [-2.3882, -0.74544]
+Dynamic agent 0 at: [-2.1147, -3.2995]
+Dynamic agent 1 at: [14.643, -13.502]
+Dynamic agent 2 at: [-12.604, -0.8373]
+Robot at: [-2.3794, -0.80754]
+Dynamic agent 0 at: [-2.0682, -3.2576]
+Dynamic agent 1 at: [14.612, -13.556]
+Dynamic agent 2 at: [-12.554, -0.87547]
+Robot at: [-2.3707, -0.86965]
+Dynamic agent 0 at: [-2.0288, -3.2106]
+Dynamic agent 1 at: [14.581, -13.61]
+Dynamic agent 2 at: [-12.505, -0.91364]
+Robot at: [-2.3619, -0.93176]
+Dynamic agent 0 at: [-2.0038, -3.1531]
+Dynamic agent 1 at: [14.55, -13.664]
+Dynamic agent 2 at: [-12.455, -0.95181]
+Robot at: [-2.3531, -0.99386]
+Dynamic agent 0 at: [-1.9787, -3.0957]
+Dynamic agent 1 at: [14.519, -13.719]
+Dynamic agent 2 at: [-12.405, -0.98998]
+Robot at: [-2.3443, -1.056]
+Dynamic agent 0 at: [-1.9537, -3.0383]
+Dynamic agent 1 at: [14.488, -13.773]
+Dynamic agent 2 at: [-12.356, -1.0282]
+Robot at: [-2.3355, -1.1181]
+Dynamic agent 0 at: [-1.9287, -2.9809]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.9287, -2.9809]
+Wait duration not found. Calculating...
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.9287, -2.9809]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.9203, -2.9617]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.912, -2.9426]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.9036, -2.9234]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.8953, -2.9043]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.8869, -2.8852]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.8786, -2.866]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.8702, -2.8469]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.8619, -2.8277]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.8535, -2.8086]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.8452, -2.7894]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.8368, -2.7703]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.8285, -2.7512]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.8201, -2.732]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.8118, -2.7129]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.8035, -2.6937]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.7951, -2.6746]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.7868, -2.6555]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.7784, -2.6363]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.7701, -2.6172]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.7617, -2.598]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.7534, -2.5789]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.745, -2.5597]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.7367, -2.5406]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.7283, -2.5215]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.72, -2.5023]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.7116, -2.4832]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.7033, -2.464]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.6949, -2.4449]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.6866, -2.4258]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.6782, -2.4066]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.6699, -2.3875]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.6616, -2.3683]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.6532, -2.3492]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.6449, -2.33]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.6365, -2.3109]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.6282, -2.2918]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.6198, -2.2726]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.6115, -2.2535]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.6031, -2.2343]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.5948, -2.2152]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.5864, -2.196]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.5781, -2.1769]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.5697, -2.1578]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.5614, -2.1386]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.553, -2.1195]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.5447, -2.1003]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.5364, -2.0812]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.528, -2.0621]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.5197, -2.0429]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.5113, -2.0238]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.503, -2.0046]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.4946, -1.9855]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.4863, -1.9663]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.4779, -1.9472]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.4696, -1.9281]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.4612, -1.9089]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.4529, -1.8898]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.4445, -1.8706]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.4362, -1.8515]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.4278, -1.8323]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.4195, -1.8132]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.4112, -1.7941]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.4028, -1.7749]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.3945, -1.7558]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.3861, -1.7366]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.3778, -1.7175]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.3694, -1.6984]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.3611, -1.6792]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.3527, -1.6601]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.3444, -1.6409]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.336, -1.6218]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.3277, -1.6026]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.3193, -1.5835]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.311, -1.5644]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.3026, -1.5452]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.2943, -1.5261]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.2859, -1.5069]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.2776, -1.4878]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.2693, -1.4686]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.2609, -1.4495]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.2526, -1.4304]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.2442, -1.4112]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.2359, -1.3921]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.2275, -1.3729]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.2192, -1.3538]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.2108, -1.3347]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.2025, -1.3155]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.1941, -1.2964]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.1858, -1.2772]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.1774, -1.2581]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.1691, -1.2389]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.1607, -1.2198]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.1524, -1.2007]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.1441, -1.1815]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.1357, -1.1624]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.1274, -1.1432]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.119, -1.1241]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.1107, -1.105]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.1023, -1.0858]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.094, -1.0667]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.0856, -1.0475]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.0773, -1.0284]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.0689, -1.0092]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.0606, -0.9901]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.0522, -0.97096]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.0439, -0.95181]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.0355, -0.93267]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.0272, -0.91353]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.0189, -0.89439]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.0105, -0.87525]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.0022, -0.8561]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-0.99381, -0.83696]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-0.98546, -0.81782]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-0.97712, -0.79868]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-0.96877, -0.77954]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-0.96042, -0.76039]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-0.95208, -0.74125]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-0.94373, -0.72211]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-0.93538, -0.70297]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-0.92704, -0.68383]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-0.91869, -0.66468]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-0.91034, -0.64554]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-0.902, -0.6264]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-0.89365, -0.60726]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-0.8853, -0.58812]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-0.87696, -0.56897]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-0.86861, -0.54983]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-0.86026, -0.53069]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-0.85192, -0.51155]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-0.84357, -0.49241]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-0.83522, -0.47326]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-0.82687, -0.45412]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-0.81853, -0.43498]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-0.81018, -0.41584]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-0.80183, -0.3967]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-0.79349, -0.37755]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-0.78514, -0.35841]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-0.77679, -0.33927]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-0.76845, -0.32013]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-0.7601, -0.30099]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-0.75175, -0.28184]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-0.74341, -0.2627]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-0.73506, -0.24356]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-0.72671, -0.22442]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-0.71837, -0.20528]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-0.71002, -0.18613]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-0.70167, -0.16699]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-0.69333, -0.14785]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-0.68498, -0.12871]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-0.67663, -0.10957]
+Ticker value: 151
+Collision found for path 0x63d44ead0be0 at vertex: 427 with property: [-2.5637, 0.49671]
+------------------------ Printing Labels ------------------------
+Key: Collision Value: 1
+Key: FeasibleCritical Value: 1
+Key: VALID Value: 1
+------------------------ Printing Stats ------------------------
+Key: Critical Value: 2
+Key: Tick Value: 78
+Key: WaitAtVID Value: 427
+Key: WaitDuration Value: 151
+Key: WhichDynamicAgentPath Value: 0
+Key: succConnectionAttempts Value: 67
+Key: totalConnectionAttempts Value: 69
+Wait cost: 151
+endcfg
+Diverse path cost for new path: 0x63d44ea1bcc0 = 33.058129596952398
+Distance to goal after deflection: 16.85593305687236 and deflection path cost: 17.85593305687236
+Social Navigation Strategy returned:  WAIT 
+Debug print --- v:427
+------------------------ Printing Labels ------------------------
+Key: FeasibleCritical Value: 1
+Key: VALID Value: 1
+------------------------ Printing Stats ------------------------
+Key: Critical Value: 2
+Key: WaitDuration Value: 151
+Key: succConnectionAttempts Value: 67
+Key: totalConnectionAttempts Value: 69
+make it wait somehow for 151 ticks at vertex with VID=427 vertex: 427
+Path index = 0 paths size = 3
+For path: 0x63d44ead0be0 found 7 edges.
+Evaluating Edge from vertex: 429 to vertex:69
+endcfg
+cfg size: 304
+Valid path called. Tick limit: 304
+Robot at: [-6.6667, 16.267]
+Dynamic agent 0 at: [-15, -15]
+Dynamic agent 1 at: [13.067, 1.8667]
+Dynamic agent 2 at: [-16.267, 16.267]
+Robot at: [-6.6369, 16.212]
+Dynamic agent 0 at: [-14.969, -14.946]
+Dynamic agent 1 at: [13.108, 1.8198]
+Dynamic agent 2 at: [-16.263, 16.204]
+Robot at: [-6.607, 16.157]
+Dynamic agent 0 at: [-14.938, -14.891]
+Dynamic agent 1 at: [13.15, 1.7729]
+Dynamic agent 2 at: [-16.26, 16.142]
+Robot at: [-6.5772, 16.102]
+Dynamic agent 0 at: [-14.907, -14.837]
+Dynamic agent 1 at: [13.192, 1.726]
+Dynamic agent 2 at: [-16.257, 16.079]
+Robot at: [-6.5474, 16.047]
+Dynamic agent 0 at: [-14.876, -14.782]
+Dynamic agent 1 at: [13.233, 1.6791]
+Dynamic agent 2 at: [-16.253, 16.016]
+Robot at: [-6.5176, 15.992]
+Dynamic agent 0 at: [-14.845, -14.728]
+Dynamic agent 1 at: [13.275, 1.6322]
+Dynamic agent 2 at: [-16.25, 15.954]
+Robot at: [-6.4878, 15.937]
+Dynamic agent 0 at: [-14.814, -14.673]
+Dynamic agent 1 at: [13.317, 1.5853]
+Dynamic agent 2 at: [-16.247, 15.891]
+Robot at: [-6.4579, 15.882]
+Dynamic agent 0 at: [-14.782, -14.619]
+Dynamic agent 1 at: [13.358, 1.5384]
+Dynamic agent 2 at: [-16.243, 15.829]
+Robot at: [-6.4281, 15.827]
+Dynamic agent 0 at: [-14.751, -14.564]
+Dynamic agent 1 at: [13.4, 1.4915]
+Dynamic agent 2 at: [-16.24, 15.766]
+Robot at: [-6.3983, 15.772]
+Dynamic agent 0 at: [-14.72, -14.51]
+Dynamic agent 1 at: [13.442, 1.4446]
+Dynamic agent 2 at: [-16.237, 15.704]
+Robot at: [-6.3685, 15.717]
+Dynamic agent 0 at: [-14.689, -14.456]
+Dynamic agent 1 at: [13.483, 1.3978]
+Dynamic agent 2 at: [-16.233, 15.641]
+Robot at: [-6.3387, 15.662]
+Dynamic agent 0 at: [-14.658, -14.401]
+Dynamic agent 1 at: [13.525, 1.3509]
+Dynamic agent 2 at: [-16.23, 15.578]
+Robot at: [-6.3089, 15.607]
+Dynamic agent 0 at: [-14.627, -14.347]
+Dynamic agent 1 at: [13.567, 1.304]
+Dynamic agent 2 at: [-16.227, 15.516]
+Robot at: [-6.279, 15.552]
+Dynamic agent 0 at: [-14.596, -14.292]
+Dynamic agent 1 at: [13.608, 1.2571]
+Dynamic agent 2 at: [-16.223, 15.453]
+Robot at: [-6.2492, 15.497]
+Dynamic agent 0 at: [-14.565, -14.238]
+Dynamic agent 1 at: [13.65, 1.2102]
+Dynamic agent 2 at: [-16.22, 15.391]
+Robot at: [-6.2194, 15.442]
+Dynamic agent 0 at: [-14.534, -14.183]
+Dynamic agent 1 at: [13.692, 1.1633]
+Dynamic agent 2 at: [-16.217, 15.328]
+Robot at: [-6.1896, 15.386]
+Dynamic agent 0 at: [-14.503, -14.129]
+Dynamic agent 1 at: [13.733, 1.1164]
+Dynamic agent 2 at: [-16.213, 15.266]
+Robot at: [-6.1598, 15.331]
+Dynamic agent 0 at: [-14.472, -14.075]
+Dynamic agent 1 at: [13.775, 1.0695]
+Dynamic agent 2 at: [-16.21, 15.203]
+Robot at: [-6.1299, 15.276]
+Dynamic agent 0 at: [-14.441, -14.02]
+Dynamic agent 1 at: [13.817, 1.0226]
+Dynamic agent 2 at: [-16.206, 15.14]
+Robot at: [-6.1001, 15.221]
+Dynamic agent 0 at: [-14.409, -13.966]
+Dynamic agent 1 at: [13.859, 0.97572]
+Dynamic agent 2 at: [-16.203, 15.078]
+Robot at: [-6.0703, 15.166]
+Dynamic agent 0 at: [-14.378, -13.911]
+Dynamic agent 1 at: [13.9, 0.92883]
+Dynamic agent 2 at: [-16.2, 15.015]
+Robot at: [-6.0405, 15.111]
+Dynamic agent 0 at: [-14.347, -13.857]
+Dynamic agent 1 at: [13.942, 0.88194]
+Dynamic agent 2 at: [-16.196, 14.953]
+Robot at: [-6.0107, 15.056]
+Dynamic agent 0 at: [-14.316, -13.802]
+Dynamic agent 1 at: [13.984, 0.83505]
+Dynamic agent 2 at: [-16.193, 14.89]
+Robot at: [-5.9809, 15.001]
+Dynamic agent 0 at: [-14.285, -13.748]
+Dynamic agent 1 at: [14.025, 0.78816]
+Dynamic agent 2 at: [-16.19, 14.828]
+Robot at: [-5.951, 14.946]
+Dynamic agent 0 at: [-14.254, -13.693]
+Dynamic agent 1 at: [14.067, 0.74127]
+Dynamic agent 2 at: [-16.186, 14.765]
+Robot at: [-5.9212, 14.891]
+Dynamic agent 0 at: [-14.223, -13.639]
+Dynamic agent 1 at: [14.109, 0.69437]
+Dynamic agent 2 at: [-16.183, 14.702]
+Robot at: [-5.8914, 14.836]
+Dynamic agent 0 at: [-14.192, -13.585]
+Dynamic agent 1 at: [14.15, 0.64748]
+Dynamic agent 2 at: [-16.18, 14.64]
+Robot at: [-5.8616, 14.781]
+Dynamic agent 0 at: [-14.161, -13.53]
+Dynamic agent 1 at: [14.192, 0.60059]
+Dynamic agent 2 at: [-16.176, 14.577]
+Robot at: [-5.8318, 14.726]
+Dynamic agent 0 at: [-14.13, -13.476]
+Dynamic agent 1 at: [14.234, 0.5537]
+Dynamic agent 2 at: [-16.173, 14.515]
+Robot at: [-5.8019, 14.671]
+Dynamic agent 0 at: [-14.099, -13.421]
+Dynamic agent 1 at: [14.275, 0.50681]
+Dynamic agent 2 at: [-16.17, 14.452]
+Robot at: [-5.7721, 14.616]
+Dynamic agent 0 at: [-14.068, -13.367]
+Dynamic agent 1 at: [14.317, 0.45991]
+Dynamic agent 2 at: [-16.166, 14.39]
+Robot at: [-5.7423, 14.561]
+Dynamic agent 0 at: [-14.037, -13.312]
+Dynamic agent 1 at: [14.359, 0.41302]
+Dynamic agent 2 at: [-16.163, 14.327]
+Robot at: [-5.7125, 14.506]
+Dynamic agent 0 at: [-14.005, -13.258]
+Dynamic agent 1 at: [14.4, 0.36613]
+Dynamic agent 2 at: [-16.16, 14.264]
+Robot at: [-5.6827, 14.451]
+Dynamic agent 0 at: [-13.974, -13.203]
+Dynamic agent 1 at: [14.442, 0.31924]
+Dynamic agent 2 at: [-16.156, 14.202]
+Robot at: [-5.6529, 14.396]
+Dynamic agent 0 at: [-13.943, -13.149]
+Dynamic agent 1 at: [14.484, 0.27235]
+Dynamic agent 2 at: [-16.153, 14.139]
+Robot at: [-5.623, 14.341]
+Dynamic agent 0 at: [-13.912, -13.095]
+Dynamic agent 1 at: [14.525, 0.22545]
+Dynamic agent 2 at: [-16.15, 14.077]
+Robot at: [-5.5932, 14.286]
+Dynamic agent 0 at: [-13.881, -13.04]
+Dynamic agent 1 at: [14.567, 0.17856]
+Dynamic agent 2 at: [-16.146, 14.014]
+Robot at: [-5.5634, 14.231]
+Dynamic agent 0 at: [-13.85, -12.986]
+Dynamic agent 1 at: [14.609, 0.13167]
+Dynamic agent 2 at: [-16.143, 13.952]
+Robot at: [-5.5336, 14.176]
+Dynamic agent 0 at: [-13.819, -12.931]
+Dynamic agent 1 at: [14.65, 0.084779]
+Dynamic agent 2 at: [-16.14, 13.889]
+Robot at: [-5.5038, 14.121]
+Dynamic agent 0 at: [-13.788, -12.877]
+Dynamic agent 1 at: [14.692, 0.037887]
+Dynamic agent 2 at: [-16.136, 13.826]
+Robot at: [-5.474, 14.066]
+Dynamic agent 0 at: [-13.757, -12.822]
+Dynamic agent 1 at: [14.734, -0.009005]
+Dynamic agent 2 at: [-16.133, 13.764]
+Robot at: [-5.4441, 14.011]
+Dynamic agent 0 at: [-13.726, -12.768]
+Dynamic agent 1 at: [14.775, -0.055897]
+Dynamic agent 2 at: [-16.13, 13.701]
+Robot at: [-5.4143, 13.956]
+Dynamic agent 0 at: [-13.695, -12.714]
+Dynamic agent 1 at: [14.817, -0.10279]
+Dynamic agent 2 at: [-16.126, 13.639]
+Robot at: [-5.3845, 13.901]
+Dynamic agent 0 at: [-13.664, -12.659]
+Dynamic agent 1 at: [14.859, -0.14968]
+Dynamic agent 2 at: [-16.123, 13.576]
+Robot at: [-5.3547, 13.846]
+Dynamic agent 0 at: [-13.632, -12.605]
+Dynamic agent 1 at: [14.9, -0.19657]
+Dynamic agent 2 at: [-16.12, 13.514]
+Robot at: [-5.3249, 13.791]
+Dynamic agent 0 at: [-13.601, -12.55]
+Dynamic agent 1 at: [14.942, -0.24346]
+Dynamic agent 2 at: [-16.116, 13.451]
+Robot at: [-5.295, 13.736]
+Dynamic agent 0 at: [-13.57, -12.496]
+Dynamic agent 1 at: [14.984, -0.29036]
+Dynamic agent 2 at: [-16.113, 13.388]
+Robot at: [-5.2652, 13.681]
+Dynamic agent 0 at: [-13.539, -12.441]
+Dynamic agent 1 at: [15.025, -0.33725]
+Dynamic agent 2 at: [-16.109, 13.326]
+Robot at: [-5.2354, 13.626]
+Dynamic agent 0 at: [-13.508, -12.387]
+Dynamic agent 1 at: [15.067, -0.38414]
+Dynamic agent 2 at: [-16.106, 13.263]
+Robot at: [-5.2056, 13.571]
+Dynamic agent 0 at: [-13.477, -12.332]
+Dynamic agent 1 at: [15.109, -0.43103]
+Dynamic agent 2 at: [-16.103, 13.201]
+Robot at: [-5.1758, 13.516]
+Dynamic agent 0 at: [-13.446, -12.278]
+Dynamic agent 1 at: [15.15, -0.47792]
+Dynamic agent 2 at: [-16.099, 13.138]
+Robot at: [-5.146, 13.461]
+Dynamic agent 0 at: [-13.415, -12.224]
+Dynamic agent 1 at: [15.192, -0.52482]
+Dynamic agent 2 at: [-16.096, 13.076]
+Robot at: [-5.1161, 13.406]
+Dynamic agent 0 at: [-13.384, -12.169]
+Dynamic agent 1 at: [15.234, -0.57171]
+Dynamic agent 2 at: [-16.093, 13.013]
+Robot at: [-5.0863, 13.351]
+Dynamic agent 0 at: [-13.353, -12.115]
+Dynamic agent 1 at: [15.275, -0.6186]
+Dynamic agent 2 at: [-16.089, 12.95]
+Robot at: [-5.0565, 13.296]
+Dynamic agent 0 at: [-13.322, -12.06]
+Dynamic agent 1 at: [15.317, -0.66549]
+Dynamic agent 2 at: [-16.086, 12.888]
+Robot at: [-5.0267, 13.241]
+Dynamic agent 0 at: [-13.291, -12.006]
+Dynamic agent 1 at: [15.359, -0.71238]
+Dynamic agent 2 at: [-16.083, 12.825]
+Robot at: [-4.9969, 13.186]
+Dynamic agent 0 at: [-13.26, -11.951]
+Dynamic agent 1 at: [15.4, -0.75927]
+Dynamic agent 2 at: [-16.079, 12.763]
+Robot at: [-4.967, 13.131]
+Dynamic agent 0 at: [-13.228, -11.897]
+Dynamic agent 1 at: [15.442, -0.80617]
+Dynamic agent 2 at: [-16.076, 12.7]
+Robot at: [-4.9372, 13.076]
+Dynamic agent 0 at: [-13.197, -11.843]
+Dynamic agent 1 at: [15.484, -0.85306]
+Dynamic agent 2 at: [-16.073, 12.638]
+Robot at: [-4.9074, 13.021]
+Dynamic agent 0 at: [-13.166, -11.788]
+Dynamic agent 1 at: [15.526, -0.89995]
+Dynamic agent 2 at: [-16.069, 12.575]
+Robot at: [-4.8776, 12.966]
+Dynamic agent 0 at: [-13.135, -11.734]
+Dynamic agent 1 at: [15.567, -0.94684]
+Dynamic agent 2 at: [-16.066, 12.512]
+Robot at: [-4.8478, 12.911]
+Dynamic agent 0 at: [-13.104, -11.679]
+Dynamic agent 1 at: [15.609, -0.99373]
+Dynamic agent 2 at: [-16.063, 12.45]
+Robot at: [-4.818, 12.856]
+Dynamic agent 0 at: [-13.073, -11.625]
+Dynamic agent 1 at: [15.651, -1.0406]
+Dynamic agent 2 at: [-16.059, 12.387]
+Robot at: [-4.7881, 12.801]
+Dynamic agent 0 at: [-13.042, -11.57]
+Dynamic agent 1 at: [15.692, -1.0875]
+Dynamic agent 2 at: [-16.056, 12.325]
+Robot at: [-4.7583, 12.746]
+Dynamic agent 0 at: [-13.011, -11.516]
+Dynamic agent 1 at: [15.734, -1.1344]
+Dynamic agent 2 at: [-16.053, 12.262]
+Robot at: [-4.7285, 12.691]
+Dynamic agent 0 at: [-12.98, -11.461]
+Dynamic agent 1 at: [15.776, -1.1813]
+Dynamic agent 2 at: [-16.049, 12.2]
+Robot at: [-4.6987, 12.636]
+Dynamic agent 0 at: [-12.949, -11.407]
+Dynamic agent 1 at: [15.817, -1.2282]
+Dynamic agent 2 at: [-16.046, 12.137]
+Robot at: [-4.6689, 12.581]
+Dynamic agent 0 at: [-12.918, -11.353]
+Dynamic agent 1 at: [15.859, -1.2751]
+Dynamic agent 2 at: [-16.038, 12.075]
+Robot at: [-4.639, 12.526]
+Dynamic agent 0 at: [-12.887, -11.298]
+Dynamic agent 1 at: [15.901, -1.322]
+Dynamic agent 2 at: [-16.027, 12.013]
+Robot at: [-4.6092, 12.471]
+Dynamic agent 0 at: [-12.856, -11.244]
+Dynamic agent 1 at: [15.942, -1.3689]
+Dynamic agent 2 at: [-16.016, 11.951]
+Robot at: [-4.5794, 12.416]
+Dynamic agent 0 at: [-12.824, -11.189]
+Dynamic agent 1 at: [15.984, -1.4158]
+Dynamic agent 2 at: [-16.005, 11.89]
+Robot at: [-4.5496, 12.361]
+Dynamic agent 0 at: [-12.793, -11.135]
+Dynamic agent 1 at: [16.026, -1.4627]
+Dynamic agent 2 at: [-15.994, 11.828]
+Robot at: [-4.5198, 12.306]
+Dynamic agent 0 at: [-12.762, -11.08]
+Dynamic agent 1 at: [16.067, -1.5095]
+Dynamic agent 2 at: [-15.983, 11.766]
+Robot at: [-4.49, 12.251]
+Dynamic agent 0 at: [-12.731, -11.026]
+Dynamic agent 1 at: [16.109, -1.5564]
+Dynamic agent 2 at: [-15.972, 11.704]
+Robot at: [-4.4601, 12.196]
+Dynamic agent 0 at: [-12.7, -10.971]
+Dynamic agent 1 at: [16.151, -1.6033]
+Dynamic agent 2 at: [-15.961, 11.643]
+Robot at: [-4.4303, 12.141]
+Dynamic agent 0 at: [-12.669, -10.917]
+Dynamic agent 1 at: [16.192, -1.6502]
+Dynamic agent 2 at: [-15.95, 11.581]
+Robot at: [-4.4005, 12.086]
+Dynamic agent 0 at: [-12.638, -10.863]
+Dynamic agent 1 at: [16.234, -1.6971]
+Dynamic agent 2 at: [-15.939, 11.519]
+Robot at: [-4.3707, 12.031]
+Dynamic agent 0 at: [-12.607, -10.808]
+Dynamic agent 1 at: [16.276, -1.744]
+Dynamic agent 2 at: [-15.928, 11.458]
+Robot at: [-4.3409, 11.976]
+Dynamic agent 0 at: [-12.576, -10.754]
+Dynamic agent 1 at: [16.317, -1.7909]
+Dynamic agent 2 at: [-15.917, 11.396]
+Robot at: [-4.3111, 11.921]
+Dynamic agent 0 at: [-12.545, -10.699]
+Dynamic agent 1 at: [16.359, -1.8378]
+Dynamic agent 2 at: [-15.906, 11.334]
+Robot at: [-4.2812, 11.866]
+Dynamic agent 0 at: [-12.514, -10.645]
+Dynamic agent 1 at: [16.401, -1.8847]
+Dynamic agent 2 at: [-15.895, 11.272]
+Robot at: [-4.2514, 11.811]
+Dynamic agent 0 at: [-12.483, -10.59]
+Dynamic agent 1 at: [16.442, -1.9316]
+Dynamic agent 2 at: [-15.884, 11.211]
+Robot at: [-4.2216, 11.756]
+Dynamic agent 0 at: [-12.451, -10.536]
+Dynamic agent 1 at: [16.484, -1.9785]
+Dynamic agent 2 at: [-15.873, 11.149]
+Robot at: [-4.1918, 11.701]
+Dynamic agent 0 at: [-12.42, -10.482]
+Dynamic agent 1 at: [16.526, -2.0254]
+Dynamic agent 2 at: [-15.862, 11.087]
+Robot at: [-4.162, 11.646]
+Dynamic agent 0 at: [-12.389, -10.427]
+Dynamic agent 1 at: [16.567, -2.0722]
+Dynamic agent 2 at: [-15.851, 11.025]
+Robot at: [-4.1321, 11.591]
+Dynamic agent 0 at: [-12.358, -10.373]
+Dynamic agent 1 at: [16.609, -2.1191]
+Dynamic agent 2 at: [-15.84, 10.964]
+Robot at: [-4.1023, 11.536]
+Dynamic agent 0 at: [-12.327, -10.318]
+Dynamic agent 1 at: [16.651, -2.166]
+Dynamic agent 2 at: [-15.83, 10.902]
+Robot at: [-4.0725, 11.481]
+Dynamic agent 0 at: [-12.296, -10.264]
+Dynamic agent 1 at: [16.692, -2.2129]
+Dynamic agent 2 at: [-15.819, 10.84]
+Robot at: [-4.0427, 11.426]
+Dynamic agent 0 at: [-12.265, -10.209]
+Dynamic agent 1 at: [16.734, -2.2598]
+Dynamic agent 2 at: [-15.808, 10.778]
+Robot at: [-4.0129, 11.371]
+Dynamic agent 0 at: [-12.234, -10.155]
+Dynamic agent 1 at: [16.776, -2.3067]
+Dynamic agent 2 at: [-15.797, 10.717]
+Robot at: [-3.9831, 11.316]
+Dynamic agent 0 at: [-12.203, -10.1]
+Dynamic agent 1 at: [16.817, -2.3536]
+Dynamic agent 2 at: [-15.786, 10.655]
+Robot at: [-3.9532, 11.261]
+Dynamic agent 0 at: [-12.172, -10.046]
+Dynamic agent 1 at: [16.859, -2.4005]
+Dynamic agent 2 at: [-15.775, 10.593]
+Robot at: [-3.9234, 11.205]
+Dynamic agent 0 at: [-12.141, -9.9916]
+Dynamic agent 1 at: [16.901, -2.4474]
+Dynamic agent 2 at: [-15.764, 10.532]
+Robot at: [-3.8936, 11.15]
+Dynamic agent 0 at: [-12.11, -9.9371]
+Dynamic agent 1 at: [16.942, -2.4943]
+Dynamic agent 2 at: [-15.753, 10.47]
+Robot at: [-3.8638, 11.095]
+Dynamic agent 0 at: [-12.079, -9.8827]
+Dynamic agent 1 at: [16.984, -2.5412]
+Dynamic agent 2 at: [-15.742, 10.408]
+Robot at: [-3.834, 11.04]
+Dynamic agent 0 at: [-12.047, -9.8283]
+Dynamic agent 1 at: [17.026, -2.5881]
+Dynamic agent 2 at: [-15.731, 10.346]
+Robot at: [-3.8041, 10.985]
+Dynamic agent 0 at: [-12.016, -9.7738]
+Dynamic agent 1 at: [17.067, -2.6349]
+Dynamic agent 2 at: [-15.72, 10.285]
+Robot at: [-3.7743, 10.93]
+Dynamic agent 0 at: [-11.985, -9.7194]
+Dynamic agent 1 at: [17.109, -2.6818]
+Dynamic agent 2 at: [-15.709, 10.223]
+Robot at: [-3.7445, 10.875]
+Dynamic agent 0 at: [-11.93, -9.6909]
+Dynamic agent 1 at: [17.151, -2.7287]
+Dynamic agent 2 at: [-15.698, 10.161]
+Robot at: [-3.7147, 10.82]
+Dynamic agent 0 at: [-11.874, -9.6624]
+Dynamic agent 1 at: [17.192, -2.7756]
+Dynamic agent 2 at: [-15.687, 10.099]
+Robot at: [-3.6849, 10.765]
+Dynamic agent 0 at: [-11.818, -9.6339]
+Dynamic agent 1 at: [17.234, -2.8225]
+Dynamic agent 2 at: [-15.676, 10.038]
+Robot at: [-3.6551, 10.71]
+Dynamic agent 0 at: [-11.762, -9.6054]
+Dynamic agent 1 at: [17.276, -2.8694]
+Dynamic agent 2 at: [-15.665, 9.9759]
+Edge from vertex: 429 to vertex:69is valid.
+Evaluating Edge from vertex: 69 to vertex:351
+endcfg
+cfg size: 266
+Valid path called. Tick limit: 266
+Robot at: [-3.6551, 10.71]
+Dynamic agent 0 at: [-11.744, -9.5959]
+Dynamic agent 1 at: [17.29, -2.885]
+Dynamic agent 2 at: [-15.662, 9.9553]
+Robot at: [-3.644, 10.649]
+Dynamic agent 0 at: [-11.688, -9.5675]
+Dynamic agent 1 at: [17.331, -2.9319]
+Dynamic agent 2 at: [-15.651, 9.8936]
+Robot at: [-3.633, 10.587]
+Dynamic agent 0 at: [-11.632, -9.539]
+Dynamic agent 1 at: [17.373, -2.9788]
+Dynamic agent 2 at: [-15.64, 9.8318]
+Robot at: [-3.622, 10.526]
+Dynamic agent 0 at: [-11.577, -9.5105]
+Dynamic agent 1 at: [17.415, -3.0257]
+Dynamic agent 2 at: [-15.629, 9.7701]
+Robot at: [-3.6109, 10.464]
+Dynamic agent 0 at: [-11.521, -9.482]
+Dynamic agent 1 at: [17.456, -3.0726]
+Dynamic agent 2 at: [-15.618, 9.7084]
+Robot at: [-3.5999, 10.403]
+Dynamic agent 0 at: [-11.465, -9.4535]
+Dynamic agent 1 at: [17.498, -3.1195]
+Dynamic agent 2 at: [-15.607, 9.6466]
+Robot at: [-3.5888, 10.341]
+Dynamic agent 0 at: [-11.409, -9.425]
+Dynamic agent 1 at: [17.54, -3.1664]
+Dynamic agent 2 at: [-15.596, 9.5849]
+Robot at: [-3.5778, 10.279]
+Dynamic agent 0 at: [-11.354, -9.3965]
+Dynamic agent 1 at: [17.581, -3.2133]
+Dynamic agent 2 at: [-15.585, 9.5232]
+Robot at: [-3.5668, 10.218]
+Dynamic agent 0 at: [-11.298, -9.3681]
+Dynamic agent 1 at: [17.623, -3.2602]
+Dynamic agent 2 at: [-15.574, 9.4614]
+Robot at: [-3.5557, 10.156]
+Dynamic agent 0 at: [-11.242, -9.3396]
+Dynamic agent 1 at: [17.665, -3.3071]
+Dynamic agent 2 at: [-15.563, 9.3997]
+Robot at: [-3.5447, 10.095]
+Dynamic agent 0 at: [-11.187, -9.3111]
+Dynamic agent 1 at: [17.706, -3.354]
+Dynamic agent 2 at: [-15.552, 9.3379]
+Robot at: [-3.5337, 10.033]
+Dynamic agent 0 at: [-11.131, -9.2826]
+Dynamic agent 1 at: [17.748, -3.4009]
+Dynamic agent 2 at: [-15.541, 9.2762]
+Robot at: [-3.5226, 9.9717]
+Dynamic agent 0 at: [-11.075, -9.2541]
+Dynamic agent 1 at: [17.79, -3.4477]
+Dynamic agent 2 at: [-15.53, 9.2145]
+Robot at: [-3.5116, 9.9101]
+Dynamic agent 0 at: [-11.019, -9.2256]
+Dynamic agent 1 at: [17.832, -3.4946]
+Dynamic agent 2 at: [-15.519, 9.1527]
+Robot at: [-3.5006, 9.8486]
+Dynamic agent 0 at: [-10.964, -9.1971]
+Dynamic agent 1 at: [17.873, -3.5415]
+Dynamic agent 2 at: [-15.508, 9.091]
+Robot at: [-3.4895, 9.787]
+Dynamic agent 0 at: [-10.908, -9.1687]
+Dynamic agent 1 at: [17.915, -3.5884]
+Dynamic agent 2 at: [-15.498, 9.0293]
+Robot at: [-3.4785, 9.7255]
+Dynamic agent 0 at: [-10.852, -9.1402]
+Dynamic agent 1 at: [17.957, -3.6353]
+Dynamic agent 2 at: [-15.487, 8.9675]
+Robot at: [-3.4675, 9.6639]
+Dynamic agent 0 at: [-10.796, -9.1117]
+Dynamic agent 1 at: [17.973, -3.6843]
+Dynamic agent 2 at: [-15.476, 8.9058]
+Robot at: [-3.4564, 9.6023]
+Dynamic agent 0 at: [-10.741, -9.0832]
+Dynamic agent 1 at: [17.94, -3.7373]
+Dynamic agent 2 at: [-15.465, 8.8441]
+Robot at: [-3.4454, 9.5408]
+Dynamic agent 0 at: [-10.685, -9.0547]
+Dynamic agent 1 at: [17.907, -3.7903]
+Dynamic agent 2 at: [-15.454, 8.7823]
+Robot at: [-3.4344, 9.4792]
+Dynamic agent 0 at: [-10.629, -9.0262]
+Dynamic agent 1 at: [17.875, -3.8434]
+Dynamic agent 2 at: [-15.443, 8.7206]
+Robot at: [-3.4233, 9.4177]
+Dynamic agent 0 at: [-10.574, -8.9977]
+Dynamic agent 1 at: [17.842, -3.8964]
+Dynamic agent 2 at: [-15.432, 8.6589]
+Robot at: [-3.4123, 9.3561]
+Dynamic agent 0 at: [-10.518, -8.9693]
+Dynamic agent 1 at: [17.809, -3.9494]
+Dynamic agent 2 at: [-15.421, 8.5971]
+Robot at: [-3.4012, 9.2946]
+Dynamic agent 0 at: [-10.462, -8.9408]
+Dynamic agent 1 at: [17.776, -4.0025]
+Dynamic agent 2 at: [-15.41, 8.5354]
+Robot at: [-3.3902, 9.233]
+Dynamic agent 0 at: [-10.406, -8.9123]
+Dynamic agent 1 at: [17.743, -4.0555]
+Dynamic agent 2 at: [-15.399, 8.4736]
+Robot at: [-3.3792, 9.1714]
+Dynamic agent 0 at: [-10.351, -8.8838]
+Dynamic agent 1 at: [17.71, -4.1085]
+Dynamic agent 2 at: [-15.388, 8.4119]
+Robot at: [-3.3681, 9.1099]
+Dynamic agent 0 at: [-10.295, -8.8553]
+Dynamic agent 1 at: [17.677, -4.1616]
+Dynamic agent 2 at: [-15.377, 8.3502]
+Robot at: [-3.3571, 9.0483]
+Dynamic agent 0 at: [-10.239, -8.8268]
+Dynamic agent 1 at: [17.644, -4.2146]
+Dynamic agent 2 at: [-15.366, 8.2884]
+Robot at: [-3.3461, 8.9868]
+Dynamic agent 0 at: [-10.183, -8.7983]
+Dynamic agent 1 at: [17.611, -4.2677]
+Dynamic agent 2 at: [-15.355, 8.2267]
+Robot at: [-3.335, 8.9252]
+Dynamic agent 0 at: [-10.128, -8.7699]
+Dynamic agent 1 at: [17.578, -4.3207]
+Dynamic agent 2 at: [-15.344, 8.165]
+Robot at: [-3.324, 8.8637]
+Dynamic agent 0 at: [-10.072, -8.7414]
+Dynamic agent 1 at: [17.545, -4.3737]
+Dynamic agent 2 at: [-15.333, 8.1032]
+Robot at: [-3.313, 8.8021]
+Dynamic agent 0 at: [-10.016, -8.7129]
+Dynamic agent 1 at: [17.512, -4.4268]
+Dynamic agent 2 at: [-15.322, 8.0415]
+Robot at: [-3.3019, 8.7406]
+Dynamic agent 0 at: [-9.9605, -8.6844]
+Dynamic agent 1 at: [17.479, -4.4798]
+Dynamic agent 2 at: [-15.311, 7.9798]
+Robot at: [-3.2909, 8.679]
+Dynamic agent 0 at: [-9.9048, -8.6559]
+Dynamic agent 1 at: [17.446, -4.5328]
+Dynamic agent 2 at: [-15.3, 7.918]
+Robot at: [-3.2799, 8.6174]
+Dynamic agent 0 at: [-9.8491, -8.6274]
+Dynamic agent 1 at: [17.413, -4.5859]
+Dynamic agent 2 at: [-15.29, 7.8563]
+Robot at: [-3.2688, 8.5559]
+Dynamic agent 0 at: [-9.7933, -8.5989]
+Dynamic agent 1 at: [17.381, -4.6389]
+Dynamic agent 2 at: [-15.279, 7.7945]
+Robot at: [-3.2578, 8.4943]
+Dynamic agent 0 at: [-9.7376, -8.5705]
+Dynamic agent 1 at: [17.348, -4.6919]
+Dynamic agent 2 at: [-15.268, 7.7328]
+Robot at: [-3.2468, 8.4328]
+Dynamic agent 0 at: [-9.6819, -8.542]
+Dynamic agent 1 at: [17.315, -4.745]
+Dynamic agent 2 at: [-15.257, 7.6711]
+Robot at: [-3.2357, 8.3712]
+Dynamic agent 0 at: [-9.6261, -8.5135]
+Dynamic agent 1 at: [17.282, -4.798]
+Dynamic agent 2 at: [-15.246, 7.6093]
+Robot at: [-3.2247, 8.3097]
+Dynamic agent 0 at: [-9.5704, -8.485]
+Dynamic agent 1 at: [17.249, -4.8511]
+Dynamic agent 2 at: [-15.235, 7.5476]
+Robot at: [-3.2136, 8.2481]
+Dynamic agent 0 at: [-9.5147, -8.4565]
+Dynamic agent 1 at: [17.216, -4.9041]
+Dynamic agent 2 at: [-15.224, 7.4859]
+Robot at: [-3.2026, 8.1865]
+Dynamic agent 0 at: [-9.459, -8.428]
+Dynamic agent 1 at: [17.183, -4.9571]
+Dynamic agent 2 at: [-15.213, 7.4241]
+Robot at: [-3.1916, 8.125]
+Dynamic agent 0 at: [-9.4032, -8.3995]
+Dynamic agent 1 at: [17.15, -5.0102]
+Dynamic agent 2 at: [-15.202, 7.3624]
+Robot at: [-3.1805, 8.0634]
+Dynamic agent 0 at: [-9.3475, -8.3711]
+Dynamic agent 1 at: [17.117, -5.0632]
+Dynamic agent 2 at: [-15.191, 7.3007]
+Robot at: [-3.1695, 8.0019]
+Dynamic agent 0 at: [-9.2918, -8.3426]
+Dynamic agent 1 at: [17.084, -5.1162]
+Dynamic agent 2 at: [-15.18, 7.2389]
+Robot at: [-3.1585, 7.9403]
+Dynamic agent 0 at: [-9.2361, -8.3141]
+Dynamic agent 1 at: [17.051, -5.1693]
+Dynamic agent 2 at: [-15.169, 7.1772]
+Robot at: [-3.1474, 7.8788]
+Dynamic agent 0 at: [-9.1803, -8.2856]
+Dynamic agent 1 at: [17.018, -5.2223]
+Dynamic agent 2 at: [-15.161, 7.1152]
+Robot at: [-3.1364, 7.8172]
+Dynamic agent 0 at: [-9.1246, -8.2571]
+Dynamic agent 1 at: [16.985, -5.2753]
+Dynamic agent 2 at: [-15.153, 7.053]
+Robot at: [-3.1254, 7.7556]
+Dynamic agent 0 at: [-9.0689, -8.2286]
+Dynamic agent 1 at: [16.952, -5.3284]
+Dynamic agent 2 at: [-15.146, 6.9908]
+Robot at: [-3.1143, 7.6941]
+Dynamic agent 0 at: [-9.0131, -8.2001]
+Dynamic agent 1 at: [16.92, -5.3814]
+Dynamic agent 2 at: [-15.139, 6.9286]
+Robot at: [-3.1033, 7.6325]
+Dynamic agent 0 at: [-8.9574, -8.1717]
+Dynamic agent 1 at: [16.887, -5.4345]
+Dynamic agent 2 at: [-15.132, 6.8665]
+Robot at: [-3.0923, 7.571]
+Dynamic agent 0 at: [-8.9017, -8.1432]
+Dynamic agent 1 at: [16.854, -5.4875]
+Dynamic agent 2 at: [-15.124, 6.8043]
+Robot at: [-3.0812, 7.5094]
+Dynamic agent 0 at: [-8.846, -8.1147]
+Dynamic agent 1 at: [16.821, -5.5405]
+Dynamic agent 2 at: [-15.117, 6.7421]
+Robot at: [-3.0702, 7.4479]
+Dynamic agent 0 at: [-8.7902, -8.0862]
+Dynamic agent 1 at: [16.788, -5.5936]
+Dynamic agent 2 at: [-15.11, 6.68]
+Robot at: [-3.0592, 7.3863]
+Dynamic agent 0 at: [-8.7345, -8.0577]
+Dynamic agent 1 at: [16.755, -5.6466]
+Dynamic agent 2 at: [-15.103, 6.6178]
+Robot at: [-3.0481, 7.3247]
+Dynamic agent 0 at: [-8.6788, -8.0292]
+Dynamic agent 1 at: [16.722, -5.6996]
+Dynamic agent 2 at: [-15.095, 6.5556]
+Robot at: [-3.0371, 7.2632]
+Dynamic agent 0 at: [-8.6231, -8.0007]
+Dynamic agent 1 at: [16.689, -5.7527]
+Dynamic agent 2 at: [-15.088, 6.4935]
+Robot at: [-3.026, 7.2016]
+Dynamic agent 0 at: [-8.5673, -7.9723]
+Dynamic agent 1 at: [16.656, -5.8057]
+Dynamic agent 2 at: [-15.081, 6.4313]
+Robot at: [-3.015, 7.1401]
+Dynamic agent 0 at: [-8.5116, -7.9438]
+Dynamic agent 1 at: [16.623, -5.8588]
+Dynamic agent 2 at: [-15.073, 6.3691]
+Robot at: [-3.004, 7.0785]
+Dynamic agent 0 at: [-8.4559, -7.9153]
+Dynamic agent 1 at: [16.59, -5.9118]
+Dynamic agent 2 at: [-15.066, 6.307]
+Robot at: [-2.9929, 7.017]
+Dynamic agent 0 at: [-8.4001, -7.8868]
+Dynamic agent 1 at: [16.557, -5.9648]
+Dynamic agent 2 at: [-15.059, 6.2448]
+Robot at: [-2.9819, 6.9554]
+Dynamic agent 0 at: [-8.3444, -7.8583]
+Dynamic agent 1 at: [16.524, -6.0179]
+Dynamic agent 2 at: [-15.052, 6.1826]
+Robot at: [-2.9709, 6.8938]
+Dynamic agent 0 at: [-8.2887, -7.8298]
+Dynamic agent 1 at: [16.491, -6.0709]
+Dynamic agent 2 at: [-15.044, 6.1204]
+Robot at: [-2.9598, 6.8323]
+Dynamic agent 0 at: [-8.233, -7.8014]
+Dynamic agent 1 at: [16.458, -6.1239]
+Dynamic agent 2 at: [-15.037, 6.0583]
+Robot at: [-2.9488, 6.7707]
+Dynamic agent 0 at: [-8.1772, -7.7729]
+Dynamic agent 1 at: [16.426, -6.177]
+Dynamic agent 2 at: [-15.03, 5.9961]
+Robot at: [-2.9378, 6.7092]
+Dynamic agent 0 at: [-8.1215, -7.7444]
+Dynamic agent 1 at: [16.393, -6.23]
+Dynamic agent 2 at: [-15.023, 5.9339]
+Robot at: [-2.9267, 6.6476]
+Dynamic agent 0 at: [-8.0658, -7.7159]
+Dynamic agent 1 at: [16.36, -6.283]
+Dynamic agent 2 at: [-15.015, 5.8718]
+Robot at: [-2.9157, 6.5861]
+Dynamic agent 0 at: [-8.0101, -7.6874]
+Dynamic agent 1 at: [16.327, -6.3361]
+Dynamic agent 2 at: [-15.008, 5.8096]
+Robot at: [-2.9047, 6.5245]
+Dynamic agent 0 at: [-7.9543, -7.6589]
+Dynamic agent 1 at: [16.294, -6.3891]
+Dynamic agent 2 at: [-15.001, 5.7474]
+Robot at: [-2.8936, 6.4629]
+Dynamic agent 0 at: [-7.8986, -7.6304]
+Dynamic agent 1 at: [16.261, -6.4422]
+Dynamic agent 2 at: [-14.994, 5.6853]
+Robot at: [-2.8826, 6.4014]
+Dynamic agent 0 at: [-7.8429, -7.602]
+Dynamic agent 1 at: [16.228, -6.4952]
+Dynamic agent 2 at: [-14.986, 5.6231]
+Robot at: [-2.8716, 6.3398]
+Dynamic agent 0 at: [-7.7871, -7.5735]
+Dynamic agent 1 at: [16.195, -6.5482]
+Dynamic agent 2 at: [-14.979, 5.5609]
+Robot at: [-2.8605, 6.2783]
+Dynamic agent 0 at: [-7.7314, -7.545]
+Dynamic agent 1 at: [16.162, -6.6013]
+Dynamic agent 2 at: [-14.972, 5.4987]
+Robot at: [-2.8495, 6.2167]
+Dynamic agent 0 at: [-7.6757, -7.5165]
+Dynamic agent 1 at: [16.129, -6.6543]
+Dynamic agent 2 at: [-14.965, 5.4366]
+Robot at: [-2.8385, 6.1552]
+Dynamic agent 0 at: [-7.62, -7.488]
+Dynamic agent 1 at: [16.11, -6.7129]
+Dynamic agent 2 at: [-14.957, 5.3744]
+Robot at: [-2.8274, 6.0936]
+Dynamic agent 0 at: [-7.5642, -7.4595]
+Dynamic agent 1 at: [16.098, -6.7742]
+Dynamic agent 2 at: [-14.95, 5.3122]
+Robot at: [-2.8164, 6.032]
+Dynamic agent 0 at: [-7.5085, -7.431]
+Dynamic agent 1 at: [16.086, -6.8356]
+Dynamic agent 2 at: [-14.943, 5.2501]
+Robot at: [-2.8053, 5.9705]
+Dynamic agent 0 at: [-7.4528, -7.4026]
+Dynamic agent 1 at: [16.073, -6.8969]
+Dynamic agent 2 at: [-14.936, 5.1879]
+Robot at: [-2.7943, 5.9089]
+Dynamic agent 0 at: [-7.397, -7.3741]
+Dynamic agent 1 at: [16.061, -6.9582]
+Dynamic agent 2 at: [-14.928, 5.1257]
+Robot at: [-2.7833, 5.8474]
+Dynamic agent 0 at: [-7.3413, -7.3456]
+Dynamic agent 1 at: [16.049, -7.0196]
+Dynamic agent 2 at: [-14.921, 5.0636]
+Robot at: [-2.7722, 5.7858]
+Dynamic agent 0 at: [-7.2856, -7.3171]
+Dynamic agent 1 at: [16.037, -7.0809]
+Dynamic agent 2 at: [-14.914, 5.0014]
+Robot at: [-2.7612, 5.7243]
+Dynamic agent 0 at: [-7.2299, -7.2886]
+Dynamic agent 1 at: [16.024, -7.1423]
+Dynamic agent 2 at: [-14.906, 4.9392]
+Robot at: [-2.7502, 5.6627]
+Dynamic agent 0 at: [-7.1741, -7.2601]
+Dynamic agent 1 at: [16.012, -7.2036]
+Dynamic agent 2 at: [-14.899, 4.877]
+Robot at: [-2.7391, 5.6011]
+Dynamic agent 0 at: [-7.1184, -7.2316]
+Dynamic agent 1 at: [16, -7.2649]
+Dynamic agent 2 at: [-14.892, 4.8149]
+Robot at: [-2.7281, 5.5396]
+Dynamic agent 0 at: [-7.0627, -7.2032]
+Dynamic agent 1 at: [15.988, -7.3263]
+Dynamic agent 2 at: [-14.885, 4.7527]
+Robot at: [-2.7171, 5.478]
+Dynamic agent 0 at: [-7.007, -7.1747]
+Dynamic agent 1 at: [15.976, -7.3876]
+Dynamic agent 2 at: [-14.877, 4.6905]
+Robot at: [-2.706, 5.4165]
+Dynamic agent 0 at: [-6.9512, -7.1462]
+Dynamic agent 1 at: [15.963, -7.449]
+Dynamic agent 2 at: [-14.87, 4.6284]
+Robot at: [-2.695, 5.3549]
+Dynamic agent 0 at: [-6.8955, -7.1177]
+Dynamic agent 1 at: [15.951, -7.5103]
+Dynamic agent 2 at: [-14.863, 4.5662]
+Robot at: [-2.684, 5.2934]
+Dynamic agent 0 at: [-6.8398, -7.0892]
+Dynamic agent 1 at: [15.939, -7.5716]
+Dynamic agent 2 at: [-14.856, 4.504]
+Edge from vertex: 69 to vertex:351is valid.
+Evaluating Edge from vertex: 351 to vertex:427
+endcfg
+cfg size: 230
+Valid path called. Tick limit: 230
+Robot at: [-2.6803, 5.2728]
+Dynamic agent 0 at: [-6.8026, -7.0702]
+Dynamic agent 1 at: [15.931, -7.6125]
+Dynamic agent 2 at: [-14.851, 4.4626]
+Robot at: [-2.6788, 5.2103]
+Dynamic agent 0 at: [-6.7469, -7.0417]
+Dynamic agent 1 at: [15.918, -7.6739]
+Dynamic agent 2 at: [-14.844, 4.4004]
+Robot at: [-2.6772, 5.1477]
+Dynamic agent 0 at: [-6.6912, -7.0133]
+Dynamic agent 1 at: [15.906, -7.7352]
+Dynamic agent 2 at: [-14.836, 4.3382]
+Robot at: [-2.6757, 5.0851]
+Dynamic agent 0 at: [-6.6354, -6.9848]
+Dynamic agent 1 at: [15.894, -7.7965]
+Dynamic agent 2 at: [-14.829, 4.2761]
+Robot at: [-2.6742, 5.0226]
+Dynamic agent 0 at: [-6.5797, -6.9563]
+Dynamic agent 1 at: [15.882, -7.8579]
+Dynamic agent 2 at: [-14.822, 4.2139]
+Robot at: [-2.6726, 4.96]
+Dynamic agent 0 at: [-6.524, -6.9278]
+Dynamic agent 1 at: [15.87, -7.9192]
+Dynamic agent 2 at: [-14.814, 4.1517]
+Robot at: [-2.6711, 4.8974]
+Dynamic agent 0 at: [-6.4683, -6.8993]
+Dynamic agent 1 at: [15.857, -7.9806]
+Dynamic agent 2 at: [-14.807, 4.0896]
+Robot at: [-2.6696, 4.8349]
+Dynamic agent 0 at: [-6.4125, -6.8708]
+Dynamic agent 1 at: [15.845, -8.0419]
+Dynamic agent 2 at: [-14.8, 4.0274]
+Robot at: [-2.6681, 4.7723]
+Dynamic agent 0 at: [-6.3568, -6.8423]
+Dynamic agent 1 at: [15.833, -8.1032]
+Dynamic agent 2 at: [-14.793, 3.9652]
+Robot at: [-2.6665, 4.7097]
+Dynamic agent 0 at: [-6.3011, -6.8139]
+Dynamic agent 1 at: [15.821, -8.1646]
+Dynamic agent 2 at: [-14.785, 3.903]
+Robot at: [-2.665, 4.6472]
+Dynamic agent 0 at: [-6.2453, -6.7854]
+Dynamic agent 1 at: [15.808, -8.2259]
+Dynamic agent 2 at: [-14.778, 3.8409]
+Robot at: [-2.6635, 4.5846]
+Dynamic agent 0 at: [-6.1896, -6.7569]
+Dynamic agent 1 at: [15.796, -8.2873]
+Dynamic agent 2 at: [-14.771, 3.7787]
+Robot at: [-2.662, 4.522]
+Dynamic agent 0 at: [-6.1339, -6.7284]
+Dynamic agent 1 at: [15.784, -8.3486]
+Dynamic agent 2 at: [-14.764, 3.7165]
+Robot at: [-2.6604, 4.4594]
+Dynamic agent 0 at: [-6.0782, -6.6999]
+Dynamic agent 1 at: [15.772, -8.4099]
+Dynamic agent 2 at: [-14.756, 3.6544]
+Robot at: [-2.6589, 4.3969]
+Dynamic agent 0 at: [-6.0224, -6.6714]
+Dynamic agent 1 at: [15.76, -8.4713]
+Dynamic agent 2 at: [-14.749, 3.5922]
+Robot at: [-2.6574, 4.3343]
+Dynamic agent 0 at: [-5.9667, -6.6429]
+Dynamic agent 1 at: [15.747, -8.5326]
+Dynamic agent 2 at: [-14.742, 3.53]
+Robot at: [-2.6558, 4.2717]
+Dynamic agent 0 at: [-5.911, -6.6145]
+Dynamic agent 1 at: [15.735, -8.594]
+Dynamic agent 2 at: [-14.735, 3.4679]
+Robot at: [-2.6543, 4.2092]
+Dynamic agent 0 at: [-5.8553, -6.586]
+Dynamic agent 1 at: [15.723, -8.6553]
+Dynamic agent 2 at: [-14.727, 3.4057]
+Robot at: [-2.6528, 4.1466]
+Dynamic agent 0 at: [-5.7995, -6.5575]
+Dynamic agent 1 at: [15.711, -8.7166]
+Dynamic agent 2 at: [-14.72, 3.3435]
+Robot at: [-2.6513, 4.084]
+Dynamic agent 0 at: [-5.7438, -6.529]
+Dynamic agent 1 at: [15.698, -8.778]
+Dynamic agent 2 at: [-14.713, 3.2813]
+Robot at: [-2.6497, 4.0215]
+Dynamic agent 0 at: [-5.6881, -6.5005]
+Dynamic agent 1 at: [15.686, -8.8393]
+Dynamic agent 2 at: [-14.706, 3.2192]
+Robot at: [-2.6482, 3.9589]
+Dynamic agent 0 at: [-5.6354, -6.4676]
+Dynamic agent 1 at: [15.674, -8.9007]
+Dynamic agent 2 at: [-14.698, 3.157]
+Robot at: [-2.6467, 3.8963]
+Dynamic agent 0 at: [-5.5889, -6.4257]
+Dynamic agent 1 at: [15.662, -8.962]
+Dynamic agent 2 at: [-14.691, 3.0948]
+Robot at: [-2.6452, 3.8337]
+Dynamic agent 0 at: [-5.5424, -6.3838]
+Dynamic agent 1 at: [15.649, -9.0233]
+Dynamic agent 2 at: [-14.684, 3.0327]
+Robot at: [-2.6436, 3.7712]
+Dynamic agent 0 at: [-5.4958, -6.342]
+Dynamic agent 1 at: [15.637, -9.0847]
+Dynamic agent 2 at: [-14.676, 2.9705]
+Robot at: [-2.6421, 3.7086]
+Dynamic agent 0 at: [-5.4493, -6.3001]
+Dynamic agent 1 at: [15.625, -9.146]
+Dynamic agent 2 at: [-14.669, 2.9083]
+Robot at: [-2.6406, 3.646]
+Dynamic agent 0 at: [-5.4028, -6.2582]
+Dynamic agent 1 at: [15.613, -9.2074]
+Dynamic agent 2 at: [-14.662, 2.8462]
+Robot at: [-2.6391, 3.5835]
+Dynamic agent 0 at: [-5.3562, -6.2164]
+Dynamic agent 1 at: [15.601, -9.2687]
+Dynamic agent 2 at: [-14.655, 2.784]
+Robot at: [-2.6375, 3.5209]
+Dynamic agent 0 at: [-5.3097, -6.1745]
+Dynamic agent 1 at: [15.588, -9.33]
+Dynamic agent 2 at: [-14.647, 2.7218]
+Robot at: [-2.636, 3.4583]
+Dynamic agent 0 at: [-5.2632, -6.1326]
+Dynamic agent 1 at: [15.576, -9.3914]
+Dynamic agent 2 at: [-14.64, 2.6597]
+Robot at: [-2.6345, 3.3958]
+Dynamic agent 0 at: [-5.2167, -6.0907]
+Dynamic agent 1 at: [15.564, -9.4527]
+Dynamic agent 2 at: [-14.633, 2.5975]
+Robot at: [-2.6329, 3.3332]
+Dynamic agent 0 at: [-5.1701, -6.0489]
+Dynamic agent 1 at: [15.552, -9.5141]
+Dynamic agent 2 at: [-14.626, 2.5353]
+Robot at: [-2.6314, 3.2706]
+Dynamic agent 0 at: [-5.1236, -6.007]
+Dynamic agent 1 at: [15.539, -9.5754]
+Dynamic agent 2 at: [-14.618, 2.4731]
+Robot at: [-2.6299, 3.2081]
+Dynamic agent 0 at: [-5.0771, -5.9651]
+Dynamic agent 1 at: [15.527, -9.6367]
+Dynamic agent 2 at: [-14.611, 2.411]
+Robot at: [-2.6284, 3.1455]
+Dynamic agent 0 at: [-5.0305, -5.9233]
+Dynamic agent 1 at: [15.515, -9.6981]
+Dynamic agent 2 at: [-14.604, 2.3488]
+Robot at: [-2.6268, 3.0829]
+Dynamic agent 0 at: [-4.984, -5.8814]
+Dynamic agent 1 at: [15.503, -9.7594]
+Dynamic agent 2 at: [-14.597, 2.2866]
+Robot at: [-2.6253, 3.0203]
+Dynamic agent 0 at: [-4.9375, -5.8395]
+Dynamic agent 1 at: [15.491, -9.8208]
+Dynamic agent 2 at: [-14.589, 2.2245]
+Robot at: [-2.6238, 2.9578]
+Dynamic agent 0 at: [-4.8909, -5.7977]
+Dynamic agent 1 at: [15.478, -9.8821]
+Dynamic agent 2 at: [-14.582, 2.1623]
+Robot at: [-2.6223, 2.8952]
+Dynamic agent 0 at: [-4.8444, -5.7558]
+Dynamic agent 1 at: [15.466, -9.9434]
+Dynamic agent 2 at: [-14.575, 2.1001]
+Robot at: [-2.6207, 2.8326]
+Dynamic agent 0 at: [-4.7979, -5.7139]
+Dynamic agent 1 at: [15.454, -10.005]
+Dynamic agent 2 at: [-14.568, 2.038]
+Robot at: [-2.6192, 2.7701]
+Dynamic agent 0 at: [-4.7514, -5.6721]
+Dynamic agent 1 at: [15.442, -10.066]
+Dynamic agent 2 at: [-14.56, 1.9758]
+Robot at: [-2.6177, 2.7075]
+Dynamic agent 0 at: [-4.7048, -5.6302]
+Dynamic agent 1 at: [15.429, -10.127]
+Dynamic agent 2 at: [-14.553, 1.9136]
+Robot at: [-2.6161, 2.6449]
+Dynamic agent 0 at: [-4.6583, -5.5883]
+Dynamic agent 1 at: [15.417, -10.189]
+Dynamic agent 2 at: [-14.546, 1.8514]
+Robot at: [-2.6146, 2.5824]
+Dynamic agent 0 at: [-4.6118, -5.5465]
+Dynamic agent 1 at: [15.405, -10.25]
+Dynamic agent 2 at: [-14.538, 1.7893]
+Robot at: [-2.6131, 2.5198]
+Dynamic agent 0 at: [-4.5652, -5.5046]
+Dynamic agent 1 at: [15.393, -10.311]
+Dynamic agent 2 at: [-14.531, 1.7271]
+Robot at: [-2.6116, 2.4572]
+Dynamic agent 0 at: [-4.5187, -5.4627]
+Dynamic agent 1 at: [15.381, -10.373]
+Dynamic agent 2 at: [-14.524, 1.6649]
+Robot at: [-2.61, 2.3946]
+Dynamic agent 0 at: [-4.4722, -5.4208]
+Dynamic agent 1 at: [15.368, -10.434]
+Dynamic agent 2 at: [-14.517, 1.6028]
+Robot at: [-2.6085, 2.3321]
+Dynamic agent 0 at: [-4.4257, -5.379]
+Dynamic agent 1 at: [15.356, -10.495]
+Dynamic agent 2 at: [-14.509, 1.5406]
+Robot at: [-2.607, 2.2695]
+Dynamic agent 0 at: [-4.3791, -5.3371]
+Dynamic agent 1 at: [15.344, -10.557]
+Dynamic agent 2 at: [-14.502, 1.4784]
+Robot at: [-2.6055, 2.2069]
+Dynamic agent 0 at: [-4.3326, -5.2952]
+Dynamic agent 1 at: [15.332, -10.618]
+Dynamic agent 2 at: [-14.495, 1.4163]
+Robot at: [-2.6039, 2.1444]
+Dynamic agent 0 at: [-4.2861, -5.2534]
+Dynamic agent 1 at: [15.319, -10.68]
+Dynamic agent 2 at: [-14.488, 1.3541]
+Robot at: [-2.6024, 2.0818]
+Dynamic agent 0 at: [-4.2395, -5.2115]
+Dynamic agent 1 at: [15.307, -10.741]
+Dynamic agent 2 at: [-14.46, 1.3007]
+Robot at: [-2.6009, 2.0192]
+Dynamic agent 0 at: [-4.193, -5.1696]
+Dynamic agent 1 at: [15.295, -10.802]
+Dynamic agent 2 at: [-14.421, 1.2518]
+Robot at: [-2.5994, 1.9567]
+Dynamic agent 0 at: [-4.1465, -5.1278]
+Dynamic agent 1 at: [15.283, -10.864]
+Dynamic agent 2 at: [-14.383, 1.2029]
+Robot at: [-2.5978, 1.8941]
+Dynamic agent 0 at: [-4.1, -5.0859]
+Dynamic agent 1 at: [15.27, -10.925]
+Dynamic agent 2 at: [-14.344, 1.1539]
+Robot at: [-2.5963, 1.8315]
+Dynamic agent 0 at: [-4.0534, -5.044]
+Dynamic agent 1 at: [15.258, -10.986]
+Dynamic agent 2 at: [-14.306, 1.105]
+Robot at: [-2.5948, 1.769]
+Dynamic agent 0 at: [-4.0069, -5.0022]
+Dynamic agent 1 at: [15.246, -11.048]
+Dynamic agent 2 at: [-14.267, 1.056]
+Robot at: [-2.5932, 1.7064]
+Dynamic agent 0 at: [-3.9604, -4.9603]
+Dynamic agent 1 at: [15.234, -11.109]
+Dynamic agent 2 at: [-14.229, 1.0071]
+Robot at: [-2.5917, 1.6438]
+Dynamic agent 0 at: [-3.9138, -4.9184]
+Dynamic agent 1 at: [15.222, -11.17]
+Dynamic agent 2 at: [-14.191, 0.95815]
+Robot at: [-2.5902, 1.5812]
+Dynamic agent 0 at: [-3.8673, -4.8766]
+Dynamic agent 1 at: [15.209, -11.232]
+Dynamic agent 2 at: [-14.152, 0.9092]
+Robot at: [-2.5887, 1.5187]
+Dynamic agent 0 at: [-3.8208, -4.8347]
+Dynamic agent 1 at: [15.197, -11.293]
+Dynamic agent 2 at: [-14.114, 0.86026]
+Robot at: [-2.5871, 1.4561]
+Dynamic agent 0 at: [-3.7742, -4.7928]
+Dynamic agent 1 at: [15.185, -11.354]
+Dynamic agent 2 at: [-14.075, 0.81132]
+Robot at: [-2.5856, 1.3935]
+Dynamic agent 0 at: [-3.7277, -4.7509]
+Dynamic agent 1 at: [15.173, -11.416]
+Dynamic agent 2 at: [-14.037, 0.76238]
+Robot at: [-2.5841, 1.331]
+Dynamic agent 0 at: [-3.6812, -4.7091]
+Dynamic agent 1 at: [15.16, -11.477]
+Dynamic agent 2 at: [-13.999, 0.71344]
+Robot at: [-2.5826, 1.2684]
+Dynamic agent 0 at: [-3.6347, -4.6672]
+Dynamic agent 1 at: [15.148, -11.538]
+Dynamic agent 2 at: [-13.96, 0.6645]
+Robot at: [-2.581, 1.2058]
+Dynamic agent 0 at: [-3.5881, -4.6253]
+Dynamic agent 1 at: [15.136, -11.6]
+Dynamic agent 2 at: [-13.922, 0.61556]
+Robot at: [-2.5795, 1.1433]
+Dynamic agent 0 at: [-3.5416, -4.5835]
+Dynamic agent 1 at: [15.124, -11.661]
+Dynamic agent 2 at: [-13.883, 0.56662]
+Robot at: [-2.578, 1.0807]
+Dynamic agent 0 at: [-3.4951, -4.5416]
+Dynamic agent 1 at: [15.112, -11.722]
+Dynamic agent 2 at: [-13.845, 0.51768]
+Robot at: [-2.5765, 1.0181]
+Dynamic agent 0 at: [-3.4485, -4.4997]
+Dynamic agent 1 at: [15.099, -11.784]
+Dynamic agent 2 at: [-13.806, 0.46873]
+Robot at: [-2.5749, 0.95555]
+Dynamic agent 0 at: [-3.402, -4.4579]
+Dynamic agent 1 at: [15.087, -11.845]
+Dynamic agent 2 at: [-13.768, 0.41979]
+Robot at: [-2.5734, 0.89298]
+Dynamic agent 0 at: [-3.3555, -4.416]
+Dynamic agent 1 at: [15.075, -11.906]
+Dynamic agent 2 at: [-13.73, 0.37085]
+Robot at: [-2.5719, 0.83041]
+Dynamic agent 0 at: [-3.309, -4.3741]
+Dynamic agent 1 at: [15.063, -11.968]
+Dynamic agent 2 at: [-13.691, 0.32191]
+Robot at: [-2.5703, 0.76784]
+Dynamic agent 0 at: [-3.2624, -4.3323]
+Dynamic agent 1 at: [15.05, -12.029]
+Dynamic agent 2 at: [-13.653, 0.27297]
+Robot at: [-2.5688, 0.70527]
+Dynamic agent 0 at: [-3.2159, -4.2904]
+Dynamic agent 1 at: [15.038, -12.09]
+Dynamic agent 2 at: [-13.614, 0.22403]
+Robot at: [-2.5673, 0.6427]
+Dynamic agent 0 at: [-3.1694, -4.2485]
+Dynamic agent 1 at: [15.026, -12.152]
+Dynamic agent 2 at: [-13.576, 0.17509]
+Robot at: [-2.5658, 0.58013]
+Dynamic agent 0 at: [-3.1228, -4.2067]
+Dynamic agent 1 at: [15.014, -12.213]
+Dynamic agent 2 at: [-13.537, 0.12615]
+Robot at: [-2.5642, 0.51756]
+Dynamic agent 0 at: [-3.0763, -4.1648]
+Dynamic agent 1 at: [15.002, -12.274]
+Dynamic agent 2 at: [-13.499, 0.077205]
+Edge from vertex: 351 to vertex:427is valid.
+Evaluating Edge from vertex: 427 to vertex:15
+endcfg
+cfg size: 181
+Valid path called. Tick limit: 181
+Robot at: [-2.5637, 0.49671]
+Dynamic agent 0 at: [-3.0453, -4.1369]
+Dynamic agent 1 at: [14.993, -12.315]
+Dynamic agent 2 at: [-13.473, 0.044578]
+Robot at: [-2.555, 0.4346]
+Dynamic agent 0 at: [-2.9988, -4.095]
+Dynamic agent 1 at: [14.981, -12.377]
+Dynamic agent 2 at: [-13.435, -0.0043633]
+Robot at: [-2.5462, 0.37249]
+Dynamic agent 0 at: [-2.9522, -4.0531]
+Dynamic agent 1 at: [14.969, -12.438]
+Dynamic agent 2 at: [-13.396, -0.053304]
+Robot at: [-2.5374, 0.31038]
+Dynamic agent 0 at: [-2.9057, -4.0113]
+Dynamic agent 1 at: [14.957, -12.499]
+Dynamic agent 2 at: [-13.358, -0.10225]
+Robot at: [-2.5286, 0.24828]
+Dynamic agent 0 at: [-2.8592, -3.9694]
+Dynamic agent 1 at: [14.944, -12.561]
+Dynamic agent 2 at: [-13.32, -0.15119]
+Robot at: [-2.5198, 0.18617]
+Dynamic agent 0 at: [-2.8126, -3.9275]
+Dynamic agent 1 at: [14.932, -12.622]
+Dynamic agent 2 at: [-13.281, -0.20013]
+Robot at: [-2.5111, 0.12406]
+Dynamic agent 0 at: [-2.7661, -3.8857]
+Dynamic agent 1 at: [14.92, -12.683]
+Dynamic agent 2 at: [-13.243, -0.24907]
+Robot at: [-2.5023, 0.061956]
+Dynamic agent 0 at: [-2.7196, -3.8438]
+Dynamic agent 1 at: [14.908, -12.745]
+Dynamic agent 2 at: [-13.204, -0.29801]
+Robot at: [-2.4935, -0.00015107]
+Dynamic agent 0 at: [-2.6731, -3.8019]
+Dynamic agent 1 at: [14.896, -12.806]
+Dynamic agent 2 at: [-13.166, -0.34695]
+Robot at: [-2.4847, -0.062258]
+Dynamic agent 0 at: [-2.6265, -3.7601]
+Dynamic agent 1 at: [14.883, -12.867]
+Dynamic agent 2 at: [-13.128, -0.39589]
+Robot at: [-2.476, -0.12437]
+Dynamic agent 0 at: [-2.58, -3.7182]
+Dynamic agent 1 at: [14.871, -12.929]
+Dynamic agent 2 at: [-13.089, -0.44483]
+Robot at: [-2.4672, -0.18647]
+Dynamic agent 0 at: [-2.5335, -3.6763]
+Dynamic agent 1 at: [14.859, -12.99]
+Dynamic agent 2 at: [-13.051, -0.49377]
+Robot at: [-2.4584, -0.24858]
+Dynamic agent 0 at: [-2.4869, -3.6344]
+Dynamic agent 1 at: [14.847, -13.051]
+Dynamic agent 2 at: [-13.001, -0.53194]
+Robot at: [-2.4496, -0.31069]
+Dynamic agent 0 at: [-2.4404, -3.5926]
+Dynamic agent 1 at: [14.834, -13.113]
+Dynamic agent 2 at: [-12.951, -0.57011]
+Robot at: [-2.4409, -0.37279]
+Dynamic agent 0 at: [-2.3939, -3.5507]
+Dynamic agent 1 at: [14.822, -13.174]
+Dynamic agent 2 at: [-12.902, -0.60828]
+Robot at: [-2.4321, -0.4349]
+Dynamic agent 0 at: [-2.3474, -3.5088]
+Dynamic agent 1 at: [14.798, -13.231]
+Dynamic agent 2 at: [-12.852, -0.64645]
+Robot at: [-2.4233, -0.49701]
+Dynamic agent 0 at: [-2.3008, -3.467]
+Dynamic agent 1 at: [14.767, -13.285]
+Dynamic agent 2 at: [-12.802, -0.68462]
+Robot at: [-2.4145, -0.55911]
+Dynamic agent 0 at: [-2.2543, -3.4251]
+Dynamic agent 1 at: [14.736, -13.339]
+Dynamic agent 2 at: [-12.753, -0.72279]
+Robot at: [-2.4058, -0.62122]
+Dynamic agent 0 at: [-2.2078, -3.3832]
+Dynamic agent 1 at: [14.705, -13.393]
+Dynamic agent 2 at: [-12.703, -0.76096]
+Robot at: [-2.397, -0.68333]
+Dynamic agent 0 at: [-2.1612, -3.3414]
+Dynamic agent 1 at: [14.674, -13.447]
+Dynamic agent 2 at: [-12.654, -0.79913]
+Robot at: [-2.3882, -0.74544]
+Dynamic agent 0 at: [-2.1147, -3.2995]
+Dynamic agent 1 at: [14.643, -13.502]
+Dynamic agent 2 at: [-12.604, -0.8373]
+Robot at: [-2.3794, -0.80754]
+Dynamic agent 0 at: [-2.0682, -3.2576]
+Dynamic agent 1 at: [14.612, -13.556]
+Dynamic agent 2 at: [-12.554, -0.87547]
+Robot at: [-2.3707, -0.86965]
+Dynamic agent 0 at: [-2.0288, -3.2106]
+Dynamic agent 1 at: [14.581, -13.61]
+Dynamic agent 2 at: [-12.505, -0.91364]
+Robot at: [-2.3619, -0.93176]
+Dynamic agent 0 at: [-2.0038, -3.1531]
+Dynamic agent 1 at: [14.55, -13.664]
+Dynamic agent 2 at: [-12.455, -0.95181]
+Robot at: [-2.3531, -0.99386]
+Dynamic agent 0 at: [-1.9787, -3.0957]
+Dynamic agent 1 at: [14.519, -13.719]
+Dynamic agent 2 at: [-12.405, -0.98998]
+Robot at: [-2.3443, -1.056]
+Dynamic agent 0 at: [-1.9537, -3.0383]
+Dynamic agent 1 at: [14.488, -13.773]
+Dynamic agent 2 at: [-12.356, -1.0282]
+Robot at: [-2.3355, -1.1181]
+Dynamic agent 0 at: [-1.9287, -2.9809]
+Collision found for Robot Cfg: [-2.3355, -1.1181] and Dynamic Agent Cfg: [-1.9287, -2.9809]
+WaitDuration found. Waiting...
+Robot waiting. But dynamic agents moved 151. New dyanamic agent idx = 1029
+Robot at: [-2.3355, -1.1181]
+Dynamic agent 0 at: [-0.66829, -0.090423]
+Dynamic agent 1 at: [13.221, -15.996]
+Dynamic agent 2 at: [-9.8076, -2.9875]
+Robot at: [-2.3268, -1.1802]
+Dynamic agent 0 at: [-0.64324, -0.032997]
+Dynamic agent 1 at: [13.252, -15.941]
+Dynamic agent 2 at: [-9.758, -3.0257]
+Robot at: [-2.318, -1.2423]
+Dynamic agent 0 at: [-0.6182, 0.024429]
+Dynamic agent 1 at: [13.283, -15.887]
+Dynamic agent 2 at: [-9.7083, -3.0639]
+Robot at: [-2.3092, -1.3044]
+Dynamic agent 0 at: [-0.59316, 0.081855]
+Dynamic agent 1 at: [13.314, -15.833]
+Dynamic agent 2 at: [-9.6587, -3.1021]
+Robot at: [-2.3004, -1.3665]
+Dynamic agent 0 at: [-0.55653, 0.13263]
+Dynamic agent 1 at: [13.345, -15.779]
+Dynamic agent 2 at: [-9.609, -3.1402]
+Robot at: [-2.2917, -1.4286]
+Dynamic agent 0 at: [-0.5199, 0.18341]
+Dynamic agent 1 at: [13.376, -15.725]
+Dynamic agent 2 at: [-9.5594, -3.1784]
+Robot at: [-2.2829, -1.4907]
+Dynamic agent 0 at: [-0.48326, 0.23418]
+Dynamic agent 1 at: [13.407, -15.67]
+Dynamic agent 2 at: [-9.5098, -3.2166]
+Robot at: [-2.2741, -1.5528]
+Dynamic agent 0 at: [-0.44663, 0.28496]
+Dynamic agent 1 at: [13.438, -15.616]
+Dynamic agent 2 at: [-9.4601, -3.2547]
+Robot at: [-2.2653, -1.6149]
+Dynamic agent 0 at: [-0.41, 0.33574]
+Dynamic agent 1 at: [13.468, -15.562]
+Dynamic agent 2 at: [-9.4105, -3.2929]
+Robot at: [-2.2566, -1.677]
+Dynamic agent 0 at: [-0.37336, 0.38651]
+Dynamic agent 1 at: [13.499, -15.508]
+Dynamic agent 2 at: [-9.3609, -3.3311]
+Robot at: [-2.2478, -1.7391]
+Dynamic agent 0 at: [-0.33673, 0.43729]
+Dynamic agent 1 at: [13.53, -15.453]
+Dynamic agent 2 at: [-9.3112, -3.3692]
+Robot at: [-2.239, -1.8013]
+Dynamic agent 0 at: [-0.3001, 0.48807]
+Dynamic agent 1 at: [13.561, -15.399]
+Dynamic agent 2 at: [-9.2616, -3.4074]
+Robot at: [-2.2302, -1.8634]
+Dynamic agent 0 at: [-0.26346, 0.53884]
+Dynamic agent 1 at: [13.592, -15.345]
+Dynamic agent 2 at: [-9.2119, -3.4456]
+Robot at: [-2.2215, -1.9255]
+Dynamic agent 0 at: [-0.22683, 0.58962]
+Dynamic agent 1 at: [13.623, -15.291]
+Dynamic agent 2 at: [-9.1623, -3.4838]
+Robot at: [-2.2127, -1.9876]
+Dynamic agent 0 at: [-0.1902, 0.64039]
+Dynamic agent 1 at: [13.654, -15.237]
+Dynamic agent 2 at: [-9.1127, -3.5219]
+Robot at: [-2.2039, -2.0497]
+Dynamic agent 0 at: [-0.15356, 0.69117]
+Dynamic agent 1 at: [13.685, -15.182]
+Dynamic agent 2 at: [-9.063, -3.5601]
+Robot at: [-2.1951, -2.1118]
+Dynamic agent 0 at: [-0.11693, 0.74195]
+Dynamic agent 1 at: [13.716, -15.128]
+Dynamic agent 2 at: [-9.0134, -3.5983]
+Robot at: [-2.1864, -2.1739]
+Dynamic agent 0 at: [-0.080295, 0.79272]
+Dynamic agent 1 at: [13.747, -15.074]
+Dynamic agent 2 at: [-8.9637, -3.6364]
+Robot at: [-2.1776, -2.236]
+Dynamic agent 0 at: [-0.043661, 0.8435]
+Dynamic agent 1 at: [13.778, -15.02]
+Dynamic agent 2 at: [-8.9141, -3.6746]
+Robot at: [-2.1688, -2.2981]
+Dynamic agent 0 at: [-0.0070274, 0.89428]
+Dynamic agent 1 at: [13.808, -14.966]
+Dynamic agent 2 at: [-8.8645, -3.7128]
+Robot at: [-2.16, -2.3602]
+Dynamic agent 0 at: [0.029606, 0.94505]
+Dynamic agent 1 at: [13.839, -14.911]
+Dynamic agent 2 at: [-8.8148, -3.751]
+Robot at: [-2.1513, -2.4223]
+Dynamic agent 0 at: [0.06624, 0.99583]
+Dynamic agent 1 at: [13.87, -14.857]
+Dynamic agent 2 at: [-8.7652, -3.7891]
+Robot at: [-2.1425, -2.4844]
+Dynamic agent 0 at: [0.10287, 1.0466]
+Dynamic agent 1 at: [13.901, -14.803]
+Dynamic agent 2 at: [-8.7155, -3.8273]
+Robot at: [-2.1337, -2.5465]
+Dynamic agent 0 at: [0.13951, 1.0974]
+Dynamic agent 1 at: [13.932, -14.749]
+Dynamic agent 2 at: [-8.6659, -3.8655]
+Robot at: [-2.1249, -2.6086]
+Dynamic agent 0 at: [0.17614, 1.1482]
+Dynamic agent 1 at: [13.963, -14.694]
+Dynamic agent 2 at: [-8.6186, -3.9066]
+Robot at: [-2.1161, -2.6708]
+Dynamic agent 0 at: [0.21277, 1.1989]
+Dynamic agent 1 at: [13.994, -14.64]
+Dynamic agent 2 at: [-8.5712, -3.9476]
+Robot at: [-2.1074, -2.7329]
+Dynamic agent 0 at: [0.24941, 1.2497]
+Dynamic agent 1 at: [14.025, -14.586]
+Dynamic agent 2 at: [-8.5238, -3.9887]
+Robot at: [-2.0986, -2.795]
+Dynamic agent 0 at: [0.28604, 1.3005]
+Dynamic agent 1 at: [14.056, -14.532]
+Dynamic agent 2 at: [-8.4765, -4.0298]
+Robot at: [-2.0898, -2.8571]
+Dynamic agent 0 at: [0.32267, 1.3513]
+Dynamic agent 1 at: [14.087, -14.478]
+Dynamic agent 2 at: [-8.4291, -4.0709]
+Robot at: [-2.081, -2.9192]
+Dynamic agent 0 at: [0.35931, 1.402]
+Dynamic agent 1 at: [14.118, -14.423]
+Dynamic agent 2 at: [-8.3818, -4.112]
+Robot at: [-2.0723, -2.9813]
+Dynamic agent 0 at: [0.39594, 1.4528]
+Dynamic agent 1 at: [14.148, -14.369]
+Dynamic agent 2 at: [-8.3344, -4.1531]
+Robot at: [-2.0635, -3.0434]
+Dynamic agent 0 at: [0.43258, 1.5036]
+Dynamic agent 1 at: [14.179, -14.315]
+Dynamic agent 2 at: [-8.2871, -4.1942]
+Robot at: [-2.0547, -3.1055]
+Dynamic agent 0 at: [0.46921, 1.5544]
+Dynamic agent 1 at: [14.21, -14.261]
+Dynamic agent 2 at: [-8.2397, -4.2353]
+Robot at: [-2.0459, -3.1676]
+Dynamic agent 0 at: [0.50584, 1.6051]
+Dynamic agent 1 at: [14.241, -14.206]
+Dynamic agent 2 at: [-8.1924, -4.2764]
+Robot at: [-2.0372, -3.2297]
+Dynamic agent 0 at: [0.54248, 1.6559]
+Dynamic agent 1 at: [14.272, -14.152]
+Dynamic agent 2 at: [-8.145, -4.3174]
+Edge from vertex: 427 to vertex:15is valid.
+Evaluating Edge from vertex: 15 to vertex:72
+endcfg
+cfg size: 253
+Valid path called. Tick limit: 253
+Robot at: [-2.0372, -3.2297]
+Dynamic agent 0 at: [-1.0689, -1.0092]
+Dynamic agent 1 at: [13.396, -15.688]
+Dynamic agent 2 at: [-10.602, -2.3768]
+Robot at: [-2.0197, -3.2899]
+Dynamic agent 0 at: [-1.0439, -0.95181]
+Dynamic agent 1 at: [13.365, -15.743]
+Dynamic agent 2 at: [-10.552, -2.415]
+Robot at: [-2.0021, -3.35]
+Dynamic agent 0 at: [-1.0189, -0.89439]
+Dynamic agent 1 at: [13.335, -15.797]
+Dynamic agent 2 at: [-10.503, -2.4532]
+Robot at: [-1.9846, -3.4102]
+Dynamic agent 0 at: [-0.99381, -0.83696]
+Dynamic agent 1 at: [13.304, -15.851]
+Dynamic agent 2 at: [-10.453, -2.4913]
+Robot at: [-1.9671, -3.4704]
+Dynamic agent 0 at: [-0.96877, -0.77954]
+Dynamic agent 1 at: [13.273, -15.905]
+Dynamic agent 2 at: [-10.403, -2.5295]
+Robot at: [-1.9496, -3.5305]
+Dynamic agent 0 at: [-0.94373, -0.72211]
+Dynamic agent 1 at: [13.242, -15.959]
+Dynamic agent 2 at: [-10.354, -2.5677]
+Robot at: [-1.9321, -3.5907]
+Dynamic agent 0 at: [-0.91869, -0.66468]
+Dynamic agent 1 at: [13.211, -16.014]
+Dynamic agent 2 at: [-10.304, -2.6058]
+Robot at: [-1.9146, -3.6508]
+Dynamic agent 0 at: [-0.89365, -0.60726]
+Dynamic agent 1 at: [13.18, -16.068]
+Dynamic agent 2 at: [-10.254, -2.644]
+Robot at: [-1.8971, -3.711]
+Dynamic agent 0 at: [-0.86861, -0.54983]
+Dynamic agent 1 at: [13.149, -16.122]
+Dynamic agent 2 at: [-10.205, -2.6822]
+Robot at: [-1.8796, -3.7712]
+Dynamic agent 0 at: [-0.84357, -0.49241]
+Dynamic agent 1 at: [13.118, -16.176]
+Dynamic agent 2 at: [-10.155, -2.7204]
+Robot at: [-1.8621, -3.8313]
+Dynamic agent 0 at: [-0.81853, -0.43498]
+Dynamic agent 1 at: [13.087, -16.231]
+Dynamic agent 2 at: [-10.105, -2.7585]
+Robot at: [-1.8445, -3.8915]
+Dynamic agent 0 at: [-0.79349, -0.37755]
+Dynamic agent 1 at: [13.067, -16.267]
+Dynamic agent 2 at: [-10.056, -2.7967]
+Robot at: [-1.827, -3.9516]
+Dynamic agent 0 at: [-0.76845, -0.32013]
+Dynamic agent 1 at: [13.098, -16.212]
+Dynamic agent 2 at: [-10.006, -2.8349]
+Robot at: [-1.8095, -4.0118]
+Dynamic agent 0 at: [-0.74341, -0.2627]
+Dynamic agent 1 at: [13.129, -16.158]
+Dynamic agent 2 at: [-9.9565, -2.873]
+Robot at: [-1.792, -4.072]
+Dynamic agent 0 at: [-0.71837, -0.20528]
+Dynamic agent 1 at: [13.159, -16.104]
+Dynamic agent 2 at: [-9.9069, -2.9112]
+Robot at: [-1.7745, -4.1321]
+Dynamic agent 0 at: [-0.69333, -0.14785]
+Dynamic agent 1 at: [13.19, -16.05]
+Dynamic agent 2 at: [-9.8572, -2.9494]
+Robot at: [-1.757, -4.1923]
+Dynamic agent 0 at: [-0.66829, -0.090423]
+Dynamic agent 1 at: [13.221, -15.996]
+Dynamic agent 2 at: [-9.8076, -2.9875]
+Robot at: [-1.7395, -4.2524]
+Dynamic agent 0 at: [-0.64324, -0.032997]
+Dynamic agent 1 at: [13.252, -15.941]
+Dynamic agent 2 at: [-9.758, -3.0257]
+Robot at: [-1.722, -4.3126]
+Dynamic agent 0 at: [-0.6182, 0.024429]
+Dynamic agent 1 at: [13.283, -15.887]
+Dynamic agent 2 at: [-9.7083, -3.0639]
+Robot at: [-1.7045, -4.3728]
+Dynamic agent 0 at: [-0.59316, 0.081855]
+Dynamic agent 1 at: [13.314, -15.833]
+Dynamic agent 2 at: [-9.6587, -3.1021]
+Robot at: [-1.6869, -4.4329]
+Dynamic agent 0 at: [-0.55653, 0.13263]
+Dynamic agent 1 at: [13.345, -15.779]
+Dynamic agent 2 at: [-9.609, -3.1402]
+Robot at: [-1.6694, -4.4931]
+Dynamic agent 0 at: [-0.5199, 0.18341]
+Dynamic agent 1 at: [13.376, -15.725]
+Dynamic agent 2 at: [-9.5594, -3.1784]
+Robot at: [-1.6519, -4.5532]
+Dynamic agent 0 at: [-0.48326, 0.23418]
+Dynamic agent 1 at: [13.407, -15.67]
+Dynamic agent 2 at: [-9.5098, -3.2166]
+Robot at: [-1.6344, -4.6134]
+Dynamic agent 0 at: [-0.44663, 0.28496]
+Dynamic agent 1 at: [13.438, -15.616]
+Dynamic agent 2 at: [-9.4601, -3.2547]
+Robot at: [-1.6169, -4.6736]
+Dynamic agent 0 at: [-0.41, 0.33574]
+Dynamic agent 1 at: [13.468, -15.562]
+Dynamic agent 2 at: [-9.4105, -3.2929]
+Robot at: [-1.5994, -4.7337]
+Dynamic agent 0 at: [-0.37336, 0.38651]
+Dynamic agent 1 at: [13.499, -15.508]
+Dynamic agent 2 at: [-9.3609, -3.3311]
+Robot at: [-1.5819, -4.7939]
+Dynamic agent 0 at: [-0.33673, 0.43729]
+Dynamic agent 1 at: [13.53, -15.453]
+Dynamic agent 2 at: [-9.3112, -3.3692]
+Robot at: [-1.5644, -4.8541]
+Dynamic agent 0 at: [-0.3001, 0.48807]
+Dynamic agent 1 at: [13.561, -15.399]
+Dynamic agent 2 at: [-9.2616, -3.4074]
+Robot at: [-1.5469, -4.9142]
+Dynamic agent 0 at: [-0.26346, 0.53884]
+Dynamic agent 1 at: [13.592, -15.345]
+Dynamic agent 2 at: [-9.2119, -3.4456]
+Robot at: [-1.5293, -4.9744]
+Dynamic agent 0 at: [-0.22683, 0.58962]
+Dynamic agent 1 at: [13.623, -15.291]
+Dynamic agent 2 at: [-9.1623, -3.4838]
+Robot at: [-1.5118, -5.0345]
+Dynamic agent 0 at: [-0.1902, 0.64039]
+Dynamic agent 1 at: [13.654, -15.237]
+Dynamic agent 2 at: [-9.1127, -3.5219]
+Robot at: [-1.4943, -5.0947]
+Dynamic agent 0 at: [-0.15356, 0.69117]
+Dynamic agent 1 at: [13.685, -15.182]
+Dynamic agent 2 at: [-9.063, -3.5601]
+Robot at: [-1.4768, -5.1549]
+Dynamic agent 0 at: [-0.11693, 0.74195]
+Dynamic agent 1 at: [13.716, -15.128]
+Dynamic agent 2 at: [-9.0134, -3.5983]
+Robot at: [-1.4593, -5.215]
+Dynamic agent 0 at: [-0.080295, 0.79272]
+Dynamic agent 1 at: [13.747, -15.074]
+Dynamic agent 2 at: [-8.9637, -3.6364]
+Robot at: [-1.4418, -5.2752]
+Dynamic agent 0 at: [-0.043661, 0.8435]
+Dynamic agent 1 at: [13.778, -15.02]
+Dynamic agent 2 at: [-8.9141, -3.6746]
+Robot at: [-1.4243, -5.3353]
+Dynamic agent 0 at: [-0.0070274, 0.89428]
+Dynamic agent 1 at: [13.808, -14.966]
+Dynamic agent 2 at: [-8.8645, -3.7128]
+Robot at: [-1.4068, -5.3955]
+Dynamic agent 0 at: [0.029606, 0.94505]
+Dynamic agent 1 at: [13.839, -14.911]
+Dynamic agent 2 at: [-8.8148, -3.751]
+Robot at: [-1.3893, -5.4557]
+Dynamic agent 0 at: [0.06624, 0.99583]
+Dynamic agent 1 at: [13.87, -14.857]
+Dynamic agent 2 at: [-8.7652, -3.7891]
+Robot at: [-1.3717, -5.5158]
+Dynamic agent 0 at: [0.10287, 1.0466]
+Dynamic agent 1 at: [13.901, -14.803]
+Dynamic agent 2 at: [-8.7155, -3.8273]
+Robot at: [-1.3542, -5.576]
+Dynamic agent 0 at: [0.13951, 1.0974]
+Dynamic agent 1 at: [13.932, -14.749]
+Dynamic agent 2 at: [-8.6659, -3.8655]
+Robot at: [-1.3367, -5.6361]
+Dynamic agent 0 at: [0.17614, 1.1482]
+Dynamic agent 1 at: [13.963, -14.694]
+Dynamic agent 2 at: [-8.6186, -3.9066]
+Robot at: [-1.3192, -5.6963]
+Dynamic agent 0 at: [0.21277, 1.1989]
+Dynamic agent 1 at: [13.994, -14.64]
+Dynamic agent 2 at: [-8.5712, -3.9476]
+Robot at: [-1.3017, -5.7565]
+Dynamic agent 0 at: [0.24941, 1.2497]
+Dynamic agent 1 at: [14.025, -14.586]
+Dynamic agent 2 at: [-8.5238, -3.9887]
+Robot at: [-1.2842, -5.8166]
+Dynamic agent 0 at: [0.28604, 1.3005]
+Dynamic agent 1 at: [14.056, -14.532]
+Dynamic agent 2 at: [-8.4765, -4.0298]
+Robot at: [-1.2667, -5.8768]
+Dynamic agent 0 at: [0.32267, 1.3513]
+Dynamic agent 1 at: [14.087, -14.478]
+Dynamic agent 2 at: [-8.4291, -4.0709]
+Robot at: [-1.2492, -5.9369]
+Dynamic agent 0 at: [0.35931, 1.402]
+Dynamic agent 1 at: [14.118, -14.423]
+Dynamic agent 2 at: [-8.3818, -4.112]
+Robot at: [-1.2317, -5.9971]
+Dynamic agent 0 at: [0.39594, 1.4528]
+Dynamic agent 1 at: [14.148, -14.369]
+Dynamic agent 2 at: [-8.3344, -4.1531]
+Robot at: [-1.2141, -6.0573]
+Dynamic agent 0 at: [0.43258, 1.5036]
+Dynamic agent 1 at: [14.179, -14.315]
+Dynamic agent 2 at: [-8.2871, -4.1942]
+Robot at: [-1.1966, -6.1174]
+Dynamic agent 0 at: [0.46921, 1.5544]
+Dynamic agent 1 at: [14.21, -14.261]
+Dynamic agent 2 at: [-8.2397, -4.2353]
+Robot at: [-1.1791, -6.1776]
+Dynamic agent 0 at: [0.50584, 1.6051]
+Dynamic agent 1 at: [14.241, -14.206]
+Dynamic agent 2 at: [-8.1924, -4.2764]
+Robot at: [-1.1616, -6.2377]
+Dynamic agent 0 at: [0.54248, 1.6559]
+Dynamic agent 1 at: [14.272, -14.152]
+Dynamic agent 2 at: [-8.145, -4.3174]
+Robot at: [-1.1441, -6.2979]
+Dynamic agent 0 at: [0.57911, 1.7067]
+Dynamic agent 1 at: [14.303, -14.098]
+Dynamic agent 2 at: [-8.0976, -4.3585]
+Robot at: [-1.1266, -6.3581]
+Dynamic agent 0 at: [0.61574, 1.7575]
+Dynamic agent 1 at: [14.334, -14.044]
+Dynamic agent 2 at: [-8.0503, -4.3996]
+Robot at: [-1.1091, -6.4182]
+Dynamic agent 0 at: [0.65238, 1.8083]
+Dynamic agent 1 at: [14.365, -13.99]
+Dynamic agent 2 at: [-8.0029, -4.4407]
+Robot at: [-1.0916, -6.4784]
+Dynamic agent 0 at: [0.68901, 1.859]
+Dynamic agent 1 at: [14.396, -13.935]
+Dynamic agent 2 at: [-7.9556, -4.4818]
+Robot at: [-1.0741, -6.5386]
+Dynamic agent 0 at: [0.72564, 1.9098]
+Dynamic agent 1 at: [14.427, -13.881]
+Dynamic agent 2 at: [-7.9082, -4.5229]
+Robot at: [-1.0565, -6.5987]
+Dynamic agent 0 at: [0.76228, 1.9606]
+Dynamic agent 1 at: [14.458, -13.827]
+Dynamic agent 2 at: [-7.8609, -4.564]
+Robot at: [-1.039, -6.6589]
+Dynamic agent 0 at: [0.79891, 2.0114]
+Dynamic agent 1 at: [14.488, -13.773]
+Dynamic agent 2 at: [-7.8135, -4.6051]
+Robot at: [-1.0215, -6.719]
+Dynamic agent 0 at: [0.83554, 2.0621]
+Dynamic agent 1 at: [14.519, -13.719]
+Dynamic agent 2 at: [-7.7661, -4.6462]
+Robot at: [-1.004, -6.7792]
+Dynamic agent 0 at: [0.87218, 2.1129]
+Dynamic agent 1 at: [14.55, -13.664]
+Dynamic agent 2 at: [-7.7188, -4.6873]
+Robot at: [-0.9865, -6.8394]
+Dynamic agent 0 at: [0.90881, 2.1637]
+Dynamic agent 1 at: [14.581, -13.61]
+Dynamic agent 2 at: [-7.6714, -4.7283]
+Robot at: [-0.96899, -6.8995]
+Dynamic agent 0 at: [0.94544, 2.2145]
+Dynamic agent 1 at: [14.612, -13.556]
+Dynamic agent 2 at: [-7.6241, -4.7694]
+Robot at: [-0.95148, -6.9597]
+Dynamic agent 0 at: [0.98208, 2.2652]
+Dynamic agent 1 at: [14.643, -13.502]
+Dynamic agent 2 at: [-7.5767, -4.8105]
+Robot at: [-0.93397, -7.0198]
+Dynamic agent 0 at: [1.0187, 2.316]
+Dynamic agent 1 at: [14.674, -13.447]
+Dynamic agent 2 at: [-7.5294, -4.8516]
+Robot at: [-0.91645, -7.08]
+Dynamic agent 0 at: [1.0553, 2.3668]
+Dynamic agent 1 at: [14.705, -13.393]
+Dynamic agent 2 at: [-7.482, -4.8927]
+Robot at: [-0.89894, -7.1402]
+Dynamic agent 0 at: [1.092, 2.4176]
+Dynamic agent 1 at: [14.736, -13.339]
+Dynamic agent 2 at: [-7.4347, -4.9338]
+Robot at: [-0.88143, -7.2003]
+Dynamic agent 0 at: [1.1286, 2.4683]
+Dynamic agent 1 at: [14.767, -13.285]
+Dynamic agent 2 at: [-7.3873, -4.9749]
+Robot at: [-0.86392, -7.2605]
+Dynamic agent 0 at: [1.1652, 2.5191]
+Dynamic agent 1 at: [14.798, -13.231]
+Dynamic agent 2 at: [-7.3399, -5.016]
+Robot at: [-0.84641, -7.3206]
+Dynamic agent 0 at: [1.2019, 2.5699]
+Dynamic agent 1 at: [14.822, -13.174]
+Dynamic agent 2 at: [-7.2926, -5.0571]
+Robot at: [-0.8289, -7.3808]
+Dynamic agent 0 at: [1.2385, 2.6207]
+Dynamic agent 1 at: [14.834, -13.113]
+Dynamic agent 2 at: [-7.2452, -5.0982]
+Robot at: [-0.81139, -7.441]
+Dynamic agent 0 at: [1.2751, 2.6714]
+Dynamic agent 1 at: [14.847, -13.051]
+Dynamic agent 2 at: [-7.1979, -5.1392]
+Robot at: [-0.79388, -7.5011]
+Dynamic agent 0 at: [1.3118, 2.7222]
+Dynamic agent 1 at: [14.859, -12.99]
+Dynamic agent 2 at: [-7.1505, -5.1803]
+Robot at: [-0.77637, -7.5613]
+Dynamic agent 0 at: [1.3484, 2.773]
+Dynamic agent 1 at: [14.871, -12.929]
+Dynamic agent 2 at: [-7.1032, -5.2214]
+Robot at: [-0.75885, -7.6214]
+Dynamic agent 0 at: [1.385, 2.8238]
+Dynamic agent 1 at: [14.883, -12.867]
+Dynamic agent 2 at: [-7.0558, -5.2625]
+Robot at: [-0.74134, -7.6816]
+Dynamic agent 0 at: [1.4217, 2.8746]
+Dynamic agent 1 at: [14.896, -12.806]
+Dynamic agent 2 at: [-7.0085, -5.3036]
+Robot at: [-0.72383, -7.7418]
+Dynamic agent 0 at: [1.4583, 2.9253]
+Dynamic agent 1 at: [14.908, -12.745]
+Dynamic agent 2 at: [-6.9611, -5.3447]
+Robot at: [-0.70632, -7.8019]
+Dynamic agent 0 at: [1.4949, 2.9761]
+Dynamic agent 1 at: [14.92, -12.683]
+Dynamic agent 2 at: [-6.9137, -5.3858]
+Robot at: [-0.68881, -7.8621]
+Dynamic agent 0 at: [1.5316, 3.0269]
+Dynamic agent 1 at: [14.932, -12.622]
+Dynamic agent 2 at: [-6.8664, -5.4269]
+Robot at: [-0.6713, -7.9222]
+Dynamic agent 0 at: [1.5682, 3.0777]
+Dynamic agent 1 at: [14.944, -12.561]
+Dynamic agent 2 at: [-6.819, -5.468]
+Robot at: [-0.65379, -7.9824]
+Dynamic agent 0 at: [1.6048, 3.1284]
+Dynamic agent 1 at: [14.957, -12.499]
+Dynamic agent 2 at: [-6.7717, -5.5091]
+Robot at: [-0.63628, -8.0426]
+Dynamic agent 0 at: [1.6415, 3.1792]
+Dynamic agent 1 at: [14.969, -12.438]
+Dynamic agent 2 at: [-6.7243, -5.5501]
+Robot at: [-0.61877, -8.1027]
+Dynamic agent 0 at: [1.6781, 3.23]
+Dynamic agent 1 at: [14.981, -12.377]
+Dynamic agent 2 at: [-6.677, -5.5912]
+Robot at: [-0.60126, -8.1629]
+Dynamic agent 0 at: [1.7147, 3.2808]
+Dynamic agent 1 at: [14.993, -12.315]
+Dynamic agent 2 at: [-6.6296, -5.6323]
+Robot at: [-0.58374, -8.223]
+Dynamic agent 0 at: [1.7514, 3.3315]
+Dynamic agent 1 at: [15.006, -12.254]
+Dynamic agent 2 at: [-6.5823, -5.6734]
+Robot at: [-0.56623, -8.2832]
+Dynamic agent 0 at: [1.788, 3.3823]
+Dynamic agent 1 at: [15.018, -12.193]
+Dynamic agent 2 at: [-6.5349, -5.7145]
+Edge from vertex: 15 to vertex:72is valid.
+Evaluating Edge from vertex: 72 to vertex:257
+endcfg
+cfg size: 276
+Valid path called. Tick limit: 276
+Robot at: [-0.56623, -8.2832]
+Dynamic agent 0 at: [1.8002, 3.3992]
+Dynamic agent 1 at: [15.022, -12.172]
+Dynamic agent 2 at: [-6.5191, -5.7282]
+Robot at: [-0.55764, -8.3453]
+Dynamic agent 0 at: [1.8369, 3.45]
+Dynamic agent 1 at: [15.034, -12.111]
+Dynamic agent 2 at: [-6.4718, -5.7693]
+Robot at: [-0.54905, -8.4073]
+Dynamic agent 0 at: [1.8735, 3.5008]
+Dynamic agent 1 at: [15.046, -12.049]
+Dynamic agent 2 at: [-6.4244, -5.8104]
+Robot at: [-0.54046, -8.4694]
+Dynamic agent 0 at: [1.9101, 3.5516]
+Dynamic agent 1 at: [15.059, -11.988]
+Dynamic agent 2 at: [-6.377, -5.8515]
+Robot at: [-0.53186, -8.5314]
+Dynamic agent 0 at: [1.9468, 3.6023]
+Dynamic agent 1 at: [15.071, -11.927]
+Dynamic agent 2 at: [-6.3297, -5.8926]
+Robot at: [-0.52327, -8.5935]
+Dynamic agent 0 at: [1.9834, 3.6531]
+Dynamic agent 1 at: [15.083, -11.865]
+Dynamic agent 2 at: [-6.2823, -5.9337]
+Robot at: [-0.51468, -8.6556]
+Dynamic agent 0 at: [2.02, 3.7039]
+Dynamic agent 1 at: [15.095, -11.804]
+Dynamic agent 2 at: [-6.235, -5.9747]
+Robot at: [-0.50609, -8.7176]
+Dynamic agent 0 at: [2.0567, 3.7547]
+Dynamic agent 1 at: [15.107, -11.743]
+Dynamic agent 2 at: [-6.1876, -6.0158]
+Robot at: [-0.49749, -8.7797]
+Dynamic agent 0 at: [2.0933, 3.8055]
+Dynamic agent 1 at: [15.12, -11.681]
+Dynamic agent 2 at: [-6.1403, -6.0569]
+Robot at: [-0.4889, -8.8417]
+Dynamic agent 0 at: [2.1299, 3.8562]
+Dynamic agent 1 at: [15.132, -11.62]
+Dynamic agent 2 at: [-6.0929, -6.098]
+Robot at: [-0.48031, -8.9038]
+Dynamic agent 0 at: [2.1666, 3.907]
+Dynamic agent 1 at: [15.144, -11.559]
+Dynamic agent 2 at: [-6.0456, -6.1391]
+Robot at: [-0.47172, -8.9659]
+Dynamic agent 0 at: [2.2032, 3.9578]
+Dynamic agent 1 at: [15.156, -11.497]
+Dynamic agent 2 at: [-5.9982, -6.1802]
+Robot at: [-0.46312, -9.0279]
+Dynamic agent 0 at: [2.2398, 4.0086]
+Dynamic agent 1 at: [15.169, -11.436]
+Dynamic agent 2 at: [-5.9508, -6.2213]
+Robot at: [-0.45453, -9.09]
+Dynamic agent 0 at: [2.2765, 4.0593]
+Dynamic agent 1 at: [15.181, -11.375]
+Dynamic agent 2 at: [-5.9035, -6.2624]
+Robot at: [-0.44594, -9.152]
+Dynamic agent 0 at: [2.3131, 4.1101]
+Dynamic agent 1 at: [15.193, -11.313]
+Dynamic agent 2 at: [-5.8561, -6.3035]
+Robot at: [-0.43735, -9.2141]
+Dynamic agent 0 at: [2.3497, 4.1609]
+Dynamic agent 1 at: [15.205, -11.252]
+Dynamic agent 2 at: [-5.8088, -6.3446]
+Robot at: [-0.42875, -9.2761]
+Dynamic agent 0 at: [2.3864, 4.2117]
+Dynamic agent 1 at: [15.218, -11.191]
+Dynamic agent 2 at: [-5.7614, -6.3856]
+Robot at: [-0.42016, -9.3382]
+Dynamic agent 0 at: [2.423, 4.2624]
+Dynamic agent 1 at: [15.23, -11.129]
+Dynamic agent 2 at: [-5.7141, -6.4267]
+Robot at: [-0.41157, -9.4003]
+Dynamic agent 0 at: [2.4596, 4.3132]
+Dynamic agent 1 at: [15.242, -11.068]
+Dynamic agent 2 at: [-5.6667, -6.4678]
+Robot at: [-0.40298, -9.4623]
+Dynamic agent 0 at: [2.4963, 4.364]
+Dynamic agent 1 at: [15.254, -11.007]
+Dynamic agent 2 at: [-5.6197, -6.5093]
+Robot at: [-0.39438, -9.5244]
+Dynamic agent 0 at: [2.5329, 4.4148]
+Dynamic agent 1 at: [15.266, -10.945]
+Dynamic agent 2 at: [-5.5729, -6.5511]
+Robot at: [-0.38579, -9.5864]
+Dynamic agent 0 at: [2.5695, 4.4655]
+Dynamic agent 1 at: [15.279, -10.884]
+Dynamic agent 2 at: [-5.5261, -6.5928]
+Robot at: [-0.3772, -9.6485]
+Dynamic agent 0 at: [2.6062, 4.5163]
+Dynamic agent 1 at: [15.291, -10.823]
+Dynamic agent 2 at: [-5.4792, -6.6346]
+Robot at: [-0.36861, -9.7106]
+Dynamic agent 0 at: [2.6428, 4.5671]
+Dynamic agent 1 at: [15.303, -10.761]
+Dynamic agent 2 at: [-5.4324, -6.6763]
+Robot at: [-0.36002, -9.7726]
+Dynamic agent 0 at: [2.6794, 4.6179]
+Dynamic agent 1 at: [15.315, -10.7]
+Dynamic agent 2 at: [-5.3856, -6.718]
+Robot at: [-0.35142, -9.8347]
+Dynamic agent 0 at: [2.7161, 4.6686]
+Dynamic agent 1 at: [15.328, -10.639]
+Dynamic agent 2 at: [-5.3388, -6.7598]
+Robot at: [-0.34283, -9.8967]
+Dynamic agent 0 at: [2.7527, 4.7194]
+Dynamic agent 1 at: [15.34, -10.577]
+Dynamic agent 2 at: [-5.2919, -6.8015]
+Robot at: [-0.33424, -9.9588]
+Dynamic agent 0 at: [2.7893, 4.7702]
+Dynamic agent 1 at: [15.352, -10.516]
+Dynamic agent 2 at: [-5.2451, -6.8433]
+Robot at: [-0.32565, -10.021]
+Dynamic agent 0 at: [2.826, 4.821]
+Dynamic agent 1 at: [15.364, -10.455]
+Dynamic agent 2 at: [-5.1983, -6.885]
+Robot at: [-0.31705, -10.083]
+Dynamic agent 0 at: [2.8626, 4.8718]
+Dynamic agent 1 at: [15.376, -10.393]
+Dynamic agent 2 at: [-5.1515, -6.9267]
+Robot at: [-0.30846, -10.145]
+Dynamic agent 0 at: [2.8992, 4.9225]
+Dynamic agent 1 at: [15.389, -10.332]
+Dynamic agent 2 at: [-5.1046, -6.9685]
+Robot at: [-0.29987, -10.207]
+Dynamic agent 0 at: [2.9359, 4.9733]
+Dynamic agent 1 at: [15.401, -10.271]
+Dynamic agent 2 at: [-5.0578, -7.0102]
+Robot at: [-0.29128, -10.269]
+Dynamic agent 0 at: [2.9725, 5.0241]
+Dynamic agent 1 at: [15.413, -10.209]
+Dynamic agent 2 at: [-5.011, -7.052]
+Robot at: [-0.28268, -10.331]
+Dynamic agent 0 at: [3.0091, 5.0749]
+Dynamic agent 1 at: [15.425, -10.148]
+Dynamic agent 2 at: [-4.9642, -7.0937]
+Robot at: [-0.27409, -10.393]
+Dynamic agent 0 at: [3.0458, 5.1256]
+Dynamic agent 1 at: [15.438, -10.087]
+Dynamic agent 2 at: [-4.9173, -7.1354]
+Robot at: [-0.2655, -10.455]
+Dynamic agent 0 at: [3.0824, 5.1764]
+Dynamic agent 1 at: [15.45, -10.025]
+Dynamic agent 2 at: [-4.8705, -7.1772]
+Robot at: [-0.25691, -10.517]
+Dynamic agent 0 at: [3.119, 5.2272]
+Dynamic agent 1 at: [15.462, -9.9639]
+Dynamic agent 2 at: [-4.8237, -7.2189]
+Robot at: [-0.24831, -10.579]
+Dynamic agent 0 at: [3.1557, 5.278]
+Dynamic agent 1 at: [15.474, -9.9025]
+Dynamic agent 2 at: [-4.7769, -7.2606]
+Robot at: [-0.23972, -10.641]
+Dynamic agent 0 at: [3.1923, 5.3287]
+Dynamic agent 1 at: [15.486, -9.8412]
+Dynamic agent 2 at: [-4.73, -7.3024]
+Robot at: [-0.23113, -10.703]
+Dynamic agent 0 at: [3.2289, 5.3795]
+Dynamic agent 1 at: [15.499, -9.7799]
+Dynamic agent 2 at: [-4.6832, -7.3441]
+Robot at: [-0.22254, -10.766]
+Dynamic agent 0 at: [3.2656, 5.4303]
+Dynamic agent 1 at: [15.511, -9.7185]
+Dynamic agent 2 at: [-4.6364, -7.3859]
+Robot at: [-0.21394, -10.828]
+Dynamic agent 0 at: [3.3022, 5.4811]
+Dynamic agent 1 at: [15.523, -9.6572]
+Dynamic agent 2 at: [-4.5896, -7.4276]
+Robot at: [-0.20535, -10.89]
+Dynamic agent 0 at: [3.3388, 5.5318]
+Dynamic agent 1 at: [15.535, -9.5958]
+Dynamic agent 2 at: [-4.5427, -7.4693]
+Robot at: [-0.19676, -10.952]
+Dynamic agent 0 at: [3.3755, 5.5826]
+Dynamic agent 1 at: [15.548, -9.5345]
+Dynamic agent 2 at: [-4.4959, -7.5111]
+Robot at: [-0.18817, -11.014]
+Dynamic agent 0 at: [3.4121, 5.6334]
+Dynamic agent 1 at: [15.56, -9.4732]
+Dynamic agent 2 at: [-4.4491, -7.5528]
+Robot at: [-0.17957, -11.076]
+Dynamic agent 0 at: [3.4487, 5.6842]
+Dynamic agent 1 at: [15.572, -9.4118]
+Dynamic agent 2 at: [-4.4023, -7.5946]
+Robot at: [-0.17098, -11.138]
+Dynamic agent 0 at: [3.4854, 5.735]
+Dynamic agent 1 at: [15.584, -9.3505]
+Dynamic agent 2 at: [-4.3554, -7.6363]
+Robot at: [-0.16239, -11.2]
+Dynamic agent 0 at: [3.522, 5.7857]
+Dynamic agent 1 at: [15.597, -9.2891]
+Dynamic agent 2 at: [-4.3086, -7.678]
+Robot at: [-0.1538, -11.262]
+Dynamic agent 0 at: [3.5586, 5.8365]
+Dynamic agent 1 at: [15.609, -9.2278]
+Dynamic agent 2 at: [-4.2618, -7.7198]
+Robot at: [-0.1452, -11.324]
+Dynamic agent 0 at: [3.5953, 5.8873]
+Dynamic agent 1 at: [15.621, -9.1665]
+Dynamic agent 2 at: [-4.2149, -7.7615]
+Robot at: [-0.13661, -11.386]
+Dynamic agent 0 at: [3.6319, 5.9381]
+Dynamic agent 1 at: [15.633, -9.1051]
+Dynamic agent 2 at: [-4.1681, -7.8032]
+Robot at: [-0.12802, -11.448]
+Dynamic agent 0 at: [3.6685, 5.9888]
+Dynamic agent 1 at: [15.645, -9.0438]
+Dynamic agent 2 at: [-4.1213, -7.845]
+Robot at: [-0.11943, -11.51]
+Dynamic agent 0 at: [3.7125, 6.0327]
+Dynamic agent 1 at: [15.658, -8.9824]
+Dynamic agent 2 at: [-4.0745, -7.8867]
+Robot at: [-0.11083, -11.572]
+Dynamic agent 0 at: [3.7602, 6.0731]
+Dynamic agent 1 at: [15.67, -8.9211]
+Dynamic agent 2 at: [-4.0276, -7.9285]
+Robot at: [-0.10224, -11.634]
+Dynamic agent 0 at: [3.8079, 6.1134]
+Dynamic agent 1 at: [15.682, -8.8598]
+Dynamic agent 2 at: [-3.9808, -7.9702]
+Robot at: [-0.09365, -11.696]
+Dynamic agent 0 at: [3.8556, 6.1538]
+Dynamic agent 1 at: [15.694, -8.7984]
+Dynamic agent 2 at: [-3.934, -8.0119]
+Robot at: [-0.085058, -11.758]
+Dynamic agent 0 at: [3.9033, 6.1942]
+Dynamic agent 1 at: [15.707, -8.7371]
+Dynamic agent 2 at: [-3.8872, -8.0537]
+Robot at: [-0.076465, -11.821]
+Dynamic agent 0 at: [3.951, 6.2346]
+Dynamic agent 1 at: [15.719, -8.6757]
+Dynamic agent 2 at: [-3.8403, -8.0954]
+Robot at: [-0.067873, -11.883]
+Dynamic agent 0 at: [3.9986, 6.275]
+Dynamic agent 1 at: [15.731, -8.6144]
+Dynamic agent 2 at: [-3.7935, -8.1372]
+Robot at: [-0.05928, -11.945]
+Dynamic agent 0 at: [4.0463, 6.3153]
+Dynamic agent 1 at: [15.743, -8.5531]
+Dynamic agent 2 at: [-3.7467, -8.1789]
+Robot at: [-0.050688, -12.007]
+Dynamic agent 0 at: [4.094, 6.3557]
+Dynamic agent 1 at: [15.755, -8.4917]
+Dynamic agent 2 at: [-3.6999, -8.2206]
+Robot at: [-0.042096, -12.069]
+Dynamic agent 0 at: [4.1417, 6.3961]
+Dynamic agent 1 at: [15.768, -8.4304]
+Dynamic agent 2 at: [-3.653, -8.2624]
+Robot at: [-0.033503, -12.131]
+Dynamic agent 0 at: [4.1894, 6.4365]
+Dynamic agent 1 at: [15.78, -8.369]
+Dynamic agent 2 at: [-3.6062, -8.3041]
+Robot at: [-0.024911, -12.193]
+Dynamic agent 0 at: [4.2371, 6.4769]
+Dynamic agent 1 at: [15.792, -8.3077]
+Dynamic agent 2 at: [-3.5594, -8.3459]
+Robot at: [-0.016318, -12.255]
+Dynamic agent 0 at: [4.2847, 6.5172]
+Dynamic agent 1 at: [15.804, -8.2464]
+Dynamic agent 2 at: [-3.5126, -8.3876]
+Robot at: [-0.007726, -12.317]
+Dynamic agent 0 at: [4.3324, 6.5576]
+Dynamic agent 1 at: [15.817, -8.185]
+Dynamic agent 2 at: [-3.4657, -8.4293]
+Robot at: [0.00086644, -12.379]
+Dynamic agent 0 at: [4.3801, 6.598]
+Dynamic agent 1 at: [15.829, -8.1237]
+Dynamic agent 2 at: [-3.4189, -8.4711]
+Robot at: [0.0094589, -12.441]
+Dynamic agent 0 at: [4.4278, 6.6384]
+Dynamic agent 1 at: [15.841, -8.0623]
+Dynamic agent 2 at: [-3.3721, -8.5128]
+Robot at: [0.018051, -12.503]
+Dynamic agent 0 at: [4.4755, 6.6788]
+Dynamic agent 1 at: [15.853, -8.001]
+Dynamic agent 2 at: [-3.3253, -8.5545]
+Robot at: [0.026644, -12.565]
+Dynamic agent 0 at: [4.5232, 6.7191]
+Dynamic agent 1 at: [15.865, -7.9397]
+Dynamic agent 2 at: [-3.2784, -8.5963]
+Robot at: [0.035236, -12.627]
+Dynamic agent 0 at: [4.5708, 6.7595]
+Dynamic agent 1 at: [15.878, -7.8783]
+Dynamic agent 2 at: [-3.2316, -8.638]
+Robot at: [0.043829, -12.689]
+Dynamic agent 0 at: [4.6185, 6.7999]
+Dynamic agent 1 at: [15.89, -7.817]
+Dynamic agent 2 at: [-3.1848, -8.6798]
+Robot at: [0.052421, -12.751]
+Dynamic agent 0 at: [4.6662, 6.8403]
+Dynamic agent 1 at: [15.902, -7.7556]
+Dynamic agent 2 at: [-3.138, -8.7215]
+Robot at: [0.061013, -12.813]
+Dynamic agent 0 at: [4.7139, 6.8807]
+Dynamic agent 1 at: [15.914, -7.6943]
+Dynamic agent 2 at: [-3.0911, -8.7632]
+Robot at: [0.069606, -12.876]
+Dynamic agent 0 at: [4.7616, 6.9211]
+Dynamic agent 1 at: [15.927, -7.633]
+Dynamic agent 2 at: [-3.0443, -8.805]
+Robot at: [0.078198, -12.938]
+Dynamic agent 0 at: [4.8093, 6.9614]
+Dynamic agent 1 at: [15.939, -7.5716]
+Dynamic agent 2 at: [-2.9975, -8.8467]
+Robot at: [0.086791, -13]
+Dynamic agent 0 at: [4.857, 7.0018]
+Dynamic agent 1 at: [15.951, -7.5103]
+Dynamic agent 2 at: [-2.9507, -8.8885]
+Robot at: [0.095383, -13.062]
+Dynamic agent 0 at: [4.9046, 7.0422]
+Dynamic agent 1 at: [15.963, -7.449]
+Dynamic agent 2 at: [-2.9038, -8.9302]
+Robot at: [0.10398, -13.124]
+Dynamic agent 0 at: [4.9523, 7.0826]
+Dynamic agent 1 at: [15.976, -7.3876]
+Dynamic agent 2 at: [-2.857, -8.9719]
+Robot at: [0.11257, -13.186]
+Dynamic agent 0 at: [5, 7.123]
+Dynamic agent 1 at: [15.988, -7.3263]
+Dynamic agent 2 at: [-2.8102, -9.0137]
+Robot at: [0.12116, -13.248]
+Dynamic agent 0 at: [5.0477, 7.1633]
+Dynamic agent 1 at: [16, -7.2649]
+Dynamic agent 2 at: [-2.7634, -9.0554]
+Robot at: [0.12975, -13.31]
+Dynamic agent 0 at: [5.0954, 7.2037]
+Dynamic agent 1 at: [16.012, -7.2036]
+Dynamic agent 2 at: [-2.7165, -9.0971]
+Robot at: [0.13835, -13.372]
+Dynamic agent 0 at: [5.1431, 7.2441]
+Dynamic agent 1 at: [16.024, -7.1423]
+Dynamic agent 2 at: [-2.6697, -9.1389]
+Robot at: [0.14694, -13.434]
+Dynamic agent 0 at: [5.1907, 7.2845]
+Dynamic agent 1 at: [16.037, -7.0809]
+Dynamic agent 2 at: [-2.6229, -9.1806]
+Robot at: [0.15553, -13.496]
+Dynamic agent 0 at: [5.2384, 7.3249]
+Dynamic agent 1 at: [16.049, -7.0196]
+Dynamic agent 2 at: [-2.5761, -9.2224]
+Robot at: [0.16412, -13.558]
+Dynamic agent 0 at: [5.2861, 7.3652]
+Dynamic agent 1 at: [16.061, -6.9582]
+Dynamic agent 2 at: [-2.5292, -9.2641]
+Robot at: [0.17271, -13.62]
+Dynamic agent 0 at: [5.3338, 7.4056]
+Dynamic agent 1 at: [16.073, -6.8969]
+Dynamic agent 2 at: [-2.4824, -9.3058]
+Robot at: [0.18131, -13.682]
+Dynamic agent 0 at: [5.3815, 7.446]
+Dynamic agent 1 at: [16.086, -6.8356]
+Dynamic agent 2 at: [-2.4356, -9.3476]
+Robot at: [0.1899, -13.744]
+Dynamic agent 0 at: [5.4292, 7.4864]
+Dynamic agent 1 at: [16.098, -6.7742]
+Dynamic agent 2 at: [-2.3888, -9.3893]
+Robot at: [0.19849, -13.806]
+Dynamic agent 0 at: [5.4768, 7.5268]
+Dynamic agent 1 at: [16.11, -6.7129]
+Dynamic agent 2 at: [-2.3419, -9.4311]
+Robot at: [0.20708, -13.868]
+Dynamic agent 0 at: [5.5245, 7.5671]
+Dynamic agent 1 at: [16.129, -6.6543]
+Dynamic agent 2 at: [-2.2951, -9.4728]
+Robot at: [0.21568, -13.931]
+Dynamic agent 0 at: [5.5722, 7.6075]
+Dynamic agent 1 at: [16.162, -6.6013]
+Dynamic agent 2 at: [-2.2483, -9.5145]
+Edge from vertex: 72 to vertex:257is valid.
+Evaluating Edge from vertex: 257 to vertex:430
+endcfg
+cfg size: 122
+Valid path called. Tick limit: 122
+Robot at: [0.22141, -13.972]
+Dynamic agent 0 at: [5.6199, 7.6479]
+Dynamic agent 1 at: [16.195, -6.5482]
+Dynamic agent 2 at: [-2.2015, -9.5563]
+Robot at: [0.19608, -14.029]
+Dynamic agent 0 at: [5.6676, 7.6883]
+Dynamic agent 1 at: [16.228, -6.4952]
+Dynamic agent 2 at: [-2.1546, -9.598]
+Robot at: [0.17076, -14.086]
+Dynamic agent 0 at: [5.7153, 7.7287]
+Dynamic agent 1 at: [16.261, -6.4422]
+Dynamic agent 2 at: [-2.1078, -9.6398]
+Robot at: [0.14543, -14.143]
+Dynamic agent 0 at: [5.7629, 7.769]
+Dynamic agent 1 at: [16.294, -6.3891]
+Dynamic agent 2 at: [-2.061, -9.6815]
+Robot at: [0.12011, -14.199]
+Dynamic agent 0 at: [5.8106, 7.8094]
+Dynamic agent 1 at: [16.327, -6.3361]
+Dynamic agent 2 at: [-2.0142, -9.7232]
+Robot at: [0.094785, -14.256]
+Dynamic agent 0 at: [5.8583, 7.8498]
+Dynamic agent 1 at: [16.36, -6.283]
+Dynamic agent 2 at: [-1.9673, -9.765]
+Robot at: [0.069461, -14.313]
+Dynamic agent 0 at: [5.906, 7.8902]
+Dynamic agent 1 at: [16.393, -6.23]
+Dynamic agent 2 at: [-1.9205, -9.8067]
+Robot at: [0.044136, -14.37]
+Dynamic agent 0 at: [5.9537, 7.9306]
+Dynamic agent 1 at: [16.426, -6.177]
+Dynamic agent 2 at: [-1.8737, -9.8484]
+Robot at: [0.018812, -14.427]
+Dynamic agent 0 at: [6.0014, 7.9709]
+Dynamic agent 1 at: [16.458, -6.1239]
+Dynamic agent 2 at: [-1.8269, -9.8902]
+Robot at: [-0.0065117, -14.484]
+Dynamic agent 0 at: [6.0491, 8.0113]
+Dynamic agent 1 at: [16.491, -6.0709]
+Dynamic agent 2 at: [-1.78, -9.9319]
+Robot at: [-0.031836, -14.541]
+Dynamic agent 0 at: [6.0967, 8.0517]
+Dynamic agent 1 at: [16.524, -6.0179]
+Dynamic agent 2 at: [-1.7332, -9.9737]
+Robot at: [-0.05716, -14.598]
+Dynamic agent 0 at: [6.1444, 8.0921]
+Dynamic agent 1 at: [16.557, -5.9648]
+Dynamic agent 2 at: [-1.6864, -10.015]
+Robot at: [-0.082484, -14.655]
+Dynamic agent 0 at: [6.1921, 8.1325]
+Dynamic agent 1 at: [16.59, -5.9118]
+Dynamic agent 2 at: [-1.6396, -10.057]
+Robot at: [-0.10781, -14.712]
+Dynamic agent 0 at: [6.2398, 8.1728]
+Dynamic agent 1 at: [16.623, -5.8588]
+Dynamic agent 2 at: [-1.5927, -10.099]
+Robot at: [-0.13313, -14.768]
+Dynamic agent 0 at: [6.2875, 8.2132]
+Dynamic agent 1 at: [16.656, -5.8057]
+Dynamic agent 2 at: [-1.5459, -10.141]
+Robot at: [-0.15846, -14.825]
+Dynamic agent 0 at: [6.3352, 8.2536]
+Dynamic agent 1 at: [16.689, -5.7527]
+Dynamic agent 2 at: [-1.4991, -10.182]
+Robot at: [-0.18378, -14.882]
+Dynamic agent 0 at: [6.3828, 8.294]
+Dynamic agent 1 at: [16.722, -5.6996]
+Dynamic agent 2 at: [-1.4523, -10.224]
+Robot at: [-0.2091, -14.939]
+Dynamic agent 0 at: [6.4305, 8.3344]
+Dynamic agent 1 at: [16.755, -5.6466]
+Dynamic agent 2 at: [-1.4054, -10.266]
+Robot at: [-0.23443, -14.996]
+Dynamic agent 0 at: [6.4782, 8.3748]
+Dynamic agent 1 at: [16.788, -5.5936]
+Dynamic agent 2 at: [-1.3586, -10.308]
+Robot at: [-0.25975, -15.053]
+Dynamic agent 0 at: [6.5259, 8.4151]
+Dynamic agent 1 at: [16.821, -5.5405]
+Dynamic agent 2 at: [-1.3118, -10.349]
+Robot at: [-0.28508, -15.11]
+Dynamic agent 0 at: [6.5736, 8.4555]
+Dynamic agent 1 at: [16.854, -5.4875]
+Dynamic agent 2 at: [-1.265, -10.391]
+Robot at: [-0.3104, -15.167]
+Dynamic agent 0 at: [6.6213, 8.4959]
+Dynamic agent 1 at: [16.887, -5.4345]
+Dynamic agent 2 at: [-1.2181, -10.433]
+Robot at: [-0.33572, -15.224]
+Dynamic agent 0 at: [6.6689, 8.5363]
+Dynamic agent 1 at: [16.92, -5.3814]
+Dynamic agent 2 at: [-1.1713, -10.475]
+Robot at: [-0.36105, -15.281]
+Dynamic agent 0 at: [6.7166, 8.5767]
+Dynamic agent 1 at: [16.952, -5.3284]
+Dynamic agent 2 at: [-1.1245, -10.516]
+Robot at: [-0.38637, -15.337]
+Dynamic agent 0 at: [6.7643, 8.617]
+Dynamic agent 1 at: [16.985, -5.2753]
+Dynamic agent 2 at: [-1.0777, -10.558]
+Robot at: [-0.4117, -15.394]
+Dynamic agent 0 at: [6.812, 8.6574]
+Dynamic agent 1 at: [17.018, -5.2223]
+Dynamic agent 2 at: [-1.0308, -10.6]
+Robot at: [-0.43702, -15.451]
+Dynamic agent 0 at: [6.8597, 8.6978]
+Dynamic agent 1 at: [17.051, -5.1693]
+Dynamic agent 2 at: [-0.984, -10.641]
+Robot at: [-0.46235, -15.508]
+Dynamic agent 0 at: [6.9074, 8.7382]
+Dynamic agent 1 at: [17.084, -5.1162]
+Dynamic agent 2 at: [-0.93718, -10.683]
+Robot at: [-0.48767, -15.565]
+Dynamic agent 0 at: [6.955, 8.7786]
+Dynamic agent 1 at: [17.117, -5.0632]
+Dynamic agent 2 at: [-0.89035, -10.725]
+Robot at: [-0.51299, -15.622]
+Dynamic agent 0 at: [7.0027, 8.8189]
+Dynamic agent 1 at: [17.15, -5.0102]
+Dynamic agent 2 at: [-0.84353, -10.767]
+Robot at: [-0.53832, -15.679]
+Dynamic agent 0 at: [7.0504, 8.8593]
+Dynamic agent 1 at: [17.183, -4.9571]
+Dynamic agent 2 at: [-0.7967, -10.808]
+Robot at: [-0.56364, -15.736]
+Dynamic agent 0 at: [7.0981, 8.8997]
+Dynamic agent 1 at: [17.216, -4.9041]
+Dynamic agent 2 at: [-0.74988, -10.85]
+Robot at: [-0.58897, -15.793]
+Dynamic agent 0 at: [7.1458, 8.9401]
+Dynamic agent 1 at: [17.249, -4.8511]
+Dynamic agent 2 at: [-0.70305, -10.892]
+Robot at: [-0.61429, -15.849]
+Dynamic agent 0 at: [7.1935, 8.9805]
+Dynamic agent 1 at: [17.282, -4.798]
+Dynamic agent 2 at: [-0.65623, -10.934]
+Robot at: [-0.63961, -15.906]
+Dynamic agent 0 at: [7.2411, 9.0208]
+Dynamic agent 1 at: [17.315, -4.745]
+Dynamic agent 2 at: [-0.6094, -10.975]
+Robot at: [-0.66494, -15.963]
+Dynamic agent 0 at: [7.2888, 9.0612]
+Dynamic agent 1 at: [17.348, -4.6919]
+Dynamic agent 2 at: [-0.56258, -11.017]
+Robot at: [-0.69026, -16.02]
+Dynamic agent 0 at: [7.3365, 9.1016]
+Dynamic agent 1 at: [17.381, -4.6389]
+Dynamic agent 2 at: [-0.51575, -11.059]
+Robot at: [-0.71559, -16.077]
+Dynamic agent 0 at: [7.3842, 9.142]
+Dynamic agent 1 at: [17.413, -4.5859]
+Dynamic agent 2 at: [-0.46893, -11.101]
+Robot at: [-0.74091, -16.134]
+Dynamic agent 0 at: [7.4297, 9.1849]
+Dynamic agent 1 at: [17.446, -4.5328]
+Dynamic agent 2 at: [-0.4221, -11.142]
+Robot at: [-0.76623, -16.191]
+Dynamic agent 0 at: [7.4741, 9.2291]
+Dynamic agent 1 at: [17.479, -4.4798]
+Dynamic agent 2 at: [-0.37527, -11.184]
+Robot at: [-0.79156, -16.248]
+Dynamic agent 0 at: [7.5186, 9.2733]
+Dynamic agent 1 at: [17.512, -4.4268]
+Dynamic agent 2 at: [-0.32845, -11.226]
+Edge from vertex: 257 to vertex:430is valid.
+valid this...0x63d44ead0be0
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+IOUtils WritePath WaitDuration true
+MorseQuery::MorseQuery: 0.49843400000000004 sec
+MorseQuery::MorseQuery  (Passed)
+MorseFunction::MorseFunction::EvaluateMap: 0.49844299999999997 sec

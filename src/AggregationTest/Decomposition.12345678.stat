@@ -1,0 +1,72 @@
+Roadmap Statistics:
+
+  Number of Nodes: 217
+  Number of Edges: 1092
+
+  There are 17 connected components:
+    CC[0]: 171 (vid 0)
+    CC[1]: 10 (vid 8)
+    CC[2]: 1 (vid 19)
+    CC[3]: 6 (vid 20)
+    CC[4]: 1 (vid 37)
+    CC[5]: 9 (vid 41)
+    CC[6]: 8 (vid 60)
+    CC[7]: 1 (vid 105)
+    CC[8]: 1 (vid 111)
+    CC[9]: 1 (vid 112)
+    CC[10]: 1 (vid 121)
+    CC[11]: 1 (vid 126)
+    CC[12]: 1 (vid 128)
+    CC[13]: 1 (vid 158)
+    CC[14]: 2 (vid 159)
+    CC[15]: 1 (vid 174)
+    CC[16]: 1 (vid 205)
+
+
+Sampler Statistics                                            Attempts Successes
+
+  UniformRandomSampler::UniformRandomFree                          779       217
+  All Samplers                                                     779       217
+  Success Rate: 27.9%
+
+
+Local Planner Statistics                        Attempts Connections    CD Calls
+
+  StraightLine::sl                                   837         564       72038
+
+
+Collision Detection Calls                                                  Count
+
+  StraightLine::sl::IsConnectedSLBinary                                    69238
+  UniformRandomSampler::UniformRandomFree::SampleImpl()                      779
+  All Collision Detectors                                                  70017
+
+
+Other Statistics                                                           Value
+
+  BruteForceNF::BFNF::NumQueries                                             233
+  CC Operations                                                               54
+  Graph Search                                                                 1
+
+
+Clock Name                                                        Time (Seconds)
+
+  BruteForceNF::BFNF::Query                                               0.0219
+  BruteForceNF::BFNF::Total                                               0.0223
+  CollisionDetection::rapid::ObstCheck                                     0.682
+  CollisionDetection::rapid::ValidityCheck                                 0.795
+  Decomposition Generation                                                  2.76
+  DecompositionBasic                                                      0.0357
+  DecompositionPRM::DecompositionPRM::EvaluateMap                         0.0138
+  DecompositionPRM::DecompositionPRM::Run                                  0.956
+  NeighborhoodConnector::Closest                                           0.914
+  PRMQuery::ConnectToCC                                                  0.00123
+  PRMQuery::FindCCs                                                      3.6e-05
+  PRMQuery::PRMQuery                                                      0.0138
+  QueryMethod::CCTesting                                                 7.7e-05
+  QueryMethod::GeneratingQuery                                             5e-05
+  QueryMethod::GraphSearch                                              0.000457
+  Total Connection                                                         0.914
+  Total Node Generation                                                   0.0281
+  UniformRandomSampler::UniformRandomFree                                 0.0277
+  VoxmapBasic                                                               2.72

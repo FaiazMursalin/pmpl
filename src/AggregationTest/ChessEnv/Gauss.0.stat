@@ -1,0 +1,65 @@
+
+
+Samplers Statistics:
+                                    Name            Attempts         Successes
+
+                  GaussianSampler::Gauss                 201                  44
+  Total Sampler Attempts: 201
+  Total Succeeded: 44
+  Success %: 21.8905
+
+
+Local Planners:
+                Name       Attempts    Connections Coll Det Calls
+    StraightLine::sl            306             65           5105
+
+
+ Graph Operation Statistics:
+
+                               Statistic                                   Value
+
+                           CC Operations                                     177
+                            Graph Search                                       4
+
+
+ Neighborhood Finder Statistics:
+
+                               Statistic                                   Value
+
+          BruteForceNF::BFNF::NumQueries                                     116
+
+
+Number of Nodes: 48
+Number of Edges: 90
+
+
+There are 9 connected components:
+CC[0]: 39 (vid=0)
+CC[1]: 1 (vid=14)
+CC[2]: 1 (vid=16)
+CC[3]: 1 (vid=19)
+CC[4]: 1 (vid=22)
+CC[5]: 1 (vid=23)
+CC[6]: 2 (vid=33)
+CC[7]: 1 (vid=40)
+CC[8]: 1 (vid=42)
+
+Cfg::isCollision() Exact Counts:
+0) 402 GaussianSampler::Gauss::SampleImpl()
+1) 3512 StraightLine::sl::IsConnectedSLBinary
+Total Cfg::isCollision() = 3914
+
+Clocks 
+
+                                    Name                          Time (Seconds)
+
+       BasicPRM::BasicPRM::EvaluateMap()                                0.020414
+               BasicPRM::BasicPRM::Run()                                0.065925
+               BruteForceNF::BFNF::Query                                 0.00141
+               BruteForceNF::BFNF::Total                                0.001416
+                  GaussianSampler::Gauss                                0.010633
+          NeighborhoodConnector::Closest                                0.034831
+                      Query Graph Search                                0.000282
+                            Query::Query                                0.020412
+                        Total Connection                                0.034834
+                   Total Node Generation                                0.010667

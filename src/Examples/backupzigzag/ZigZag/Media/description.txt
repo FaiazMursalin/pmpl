@@ -1,0 +1,1 @@
+The Zig-Zag environment represents a easy winding narrow passage which fools many sampling-based planners. It is a nice 2D problem, to study qualities of various planners.

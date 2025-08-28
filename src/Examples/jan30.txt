@@ -1,0 +1,1490 @@
+Automatically computed position resolution as 0.0209141
+Warning: MPTask is currently creating constraint boundaries from only the first constraint in each set!
+Warning: MPTask is currently creating constraint boundaries from only the first constraint in each set!
+Query generation:
+	Start boundary : CSpaceBoundingBox [-8.26667:-8.26667 ; 15.7333:15.7333 ]
+	Start cfg: 0  -8.26666999999999952e+00   1.57332999999999998e+01 
+	Goal boundary  : CSpaceBoundingBox [0.26667000000000002:0.26667000000000002 ; -14.666700000000001:-14.666700000000001 ]
+	Goal cfg: 0   2.66670000000000018e-01  -1.46667000000000005e+01 
+Warning: MPTask is currently creating constraint boundaries from only the first constraint in each set!
+Warning: MPTask is currently creating constraint boundaries from only the first constraint in each set!
+Query generation:
+	Start boundary : CSpaceBoundingBox [-8.2666699999999995:-8.2666699999999995 ; 15.7333:15.7333 ]
+	Start cfg: 0  -8.26666999999999952e+00   1.57332999999999998e+01 
+	Goal boundary  : CSpaceBoundingBox [0.26667000000000002:0.26667000000000002 ; -14.666700000000001:-14.666700000000001 ]
+	Goal cfg: 0   2.66670000000000018e-01  -1.46667000000000005e+01 
+Warning: MPTask is currently creating constraint boundaries from only the first constraint in each set!
+Warning: MPTask is currently creating constraint boundaries from only the first constraint in each set!
+Query generation:
+	Start boundary : CSpaceBoundingBox [-8.2666699999999995:-8.2666699999999995 ; 15.7333:15.7333 ]
+	Start cfg: 0  -8.26666999999999952e+00   1.57332999999999998e+01 
+	Goal boundary  : CSpaceBoundingBox [0.26667000000000002:0.26667000000000002 ; -14.666700000000001:-14.666700000000001 ]
+	Goal cfg: 0   2.66670000000000018e-01  -1.46667000000000005e+01 
+Warning: MPTask is currently creating constraint boundaries from only the first constraint in each set!
+Warning: MPTask is currently creating constraint boundaries from only the first constraint in each set!
+Query generation:
+	Start boundary : CSpaceBoundingBox [-8.2666699999999995:-8.2666699999999995 ; 15.7333:15.7333 ]
+	Start cfg: 0  -8.26666999999999952e+00   1.57332999999999998e+01 
+	Goal boundary  : CSpaceBoundingBox [0.26667000000000002:0.26667000000000002 ; -14.666700000000001:-14.666700000000001 ]
+	Goal cfg: 0   2.66670000000000018e-01  -1.46667000000000005e+01 
+Reading dynamic agent path
+Reading dynamic agent path file 'newDpaths.paths
+File stream ready for dynamic agent path
+Reading dynamic agent from: ZigZag/boxy_original.robot
+Gets dynamic agent
+0x5692610dcf80
+DOF 2
+PosDOF 2
+OrientationDOF 0
+JointDOF 0
+Number of dynamic agents: 5
+Should read lines: 2088 for path 0
+Read 2088 for path 0
+Should read lines: 1014 for path 1
+Read 1014 for path 1
+Should read lines: 1842 for path 2
+Read 1842 for path 2
+Should read lines: 709 for path 3
+Read 709 for path 3
+Should read lines: 1027 for path 4
+Read 1027 for path 4
+Read 5 paths for dynamic agent path
+InitializeCritical called
+InitializeCritical return: 0
+Warning: MPTask is currently creating constraint boundaries from only the first constraint in each set!
+Warning: MPTask is currently creating constraint boundaries from only the first constraint in each set!
+Query generation:
+	Start boundary : CSpaceBoundingBox [-8.2666699999999995:-8.2666699999999995 ; 15.7333:15.7333 ]
+	Start cfg: 0  -8.26666999999999952e+00   1.57332999999999998e+01 
+	Goal boundary  : CSpaceBoundingBox [0.26667000000000002:0.26667000000000002 ; -14.666700000000001:-14.666700000000001 ]
+	Goal cfg: 0   2.66670000000000018e-01  -1.46667000000000005e+01 
+Warning: MPTask is currently creating constraint boundaries from only the first constraint in each set!
+Warning: MPTask is currently creating constraint boundaries from only the first constraint in each set!
+Query generation:
+	Start boundary : CSpaceBoundingBox [-8.2666699999999995:-8.2666699999999995 ; 15.7333:15.7333 ]
+	Start cfg: 0  -8.26666999999999952e+00   1.57332999999999998e+01 
+	Goal boundary  : CSpaceBoundingBox [0.26667000000000002:0.26667000000000002 ; -14.666700000000001:-14.666700000000001 ]
+	Goal cfg: 0   2.66670000000000018e-01  -1.46667000000000005e+01 
+
+
+MPLibrary is solving with MPStrategyMethod labeled MorseFunction using seed 12345678.
+MorseFunction::MorseFunction
+	Sampling method: UniformRandomFree
+	MapEvaluator :	MorseQuery
+Node vertex ID 0
+Node vertex ID 1
+Node vertex ID 2
+Node vertex ID 3
+Node vertex ID 4
+Node vertex ID 5
+Node vertex ID 6
+Node vertex ID 7
+Node vertex ID 8
+Node vertex ID 9
+Node vertex ID 10
+Node vertex ID 11
+Node vertex ID 12
+Node vertex ID 13
+Node vertex ID 14
+Node vertex ID 15
+Node vertex ID 16
+Node vertex ID 17
+Node vertex ID 18
+Node vertex ID 19
+Node vertex ID 20
+Node vertex ID 21
+Node vertex ID 22
+Node vertex ID 23
+Node vertex ID 24
+Node vertex ID 25
+Node vertex ID 26
+Node vertex ID 27
+Node vertex ID 28
+Node vertex ID 29
+Node vertex ID 30
+Node vertex ID 31
+Node vertex ID 32
+Node vertex ID 33
+Node vertex ID 34
+Node vertex ID 35
+Node vertex ID 36
+Node vertex ID 37
+Node vertex ID 38
+Node vertex ID 39
+Node vertex ID 40
+Node vertex ID 41
+Node vertex ID 42
+Node vertex ID 43
+Node vertex ID 44
+Node vertex ID 45
+Node vertex ID 46
+Node vertex ID 47
+Node vertex ID 48
+Node vertex ID 49
+Node vertex ID 50
+Node vertex ID 51
+Node vertex ID 52
+Node vertex ID 53
+Node vertex ID 54
+Node vertex ID 55
+Node vertex ID 56
+Node vertex ID 57
+Node vertex ID 58
+Node vertex ID 59
+Node vertex ID 60
+Node vertex ID 61
+Node vertex ID 62
+Node vertex ID 63
+Node vertex ID 64
+Node vertex ID 65
+Node vertex ID 66
+Node vertex ID 67
+Node vertex ID 68
+Node vertex ID 69
+Node vertex ID 70
+Node vertex ID 71
+Node vertex ID 72
+Node vertex ID 73
+Node vertex ID 74
+Node vertex ID 75
+Node vertex ID 76
+Node vertex ID 77
+Node vertex ID 78
+Node vertex ID 79
+Node vertex ID 80
+Node vertex ID 81
+Node vertex ID 82
+Node vertex ID 83
+Node vertex ID 84
+Node vertex ID 85
+Node vertex ID 86
+Node vertex ID 87
+Number of obstacle points: 1006
+Node vertex ID 88
+Node vertex ID 89
+Node vertex ID 90
+Node vertex ID 91
+Node vertex ID 92
+Node vertex ID 93
+Node vertex ID 94
+Node vertex ID 95
+Node vertex ID 96
+Node vertex ID 97
+Node vertex ID 98
+Node vertex ID 99
+Node vertex ID 100
+Node vertex ID 101
+Node vertex ID 102
+Node vertex ID 103
+Node vertex ID 104
+Node vertex ID 105
+Node vertex ID 106
+Node vertex ID 107
+Node vertex ID 108
+Node vertex ID 109
+Node vertex ID 110
+Node vertex ID 111
+Node vertex ID 112
+Node vertex ID 113
+Node vertex ID 114
+Node vertex ID 115
+Node vertex ID 116
+Node vertex ID 117
+Node vertex ID 118
+Node vertex ID 119
+Node vertex ID 120
+Node vertex ID 121
+Node vertex ID 122
+Node vertex ID 123
+Node vertex ID 124
+Node vertex ID 125
+Node vertex ID 126
+Node vertex ID 127
+Node vertex ID 128
+Node vertex ID 129
+Node vertex ID 130
+Node vertex ID 131
+Node vertex ID 132
+Node vertex ID 133
+Node vertex ID 134
+Node vertex ID 135
+Node vertex ID 136
+Node vertex ID 137
+Node vertex ID 138
+Node vertex ID 139
+Node vertex ID 140
+Node vertex ID 141
+Node vertex ID 142
+Node vertex ID 143
+Node vertex ID 144
+Node vertex ID 145
+Node vertex ID 146
+Node vertex ID 147
+Node vertex ID 148
+Node vertex ID 149
+Node vertex ID 150
+Node vertex ID 151
+Node vertex ID 152
+Node vertex ID 153
+Node vertex ID 154
+Node vertex ID 155
+Node vertex ID 156
+Node vertex ID 157
+Node vertex ID 158
+Node vertex ID 159
+Node vertex ID 160
+Node vertex ID 161
+Node vertex ID 162
+Node vertex ID 163
+Node vertex ID 164
+Node vertex ID 165
+Node vertex ID 166
+Node vertex ID 167
+Node vertex ID 168
+Node vertex ID 169
+Node vertex ID 170
+Node vertex ID 171
+Node vertex ID 172
+Node vertex ID 173
+Node vertex ID 174
+Node vertex ID 175
+Node vertex ID 176
+Node vertex ID 177
+Node vertex ID 178
+Node vertex ID 179
+Node vertex ID 180
+Node vertex ID 181
+Node vertex ID 182
+Node vertex ID 183
+Node vertex ID 184
+Node vertex ID 185
+Node vertex ID 186
+Node vertex ID 187
+Node vertex ID 188
+Node vertex ID 189
+Node vertex ID 190
+Node vertex ID 191
+Node vertex ID 192
+Node vertex ID 193
+Node vertex ID 194
+Node vertex ID 195
+Node vertex ID 196
+Node vertex ID 197
+Node vertex ID 198
+Node vertex ID 199
+Node vertex ID 200
+Node vertex ID 201
+Node vertex ID 202
+Node vertex ID 203
+Node vertex ID 204
+Node vertex ID 205
+Node vertex ID 206
+Node vertex ID 207
+Node vertex ID 208
+Node vertex ID 209
+Node vertex ID 210
+Node vertex ID 211
+Node vertex ID 212
+Node vertex ID 213
+Node vertex ID 214
+Node vertex ID 215
+Node vertex ID 216
+Node vertex ID 217
+Node vertex ID 218
+Node vertex ID 219
+Node vertex ID 220
+Node vertex ID 221
+Node vertex ID 222
+Node vertex ID 223
+Node vertex ID 224
+Node vertex ID 225
+Node vertex ID 226
+Node vertex ID 227
+Node vertex ID 228
+Node vertex ID 229
+Node vertex ID 230
+Node vertex ID 231
+Node vertex ID 232
+Node vertex ID 233
+Node vertex ID 234
+Node vertex ID 235
+Node vertex ID 236
+Node vertex ID 237
+Node vertex ID 238
+Node vertex ID 239
+Node vertex ID 240
+Node vertex ID 241
+Node vertex ID 242
+Node vertex ID 243
+Node vertex ID 244
+Node vertex ID 245
+Node vertex ID 246
+Node vertex ID 247
+Node vertex ID 248
+Node vertex ID 249
+Node vertex ID 250
+Node vertex ID 251
+Node vertex ID 252
+Node vertex ID 253
+Node vertex ID 254
+Node vertex ID 255
+Node vertex ID 256
+Node vertex ID 257
+Node vertex ID 258
+Node vertex ID 259
+Node vertex ID 260
+Node vertex ID 261
+Node vertex ID 262
+Node vertex ID 263
+Node vertex ID 264
+Node vertex ID 265
+Node vertex ID 266
+Node vertex ID 267
+Node vertex ID 268
+Node vertex ID 269
+Node vertex ID 270
+Node vertex ID 271
+Node vertex ID 272
+Node vertex ID 273
+Node vertex ID 274
+Node vertex ID 275
+Node vertex ID 276
+Node vertex ID 277
+Node vertex ID 278
+Node vertex ID 279
+Node vertex ID 280
+Node vertex ID 281
+Node vertex ID 282
+Node vertex ID 283
+Node vertex ID 284
+Node vertex ID 285
+Node vertex ID 286
+Node vertex ID 287
+Node vertex ID 288
+Node vertex ID 289
+Node vertex ID 290
+Node vertex ID 291
+Node vertex ID 292
+Node vertex ID 293
+Node vertex ID 294
+Node vertex ID 295
+Node vertex ID 296
+Node vertex ID 297
+Node vertex ID 298
+Node vertex ID 299
+Node vertex ID 300
+Node vertex ID 301
+Node vertex ID 302
+Node vertex ID 303
+Node vertex ID 304
+Node vertex ID 305
+Node vertex ID 306
+Node vertex ID 307
+Node vertex ID 308
+Node vertex ID 309
+Node vertex ID 310
+Node vertex ID 311
+Node vertex ID 312
+Node vertex ID 313
+Node vertex ID 314
+Node vertex ID 315
+Node vertex ID 316
+Node vertex ID 317
+Node vertex ID 318
+Node vertex ID 319
+Node vertex ID 320
+Node vertex ID 321
+Node vertex ID 322
+Node vertex ID 323
+Node vertex ID 324
+Node vertex ID 325
+Node vertex ID 326
+Node vertex ID 327
+Node vertex ID 328
+Node vertex ID 329
+Node vertex ID 330
+Node vertex ID 331
+Node vertex ID 332
+Node vertex ID 333
+Node vertex ID 334
+Node vertex ID 335
+Node vertex ID 336
+Node vertex ID 337
+Node vertex ID 338
+Node vertex ID 339
+Node vertex ID 340
+Node vertex ID 341
+Node vertex ID 342
+Node vertex ID 343
+Node vertex ID 344
+Node vertex ID 345
+Node vertex ID 346
+Node vertex ID 347
+Node vertex ID 348
+Node vertex ID 349
+Node vertex ID 350
+Node vertex ID 351
+Node vertex ID 352
+Node vertex ID 353
+Node vertex ID 354
+Node vertex ID 355
+Node vertex ID 356
+Node vertex ID 357
+Node vertex ID 358
+Node vertex ID 359
+Node vertex ID 360
+Node vertex ID 361
+Node vertex ID 362
+Node vertex ID 363
+Node vertex ID 364
+Node vertex ID 365
+Node vertex ID 366
+Node vertex ID 367
+Node vertex ID 368
+Node vertex ID 369
+Node vertex ID 370
+Node vertex ID 371
+Node vertex ID 372
+Node vertex ID 373
+Node vertex ID 374
+Node vertex ID 375
+Node vertex ID 376
+Node vertex ID 377
+Node vertex ID 378
+Node vertex ID 379
+Node vertex ID 380
+Node vertex ID 381
+Node vertex ID 382
+Node vertex ID 383
+Node vertex ID 384
+Node vertex ID 385
+Node vertex ID 386
+Node vertex ID 387
+Node vertex ID 388
+Node vertex ID 389
+Node vertex ID 390
+Node vertex ID 391
+Node vertex ID 392
+Node vertex ID 393
+Node vertex ID 394
+Node vertex ID 395
+Node vertex ID 396
+Node vertex ID 397
+Node vertex ID 398
+Node vertex ID 399
+Node vertex ID 400
+Node vertex ID 401
+Node vertex ID 402
+Node vertex ID 403
+Node vertex ID 404
+Node vertex ID 405
+Node vertex ID 406
+Node vertex ID 407
+Node vertex ID 408
+Node vertex ID 409
+Node vertex ID 410
+Node vertex ID 411
+Node vertex ID 412
+Node vertex ID 413
+Node vertex ID 414
+Node vertex ID 415
+Node vertex ID 416
+Node vertex ID 417
+Node vertex ID 418
+Node vertex ID 419
+Node vertex ID 420
+Node vertex ID 421
+Node vertex ID 422
+Node vertex ID 423
+Node vertex ID 424
+Node vertex ID 425
+Node vertex ID 426
+Node vertex ID 427
+Node vertex ID 428
+Graph vertices: 429
+Total Connection: 3.5597099999999999 sec
+Number of cliques1221
+Number of vertices deleted:0
+ClosestNode	0   1.60312101604672819e+01  -1.05833359100455482e+01 
+16.031210160467282 -10.583335910045548 0 
+size of obstacle poibts1006
+road 429
+Eval loop: MorseQuery
+GetName == MorseQuery
+Reading dynamic agent path
+Reading dynamic agent path file 'newDpaths.paths
+File stream ready for dynamic agent path
+Reading dynamic agent from: ZigZag/boxy_original.robot
+Gets dynamic agent
+0x5692610dc750
+DOF 2
+PosDOF 2
+OrientationDOF 0
+JointDOF 0
+Number of dynamic agents: 5
+Should read lines: 2088 for path 0
+Read 2088 for path 0
+Should read lines: 1014 for path 1
+Read 1014 for path 1
+Should read lines: 1842 for path 2
+Read 1842 for path 2
+Should read lines: 709 for path 3
+Read 709 for path 3
+Should read lines: 1027 for path 4
+Read 1027 for path 4
+Read 5 paths for dynamic agent path
+InitializeCritical called
+InitializeCritical return: 0
+Initialize should be called
+Number of above/below avg -sd points7
+Number of critical points: 7
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 3
+critical information for clusters 3
+critical information for clusters 3
+critical information for clusters 3
+critical information for clusters 3
+critical information for clusters 3
+critical information for clusters 3
+critical information for clusters 3
+critical information for clusters 3
+critical information for clusters 4
+critical information for clusters 4
+critical information for clusters 4
+critical information for clusters 4
+critical information for clusters 4
+critical information for clusters 4
+critical information for clusters 4
+critical information for clusters 4
+critical information for clusters 4
+critical information for clusters 4
+critical information for clusters 4
+critical information for clusters 4
+critical information for clusters 4
+critical information for clusters 4
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 6
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 4
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 0
+Number of clusters7
+Number of vertices in graph: 429 500
+Run evaluate map
+number of edges: 18860
+Evaluating sub-query:
+	from 0  -8.26666999999999952e+00   1.57332999999999998e+01 
+	to   0   2.66670000000000018e-01  -1.46667000000000005e+01 
+cc size:1
+connected: 1
+InitializeCritical called
+InitializeCritical return: 1
+map passed 1
+path size found for GetPaths: 1535
+map passed 1
+path size found for GetPaths: 1540
+map passed 1
+path size found for GetPaths: 1554
+map passed 1
+path size found for GetPaths: 1565
+map passed 1
+path size found for GetPaths: 1611
+map passed 1
+path size found for GetPaths: 1642
+map passed 1
+path size found for GetPaths: 1680
+map passed 1
+path size found for GetPaths: 1701
+map passed 1
+path size found for GetPaths: 1727
+map passed 1
+path size found for GetPaths: 1797
+map passed 1
+path size found for GetPaths: 1819
+map passed 1
+path size found for GetPaths: 1955
+map passed 1
+path size found for GetPaths: 1957
+Total number of paths at the end of GetPaths = 3
+Paths size: 3
+Start: 429 Goal: 430
+=====
+Current path VIDs: 
+=====
+Criticals 0 , 2 startTick: 0
+Checking segment: 
+429, 194, 
+Valid: 1 Edge to delete size: 0
+=====
+Current path VIDs: 
+429, 194, =====
+Criticals 2 , 3 startTick: 152
+Checking segment: 
+194, 131, 297, 326, 347, 260, 
+Valid: 0 Edge to delete size: 1
+Delete: 347, 260
+Segment with criticals: 2, 3 not valid. Starttick: 152
+Number of safe windows calculated: 5
+Number of safe windows calculated: 10
+Number of safe windows calculated: 15
+Number of safe windows calculated: 20
+Number of safe windows calculated: 25
+Number of safe windows calculated: 30
+Number of safe windows calculated: 35
+Number of safe windows calculated: 40
+Number of safe windows calculated: 45
+Number of safe windows calculated: 50
+Number of safe windows calculated: 55
+Number of safe windows calculated: 60
+Number of safe windows calculated: 65
+Number of safe windows calculated: 70
+Number of safe windows calculated: 75
+Number of safe windows calculated: 80
+Number of safe windows calculated: 85
+Number of safe windows calculated: 90
+Number of safe windows calculated: 95
+Number of safe windows calculated: 100
+Number of safe windows calculated: 105
+Number of safe windows calculated: 110
+Number of safe windows calculated: 115
+Number of safe windows calculated: 120
+Number of safe windows calculated: 125
+Number of safe windows calculated: 130
+Number of safe windows calculated: 135
+Number of safe windows calculated: 140
+Number of safe windows calculated: 145
+Number of safe windows calculated: 150
+Number of safe windows calculated: 155
+Number of safe windows calculated: 160
+Number of safe windows calculated: 165
+Number of safe windows calculated: 170
+Number of safe windows calculated: 175
+Number of safe windows calculated: 180
+Number of safe windows calculated: 185
+Number of safe windows calculated: 190
+Number of safe windows calculated: 195
+Number of safe windows calculated: 200
+Number of safe windows calculated: 205
+Number of safe windows calculated: 210
+Number of safe windows calculated: 215
+Number of safe windows calculated: 220
+Number of safe windows calculated: 225
+Number of safe windows calculated: 230
+Number of safe windows calculated: 235
+Number of safe windows calculated: 240
+Number of safe windows calculated: 245
+Number of safe windows calculated: 250
+Number of safe windows calculated: 255
+Number of safe windows calculated: 260
+Number of safe windows calculated: 265
+Number of safe windows calculated: 270
+Number of safe windows calculated: 275
+Number of safe windows calculated: 280
+Number of safe windows calculated: 285
+Number of safe windows calculated: 290
+Number of safe windows calculated: 295
+Number of safe windows calculated: 300
+Number of safe windows calculated: 305
+Number of safe windows calculated: 310
+Number of safe windows calculated: 315
+Number of safe windows calculated: 320
+Number of safe windows calculated: 325
+Number of safe windows calculated: 330
+Number of safe windows calculated: 335
+Number of safe windows calculated: 340
+Number of safe windows calculated: 345
+Number of safe windows calculated: 350
+Number of safe windows calculated: 355
+Number of safe windows calculated: 360
+Number of safe windows calculated: 365
+Number of safe windows calculated: 370
+Number of safe windows calculated: 375
+Number of safe windows calculated: 380
+Number of safe windows calculated: 385
+Number of safe windows calculated: 390
+Number of safe windows calculated: 395
+Number of safe windows calculated: 400
+Number of safe windows calculated: 405
+Number of safe windows calculated: 410
+Number of safe windows calculated: 415
+Number of safe windows calculated: 420
+Number of safe windows calculated: 425
+Number of safe windows calculated: 430
+Number of safe windows calculated: 435
+Number of safe windows calculated: 440
+Number of safe windows calculated: 445
+Number of safe windows calculated: 450
+Number of safe windows calculated: 455
+Number of safe windows calculated: 460
+Number of safe windows calculated: 465
+Number of safe windows calculated: 470
+Number of safe windows calculated: 475
+Number of safe windows calculated: 480
+Number of safe windows calculated: 485
+Number of safe windows calculated: 490
+Number of safe windows calculated: 495
+Number of safe windows calculated: 500
+Number of safe windows calculated: 505
+Number of safe windows calculated: 510
+Number of safe windows calculated: 515
+Number of safe windows calculated: 520
+Number of safe windows calculated: 525
+Number of safe windows calculated: 530
+Number of safe windows calculated: 535
+Number of safe windows calculated: 540
+Number of safe windows calculated: 545
+Number of safe windows calculated: 550
+Number of safe windows calculated: 555
+Number of safe windows calculated: 560
+Number of safe windows calculated: 565
+Number of safe windows calculated: 570
+Number of safe windows calculated: 575
+Number of safe windows calculated: 580
+Number of safe windows calculated: 585
+Number of safe windows calculated: 590
+Number of safe windows calculated: 595
+Number of safe windows calculated: 600
+Number of safe windows calculated: 605
+Number of safe windows calculated: 610
+Number of safe windows calculated: 615
+Number of safe windows calculated: 620
+Number of safe windows calculated: 625
+Number of safe windows calculated: 630
+Number of safe windows calculated: 635
+Number of safe windows calculated: 640
+Number of safe windows calculated: 645
+Number of safe windows calculated: 650
+Number of safe windows calculated: 655
+Number of safe windows calculated: 660
+Number of safe windows calculated: 665
+Number of safe windows calculated: 670
+Number of safe windows calculated: 675
+Number of safe windows calculated: 680
+Number of safe windows calculated: 685
+Number of safe windows calculated: 690
+Number of safe windows calculated: 695
+Number of safe windows calculated: 700
+Number of safe windows calculated: 705
+Number of safe windows calculated: 710
+Number of safe windows calculated: 715
+Number of safe windows calculated: 720
+Number of safe windows calculated: 725
+Number of safe windows calculated: 730
+Number of safe windows calculated: 735
+Number of safe windows calculated: 740
+Number of safe windows calculated: 745
+Number of safe windows calculated: 750
+Number of safe windows calculated: 755
+Number of safe windows calculated: 760
+Number of safe windows calculated: 765
+Number of safe windows calculated: 770
+Number of safe windows calculated: 775
+Number of safe windows calculated: 780
+Number of safe windows calculated: 785
+Number of safe windows calculated: 790
+Number of safe windows calculated: 795
+Number of safe windows calculated: 800
+Number of safe windows calculated: 805
+Number of safe windows calculated: 810
+Number of safe windows calculated: 815
+Number of safe windows calculated: 820
+Number of safe windows calculated: 825
+Number of safe windows calculated: 830
+Number of safe windows calculated: 835
+Number of safe windows calculated: 840
+Number of safe windows calculated: 845
+Number of safe windows calculated: 850
+Number of safe windows calculated: 855
+Number of safe windows calculated: 860
+Number of safe windows calculated: 865
+Number of safe windows calculated: 870
+Number of safe windows calculated: 875
+Number of safe windows calculated: 880
+Number of safe windows calculated: 885
+Number of safe windows calculated: 890
+Number of safe windows calculated: 895
+Number of safe windows calculated: 900
+Number of safe windows calculated: 905
+Number of safe windows calculated: 910
+Number of safe windows calculated: 915
+Number of safe windows calculated: 920
+Number of safe windows calculated: 925
+Number of safe windows calculated: 930
+Number of safe windows calculated: 935
+Number of safe windows calculated: 940
+Number of safe windows calculated: 945
+Number of safe windows calculated: 950
+Number of safe windows calculated: 955
+Number of safe windows calculated: 960
+Number of safe windows calculated: 965
+Number of safe windows calculated: 970
+Number of safe windows calculated: 975
+Number of safe windows calculated: 980
+Number of safe windows calculated: 985
+Number of safe windows calculated: 990
+Number of safe windows calculated: 995
+Number of safe windows calculated: 1000
+Number of safe windows calculated: 1005
+Number of safe windows calculated: 1010
+Number of safe windows calculated: 1015
+Number of safe windows calculated: 1020
+Number of safe windows calculated: 1025
+Number of safe windows calculated: 1030
+Number of safe windows calculated: 1035
+Number of safe windows calculated: 1040
+Number of safe windows calculated: 1045
+Number of safe windows calculated: 1050
+Number of safe windows calculated: 1055
+Number of safe windows calculated: 1060
+Number of safe windows calculated: 1065
+Number of safe windows calculated: 1070
+Number of safe windows calculated: 1075
+Number of safe windows calculated: 1080
+Number of safe windows calculated: 1085
+Number of safe windows calculated: 1090
+Number of safe windows calculated: 1095
+Number of safe windows calculated: 1100
+Number of safe windows calculated: 1105
+Number of safe windows calculated: 1110
+Number of safe windows calculated: 1115
+Number of safe windows calculated: 1120
+Number of safe windows calculated: 1125
+Number of safe windows calculated: 1130
+minAgentTick:2147483647
+calculated wait time in calculateWaitTime, waitTime: 2147483647
+wait cost is this :: 1.7976931348623157e+308
+Before deflection, segment: 
+194, 131, 297, 326, 347, 260, 
+Tick after generatevalidsubpath: possible: 152 original:152
+Deflection success: 0
+Congestion value: 1 Deflection Cost: 1.7976931348623157e+308 Wait Cost: 1.7976931348623157e+308 Diverse Cost: 1554
+Social Navigation Strategy returned:  DIVERSE 
+Path 0 success: 0
+================================================xxxxxx================================================
+Start: 429 Goal: 430
+=====
+Current path VIDs: 
+=====
+Criticals 0 , 2 startTick: 0
+Checking segment: 
+429, 160, 
+Valid: 1 Edge to delete size: 0
+=====
+Current path VIDs: 
+429, 160, =====
+Criticals 2 , 1 startTick: 200
+Checking segment: 
+160, 115, 351, 416, 
+Valid: 1 Edge to delete size: 0
+=====
+Current path VIDs: 
+429, 160, 115, 351, 416, =====
+Criticals 1 , 3 startTick: 848
+Checking segment: 
+416, 381, 
+Valid: 0 Edge to delete size: 1
+Delete: 416, 381
+Segment with criticals: 1, 3 not valid. Starttick: 848
+Number of safe windows calculated: 5
+Number of safe windows calculated: 10
+Number of safe windows calculated: 15
+Number of safe windows calculated: 20
+Number of safe windows calculated: 25
+Number of safe windows calculated: 30
+Number of safe windows calculated: 35
+Number of safe windows calculated: 40
+Number of safe windows calculated: 45
+Number of safe windows calculated: 50
+Number of safe windows calculated: 55
+Number of safe windows calculated: 60
+Number of safe windows calculated: 65
+Number of safe windows calculated: 70
+Number of safe windows calculated: 75
+Number of safe windows calculated: 80
+Number of safe windows calculated: 85
+Number of safe windows calculated: 90
+Number of safe windows calculated: 95
+Number of safe windows calculated: 100
+Number of safe windows calculated: 105
+Number of safe windows calculated: 110
+Number of safe windows calculated: 115
+Number of safe windows calculated: 120
+Number of safe windows calculated: 125
+Number of safe windows calculated: 130
+Number of safe windows calculated: 135
+Number of safe windows calculated: 140
+Number of safe windows calculated: 145
+Number of safe windows calculated: 150
+Number of safe windows calculated: 155
+Number of safe windows calculated: 160
+Number of safe windows calculated: 165
+Number of safe windows calculated: 170
+Number of safe windows calculated: 175
+Number of safe windows calculated: 180
+Number of safe windows calculated: 185
+Number of safe windows calculated: 190
+Number of safe windows calculated: 195
+Number of safe windows calculated: 200
+Number of safe windows calculated: 205
+Number of safe windows calculated: 210
+Number of safe windows calculated: 215
+Number of safe windows calculated: 220
+Number of safe windows calculated: 225
+Number of safe windows calculated: 230
+Number of safe windows calculated: 235
+Number of safe windows calculated: 240
+Number of safe windows calculated: 245
+Number of safe windows calculated: 250
+Number of safe windows calculated: 255
+Number of safe windows calculated: 260
+Number of safe windows calculated: 265
+Number of safe windows calculated: 270
+Number of safe windows calculated: 275
+Number of safe windows calculated: 280
+Number of safe windows calculated: 285
+Number of safe windows calculated: 290
+Number of safe windows calculated: 295
+Number of safe windows calculated: 300
+Number of safe windows calculated: 305
+Number of safe windows calculated: 310
+Number of safe windows calculated: 315
+Number of safe windows calculated: 320
+Number of safe windows calculated: 325
+Number of safe windows calculated: 330
+Number of safe windows calculated: 335
+Number of safe windows calculated: 340
+Number of safe windows calculated: 345
+Number of safe windows calculated: 350
+Number of safe windows calculated: 355
+Number of safe windows calculated: 360
+Number of safe windows calculated: 365
+Number of safe windows calculated: 370
+Number of safe windows calculated: 375
+Number of safe windows calculated: 380
+Number of safe windows calculated: 385
+Number of safe windows calculated: 390
+Number of safe windows calculated: 395
+Number of safe windows calculated: 400
+Number of safe windows calculated: 405
+Number of safe windows calculated: 410
+Number of safe windows calculated: 415
+Number of safe windows calculated: 420
+Number of safe windows calculated: 425
+Number of safe windows calculated: 430
+Number of safe windows calculated: 435
+Number of safe windows calculated: 440
+Number of safe windows calculated: 445
+Number of safe windows calculated: 450
+Number of safe windows calculated: 455
+Number of safe windows calculated: 460
+Number of safe windows calculated: 465
+Number of safe windows calculated: 470
+Number of safe windows calculated: 475
+Number of safe windows calculated: 480
+Number of safe windows calculated: 485
+Number of safe windows calculated: 490
+Number of safe windows calculated: 495
+Number of safe windows calculated: 500
+Number of safe windows calculated: 505
+Number of safe windows calculated: 510
+Number of safe windows calculated: 515
+Number of safe windows calculated: 520
+Number of safe windows calculated: 525
+Number of safe windows calculated: 530
+Number of safe windows calculated: 535
+Number of safe windows calculated: 540
+Number of safe windows calculated: 545
+Number of safe windows calculated: 550
+Number of safe windows calculated: 555
+Number of safe windows calculated: 560
+Number of safe windows calculated: 565
+Number of safe windows calculated: 570
+Number of safe windows calculated: 575
+Number of safe windows calculated: 580
+Number of safe windows calculated: 585
+Number of safe windows calculated: 590
+Number of safe windows calculated: 595
+Number of safe windows calculated: 600
+Number of safe windows calculated: 605
+Number of safe windows calculated: 610
+Number of safe windows calculated: 615
+Number of safe windows calculated: 620
+Number of safe windows calculated: 625
+Number of safe windows calculated: 630
+Number of safe windows calculated: 635
+Number of safe windows calculated: 640
+Number of safe windows calculated: 645
+Number of safe windows calculated: 650
+Number of safe windows calculated: 655
+Number of safe windows calculated: 660
+Number of safe windows calculated: 665
+Number of safe windows calculated: 670
+Number of safe windows calculated: 675
+Number of safe windows calculated: 680
+Number of safe windows calculated: 685
+Number of safe windows calculated: 690
+Number of safe windows calculated: 695
+Number of safe windows calculated: 700
+Number of safe windows calculated: 705
+Number of safe windows calculated: 710
+Number of safe windows calculated: 715
+Number of safe windows calculated: 720
+Number of safe windows calculated: 725
+Number of safe windows calculated: 730
+Number of safe windows calculated: 735
+Number of safe windows calculated: 740
+Number of safe windows calculated: 745
+Number of safe windows calculated: 750
+Number of safe windows calculated: 755
+Number of safe windows calculated: 760
+Number of safe windows calculated: 765
+Number of safe windows calculated: 770
+Number of safe windows calculated: 775
+Number of safe windows calculated: 780
+Number of safe windows calculated: 785
+Number of safe windows calculated: 790
+Number of safe windows calculated: 795
+Number of safe windows calculated: 800
+Number of safe windows calculated: 805
+Number of safe windows calculated: 810
+Number of safe windows calculated: 815
+Number of safe windows calculated: 820
+Number of safe windows calculated: 825
+Number of safe windows calculated: 830
+Number of safe windows calculated: 835
+Number of safe windows calculated: 840
+Number of safe windows calculated: 845
+Number of safe windows calculated: 850
+Number of safe windows calculated: 855
+Number of safe windows calculated: 860
+Number of safe windows calculated: 865
+Number of safe windows calculated: 870
+Number of safe windows calculated: 875
+Number of safe windows calculated: 880
+Number of safe windows calculated: 885
+Number of safe windows calculated: 890
+Number of safe windows calculated: 895
+Number of safe windows calculated: 900
+Number of safe windows calculated: 905
+Number of safe windows calculated: 910
+Number of safe windows calculated: 915
+Number of safe windows calculated: 920
+Number of safe windows calculated: 925
+Number of safe windows calculated: 930
+Number of safe windows calculated: 935
+Number of safe windows calculated: 940
+Number of safe windows calculated: 945
+Number of safe windows calculated: 950
+Number of safe windows calculated: 955
+Number of safe windows calculated: 960
+Number of safe windows calculated: 965
+Number of safe windows calculated: 970
+Number of safe windows calculated: 975
+Number of safe windows calculated: 980
+minAgentTick:2147483647
+calculated wait time in calculateWaitTime, waitTime: 2147483647
+wait cost is this :: 1.7976931348623157e+308
+Before deflection, segment: 
+416, 381, 
+Tick after generatevalidsubpath: possible: 848 original:848
+Deflection success: 0
+Congestion value: 1 Deflection Cost: 1.7976931348623157e+308 Wait Cost: 1.7976931348623157e+308 Diverse Cost: 1957
+Social Navigation Strategy returned:  DIVERSE 
+Path 1 success: 0
+================================================xxxxxx================================================
+Start: 429 Goal: 430
+=====
+Current path VIDs: 
+=====
+Criticals 0 , 1 startTick: 0
+Checking segment: 
+429, 68, 151, 144, 33, 
+Valid: 1 Edge to delete size: 0
+=====
+Current path VIDs: 
+429, 68, 151, 144, 33, =====
+Criticals 1 , 4 startTick: 900
+Checking segment: 
+33, 71, 58, 208, 306, 430, 
+Valid: 0 Edge to delete size: 1
+Delete: 306, 430
+Segment with criticals: 1, 4 not valid. Starttick: 900
+Number of safe windows calculated: 5
+Number of safe windows calculated: 10
+Number of safe windows calculated: 15
+Number of safe windows calculated: 20
+Number of safe windows calculated: 25
+Number of safe windows calculated: 30
+Number of safe windows calculated: 35
+Number of safe windows calculated: 40
+Number of safe windows calculated: 45
+Number of safe windows calculated: 50
+Number of safe windows calculated: 55
+Number of safe windows calculated: 60
+Number of safe windows calculated: 65
+Number of safe windows calculated: 70
+Number of safe windows calculated: 75
+Number of safe windows calculated: 80
+Number of safe windows calculated: 85
+Number of safe windows calculated: 90
+Number of safe windows calculated: 95
+Number of safe windows calculated: 100
+Number of safe windows calculated: 105
+Number of safe windows calculated: 110
+Number of safe windows calculated: 115
+Number of safe windows calculated: 120
+Number of safe windows calculated: 125
+Number of safe windows calculated: 130
+Number of safe windows calculated: 135
+Number of safe windows calculated: 140
+Number of safe windows calculated: 145
+Number of safe windows calculated: 150
+Number of safe windows calculated: 155
+Number of safe windows calculated: 160
+Number of safe windows calculated: 165
+Number of safe windows calculated: 170
+Number of safe windows calculated: 175
+Number of safe windows calculated: 180
+Number of safe windows calculated: 185
+Number of safe windows calculated: 190
+Number of safe windows calculated: 195
+Number of safe windows calculated: 200
+Number of safe windows calculated: 205
+Number of safe windows calculated: 210
+Number of safe windows calculated: 215
+Number of safe windows calculated: 220
+Number of safe windows calculated: 225
+Number of safe windows calculated: 230
+Number of safe windows calculated: 235
+Number of safe windows calculated: 240
+Number of safe windows calculated: 245
+Number of safe windows calculated: 250
+Number of safe windows calculated: 255
+Number of safe windows calculated: 260
+Number of safe windows calculated: 265
+Number of safe windows calculated: 270
+Number of safe windows calculated: 275
+Number of safe windows calculated: 280
+Number of safe windows calculated: 285
+Number of safe windows calculated: 290
+Number of safe windows calculated: 295
+Number of safe windows calculated: 300
+Number of safe windows calculated: 305
+Number of safe windows calculated: 310
+Number of safe windows calculated: 315
+Number of safe windows calculated: 320
+Number of safe windows calculated: 325
+Number of safe windows calculated: 330
+Number of safe windows calculated: 335
+Number of safe windows calculated: 340
+Number of safe windows calculated: 345
+Number of safe windows calculated: 350
+Number of safe windows calculated: 355
+Number of safe windows calculated: 360
+Number of safe windows calculated: 365
+Number of safe windows calculated: 370
+Number of safe windows calculated: 375
+Number of safe windows calculated: 380
+Number of safe windows calculated: 385
+Number of safe windows calculated: 390
+Number of safe windows calculated: 395
+Number of safe windows calculated: 400
+Number of safe windows calculated: 405
+Number of safe windows calculated: 410
+Number of safe windows calculated: 415
+Number of safe windows calculated: 420
+Number of safe windows calculated: 425
+Number of safe windows calculated: 430
+Number of safe windows calculated: 435
+Number of safe windows calculated: 440
+Number of safe windows calculated: 445
+Number of safe windows calculated: 450
+Number of safe windows calculated: 455
+Number of safe windows calculated: 460
+Number of safe windows calculated: 465
+Number of safe windows calculated: 470
+Number of safe windows calculated: 475
+Number of safe windows calculated: 480
+Number of safe windows calculated: 485
+Number of safe windows calculated: 490
+Number of safe windows calculated: 495
+Number of safe windows calculated: 500
+Number of safe windows calculated: 505
+Number of safe windows calculated: 510
+Number of safe windows calculated: 515
+Number of safe windows calculated: 520
+Number of safe windows calculated: 525
+Number of safe windows calculated: 530
+Number of safe windows calculated: 535
+Number of safe windows calculated: 540
+Number of safe windows calculated: 545
+Number of safe windows calculated: 550
+Number of safe windows calculated: 555
+Number of safe windows calculated: 560
+Number of safe windows calculated: 565
+Number of safe windows calculated: 570
+Number of safe windows calculated: 575
+Number of safe windows calculated: 580
+Number of safe windows calculated: 585
+Number of safe windows calculated: 590
+Number of safe windows calculated: 595
+Number of safe windows calculated: 600
+Number of safe windows calculated: 605
+Number of safe windows calculated: 610
+Number of safe windows calculated: 615
+Number of safe windows calculated: 620
+Number of safe windows calculated: 625
+Number of safe windows calculated: 630
+Number of safe windows calculated: 635
+Number of safe windows calculated: 640
+Number of safe windows calculated: 645
+Number of safe windows calculated: 650
+Number of safe windows calculated: 655
+Number of safe windows calculated: 660
+Number of safe windows calculated: 665
+Number of safe windows calculated: 670
+Number of safe windows calculated: 675
+Number of safe windows calculated: 680
+Number of safe windows calculated: 685
+Number of safe windows calculated: 690
+Number of safe windows calculated: 695
+Number of safe windows calculated: 700
+Number of safe windows calculated: 705
+Number of safe windows calculated: 710
+Number of safe windows calculated: 715
+Number of safe windows calculated: 720
+Number of safe windows calculated: 725
+Number of safe windows calculated: 730
+Number of safe windows calculated: 735
+Number of safe windows calculated: 740
+Number of safe windows calculated: 745
+Number of safe windows calculated: 750
+Number of safe windows calculated: 755
+Number of safe windows calculated: 760
+Number of safe windows calculated: 765
+Number of safe windows calculated: 770
+Number of safe windows calculated: 775
+Number of safe windows calculated: 780
+Number of safe windows calculated: 785
+Number of safe windows calculated: 790
+Number of safe windows calculated: 795
+Number of safe windows calculated: 800
+Number of safe windows calculated: 805
+Number of safe windows calculated: 810
+Number of safe windows calculated: 815
+Number of safe windows calculated: 820
+Number of safe windows calculated: 825
+Number of safe windows calculated: 830
+Number of safe windows calculated: 835
+Number of safe windows calculated: 840
+Number of safe windows calculated: 845
+Number of safe windows calculated: 850
+Number of safe windows calculated: 855
+Number of safe windows calculated: 860
+Number of safe windows calculated: 865
+Number of safe windows calculated: 870
+Number of safe windows calculated: 875
+Number of safe windows calculated: 880
+Number of safe windows calculated: 885
+Number of safe windows calculated: 890
+minAgentTick:2147483647
+calculated wait time in calculateWaitTime, waitTime: 2147483647
+wait cost is this :: 1.7976931348623157e+308
+Before deflection, segment: 
+33, 71, 58, 208, 306, 430, 
+Tick after generatevalidsubpath: possible: 900 original:900
+Deflection success: 0
+Congestion value: 1 Deflection Cost: 1.7976931348623157e+308 Wait Cost: 1.7976931348623157e+308 Diverse Cost: 1.7976931348623157e+308
+Social Navigation Strategy returned:  WAIT 
+Set wait times for 0,0 vertices for path 2
+Path 2 success: 0
+================================================xxxxxx================================================
+MorseQuery::MorseQuery: 2.4846819999999998 sec
+MorseQuery::MorseQuery  (Failed)
+MorseFunction::MorseFunction::EvaluateMap: 2.484686 sec

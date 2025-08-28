@@ -1,0 +1,1500 @@
+Automatically computed position resolution as 0.0209141
+Warning: MPTask is currently creating constraint boundaries from only the first constraint in each set!
+Warning: MPTask is currently creating constraint boundaries from only the first constraint in each set!
+Query generation:
+	Start boundary : CSpaceBoundingBox [-7.73333:-7.73333 ; 15.7333:15.7333 ]
+	Start cfg: 0  -7.73332999999999959e+00   1.57332999999999998e+01 
+	Goal boundary  : CSpaceBoundingBox [0.26667000000000002:0.26667000000000002 ; -14.666700000000001:-14.666700000000001 ]
+	Goal cfg: 0   2.66670000000000018e-01  -1.46667000000000005e+01 
+Warning: MPTask is currently creating constraint boundaries from only the first constraint in each set!
+Warning: MPTask is currently creating constraint boundaries from only the first constraint in each set!
+Query generation:
+	Start boundary : CSpaceBoundingBox [-7.7333299999999996:-7.7333299999999996 ; 15.7333:15.7333 ]
+	Start cfg: 0  -7.73332999999999959e+00   1.57332999999999998e+01 
+	Goal boundary  : CSpaceBoundingBox [0.26667000000000002:0.26667000000000002 ; -14.666700000000001:-14.666700000000001 ]
+	Goal cfg: 0   2.66670000000000018e-01  -1.46667000000000005e+01 
+Warning: MPTask is currently creating constraint boundaries from only the first constraint in each set!
+Warning: MPTask is currently creating constraint boundaries from only the first constraint in each set!
+Query generation:
+	Start boundary : CSpaceBoundingBox [-7.7333299999999996:-7.7333299999999996 ; 15.7333:15.7333 ]
+	Start cfg: 0  -7.73332999999999959e+00   1.57332999999999998e+01 
+	Goal boundary  : CSpaceBoundingBox [0.26667000000000002:0.26667000000000002 ; -14.666700000000001:-14.666700000000001 ]
+	Goal cfg: 0   2.66670000000000018e-01  -1.46667000000000005e+01 
+Warning: MPTask is currently creating constraint boundaries from only the first constraint in each set!
+Warning: MPTask is currently creating constraint boundaries from only the first constraint in each set!
+Query generation:
+	Start boundary : CSpaceBoundingBox [-7.7333299999999996:-7.7333299999999996 ; 15.7333:15.7333 ]
+	Start cfg: 0  -7.73332999999999959e+00   1.57332999999999998e+01 
+	Goal boundary  : CSpaceBoundingBox [0.26667000000000002:0.26667000000000002 ; -14.666700000000001:-14.666700000000001 ]
+	Goal cfg: 0   2.66670000000000018e-01  -1.46667000000000005e+01 
+Reading dynamic agent path
+Reading dynamic agent path file 'newDpathsTest.paths
+File stream ready for dynamic agent path
+Reading dynamic agent from: ZigZag/boxy_original.robot
+Gets dynamic agent
+0x569c0c9bdf50
+DOF 2
+PosDOF 2
+OrientationDOF 0
+JointDOF 0
+Number of dynamic agents: 2
+Should read lines: 2088 for path 0
+Read 2088 for path 0
+Should read lines: 282 for path 1
+Read 282 for path 1
+Read 2 paths for dynamic agent path
+InitializeCritical called
+InitializeCritical return: 0
+Warning: MPTask is currently creating constraint boundaries from only the first constraint in each set!
+Warning: MPTask is currently creating constraint boundaries from only the first constraint in each set!
+Query generation:
+	Start boundary : CSpaceBoundingBox [-7.7333299999999996:-7.7333299999999996 ; 15.7333:15.7333 ]
+	Start cfg: 0  -7.73332999999999959e+00   1.57332999999999998e+01 
+	Goal boundary  : CSpaceBoundingBox [0.26667000000000002:0.26667000000000002 ; -14.666700000000001:-14.666700000000001 ]
+	Goal cfg: 0   2.66670000000000018e-01  -1.46667000000000005e+01 
+Warning: MPTask is currently creating constraint boundaries from only the first constraint in each set!
+Warning: MPTask is currently creating constraint boundaries from only the first constraint in each set!
+Query generation:
+	Start boundary : CSpaceBoundingBox [-7.7333299999999996:-7.7333299999999996 ; 15.7333:15.7333 ]
+	Start cfg: 0  -7.73332999999999959e+00   1.57332999999999998e+01 
+	Goal boundary  : CSpaceBoundingBox [0.26667000000000002:0.26667000000000002 ; -14.666700000000001:-14.666700000000001 ]
+	Goal cfg: 0   2.66670000000000018e-01  -1.46667000000000005e+01 
+
+
+MPLibrary is solving with MPStrategyMethod labeled MorseFunction using seed 12345678.
+MorseFunction::MorseFunction
+	Sampling method: UniformRandomFree
+	MapEvaluator :	MorseQuery
+Node vertex ID 0
+Node vertex ID 1
+Node vertex ID 2
+Node vertex ID 3
+Node vertex ID 4
+Node vertex ID 5
+Node vertex ID 6
+Node vertex ID 7
+Node vertex ID 8
+Node vertex ID 9
+Node vertex ID 10
+Node vertex ID 11
+Node vertex ID 12
+Node vertex ID 13
+Node vertex ID 14
+Node vertex ID 15
+Node vertex ID 16
+Node vertex ID 17
+Node vertex ID 18
+Node vertex ID 19
+Node vertex ID 20
+Node vertex ID 21
+Node vertex ID 22
+Node vertex ID 23
+Node vertex ID 24
+Node vertex ID 25
+Node vertex ID 26
+Node vertex ID 27
+Node vertex ID 28
+Node vertex ID 29
+Node vertex ID 30
+Node vertex ID 31
+Node vertex ID 32
+Node vertex ID 33
+Node vertex ID 34
+Node vertex ID 35
+Node vertex ID 36
+Node vertex ID 37
+Node vertex ID 38
+Node vertex ID 39
+Node vertex ID 40
+Node vertex ID 41
+Node vertex ID 42
+Node vertex ID 43
+Node vertex ID 44
+Node vertex ID 45
+Node vertex ID 46
+Node vertex ID 47
+Node vertex ID 48
+Node vertex ID 49
+Node vertex ID 50
+Node vertex ID 51
+Node vertex ID 52
+Node vertex ID 53
+Node vertex ID 54
+Node vertex ID 55
+Node vertex ID 56
+Node vertex ID 57
+Node vertex ID 58
+Node vertex ID 59
+Node vertex ID 60
+Node vertex ID 61
+Node vertex ID 62
+Node vertex ID 63
+Node vertex ID 64
+Node vertex ID 65
+Node vertex ID 66
+Node vertex ID 67
+Node vertex ID 68
+Node vertex ID 69
+Node vertex ID 70
+Node vertex ID 71
+Node vertex ID 72
+Node vertex ID 73
+Node vertex ID 74
+Node vertex ID 75
+Node vertex ID 76
+Node vertex ID 77
+Node vertex ID 78
+Node vertex ID 79
+Node vertex ID 80
+Node vertex ID 81
+Node vertex ID 82
+Node vertex ID 83
+Node vertex ID 84
+Node vertex ID 85
+Node vertex ID 86
+Node vertex ID 87
+Number of obstacle points: 1006
+Node vertex ID 88
+Node vertex ID 89
+Node vertex ID 90
+Node vertex ID 91
+Node vertex ID 92
+Node vertex ID 93
+Node vertex ID 94
+Node vertex ID 95
+Node vertex ID 96
+Node vertex ID 97
+Node vertex ID 98
+Node vertex ID 99
+Node vertex ID 100
+Node vertex ID 101
+Node vertex ID 102
+Node vertex ID 103
+Node vertex ID 104
+Node vertex ID 105
+Node vertex ID 106
+Node vertex ID 107
+Node vertex ID 108
+Node vertex ID 109
+Node vertex ID 110
+Node vertex ID 111
+Node vertex ID 112
+Node vertex ID 113
+Node vertex ID 114
+Node vertex ID 115
+Node vertex ID 116
+Node vertex ID 117
+Node vertex ID 118
+Node vertex ID 119
+Node vertex ID 120
+Node vertex ID 121
+Node vertex ID 122
+Node vertex ID 123
+Node vertex ID 124
+Node vertex ID 125
+Node vertex ID 126
+Node vertex ID 127
+Node vertex ID 128
+Node vertex ID 129
+Node vertex ID 130
+Node vertex ID 131
+Node vertex ID 132
+Node vertex ID 133
+Node vertex ID 134
+Node vertex ID 135
+Node vertex ID 136
+Node vertex ID 137
+Node vertex ID 138
+Node vertex ID 139
+Node vertex ID 140
+Node vertex ID 141
+Node vertex ID 142
+Node vertex ID 143
+Node vertex ID 144
+Node vertex ID 145
+Node vertex ID 146
+Node vertex ID 147
+Node vertex ID 148
+Node vertex ID 149
+Node vertex ID 150
+Node vertex ID 151
+Node vertex ID 152
+Node vertex ID 153
+Node vertex ID 154
+Node vertex ID 155
+Node vertex ID 156
+Node vertex ID 157
+Node vertex ID 158
+Node vertex ID 159
+Node vertex ID 160
+Node vertex ID 161
+Node vertex ID 162
+Node vertex ID 163
+Node vertex ID 164
+Node vertex ID 165
+Node vertex ID 166
+Node vertex ID 167
+Node vertex ID 168
+Node vertex ID 169
+Node vertex ID 170
+Node vertex ID 171
+Node vertex ID 172
+Node vertex ID 173
+Node vertex ID 174
+Node vertex ID 175
+Node vertex ID 176
+Node vertex ID 177
+Node vertex ID 178
+Node vertex ID 179
+Node vertex ID 180
+Node vertex ID 181
+Node vertex ID 182
+Node vertex ID 183
+Node vertex ID 184
+Node vertex ID 185
+Node vertex ID 186
+Node vertex ID 187
+Node vertex ID 188
+Node vertex ID 189
+Node vertex ID 190
+Node vertex ID 191
+Node vertex ID 192
+Node vertex ID 193
+Node vertex ID 194
+Node vertex ID 195
+Node vertex ID 196
+Node vertex ID 197
+Node vertex ID 198
+Node vertex ID 199
+Node vertex ID 200
+Node vertex ID 201
+Node vertex ID 202
+Node vertex ID 203
+Node vertex ID 204
+Node vertex ID 205
+Node vertex ID 206
+Node vertex ID 207
+Node vertex ID 208
+Node vertex ID 209
+Node vertex ID 210
+Node vertex ID 211
+Node vertex ID 212
+Node vertex ID 213
+Node vertex ID 214
+Node vertex ID 215
+Node vertex ID 216
+Node vertex ID 217
+Node vertex ID 218
+Node vertex ID 219
+Node vertex ID 220
+Node vertex ID 221
+Node vertex ID 222
+Node vertex ID 223
+Node vertex ID 224
+Node vertex ID 225
+Node vertex ID 226
+Node vertex ID 227
+Node vertex ID 228
+Node vertex ID 229
+Node vertex ID 230
+Node vertex ID 231
+Node vertex ID 232
+Node vertex ID 233
+Node vertex ID 234
+Node vertex ID 235
+Node vertex ID 236
+Node vertex ID 237
+Node vertex ID 238
+Node vertex ID 239
+Node vertex ID 240
+Node vertex ID 241
+Node vertex ID 242
+Node vertex ID 243
+Node vertex ID 244
+Node vertex ID 245
+Node vertex ID 246
+Node vertex ID 247
+Node vertex ID 248
+Node vertex ID 249
+Node vertex ID 250
+Node vertex ID 251
+Node vertex ID 252
+Node vertex ID 253
+Node vertex ID 254
+Node vertex ID 255
+Node vertex ID 256
+Node vertex ID 257
+Node vertex ID 258
+Node vertex ID 259
+Node vertex ID 260
+Node vertex ID 261
+Node vertex ID 262
+Node vertex ID 263
+Node vertex ID 264
+Node vertex ID 265
+Node vertex ID 266
+Node vertex ID 267
+Node vertex ID 268
+Node vertex ID 269
+Node vertex ID 270
+Node vertex ID 271
+Node vertex ID 272
+Node vertex ID 273
+Node vertex ID 274
+Node vertex ID 275
+Node vertex ID 276
+Node vertex ID 277
+Node vertex ID 278
+Node vertex ID 279
+Node vertex ID 280
+Node vertex ID 281
+Node vertex ID 282
+Node vertex ID 283
+Node vertex ID 284
+Node vertex ID 285
+Node vertex ID 286
+Node vertex ID 287
+Node vertex ID 288
+Node vertex ID 289
+Node vertex ID 290
+Node vertex ID 291
+Node vertex ID 292
+Node vertex ID 293
+Node vertex ID 294
+Node vertex ID 295
+Node vertex ID 296
+Node vertex ID 297
+Node vertex ID 298
+Node vertex ID 299
+Node vertex ID 300
+Node vertex ID 301
+Node vertex ID 302
+Node vertex ID 303
+Node vertex ID 304
+Node vertex ID 305
+Node vertex ID 306
+Node vertex ID 307
+Node vertex ID 308
+Node vertex ID 309
+Node vertex ID 310
+Node vertex ID 311
+Node vertex ID 312
+Node vertex ID 313
+Node vertex ID 314
+Node vertex ID 315
+Node vertex ID 316
+Node vertex ID 317
+Node vertex ID 318
+Node vertex ID 319
+Node vertex ID 320
+Node vertex ID 321
+Node vertex ID 322
+Node vertex ID 323
+Node vertex ID 324
+Node vertex ID 325
+Node vertex ID 326
+Node vertex ID 327
+Node vertex ID 328
+Node vertex ID 329
+Node vertex ID 330
+Node vertex ID 331
+Node vertex ID 332
+Node vertex ID 333
+Node vertex ID 334
+Node vertex ID 335
+Node vertex ID 336
+Node vertex ID 337
+Node vertex ID 338
+Node vertex ID 339
+Node vertex ID 340
+Node vertex ID 341
+Node vertex ID 342
+Node vertex ID 343
+Node vertex ID 344
+Node vertex ID 345
+Node vertex ID 346
+Node vertex ID 347
+Node vertex ID 348
+Node vertex ID 349
+Node vertex ID 350
+Node vertex ID 351
+Node vertex ID 352
+Node vertex ID 353
+Node vertex ID 354
+Node vertex ID 355
+Node vertex ID 356
+Node vertex ID 357
+Node vertex ID 358
+Node vertex ID 359
+Node vertex ID 360
+Node vertex ID 361
+Node vertex ID 362
+Node vertex ID 363
+Node vertex ID 364
+Node vertex ID 365
+Node vertex ID 366
+Node vertex ID 367
+Node vertex ID 368
+Node vertex ID 369
+Node vertex ID 370
+Node vertex ID 371
+Node vertex ID 372
+Node vertex ID 373
+Node vertex ID 374
+Node vertex ID 375
+Node vertex ID 376
+Node vertex ID 377
+Node vertex ID 378
+Node vertex ID 379
+Node vertex ID 380
+Node vertex ID 381
+Node vertex ID 382
+Node vertex ID 383
+Node vertex ID 384
+Node vertex ID 385
+Node vertex ID 386
+Node vertex ID 387
+Node vertex ID 388
+Node vertex ID 389
+Node vertex ID 390
+Node vertex ID 391
+Node vertex ID 392
+Node vertex ID 393
+Node vertex ID 394
+Node vertex ID 395
+Node vertex ID 396
+Node vertex ID 397
+Node vertex ID 398
+Node vertex ID 399
+Node vertex ID 400
+Node vertex ID 401
+Node vertex ID 402
+Node vertex ID 403
+Node vertex ID 404
+Node vertex ID 405
+Node vertex ID 406
+Node vertex ID 407
+Node vertex ID 408
+Node vertex ID 409
+Node vertex ID 410
+Node vertex ID 411
+Node vertex ID 412
+Node vertex ID 413
+Node vertex ID 414
+Node vertex ID 415
+Node vertex ID 416
+Node vertex ID 417
+Node vertex ID 418
+Node vertex ID 419
+Node vertex ID 420
+Node vertex ID 421
+Node vertex ID 422
+Node vertex ID 423
+Node vertex ID 424
+Node vertex ID 425
+Node vertex ID 426
+Node vertex ID 427
+Node vertex ID 428
+Graph vertices: 429
+Total Connection: 4.1020029999999998 sec
+Number of cliques1221
+Number of vertices deleted:0
+ClosestNode	0   1.60312101604672819e+01  -1.05833359100455482e+01 
+16.031210160467282 -10.583335910045548 0 
+size of obstacle poibts1006
+road 429
+Eval loop: MorseQuery
+GetName == MorseQuery
+Reading dynamic agent path
+Reading dynamic agent path file 'newDpathsTest.paths
+File stream ready for dynamic agent path
+Reading dynamic agent from: ZigZag/boxy_original.robot
+Gets dynamic agent
+0x569c0c9bd720
+DOF 2
+PosDOF 2
+OrientationDOF 0
+JointDOF 0
+Number of dynamic agents: 2
+Should read lines: 2088 for path 0
+Read 2088 for path 0
+Should read lines: 282 for path 1
+Read 282 for path 1
+Read 2 paths for dynamic agent path
+InitializeCritical called
+InitializeCritical return: 0
+Initialize should be called
+Number of above/below avg -sd points7
+Number of critical points: 7
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 3
+critical information for clusters 3
+critical information for clusters 3
+critical information for clusters 3
+critical information for clusters 3
+critical information for clusters 3
+critical information for clusters 3
+critical information for clusters 3
+critical information for clusters 3
+critical information for clusters 4
+critical information for clusters 4
+critical information for clusters 4
+critical information for clusters 4
+critical information for clusters 4
+critical information for clusters 4
+critical information for clusters 4
+critical information for clusters 4
+critical information for clusters 4
+critical information for clusters 4
+critical information for clusters 4
+critical information for clusters 4
+critical information for clusters 4
+critical information for clusters 4
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 6
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 0
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 1
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 2
+critical information for clusters 4
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 5
+critical information for clusters 0
+Number of clusters7
+Number of vertices in graph: 429 500
+Run evaluate map
+number of edges: 18860
+Evaluating sub-query:
+	from 0  -7.73332999999999959e+00   1.57332999999999998e+01 
+	to   0   2.66670000000000018e-01  -1.46667000000000005e+01 
+cc size:1
+connected: 1
+InitializeCritical called
+InitializeCritical return: 1
+map passed 1
+path size found for GetPaths: 1516
+map passed 1
+path size found for GetPaths: 1522
+map passed 1
+path size found for GetPaths: 1534
+map passed 1
+path size found for GetPaths: 1548
+map passed 1
+path size found for GetPaths: 1569
+map passed 1
+path size found for GetPaths: 1600
+map passed 1
+path size found for GetPaths: 1660
+map passed 1
+path size found for GetPaths: 1666
+map passed 1
+path size found for GetPaths: 1686
+map passed 1
+path size found for GetPaths: 1732
+map passed 1
+path size found for GetPaths: 1742
+map passed 1
+path size found for GetPaths: 1810
+map passed 1
+path size found for GetPaths: 1879
+map passed 1
+path size found for GetPaths: 2016
+Total number of paths at the end of GetPaths = 3
+Paths size: 3
+Start: 429 Goal: 430
+=====
+Current path VIDs: 
+=====
+Criticals 0 , 2 startTick: 0
+Checking segment: 
+429, 115, 
+Valid: 1 Edge to delete size: 0
+=====
+Current path VIDs: 
+429, 115, =====
+Criticals 2 , 1 startTick: 320
+Checking segment: 
+115, 351, 416, 
+Valid: 1 Edge to delete size: 0
+=====
+Current path VIDs: 
+429, 115, 351, 416, =====
+Criticals 1 , 3 startTick: 827
+Checking segment: 
+416, 381, 
+Collision found for robot and dynamic agent 0 at [-1.5304, -1.0847]. Agent Cfg: [-1.937, -3]
+Valid: 0 Edge to delete size: 1
+Delete: 416, 381
+Segment with criticals: 1, 3 not valid. Starttick: 827
+Tick range: 827 to 1021
+Collision found for robot and dynamic agent 0 at [-1.5304, -1.0847]. Agent Cfg: [-1.937, -3]
+Tick 877 invalid for dynamic agent 0
+For dynamic agent 0 pushing back 827, 876
+Collision found for robot and dynamic agent 0 at [-1.5236, -1.1044]. Agent Cfg: [-1.9287, -2.9809]
+Tick 878 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.5167, -1.1241]. Agent Cfg: [-1.9203, -2.9617]
+Tick 879 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.5099, -1.1438]. Agent Cfg: [-1.912, -2.9426]
+Tick 880 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.503, -1.1635]. Agent Cfg: [-1.9036, -2.9234]
+Tick 881 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.4962, -1.1832]. Agent Cfg: [-1.8953, -2.9043]
+Tick 882 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.4893, -1.2029]. Agent Cfg: [-1.8869, -2.8852]
+Tick 883 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.4825, -1.2226]. Agent Cfg: [-1.8786, -2.866]
+Tick 884 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.4756, -1.2423]. Agent Cfg: [-1.8702, -2.8469]
+Tick 885 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.4688, -1.262]. Agent Cfg: [-1.8619, -2.8277]
+Tick 886 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.4619, -1.2817]. Agent Cfg: [-1.8535, -2.8086]
+Tick 887 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.4551, -1.3014]. Agent Cfg: [-1.8452, -2.7894]
+Tick 888 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.4482, -1.3211]. Agent Cfg: [-1.8368, -2.7703]
+Tick 889 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.4414, -1.3408]. Agent Cfg: [-1.8285, -2.7512]
+Tick 890 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.4346, -1.3605]. Agent Cfg: [-1.8201, -2.732]
+Tick 891 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.4277, -1.3802]. Agent Cfg: [-1.8118, -2.7129]
+Tick 892 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.4209, -1.3999]. Agent Cfg: [-1.8035, -2.6937]
+Tick 893 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.414, -1.4196]. Agent Cfg: [-1.7951, -2.6746]
+Tick 894 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.4072, -1.4393]. Agent Cfg: [-1.7868, -2.6555]
+Tick 895 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.4003, -1.4591]. Agent Cfg: [-1.7784, -2.6363]
+Tick 896 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.3935, -1.4788]. Agent Cfg: [-1.7701, -2.6172]
+Tick 897 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.3866, -1.4985]. Agent Cfg: [-1.7617, -2.598]
+Tick 898 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.3798, -1.5182]. Agent Cfg: [-1.7534, -2.5789]
+Tick 899 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.3729, -1.5379]. Agent Cfg: [-1.745, -2.5597]
+Tick 900 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.3661, -1.5576]. Agent Cfg: [-1.7367, -2.5406]
+Tick 901 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.3592, -1.5773]. Agent Cfg: [-1.7283, -2.5215]
+Tick 902 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.3524, -1.597]. Agent Cfg: [-1.72, -2.5023]
+Tick 903 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.3455, -1.6167]. Agent Cfg: [-1.7116, -2.4832]
+Tick 904 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.3387, -1.6364]. Agent Cfg: [-1.7033, -2.464]
+Tick 905 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.3319, -1.6561]. Agent Cfg: [-1.6949, -2.4449]
+Tick 906 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.325, -1.6758]. Agent Cfg: [-1.6866, -2.4258]
+Tick 907 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.3182, -1.6955]. Agent Cfg: [-1.6782, -2.4066]
+Tick 908 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.3113, -1.7152]. Agent Cfg: [-1.6699, -2.3875]
+Tick 909 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.3045, -1.7349]. Agent Cfg: [-1.6616, -2.3683]
+Tick 910 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.2976, -1.7546]. Agent Cfg: [-1.6532, -2.3492]
+Tick 911 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.2908, -1.7743]. Agent Cfg: [-1.6449, -2.33]
+Tick 912 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.2839, -1.794]. Agent Cfg: [-1.6365, -2.3109]
+Tick 913 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.2771, -1.8137]. Agent Cfg: [-1.6282, -2.2918]
+Tick 914 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.2702, -1.8334]. Agent Cfg: [-1.6198, -2.2726]
+Tick 915 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.2634, -1.8531]. Agent Cfg: [-1.6115, -2.2535]
+Tick 916 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.2565, -1.8728]. Agent Cfg: [-1.6031, -2.2343]
+Tick 917 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.2497, -1.8925]. Agent Cfg: [-1.5948, -2.2152]
+Tick 918 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.2428, -1.9122]. Agent Cfg: [-1.5864, -2.196]
+Tick 919 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.236, -1.9319]. Agent Cfg: [-1.5781, -2.1769]
+Tick 920 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.2291, -1.9517]. Agent Cfg: [-1.5697, -2.1578]
+Tick 921 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.2223, -1.9714]. Agent Cfg: [-1.5614, -2.1386]
+Tick 922 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.2155, -1.9911]. Agent Cfg: [-1.553, -2.1195]
+Tick 923 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.2086, -2.0108]. Agent Cfg: [-1.5447, -2.1003]
+Tick 924 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.2018, -2.0305]. Agent Cfg: [-1.5364, -2.0812]
+Tick 925 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.1949, -2.0502]. Agent Cfg: [-1.528, -2.0621]
+Tick 926 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.1881, -2.0699]. Agent Cfg: [-1.5197, -2.0429]
+Tick 927 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.1812, -2.0896]. Agent Cfg: [-1.5113, -2.0238]
+Tick 928 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.1744, -2.1093]. Agent Cfg: [-1.503, -2.0046]
+Tick 929 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.1675, -2.129]. Agent Cfg: [-1.4946, -1.9855]
+Tick 930 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.1607, -2.1487]. Agent Cfg: [-1.4863, -1.9663]
+Tick 931 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.1538, -2.1684]. Agent Cfg: [-1.4779, -1.9472]
+Tick 932 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.147, -2.1881]. Agent Cfg: [-1.4696, -1.9281]
+Tick 933 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.1401, -2.2078]. Agent Cfg: [-1.4612, -1.9089]
+Tick 934 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.1333, -2.2275]. Agent Cfg: [-1.4529, -1.8898]
+Tick 935 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.1264, -2.2472]. Agent Cfg: [-1.4445, -1.8706]
+Tick 936 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.1196, -2.2669]. Agent Cfg: [-1.4362, -1.8515]
+Tick 937 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.1128, -2.2866]. Agent Cfg: [-1.4278, -1.8323]
+Tick 938 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.1059, -2.3063]. Agent Cfg: [-1.4195, -1.8132]
+Tick 939 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.0991, -2.326]. Agent Cfg: [-1.4112, -1.7941]
+Tick 940 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.0922, -2.3457]. Agent Cfg: [-1.4028, -1.7749]
+Tick 941 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.0854, -2.3654]. Agent Cfg: [-1.3945, -1.7558]
+Tick 942 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.0785, -2.3851]. Agent Cfg: [-1.3861, -1.7366]
+Tick 943 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.0717, -2.4048]. Agent Cfg: [-1.3778, -1.7175]
+Tick 944 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.0648, -2.4245]. Agent Cfg: [-1.3694, -1.6984]
+Tick 945 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.058, -2.4442]. Agent Cfg: [-1.3611, -1.6792]
+Tick 946 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.0511, -2.464]. Agent Cfg: [-1.3527, -1.6601]
+Tick 947 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.0443, -2.4837]. Agent Cfg: [-1.3444, -1.6409]
+Tick 948 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.0374, -2.5034]. Agent Cfg: [-1.336, -1.6218]
+Tick 949 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.0306, -2.5231]. Agent Cfg: [-1.3277, -1.6026]
+Tick 950 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.0237, -2.5428]. Agent Cfg: [-1.3193, -1.5835]
+Tick 951 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.0169, -2.5625]. Agent Cfg: [-1.311, -1.5644]
+Tick 952 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.0101, -2.5822]. Agent Cfg: [-1.3026, -1.5452]
+Tick 953 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-1.0032, -2.6019]. Agent Cfg: [-1.2943, -1.5261]
+Tick 954 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-0.99636, -2.6216]. Agent Cfg: [-1.2859, -1.5069]
+Tick 955 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-0.98951, -2.6413]. Agent Cfg: [-1.2776, -1.4878]
+Tick 956 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-0.98267, -2.661]. Agent Cfg: [-1.2693, -1.4686]
+Tick 957 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-0.97582, -2.6807]. Agent Cfg: [-1.2609, -1.4495]
+Tick 958 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-0.96897, -2.7004]. Agent Cfg: [-1.2526, -1.4304]
+Tick 959 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-0.96213, -2.7201]. Agent Cfg: [-1.2442, -1.4112]
+Tick 960 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-0.95528, -2.7398]. Agent Cfg: [-1.2359, -1.3921]
+Tick 961 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-0.94843, -2.7595]. Agent Cfg: [-1.2275, -1.3729]
+Tick 962 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-0.94159, -2.7792]. Agent Cfg: [-1.2192, -1.3538]
+Tick 963 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-0.93474, -2.7989]. Agent Cfg: [-1.2108, -1.3347]
+Tick 964 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-0.92789, -2.8186]. Agent Cfg: [-1.2025, -1.3155]
+Tick 965 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-0.92105, -2.8383]. Agent Cfg: [-1.1941, -1.2964]
+Tick 966 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-0.9142, -2.858]. Agent Cfg: [-1.1858, -1.2772]
+Tick 967 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-0.90735, -2.8777]. Agent Cfg: [-1.1774, -1.2581]
+Tick 968 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-0.90051, -2.8974]. Agent Cfg: [-1.1691, -1.2389]
+Tick 969 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-0.89366, -2.9171]. Agent Cfg: [-1.1607, -1.2198]
+Tick 970 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-0.88681, -2.9368]. Agent Cfg: [-1.1524, -1.2007]
+Tick 971 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-0.87997, -2.9566]. Agent Cfg: [-1.1441, -1.1815]
+Tick 972 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-0.87312, -2.9763]. Agent Cfg: [-1.1357, -1.1624]
+Tick 973 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-0.86627, -2.996]. Agent Cfg: [-1.1274, -1.1432]
+Tick 974 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-0.85943, -3.0157]. Agent Cfg: [-1.119, -1.1241]
+Tick 975 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-0.85258, -3.0354]. Agent Cfg: [-1.1107, -1.105]
+Tick 976 invalid for dynamic agent 0
+Collision found for robot and dynamic agent 0 at [-0.84573, -3.0551]. Agent Cfg: [-1.1023, -1.0858]
+Tick 977 invalid for dynamic agent 0
+For dynamic agent 0 pushing back 978, 1021
+For dynamic agent 1 pushing back 827, 1021
+Windows: 827, 876
+Windows: 978, 1021
+Windows: 827, 1021
+Wait time: 1021 CT: 876
+Before deflection, segment: 
+416, 381, 
+Gets here: GenerateValidSubPath. current tick:827
+Collision found for robot and dynamic agent 0 at [-1.9276, -1.0394]. Agent Cfg: [-1.9787, -3.0957]
+Collision found for robot and dynamic agent 0 at [-1.0805, -1.0702]. Agent Cfg: [-1.8535, -2.8086]
+Collision found for robot and dynamic agent 0 at [-1.5304, -1.0847]. Agent Cfg: [-1.937, -3]
+Collision found for robot and dynamic agent 0 at [-1.699, -1.0852]. Agent Cfg: [-1.9537, -3.0383]
+Found the local path at iteration:1
+Tick after generatevalidsubpath: possible: 1038 original:827
+After deflection, segment: 
+416, 59, 143, 381, 
+Deflection cost: 211 segment lengthAfterDeflection:481 segment lengthBeforeDeflection:194
+Deflection success: 1
+Congestion value: 1 Deflection Cost: 211 Wait Cost: 194 Diverse Cost: 1516
+Social Navigation Strategy returned:  WAIT 
+=====
+Current path VIDs: 
+429, 115, 351, 416, 381, =====
+Criticals 3 , 4 startTick: 1021
+Checking segment: 
+381, 93, 257, 
+Collision found for robot and dynamic agent 1 at [-0.042787, -9.676]. Agent Cfg: [0.67853, -11.467]
+Valid: 0 Edge to delete size: 1
+Delete: 93, 257
+Segment with criticals: 3, 4 not valid. Starttick: 1021
+Tick range: 1021 to 1255
+For dynamic agent 0 pushing back 1021, 1255
+For dynamic agent 1 pushing back 1021, 1255
+Tick range: 1021 to 1268
+For dynamic agent 0 pushing back 1021, 1268
+Collision found for robot and dynamic agent 1 at [0.11624, -12.262]. Agent Cfg: [-1.6389, -11.467]
+Tick 1186 invalid for dynamic agent 1
+For dynamic agent 1 pushing back 1021, 1185
+Collision found for robot and dynamic agent 1 at [0.11752, -12.283]. Agent Cfg: [-1.618, -11.467]
+Tick 1187 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [0.11881, -12.304]. Agent Cfg: [-1.5972, -11.467]
+Tick 1188 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [0.12009, -12.324]. Agent Cfg: [-1.5763, -11.467]
+Tick 1189 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [0.12137, -12.345]. Agent Cfg: [-1.5554, -11.467]
+Tick 1190 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [0.12265, -12.366]. Agent Cfg: [-1.5345, -11.467]
+Tick 1191 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [0.12394, -12.387]. Agent Cfg: [-1.5136, -11.467]
+Tick 1192 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [0.12522, -12.408]. Agent Cfg: [-1.4928, -11.467]
+Tick 1193 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [0.1265, -12.429]. Agent Cfg: [-1.4719, -11.467]
+Tick 1194 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [0.12778, -12.45]. Agent Cfg: [-1.451, -11.467]
+Tick 1195 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [0.12907, -12.47]. Agent Cfg: [-1.4301, -11.467]
+Tick 1196 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [0.13035, -12.491]. Agent Cfg: [-1.4093, -11.467]
+Tick 1197 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [0.13163, -12.512]. Agent Cfg: [-1.3884, -11.467]
+Tick 1198 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [0.13291, -12.533]. Agent Cfg: [-1.3675, -11.467]
+Tick 1199 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [0.1342, -12.554]. Agent Cfg: [-1.3466, -11.467]
+Tick 1200 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [0.13548, -12.575]. Agent Cfg: [-1.3257, -11.467]
+Tick 1201 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [0.13676, -12.596]. Agent Cfg: [-1.3049, -11.467]
+Tick 1202 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [0.13804, -12.616]. Agent Cfg: [-1.284, -11.467]
+Tick 1203 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [0.13933, -12.637]. Agent Cfg: [-1.2631, -11.467]
+Tick 1204 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [0.14061, -12.658]. Agent Cfg: [-1.2422, -11.467]
+Tick 1205 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [0.14189, -12.679]. Agent Cfg: [-1.2214, -11.467]
+Tick 1206 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [0.14317, -12.7]. Agent Cfg: [-1.2005, -11.467]
+Tick 1207 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [0.14446, -12.721]. Agent Cfg: [-1.1796, -11.467]
+Tick 1208 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [0.14574, -12.742]. Agent Cfg: [-1.1587, -11.467]
+Tick 1209 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [0.14702, -12.762]. Agent Cfg: [-1.1378, -11.467]
+Tick 1210 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [0.1483, -12.783]. Agent Cfg: [-1.117, -11.467]
+Tick 1211 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [0.14959, -12.804]. Agent Cfg: [-1.0961, -11.467]
+Tick 1212 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [0.15087, -12.825]. Agent Cfg: [-1.0752, -11.467]
+Tick 1213 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [0.15215, -12.846]. Agent Cfg: [-1.0543, -11.467]
+Tick 1214 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [0.15343, -12.867]. Agent Cfg: [-1.0335, -11.467]
+Tick 1215 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [0.15472, -12.887]. Agent Cfg: [-1.0126, -11.467]
+Tick 1216 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [0.156, -12.908]. Agent Cfg: [-0.9917, -11.467]
+Tick 1217 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [0.15728, -12.929]. Agent Cfg: [-0.97082, -11.467]
+Tick 1218 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [0.15856, -12.95]. Agent Cfg: [-0.94994, -11.467]
+Tick 1219 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [0.15985, -12.971]. Agent Cfg: [-0.92906, -11.467]
+Tick 1220 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [0.16113, -12.992]. Agent Cfg: [-0.90818, -11.467]
+Tick 1221 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [0.16241, -13.013]. Agent Cfg: [-0.88731, -11.467]
+Tick 1222 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [0.16369, -13.033]. Agent Cfg: [-0.86643, -11.467]
+Tick 1223 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [0.16498, -13.054]. Agent Cfg: [-0.84555, -11.467]
+Tick 1224 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [0.16626, -13.075]. Agent Cfg: [-0.82467, -11.467]
+Tick 1225 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [0.16754, -13.096]. Agent Cfg: [-0.8038, -11.467]
+Tick 1226 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [0.16882, -13.117]. Agent Cfg: [-0.78292, -11.467]
+Tick 1227 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [0.17011, -13.138]. Agent Cfg: [-0.76204, -11.467]
+Tick 1228 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [0.17139, -13.159]. Agent Cfg: [-0.74116, -11.467]
+Tick 1229 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [0.17267, -13.179]. Agent Cfg: [-0.72028, -11.467]
+Tick 1230 invalid for dynamic agent 1
+For dynamic agent 1 pushing back 1231, 1268
+Windows: 1021, 1255
+Windows: 1021, 1255
+Windows: 1021, 1268
+Windows: 1021, 1185
+Windows: 1231, 1268
+Wait time: 1268 CT: 1185
+Before deflection, segment: 
+381, 93, 257, 
+Gets here: GenerateValidSubPath. current tick:1021
+Found the local path at iteration:1
+Tick after generatevalidsubpath: possible: 1226 original:1021
+After deflection, segment: 
+381, 404, 328, 257, 
+Deflection cost: 205 segment lengthAfterDeflection:529 segment lengthBeforeDeflection:481
+Deflection success: 1
+Congestion value: 1 Deflection Cost: 205 Wait Cost: 247 Diverse Cost: 1516
+Social Navigation Strategy returned:  DEFLECT 
+=====
+Current path VIDs: 
+429, 115, 351, 416, 381, 404, 328, 257, =====
+Criticals 4 , 4 startTick: 1226
+Checking segment: 
+257, 430, 
+Valid: 1 Edge to delete size: 0
+=====
+Current path VIDs: 
+429, 115, 351, 416, 381, 404, 328, 257, 430, =====
+Criticals 4 , 4 startTick: 1259
+Checking segment: 
+430, 
+Path 0 success: 1
+429, 115, 351, 416, 381, 404, 328, 257, 430, 
+Current path length 1582 before deflection: 1534
+Start: 429 Goal: 430
+=====
+Current path VIDs: 
+=====
+Criticals 0 , 2 startTick: 0
+Checking segment: 
+429, 194, 
+Valid: 1 Edge to delete size: 0
+=====
+Current path VIDs: 
+429, 194, =====
+Criticals 2 , 3 startTick: 133
+Checking segment: 
+194, 131, 297, 326, 347, 260, 
+Collision found for robot and dynamic agent 0 at [-2.8356, -1.4125]. Agent Cfg: [-1.9954, -3.134]
+Valid: 0 Edge to delete size: 1
+Delete: 347, 260
+Segment with criticals: 2, 3 not valid. Starttick: 133
+Tick range: 133 to 357
+For dynamic agent 0 pushing back 133, 357
+For dynamic agent 1 pushing back 133, 357
+Tick range: 133 to 311
+For dynamic agent 0 pushing back 133, 311
+For dynamic agent 1 pushing back 133, 311
+Tick range: 133 to 244
+For dynamic agent 0 pushing back 133, 244
+For dynamic agent 1 pushing back 133, 244
+Tick range: 133 to 187
+For dynamic agent 0 pushing back 133, 187
+For dynamic agent 1 pushing back 133, 187
+Tick range: 133 to 468
+For dynamic agent 0 pushing back 133, 468
+For dynamic agent 1 pushing back 133, 468
+Windows: 133, 357
+Windows: 133, 357
+Windows: 133, 311
+Windows: 133, 311
+Windows: 133, 244
+Windows: 133, 244
+Windows: 133, 187
+Windows: 133, 187
+Windows: 133, 468
+Windows: 133, 468
+Wait time: 468 CT: 187
+Before deflection, segment: 
+194, 131, 297, 326, 347, 260, 
+Gets here: GenerateValidSubPath. current tick:133
+Found the local path at iteration:1
+Tick after generatevalidsubpath: possible: 862 original:133
+After deflection, segment: 
+194, 13, 69, 352, 143, 260, 
+Deflection cost: 729 segment lengthAfterDeflection:1075 segment lengthBeforeDeflection:902
+Deflection success: 1
+Congestion value: 1 Deflection Cost: 729 Wait Cost: 335 Diverse Cost: 2016
+Social Navigation Strategy returned:  WAIT 
+=====
+Current path VIDs: 
+429, 194, 131, 297, 326, 347, 260, =====
+Criticals 3 , 4 startTick: 468
+Checking segment: 
+260, 392, 430, 
+Collision found for robot and dynamic agent 1 at [-0.933, -9.8653]. Agent Cfg: [0.21922, -11.467]
+Valid: 0 Edge to delete size: 1
+Delete: 260, 392
+Segment with criticals: 3, 4 not valid. Starttick: 468
+Tick range: 468 to 759
+For dynamic agent 0 pushing back 468, 759
+Collision found for robot and dynamic agent 1 at [-0.933, -9.8653]. Agent Cfg: [0.21922, -11.467]
+Tick 713 invalid for dynamic agent 1
+For dynamic agent 1 pushing back 468, 712
+Collision found for robot and dynamic agent 1 at [-0.92838, -9.8856]. Agent Cfg: [0.24009, -11.467]
+Tick 714 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.92376, -9.906]. Agent Cfg: [0.26097, -11.467]
+Tick 715 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.91914, -9.9263]. Agent Cfg: [0.28185, -11.467]
+Tick 716 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.91451, -9.9467]. Agent Cfg: [0.30273, -11.467]
+Tick 717 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.90989, -9.967]. Agent Cfg: [0.32361, -11.467]
+Tick 718 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.90527, -9.9874]. Agent Cfg: [0.34448, -11.467]
+Tick 719 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.90065, -10.008]. Agent Cfg: [0.36536, -11.467]
+Tick 720 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.89603, -10.028]. Agent Cfg: [0.38624, -11.467]
+Tick 721 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.89141, -10.048]. Agent Cfg: [0.40712, -11.467]
+Tick 722 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.88679, -10.069]. Agent Cfg: [0.42799, -11.467]
+Tick 723 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.88217, -10.089]. Agent Cfg: [0.44887, -11.467]
+Tick 724 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.87755, -10.109]. Agent Cfg: [0.46975, -11.467]
+Tick 725 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.87293, -10.13]. Agent Cfg: [0.49063, -11.467]
+Tick 726 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.8683, -10.15]. Agent Cfg: [0.51151, -11.467]
+Tick 727 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.86368, -10.17]. Agent Cfg: [0.53238, -11.467]
+Tick 728 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.85906, -10.191]. Agent Cfg: [0.55326, -11.467]
+Tick 729 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.85444, -10.211]. Agent Cfg: [0.57414, -11.467]
+Tick 730 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.84982, -10.232]. Agent Cfg: [0.59502, -11.467]
+Tick 731 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.8452, -10.252]. Agent Cfg: [0.61589, -11.467]
+Tick 732 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.84058, -10.272]. Agent Cfg: [0.63677, -11.467]
+Tick 733 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.83596, -10.293]. Agent Cfg: [0.65765, -11.467]
+Tick 734 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.83134, -10.313]. Agent Cfg: [0.67853, -11.467]
+Tick 735 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.82672, -10.333]. Agent Cfg: [0.69941, -11.467]
+Tick 736 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.82209, -10.354]. Agent Cfg: [0.72028, -11.467]
+Tick 737 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.81747, -10.374]. Agent Cfg: [0.74116, -11.467]
+Tick 738 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.81285, -10.394]. Agent Cfg: [0.76204, -11.467]
+Tick 739 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.80823, -10.415]. Agent Cfg: [0.78292, -11.467]
+Tick 740 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.80361, -10.435]. Agent Cfg: [0.8038, -11.467]
+Tick 741 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.79899, -10.455]. Agent Cfg: [0.82467, -11.467]
+Tick 742 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.79437, -10.476]. Agent Cfg: [0.84555, -11.467]
+Tick 743 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.78975, -10.496]. Agent Cfg: [0.86643, -11.467]
+Tick 744 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.78513, -10.516]. Agent Cfg: [0.88731, -11.467]
+Tick 745 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.78051, -10.537]. Agent Cfg: [0.90818, -11.467]
+Tick 746 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.77588, -10.557]. Agent Cfg: [0.92906, -11.467]
+Tick 747 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.77126, -10.577]. Agent Cfg: [0.94994, -11.467]
+Tick 748 invalid for dynamic agent 1
+For dynamic agent 1 pushing back 749, 759
+Tick range: 468 to 658
+For dynamic agent 0 pushing back 468, 658
+Collision found for robot and dynamic agent 1 at [-0.71526, -10.821]. Agent Cfg: [-0.97082, -11.467]
+Tick 468 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.7101, -10.842]. Agent Cfg: [-0.9917, -11.467]
+Tick 469 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.70493, -10.862]. Agent Cfg: [-1.0126, -11.467]
+Tick 470 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.69976, -10.882]. Agent Cfg: [-1.0335, -11.467]
+Tick 471 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.69459, -10.902]. Agent Cfg: [-1.0543, -11.467]
+Tick 472 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.68942, -10.923]. Agent Cfg: [-1.0752, -11.467]
+Tick 473 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.68426, -10.943]. Agent Cfg: [-1.0961, -11.467]
+Tick 474 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.67909, -10.963]. Agent Cfg: [-1.117, -11.467]
+Tick 475 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.67392, -10.983]. Agent Cfg: [-1.1378, -11.467]
+Tick 476 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.66875, -11.004]. Agent Cfg: [-1.1587, -11.467]
+Tick 477 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.66358, -11.024]. Agent Cfg: [-1.1796, -11.467]
+Tick 478 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.65842, -11.044]. Agent Cfg: [-1.2005, -11.467]
+Tick 479 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.65325, -11.064]. Agent Cfg: [-1.2214, -11.467]
+Tick 480 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.64808, -11.085]. Agent Cfg: [-1.2422, -11.467]
+Tick 481 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.64291, -11.105]. Agent Cfg: [-1.2631, -11.467]
+Tick 482 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.63774, -11.125]. Agent Cfg: [-1.284, -11.467]
+Tick 483 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.63258, -11.145]. Agent Cfg: [-1.3049, -11.467]
+Tick 484 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.62741, -11.166]. Agent Cfg: [-1.3257, -11.467]
+Tick 485 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.62224, -11.186]. Agent Cfg: [-1.3466, -11.467]
+Tick 486 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.61707, -11.206]. Agent Cfg: [-1.3675, -11.467]
+Tick 487 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.6119, -11.226]. Agent Cfg: [-1.3884, -11.467]
+Tick 488 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.60673, -11.246]. Agent Cfg: [-1.4093, -11.467]
+Tick 489 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.60157, -11.267]. Agent Cfg: [-1.4301, -11.467]
+Tick 490 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.5964, -11.287]. Agent Cfg: [-1.451, -11.467]
+Tick 491 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.59123, -11.307]. Agent Cfg: [-1.4719, -11.467]
+Tick 492 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.58606, -11.327]. Agent Cfg: [-1.4928, -11.467]
+Tick 493 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.58089, -11.348]. Agent Cfg: [-1.5136, -11.467]
+Tick 494 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.57573, -11.368]. Agent Cfg: [-1.5345, -11.467]
+Tick 495 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.57056, -11.388]. Agent Cfg: [-1.5554, -11.467]
+Tick 496 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.56539, -11.408]. Agent Cfg: [-1.5763, -11.467]
+Tick 497 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.56022, -11.429]. Agent Cfg: [-1.5972, -11.467]
+Tick 498 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.55505, -11.449]. Agent Cfg: [-1.618, -11.467]
+Tick 499 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.54989, -11.469]. Agent Cfg: [-1.6389, -11.467]
+Tick 500 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.54472, -11.489]. Agent Cfg: [-1.6598, -11.467]
+Tick 501 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.53955, -11.51]. Agent Cfg: [-1.6807, -11.467]
+Tick 502 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.53438, -11.53]. Agent Cfg: [-1.7015, -11.467]
+Tick 503 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.52921, -11.55]. Agent Cfg: [-1.7224, -11.467]
+Tick 504 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.52405, -11.57]. Agent Cfg: [-1.7433, -11.467]
+Tick 505 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.51888, -11.591]. Agent Cfg: [-1.7642, -11.467]
+Tick 506 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.51371, -11.611]. Agent Cfg: [-1.7851, -11.467]
+Tick 507 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.50854, -11.631]. Agent Cfg: [-1.8059, -11.467]
+Tick 508 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.50337, -11.651]. Agent Cfg: [-1.8268, -11.467]
+Tick 509 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.49821, -11.671]. Agent Cfg: [-1.8477, -11.467]
+Tick 510 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.49304, -11.692]. Agent Cfg: [-1.8686, -11.467]
+Tick 511 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.48787, -11.712]. Agent Cfg: [-1.8894, -11.467]
+Tick 512 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.4827, -11.732]. Agent Cfg: [-1.9103, -11.467]
+Tick 513 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.47753, -11.752]. Agent Cfg: [-1.9312, -11.467]
+Tick 514 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.47236, -11.773]. Agent Cfg: [-1.9521, -11.467]
+Tick 515 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.4672, -11.793]. Agent Cfg: [-1.973, -11.467]
+Tick 516 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.46203, -11.813]. Agent Cfg: [-1.9938, -11.467]
+Tick 517 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.45686, -11.833]. Agent Cfg: [-2.0147, -11.467]
+Tick 518 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.45169, -11.854]. Agent Cfg: [-2.0356, -11.467]
+Tick 519 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.44652, -11.874]. Agent Cfg: [-2.0565, -11.467]
+Tick 520 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.44136, -11.894]. Agent Cfg: [-2.0773, -11.467]
+Tick 521 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.43619, -11.914]. Agent Cfg: [-2.0982, -11.467]
+Tick 522 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.43102, -11.935]. Agent Cfg: [-2.1191, -11.467]
+Tick 523 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.42585, -11.955]. Agent Cfg: [-2.14, -11.467]
+Tick 524 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.42068, -11.975]. Agent Cfg: [-2.1609, -11.467]
+Tick 525 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.41552, -11.995]. Agent Cfg: [-2.1817, -11.467]
+Tick 526 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.41035, -12.016]. Agent Cfg: [-2.2026, -11.467]
+Tick 527 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.40518, -12.036]. Agent Cfg: [-2.2235, -11.467]
+Tick 528 invalid for dynamic agent 1
+Collision found for robot and dynamic agent 1 at [-0.40001, -12.056]. Agent Cfg: [-2.2444, -11.467]
+Tick 529 invalid for dynamic agent 1
+For dynamic agent 1 pushing back 530, 658
+Windows: 468, 759
+Windows: 468, 712
+Windows: 749, 759
+Windows: 468, 658
+Windows: 530, 658
+Wait time: 759 CT: 658
+Before deflection, segment: 
+260, 392, 430, 
+Gets here: GenerateValidSubPath. current tick:468
+Found the local path at iteration:1
+Tick after generatevalidsubpath: possible: 696 original:468
+After deflection, segment: 
+260, 328, 430, 
+Deflection cost: 228 segment lengthAfterDeflection:585 segment lengthBeforeDeflection:481
+Deflection success: 1
+Congestion value: 1 Deflection Cost: 228 Wait Cost: 291 Diverse Cost: 2016
+Social Navigation Strategy returned:  DEFLECT 
+=====
+Current path VIDs: 
+429, 194, 131, 297, 326, 347, 260, 328, 430, =====
+Criticals 4 , 4 startTick: 696
+Checking segment: 
+430, 
+Path 1 success: 1
+429, 194, 131, 297, 326, 347, 260, 328, 430, 
+Current path length 1620 before deflection: 1516
+Start: 429 Goal: 430
+=====
+Current path VIDs: 
+=====
+Criticals 0 , 1 startTick: 0
+Checking segment: 
+429, 68, 151, 144, 33, 
+Valid: 1 Edge to delete size: 0
+=====
+Current path VIDs: 
+429, 68, 151, 144, 33, =====
+Criticals 1 , 4 startTick: 924
+Checking segment: 
+33, 293, 276, 17, 50, 430, 
+Valid: 1 Edge to delete size: 0
+=====
+Current path VIDs: 
+429, 68, 151, 144, 33, 293, 276, 17, 50, 430, =====
+Criticals 4 , 4 startTick: 2023
+Checking segment: 
+430, 
+Path 2 success: 1
+429, 68, 151, 144, 33, 293, 276, 17, 50, 430, 
+Current path length 2016 before deflection: 2016
+Stored best path length:1582
+Deflection length: 4.1319337720173142
+(vid: 416, wait: 194) 
+Found waittime in Path: 194 for 0  -1.87959095446430524e+00  -7.97788666682208714e-02 
+MorseQuery::MorseQuery: 0.20955099999999999 sec
+MorseQuery::MorseQuery  (Passed)
+MorseFunction::MorseFunction::EvaluateMap: 0.209561 sec

@@ -1,0 +1,56 @@
+Roadmap Statistics:
+
+  Number of Nodes: 10017
+  Number of Edges: 2238358
+
+  There are 1 connected components:
+    CC[0]: 10017 (vid 0)
+
+
+Sampler Statistics                                            Attempts Successes
+
+  UniformObstacleBasedSampler::UOBPRM                           242707      1035
+  UniformRandomSampler::UniformRandomFree                       210879     10029
+  All Samplers                                                  453586     11064
+  Success Rate: 2.44%
+
+
+Local Planner Statistics                        Attempts Connections    CD Calls
+
+  StraightLine::sl                               1122997     1119679    33968090
+
+
+Collision Detection Calls                                                  Count
+
+  StraightLine::sl::IsConnectedSLBinary                                 33963838
+  UniformObstacleBasedSampler::UOBPRM::SampleImpl()                      1213535
+  UniformRandomSampler::UniformRandomFree::SampleImpl()                   210879
+  All Collision Detectors                                               35388252
+
+
+Other Statistics                                                           Value
+
+  CC Operations                                                               42
+  Graph Search                                                                 9
+  RadiusNF::RadiusNF::NumQueries                                        1.21e+04
+
+
+Clock Name                                                        Time (Seconds)
+
+  CollisionDetection::rapid::ObstCheck                                      35.5
+  CollisionDetection::rapid::ValidityCheck                                  51.3
+  Distance and density Computation time                                        3
+  MorseFunction::MorseFunction::EvaluateMap                                 26.4
+  MorseQuery::MorseQuery                                                    26.4
+  NeighborhoodConnector::Closest                                             106
+  PRMQuery::ConnectToCC                                                   0.0745
+  PRMQuery::FindCCs                                                         1.41
+  QueryMethod::CCTesting                                                    2.24
+  QueryMethod::GeneratingQuery                                           6.4e-05
+  QueryMethod::GraphSearch                                                  3.57
+  RadiusNF::RadiusNF::Query                                                   40
+  RadiusNF::RadiusNF::Total                                                   40
+  Total Calculation time                                                    0.25
+  Total Computation time                                                   0.149
+  Total Connection                                                           106
+  Total Node Generation                                                      1.2

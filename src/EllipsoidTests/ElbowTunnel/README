@@ -1,0 +1,16 @@
+The elbowtunnel problem is a narrow-passage environment with the following specifications:
+
+- homogenous
+- 400 cubic units of volume (40 x 10 x 1)
+- 19% C-free, 81% C-obs
+
+There are three robots included, with varying dimensions:
+
+- cube1.g = 0.1 x 0.1 x 0.1 (easier problem)
+	- each sample occupies 1/76000 of the total free space
+
+- cube5.g = 0.5 x 0.5 x 0.5 (default)
+	- each sample occupies 1/608 of the total free space
+
+- cube8.g = 0.8 x 0.8 x 0.8 (more difficult problem)
+	- each sample occupies approx. 1/148 of the total free space

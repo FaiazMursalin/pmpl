@@ -1,0 +1,64 @@
+
+
+Samplers Statistics:
+                                    Name            Attempts         Successes
+
+ UniformRandomSampler::UniformRandomFree                 197                  67
+  Total Sampler Attempts: 197
+  Total Succeeded: 67
+  Success %: 34.0102
+
+
+Local Planners:
+                Name       Attempts    Connections Coll Det Calls
+    StraightLine::sl            468            143           9997
+
+
+ Graph Operation Statistics:
+
+                               Statistic                                   Value
+
+                           CC Operations                                     347
+                            Graph Search                                      13
+
+
+ Neighborhood Finder Statistics:
+
+                               Statistic                                   Value
+
+          BruteForceNF::BFNF::NumQueries                                     194
+
+
+Number of Nodes: 71
+Number of Edges: 168
+
+
+There are 8 connected components:
+CC[0]: 64 (vid=0)
+CC[1]: 1 (vid=4)
+CC[2]: 1 (vid=17)
+CC[3]: 1 (vid=22)
+CC[4]: 1 (vid=24)
+CC[5]: 1 (vid=61)
+CC[6]: 1 (vid=63)
+CC[7]: 1 (vid=69)
+
+Cfg::isCollision() Exact Counts:
+0) 7297 StraightLine::sl::IsConnectedSLBinary
+1) 197 UniformRandomSampler::UniformRandomFree::SampleImpl()
+Total Cfg::isCollision() = 7494
+
+Clocks 
+
+                                    Name                          Time (Seconds)
+
+       BasicPRM::BasicPRM::EvaluateMap()                                0.020803
+               BasicPRM::BasicPRM::Run()                                0.094364
+               BruteForceNF::BFNF::Query                                0.003415
+               BruteForceNF::BFNF::Total                                0.003537
+          NeighborhoodConnector::Closest                                0.070906
+                      Query Graph Search                                0.000704
+                            Query::Query                                0.020803
+                        Total Connection                                0.070907
+                   Total Node Generation                                  0.0026
+ UniformRandomSampler::UniformRandomFree                                 0.00256

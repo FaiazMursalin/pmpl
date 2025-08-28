@@ -1,0 +1,1 @@
+The objective is get the robot out of the Maze by crosing the narrow passages and avoiding the obstacles.

@@ -1,0 +1,90 @@
+
+
+Samplers Statistics:
+                                    Name            Attempts         Successes
+
+             ObstacleBasedSampler::OBPRM                 103                 100
+  Total Sampler Attempts: 103
+  Total Succeeded: 100
+  Success %: 97.0874
+
+
+Local Planners:
+                Name       Attempts    Connections Coll Det Calls
+    StraightLine::sl            481            118         162240
+
+
+ Graph Operation Statistics:
+
+                               Statistic                                   Value
+
+                           CC Operations                                      34
+                            Graph Search                                       3
+
+
+ Neighborhood Finder Statistics:
+
+                               Statistic                                   Value
+
+          BruteForceNF::BFNF::NumQueries                                     112
+
+
+Number of Nodes: 104
+Number of Edges: 224
+
+
+There are 33 connected components:
+CC[0]: 20 (vid=0)
+CC[1]: 2 (vid=3)
+CC[2]: 6 (vid=4)
+CC[3]: 13 (vid=6)
+CC[4]: 1 (vid=7)
+CC[5]: 6 (vid=10)
+CC[6]: 4 (vid=13)
+CC[7]: 2 (vid=14)
+CC[8]: 1 (vid=15)
+CC[9]: 1 (vid=16)
+CC[10]: 2 (vid=19)
+CC[11]: 1 (vid=21)
+CC[12]: 4 (vid=22)
+CC[13]: 11 (vid=23)
+CC[14]: 2 (vid=25)
+CC[15]: 1 (vid=28)
+CC[16]: 1 (vid=31)
+CC[17]: 1 (vid=35)
+CC[18]: 1 (vid=40)
+CC[19]: 8 (vid=41)
+CC[20]: 1 (vid=42)
+CC[21]: 3 (vid=46)
+CC[22]: 2 (vid=49)
+CC[23]: 1 (vid=61)
+CC[24]: 1 (vid=65)
+CC[25]: 1 (vid=67)
+CC[26]: 1 (vid=74)
+CC[27]: 1 (vid=78)
+CC[28]: 1 (vid=90)
+CC[29]: 1 (vid=93)
+CC[30]: 1 (vid=94)
+CC[31]: 1 (vid=95)
+CC[32]: 1 (vid=97)
+
+Cfg::isCollision() Exact Counts:
+0) 100 ObstacleBasedSampler::OBPRM::GenerateShells()
+1) 7632 ObstacleBasedSampler::OBPRM::Sampler()
+2) 142870 StraightLine::sl::IsConnectedSLBinary
+Total Cfg::isCollision() = 150602
+
+Clocks 
+
+                                    Name                          Time (Seconds)
+
+       BasicPRM::BasicPRM::EvaluateMap()                                0.882047
+               BasicPRM::BasicPRM::Run()                                   6.285
+               BruteForceNF::BFNF::Query                                0.007803
+               BruteForceNF::BFNF::Total                                0.007826
+          NeighborhoodConnector::Closest                                 5.03642
+             ObstacleBasedSampler::OBPRM                                0.366416
+                      Query Graph Search                                0.000154
+                            Query::Query                                0.882043
+                        Total Connection                                 5.03642
+                   Total Node Generation                                0.366501

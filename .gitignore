@@ -1,0 +1,9 @@
+utils/
+.idea/
+.vscode/
+src/Examples/MorseFunction.12345678.vd
+src/Examples/3DMaze/agent200.paths
+src/Examples/jan21.txt
+src/Examples/backupzigzag/MorseFunction.12345678.vd
+src/Examples/output_with_agent_ticks_with_speed.txt
+src/Examples/jan17.txt

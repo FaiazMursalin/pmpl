@@ -1,0 +1,42 @@
+Roadmap Statistics:
+
+  Number of Nodes: 500
+  Number of Edges: 998
+
+  There are 1 connected components:
+    CC[0]: 500 (vid 0)
+
+
+Collision Detection Calls                                                  Count
+
+  BasicExtender::Expand                                                    93949
+  BasicRRTStrategy                                                           986
+  All Collision Detectors                                                  94935
+
+
+Other Statistics                                                           Value
+
+  BasicRRTExtend                                                           17819
+  BruteForceNF::Nearest::NumQueries                                        17139
+  RegularCalls                                                            237994
+  SelfCalls                                                                76407
+  TotalCalls                                                              372846
+
+
+Clock Name                                                        Time (Seconds)
+
+  BasicRRT::AddNode                                                     0.002316
+  BasicRRT::DisperseSampling                                             0.01228
+  BasicRRT::Extend                                                       7.28618
+  BasicRRT::NeighborhoodFinding                                          5.88889
+  BasicRRTStrategy::PQPQuickRRT::EvaluateMap                            0.042437
+  BasicRRTStrategy::PQPQuickRRT::Run                                     13.5335
+  BruteForceNF::Nearest::Query                                           5.76547
+  BruteForceNF::Nearest::Total                                            5.7949
+  CollisionDetection::pqp::SelfCheck                                     0.13077
+  CollisionDetection::qvp::ObstCheck                                     6.29244
+  CollisionDetection::qvp::Regular                                       5.03305
+  CollisionDetection::qvp::ValidityCheck                                 6.88168
+  ConditionalEvaluator::NodesEval                                       0.012955
+  QueryMethod::GeneratingQuery                                             2e-06
+  SkeletonConstruct                                                      1.80614

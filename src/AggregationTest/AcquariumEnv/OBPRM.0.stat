@@ -1,0 +1,63 @@
+
+
+Samplers Statistics:
+                                    Name            Attempts         Successes
+
+             ObstacleBasedSampler::OBPRM                  85                  29
+  Total Sampler Attempts: 85
+  Total Succeeded: 29
+  Success %: 34.1176
+
+
+Local Planners:
+                Name       Attempts    Connections Coll Det Calls
+    StraightLine::sl            189             50           2968
+
+
+ Graph Operation Statistics:
+
+                               Statistic                                   Value
+
+                           CC Operations                                      90
+                            Graph Search                                       2
+
+
+ Neighborhood Finder Statistics:
+
+                               Statistic                                   Value
+
+          BruteForceNF::BFNF::NumQueries                                      67
+
+
+Number of Nodes: 32
+Number of Edges: 72
+
+
+There are 6 connected components:
+CC[0]: 1 (vid=0)
+CC[1]: 27 (vid=1)
+CC[2]: 1 (vid=4)
+CC[3]: 1 (vid=18)
+CC[4]: 1 (vid=19)
+CC[5]: 1 (vid=26)
+
+Cfg::isCollision() Exact Counts:
+0) 29 ObstacleBasedSampler::OBPRM::GenerateShells()
+1) 278 ObstacleBasedSampler::OBPRM::Sampler()
+2) 2252 StraightLine::sl::IsConnectedSLBinary
+Total Cfg::isCollision() = 2559
+
+Clocks 
+
+                                    Name                          Time (Seconds)
+
+       BasicPRM::BasicPRM::EvaluateMap()                                 0.00807
+               BasicPRM::BasicPRM::Run()                                0.026443
+               BruteForceNF::BFNF::Query                                0.000596
+               BruteForceNF::BFNF::Total                                0.000599
+          NeighborhoodConnector::Closest                                 0.01531
+             ObstacleBasedSampler::OBPRM                                0.003033
+                      Query Graph Search                                   7e-05
+                            Query::Query                                 0.00807
+                        Total Connection                                 0.01531
+                   Total Node Generation                                0.003058

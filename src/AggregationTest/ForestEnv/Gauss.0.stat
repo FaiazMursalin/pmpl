@@ -1,0 +1,103 @@
+
+
+Samplers Statistics:
+                                    Name            Attempts         Successes
+
+                  GaussianSampler::Gauss                9063                 123
+  Total Sampler Attempts: 9063
+  Total Succeeded: 123
+  Success %: 1.35717
+
+
+Local Planners:
+                Name       Attempts    Connections Coll Det Calls
+    StraightLine::sl            915            243          24470
+
+
+ Graph Operation Statistics:
+
+                               Statistic                                   Value
+
+                           CC Operations                                   10859
+                            Graph Search                                     101
+
+
+ Neighborhood Finder Statistics:
+
+                               Statistic                                   Value
+
+          BruteForceNF::BFNF::NumQueries                                    5059
+
+
+Number of Nodes: 128
+Number of Edges: 276
+
+
+There are 47 connected components:
+CC[0]: 59 (vid=0)
+CC[1]: 1 (vid=3)
+CC[2]: 1 (vid=12)
+CC[3]: 13 (vid=15)
+CC[4]: 1 (vid=16)
+CC[5]: 1 (vid=17)
+CC[6]: 1 (vid=18)
+CC[7]: 1 (vid=21)
+CC[8]: 1 (vid=22)
+CC[9]: 1 (vid=23)
+CC[10]: 4 (vid=24)
+CC[11]: 5 (vid=27)
+CC[12]: 1 (vid=28)
+CC[13]: 3 (vid=29)
+CC[14]: 1 (vid=33)
+CC[15]: 1 (vid=37)
+CC[16]: 1 (vid=39)
+CC[17]: 2 (vid=46)
+CC[18]: 1 (vid=47)
+CC[19]: 2 (vid=49)
+CC[20]: 1 (vid=52)
+CC[21]: 1 (vid=59)
+CC[22]: 1 (vid=60)
+CC[23]: 1 (vid=66)
+CC[24]: 1 (vid=70)
+CC[25]: 1 (vid=72)
+CC[26]: 1 (vid=75)
+CC[27]: 1 (vid=77)
+CC[28]: 1 (vid=79)
+CC[29]: 1 (vid=80)
+CC[30]: 1 (vid=82)
+CC[31]: 1 (vid=87)
+CC[32]: 1 (vid=92)
+CC[33]: 1 (vid=93)
+CC[34]: 1 (vid=95)
+CC[35]: 1 (vid=98)
+CC[36]: 1 (vid=101)
+CC[37]: 1 (vid=102)
+CC[38]: 1 (vid=106)
+CC[39]: 1 (vid=107)
+CC[40]: 1 (vid=109)
+CC[41]: 1 (vid=110)
+CC[42]: 1 (vid=112)
+CC[43]: 1 (vid=114)
+CC[44]: 1 (vid=116)
+CC[45]: 1 (vid=119)
+CC[46]: 1 (vid=121)
+
+Cfg::isCollision() Exact Counts:
+0) 18126 GaussianSampler::Gauss::SampleImpl()
+1) 7151 StraightLine::sl::IsConnectedSLBinary
+Total Cfg::isCollision() = 25277
+
+Clocks 
+
+                                    Name                          Time (Seconds)
+
+       BasicPRM::BasicPRM::EvaluateMap()                                0.116661
+               BasicPRM::BasicPRM::Run()                                0.681892
+               BruteForceNF::BFNF::Query                                0.018033
+               BruteForceNF::BFNF::Total                                0.021969
+                  GaussianSampler::Gauss                                0.431733
+          NeighborhoodConnector::Closest                                0.133238
+                      Query Graph Search                                0.003795
+                            Query::Query                                0.116627
+                        Total Connection                                0.133261
+                   Total Node Generation                                0.431909

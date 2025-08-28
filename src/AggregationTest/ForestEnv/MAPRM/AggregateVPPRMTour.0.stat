@@ -1,0 +1,76 @@
+
+
+Samplers Statistics:
+                                    Name            Attempts         Successes
+
+                MedialAxisSampler::MAPRM                 161                  71
+  Total Sampler Attempts: 161
+  Total Succeeded: 71
+  Success %: 44.0994
+
+
+Local Planners:
+                Name       Attempts    Connections Coll Det Calls
+    StraightLine::sl            479            167         184640
+
+
+ Graph Operation Statistics:
+
+                               Statistic                                   Value
+
+                           CC Operations                                     819
+                            Graph Search                                      17
+
+
+ Neighborhood Finder Statistics:
+
+                               Statistic                                   Value
+
+          BruteForceNF::BFNF::NumQueries                                     430
+
+
+Number of Nodes: 76
+Number of Edges: 256
+
+
+There are 19 connected components:
+CC[0]: 2 (vid=0)
+CC[1]: 5 (vid=1)
+CC[2]: 49 (vid=2)
+CC[3]: 1 (vid=6)
+CC[4]: 2 (vid=7)
+CC[5]: 3 (vid=8)
+CC[6]: 1 (vid=15)
+CC[7]: 1 (vid=24)
+CC[8]: 1 (vid=26)
+CC[9]: 2 (vid=46)
+CC[10]: 1 (vid=52)
+CC[11]: 1 (vid=54)
+CC[12]: 1 (vid=55)
+CC[13]: 1 (vid=57)
+CC[14]: 1 (vid=60)
+CC[15]: 1 (vid=62)
+CC[16]: 1 (vid=67)
+CC[17]: 1 (vid=69)
+CC[18]: 1 (vid=72)
+
+Cfg::isCollision() Exact Counts:
+0) 52706 MedialAxisUtility::MAPRM::ExactCollisionInfo
+1) 161 MedialAxisUtility::MAPRM::PushToMedialAxis
+2) 122220 StraightLine::sl::IsConnectedSLBinary
+Total Cfg::isCollision() = 175087
+
+Clocks 
+
+                                    Name                          Time (Seconds)
+
+AggregatePRM::AggregatePRM::EvaluateMap()                                0.448321
+       AggregatePRM::AggregatePRM::Run()                                 28.7547
+               BruteForceNF::BFNF::Query                                0.003114
+               BruteForceNF::BFNF::Total                                0.003415
+                MedialAxisSampler::MAPRM                                 26.9663
+          NeighborhoodConnector::Closest                                  1.3396
+                      Query Graph Search                                0.000919
+                            Query::Query                                0.448308
+                        Total Connection                                 1.33965
+                   Total Node Generation                                 26.9666

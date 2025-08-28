@@ -1,0 +1,60 @@
+
+
+Samplers Statistics:
+                                    Name            Attempts         Successes
+
+ UniformRandomSampler::UniformRandomFree                 351                  61
+  Total Sampler Attempts: 351
+  Total Succeeded: 61
+  Success %: 17.3789
+
+
+Local Planners:
+                Name       Attempts    Connections Coll Det Calls
+    StraightLine::sl            387            239         217565
+
+
+ Graph Operation Statistics:
+
+                               Statistic                                   Value
+
+                           CC Operations                                     216
+                            Graph Search                                      15
+
+
+ Neighborhood Finder Statistics:
+
+                               Statistic                                   Value
+
+          BruteForceNF::BFNF::NumQueries                                     115
+
+
+Number of Nodes: 65
+Number of Edges: 368
+
+
+There are 4 connected components:
+CC[0]: 57 (vid=0)
+CC[1]: 4 (vid=6)
+CC[2]: 3 (vid=19)
+CC[3]: 1 (vid=29)
+
+Cfg::isCollision() Exact Counts:
+0) 159203 StraightLine::sl::IsConnectedSLBinary
+1) 351 UniformRandomSampler::UniformRandomFree::SampleImpl()
+Total Cfg::isCollision() = 159554
+
+Clocks 
+
+                                    Name                          Time (Seconds)
+
+       BasicPRM::BasicPRM::EvaluateMap()                                0.134004
+               BasicPRM::BasicPRM::Run()                                 0.83805
+               BruteForceNF::BFNF::Query                                0.001937
+               BruteForceNF::BFNF::Total                                 0.00199
+          NeighborhoodConnector::Closest                                0.701078
+                      Query Graph Search                                0.001281
+                            Query::Query                                0.133977
+                        Total Connection                                0.701079
+                   Total Node Generation                                0.002959
+ UniformRandomSampler::UniformRandomFree                                0.002875

@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MotionPlanning warnings="true" warningsAsErrors="true" print="false">
+
+  <!-- Here we specify input files, such as environment and query. -->
+  <Problem>
+
+    <Environment filename="3DMaze/3d.env"/>
+
+    <Robot label="boxy" filename="3DMaze/boxy.robot"/>
+
+    <Task label="query" robot="boxy">
+      <StartConstraints>
+        <CSpaceConstraint point="-1.40137000000000000e+01  -1.75510200000000012e+01   1.67260300000000015e+01  -4.88719999999999988e-01  -1.87969999999999998e-01  -7.08999999999999995e-03   3.38349999999999984e-01   4.73679999999999990e-01   3.98500000000000021e-01 "/>
+      </StartConstraints>
+
+      <GoalConstraints>
+        <CSpaceConstraint point="1.10204100000000000e+01   1.21088400000000007e+01  -9.65986000000000011e+00   4.46809999999999985e-01   7.51999999999999977e-03   1.72930000000000000e-01   2.78200000000000003e-01  -1.87969999999999998e-01  -5.78949999999999965e-01"/>
+      </GoalConstraints>
+
+    </Task>
+
+  </Problem>
+
+  <!-- Set available algorithms and parameters. -->
+  <Library>
+
+    <DistanceMetrics>
+      <Euclidean label="euclidean"/>
+      <ScaledEuclidean label= "scaledEuclidean" scale ="0.5"/>
+    </DistanceMetrics>
+
+    <ValidityCheckers>
+      <CollisionDetection label="rapid" method="RAPID_SOLID"/>
+      <CollisionDetection label="pqp" method="PQP"/>
+      <CollisionDetection label="pqp_solid" method="PQP_SOLID"/>
+    </ValidityCheckers>
+
+    <NeighborhoodFinders>
+      <BruteForceNF label="BFNF" dmLabel="euclidean" unconnected="false" k="10"/>
+      <BruteForceNF label="Nearest" dmLabel="euclidean" unconnected="false"
+        k="1"/>
+      <BruteForceNF label="BFNFAll" dmLabel="euclidean" k="0"/>
+      <RadiusNF label="RadiusNF" dmLabel="euclidean" radius="2.5" />
+      <RadiusNF label="RadiusNF1" dmLabel="euclidean" radius="5"/> <!--20-->
+      <!--<RadiusNF label="RadiusNF2" dmLabel="euclidean" radius="2.4"/> -->
+
+    </NeighborhoodFinders>
+
+    <Samplers>
+      <UniformRandomSampler label="UniformRandomFree" vcLabel="rapid"/>
+      <ObstacleBasedSampler label="OBPRM" vcLabel="rapid" useBBX="false"
+        pointSelection="cspace" dmLabel="euclidean" stepSize="0.0"
+        nShellsColl="0" nShellsFree="1" debug="false"/>
+      <GaussianSampler label="Gauss" vcLabel="rapid" d="0.2" dmLabel="euclidean"
+        useBBX="false"/>
+      <BridgeTestSampler label="Bridge" vcLabel="rapid" d="0.2"
+        dmLabel="euclidean" useBBX="true"/>
+      <MedialAxisSampler label="MAPRM" vcLabel="pqp_solid" dmLabel="euclidean"
+        clearanceType="exact" penetrationType="exact"
+        useBBX="true" debug="false" positional="true"/>
+      <UniformObstacleBasedSampler label="UOBPRM" vcLabel="rapid" useBBX="false" keepCollide="true"
+        dmLabel="euclidean" d="2.5" />
+      <UniformMedialAxisSampler label="UMAPRM" vcLabel="pqp_solid" useBBX="true"
+        dmLabel="euclidean" d="2.00" t="10" clearanceType="exact"
+        penetrationType="exact" debug="false" positional="true"/>
+    </Samplers>
+
+    <LocalPlanners>
+      <StraightLine label="sl" binaryEvaluation="true" vcLabel="rapid"/>
+    </LocalPlanners>
+
+    <Extenders>
+      <BasicExtender label="BERO" debug="false" dmLabel="euclidean"
+        vcLabel="rapid" maxDist="1." minDist=".001"/>
+
+    </Extenders>
+
+    <Connectors>
+      <NeighborhoodConnector label="Closest" nfLabel="RadiusNF" lpLabel="sl"
+        checkIfSameCC="false" debug="false"/>
+    </Connectors>
+
+    <Metrics>
+      <NumNodesMetric label="NumNodes"/>
+      <NumEdgesMetric label="NumEdges"/>
+      <DiameterMetric label="Diameter"/>
+      <CCDistanceMetric label="CCDistance" dmLabel="euclidean"/>
+      <TimeMetric label="TimeInSec"/>
+    </Metrics>
+
+    <MapEvaluators>
+      <PRMQuery label="PRMQuery" debug="false">
+        <NodeConnectionMethod method="Closest"/>
+      </PRMQuery>
+      <MorseQuery label="MorseQuery" debug="false" numAgents="18" numPaths="30" agent="3DMaze/boxy.robot" agentRdmp="3dmazeMain.map" cdMethod="RAPID_SOLID">
+        <NodeConnectionMethod method="Closest"/>
+      </MorseQuery>
+      <RRTQuery label="RRTQuery" goalDist="0"
+        nfLabel="Nearest" exLabel="BERO" debug="false"/>
+      <ConditionalEvaluator label="NodesEval" metric_method="NumNodes"
+        value="500" operator=">="/>
+      <ConditionalEvaluator label="EdgesEval" metric_method="NumEdges"
+        value="1000" operator=">"/>
+      <ConditionalEvaluator label="FreqNodeEval" metric_method="NumNodes"
+        value="50" operator="%"/>
+      <NegateEvaluator label="Neg" evalLabel="NodesEval"/>
+      <ComposeEvaluator label="BoundedQuery" operator="or">
+        <Evaluator label="NodesEval"/>
+        <Evaluator label="PRMQuery"/>
+      </ComposeEvaluator>
+    </MapEvaluators>
+
+    <MPStrategies>
+      <!-- Basic PRM where num samples is based on Number -->
+      <BasicPRM label="BasicPRM1">
+        <Sampler method="UniformRandomFree" number="1000" attempts="10"/>
+        <!--Sampler Method="Gauss" number="10" attempts="10"/-->
+        <!--Sampler Method="OBPRM" number="10" attempts="10"/-->
+        <!--Sampler Method="MAPRM" number="10" attempts="10"/-->
+        <Connector method="Closest"/>
+        <!--ComponentConnector method="ConnectCCs"/-->
+        <Evaluator method="NodesEval"/>
+      </BasicPRM>
+
+
+      <!--VRhomotopy and morse function-->
+      <VRhomotopy label="VRhomotopy" debug="true">
+      	<Sampler method="UniformRandomFree" number="100" attempts="10"/> 
+<!--        <Connector method="Closest"/> -->
+<!--      	<Evaluator method="MorseQuery"/>-->
+      </VRhomotopy>
+      
+      <MorseFunction label="MorseFunction" total="20000" obstNum="10000" inputMap="3dmazeMain.map" obstNF="RadiusNF1">
+      	<Sampler method="UniformRandomFree" number="1000" attempts="10"/>
+      	<!-- <Evaluator method="NodesEval"/> -->
+        <Connector method="Closest"/>
+        <Evaluator method="MorseQuery"/>
+      </MorseFunction>
+      
+    </MPStrategies>
+
+    <!-- MPProblem allows multiple solvers to be specified and executed. -->
+
+
+    <Solver mpStrategyLabel="MorseFunction" seed="12345678"
+      baseFilename="3Dpipes18DA" vizmoDebug="true"/>
+
+<!--    <Solver mpStrategyLabel="BasicPRM1" seed="12345678"-->
+<!--            baseFilename="InputBright" vizmoDebug="true"/>-->
+
+
+  </Library>
+
+</MotionPlanning>
+

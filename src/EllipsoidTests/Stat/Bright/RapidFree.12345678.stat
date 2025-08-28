@@ -1,0 +1,80 @@
+Roadmap Statistics:
+
+  Number of Nodes: 50
+  Number of Edges: 36
+
+  There are 34 connected components:
+    CC[0]: 1 (vid 0)
+    CC[1]: 1 (vid 1)
+    CC[2]: 1 (vid 2)
+    CC[3]: 5 (vid 3)
+    CC[4]: 1 (vid 5)
+    CC[5]: 1 (vid 7)
+    CC[6]: 1 (vid 8)
+    CC[7]: 3 (vid 9)
+    CC[8]: 1 (vid 10)
+    CC[9]: 2 (vid 11)
+    CC[10]: 1 (vid 12)
+    CC[11]: 1 (vid 14)
+    CC[12]: 2 (vid 15)
+    CC[13]: 1 (vid 16)
+    CC[14]: 2 (vid 17)
+    CC[15]: 1 (vid 18)
+    CC[16]: 3 (vid 20)
+    CC[17]: 2 (vid 21)
+    CC[18]: 1 (vid 23)
+    CC[19]: 1 (vid 24)
+    CC[20]: 3 (vid 26)
+    CC[21]: 1 (vid 27)
+    CC[22]: 1 (vid 29)
+    CC[23]: 1 (vid 30)
+    CC[24]: 1 (vid 31)
+    CC[25]: 3 (vid 33)
+    CC[26]: 1 (vid 34)
+    CC[27]: 1 (vid 35)
+    CC[28]: 1 (vid 36)
+    CC[29]: 1 (vid 40)
+    CC[30]: 1 (vid 42)
+    CC[31]: 1 (vid 43)
+    CC[32]: 1 (vid 44)
+    CC[33]: 1 (vid 49)
+
+
+Sampler Statistics                                            Attempts Successes
+
+  ObstacleBasedSampler::OBPRM                                       64        50
+  All Samplers                                                      64        50
+  Success Rate: 78.1%
+
+
+Local Planner Statistics                        Attempts Connections    CD Calls
+
+  StraightLine::sl                                   445          18       10609
+
+
+Collision Detection Calls                                                  Count
+
+  ObstacleBasedSampler::OBPRM::GenerateShells()                              100
+  ObstacleBasedSampler::OBPRM::Sampler()                                  181012
+  StraightLine::sl::IsConnectedSLBinary                                    10609
+  All Collision Detectors                                                 191721
+
+
+Other Statistics                                                           Value
+
+  BruteForceNF::BFNF::NumQueries                                              50
+
+
+Clock Name                                                        Time (Seconds)
+
+  BasicPRM::RapidFree::EvaluateMap                                      0.000143
+  BasicPRM::RapidFree::Run                                                  1.48
+  BruteForceNF::BFNF::Query                                              0.00115
+  BruteForceNF::BFNF::Total                                              0.00123
+  CollisionDetection::rapid::Total                                          1.28
+  ConditionalEvaluator::NodesEval                                        4.5e-05
+  NeighborhoodConnector::Closest                                           0.278
+  ObstacleBasedSampler::OBPRM                                                1.2
+  QueryMethod::GeneratingQuery                                             3e-06
+  Total Connection                                                         0.278
+  Total Node Generation                                                      1.2

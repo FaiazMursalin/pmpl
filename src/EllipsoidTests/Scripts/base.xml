@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MotionPlanning warnings="true" warningsAsErrors="true" print="false">
+ <MPProblem>
+
+    <Environment filename="_ENV_" saveDofs="false"/>
+
+    <DistanceMetrics>
+      <BioPotential label="bioPotential" vcLabel="cd" proteinName="_PROTEIN_" debug="false">
+        <Dimension points="20" index="0"/>
+        <Dimension points="20" index="1"/>
+        <Dimension points="20" index="2"/>
+    </BioPotential>
+      <Euclidean label="euclidean"/>
+      <ScaledEuclidean label= "scaledEuclidean" scale ="0.5"/>
+      <RMSD label="rmsd"/>
+      <LPSwept label="LPSwept" posRes="5" oriRes="5" useBBox="true" lpLabel="sl"/>
+    </DistanceMetrics>
+
+    <ValidityCheckers>
+      <CollisionDetection label="cd" method="PQP_SOLID"/>
+      <AlwaysTrueValidity label="alwaysTrue"/>
+    </ValidityCheckers>
+
+    <NeighborhoodFinders>
+      <BruteForceNF label="BFNF" dmLabel="euclidean" unconnected="false" k="10"/>
+      <BruteForceNF label="BFNF_scaled" dmLabel="scaledEuclidean"
+        unconnected="false" k="500"/>
+      <BruteForceNF label="BFNF_LP" dmLabel="LPSwept" unconnected="false" k="500"/>
+      <BruteForceNF label="BFNF_CC" dmLabel="scaledEuclidean"
+        unconnected="false" k="500"/>
+    </NeighborhoodFinders>
+
+    <Samplers>
+      <UniformRandomSampler label="UniformRandom" vcLabel="alwaysTrue"/>
+      <UniformRandomSampler label="UniformRandomFree" vcLabel="cd"/>
+      <ObstacleBasedSampler label="OBPRM" vcLabel="cd" useBBX="false"
+        pointSelection="cspace" dmLabel="euclidean" stepSize="0.8"
+        nShellsColl="0" nShellsFree="1" debug="false"/>
+      <UniformObstacleBasedSampler label="UOBPRM" vcLabel="cd" useBBX="false"
+        dmLabel="euclidean" d="0" />
+    </Samplers>
+
+    <LocalPlanners>
+      <LigandLP label="ligandLP" vcLabel="cd" dmLabel="bioPotential"/>
+      <StraightLine label="sl" binaryEvaluation="true" vcLabel="cd"/>
+      <RotateAtS label="ras" binaryEvaluation="true" vcLabel="cd" s="0.5"
+        saveIntermediates="false"/>
+      <TransformAtS label="tas" binaryEvaluation="true" vcLabel="cd" s="0.5"
+        saveIntermediates="false"/>
+      <StraightLine label="slAlwaysTrue" binaryEvaluation="true" vcLabel="alwaysTrue"/>
+    </LocalPlanners>
+
+    <Connectors>
+      <NeighborhoodConnector label="BioClosest" nfLabel="BFNF" lpLabel="ligandLP"
+        checkIfSameCC="false" debug="false"/>
+      <NeighborhoodConnector label="Closest" nfLabel="BFNF" lpLabel="sl"
+        checkIfSameCC="false" debug="false"/>
+      <CCsConnector label="ConnectCCs" nfLabel="BFNF_CC" lpLabel="sl" k1="10" k2="20"
+        debug="false"/>
+      <NeighborhoodConnector label="ClosestTrue" nfLabel="BFNF" lpLabel="slAlwaysTrue"
+        checkIfSameCC="true" debug="false"/>
+      <CCsConnector label="ConnectCCsTrue" nfLabel="BFNF" lpLabel="slAlwaysTrue"
+        k1="10" k2="20"/>
+    </Connectors>
+
+    <Metrics>
+      <NumNodesMetric label="NumNodes"/>
+      <NumEdgesMetric label="NumEdges"/>
+      <CCDistanceMetric label="CCDistance" dmLabel="euclidean"/>
+      <TimeMetric label="TimeInSec"/>
+    </Metrics>
+
+    <Extenders>
+      <BasicExtender label="BERO" debug="false" dmLabel="euclidean"
+        vcLabel="cd"/>
+    </Extenders>
+
+    <MapEvaluators>
+      <Query label="Query" queryFile="_QUERY_" dmLabel="euclidean"
+        lpLabel="sl" debug="false" pmLabel="ShortcuttingPathModifier">
+        <NodeConnectionMethod method="Closest"/>
+      </Query>
+      <ConditionalEvaluator label="NodesEval" metric_method="NumNodes"
+        value="1000" operator=">="/>
+      <ConditionalEvaluator label="FreqNodeEval" metric_method="NumNodes"
+        value="1000" operator="%"/>
+      <ConditionalEvaluator label="EdgesEval" metric_method="NumEdges"
+        value="25000" operator=">"/>
+      <TimeEvaluator label="TimeEval" timeout="1000"/>
+    </MapEvaluators>
+
+    <MPStrategies>
+      <BasicPRM label="BasicPRM1">
+        <Sampler method="UOBPRM" number="10" attempts="1"/>
+        <Connector method="BioClosest"/>
+        <!--ComponentConnector method="ConnectCCs"/-->
+        <Evaluator method="Query"/>
+        <Evaluator method="TimeEval"/>
+      </BasicPRM>
+
+      <PushingLigands label="PushLigands" proteinName="_PROTEIN_"
+        source = "_SOURCE_" siteFile = "_SITEFILE_"
+        radiusFactor="_RADIUSFACTOR_" scaleStart="_SCALESTART_" debug="false">
+        <Connector method="Closest"/>
+        <Evaluator method="NodesEval"/>
+      </PushingLigands>
+
+      <CreateBBxs label="CreateBBxs" proteinName="_PROTEIN_" debug="false"
+        source ="_SOURCE_">
+      </CreateBBxs>
+    </MPStrategies>
+
+    <Solver mpStrategyLabel="_STRATEGY_" seed="_SEED_"
+      baseFilename="_BASE_" vizmoDebug="true"/>
+  </MPProblem>
+</MotionPlanning>

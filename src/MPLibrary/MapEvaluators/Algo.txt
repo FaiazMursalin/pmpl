@@ -1,0 +1,27 @@
+start point of algorithm  : GetValidPath function.
+
+We pass the list of diverse paths, sorted by length, to this function.
+
+This function checks each path in the following manner:
+
+For each path: 754
+    segment = get next segment in the path 774
+    start = start of segment, initialize at 757
+    goal = end of segment 783
+    validate segment 791
+    if segment is valid: 799
+        start = goal 809
+    else:
+        calculate wait cost 822-824
+        calcualte deflection cost 829-858
+        diverse cost = length of next path 862-864
+
+        Find social navigation strategy based on costs. 867
+        result = is social navigation successful ? It is successful for the current path when we either wait or deflect otherwise false
+        lines 875 and 887
+
+        if (result) 915
+            start = goal 917
+        else
+            break and check the next path in the list 919
+

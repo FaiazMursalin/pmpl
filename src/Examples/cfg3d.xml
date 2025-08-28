@@ -1,0 +1,280 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MotionPlanning warnings="true" warningsAsErrors="true" print="false">
+
+  <!-- Here we specify input files, such as environment and query. -->
+  <Problem>
+
+    <Environment filename="ZigZag/3d-pmpl.env"/>
+
+    <Robot label="boxy" filename="ZigZag/linked.robot"/>
+
+    <Task label="query" robot="boxy">
+      <StartConstraints>
+        <CSpaceConstraint point="-5 -6 0 0 0 0 0"/>
+      </StartConstraints>
+
+      <GoalConstraints>
+        <CSpaceConstraint point="4 5 0 0 0 0 0 0"/>
+      </GoalConstraints>
+    </Task>
+
+  </Problem>
+
+  <!-- Set available algorithms and parameters. -->
+  <Library>
+
+    <DistanceMetrics>
+      <Euclidean label="euclidean"/>
+      
+      <Manhattan label="manhattan"/>
+      <Minkowski label="minkowski" r1="3.0" r2="3.0" r3="0.333"
+        normalize="false"/>
+      
+    </DistanceMetrics>
+
+    <ValidityCheckers>
+      <CollisionDetection label="rapid" method="RAPID"/>
+      <CollisionDetection label="pqp" method="PQP"/>
+      <CollisionDetection label="pqp_solid" method="PQP_SOLID"/>
+     
+      
+      <ObstacleClearance label="oc" obstClearance="2.5" vcLabel="pqp_solid"
+        dmLabel="euclidean" clearanceType="exact" penetrationType="exact"
+        useBBX="true" positional="true"/>
+    </ValidityCheckers>
+
+    <NeighborhoodFinders>
+      
+      <RadiusNF label="RadiusNF" dmLabel="euclidean" radius="7.6"/>
+      <RadiusNF label="RadiusNF1" dmLabel="euclidean" radius="15.2"/>
+      <!--<RadiusNF label="RadiusNF2" dmLabel="euclidean" radius="2.4"/> -->
+      
+    </NeighborhoodFinders>
+
+    <Samplers>
+      <UniformRandomSampler label="UniformRandomFree" vcLabel="rapid"/>
+      
+    </Samplers>
+
+    <LocalPlanners>
+      <StraightLine label="sl" binaryEvaluation="true" vcLabel="rapid"/>
+      <StraightLine label="slAlwaysTrue" binaryEvaluation="true"
+        vcLabel="alwaysTrue"/>
+      <RotateAtS label="ras" binaryEvaluation="true" vcLabel="rapid" s="0.5"
+        saveIntermediates="false"/>
+      <TransformAtS label="tas" binaryEvaluation="true" vcLabel="rapid" s="0.5"
+        saveIntermediates="false"/>
+      <AStarDistance label="asd" vcLabel="rapid" dmLabel="euclidean"
+        maxTries="6" numNeighbors="10" histLength="10" debug="true"/>
+      <AStarClearance label="asc" vcLabel="pqp_solid" maxTries="6" numNeighbors="3"
+        histLength="10" dmLabel="euclidean" clearanceType="exact"
+        penetrationType="exact" useBBX="true" positional="true" debug="false"/>
+      <MedialAxisLP label="malpr" controller="recursive"
+        macEpsilon="0.1" maxIter="10"
+        vcLabel="pqp_solid" dmLabel="euclidean"
+        clearanceType="exact" penetrationType="exact" useBBX="true"
+        positional="true"
+        debug="true" saveIntermediates="true"/>
+      <MedialAxisLP label="malpi" controller="iterative"
+        resFactor="20" maxIter="100"
+        vcLabel="pqp_solid" dmLabel="euclidean"
+        clearanceType="exact" penetrationType="exact" useBBX="true"
+        positional="true"
+        debug="true" saveIntermediates="true"/>
+      <MedialAxisLP label="malpb" controller="binary"
+        resFactor="20" maxIter="100"
+        vcLabel="pqp_solid" dmLabel="euclidean"
+        clearanceType="exact" penetrationType="exact" useBBX="true"
+        positional="true"
+        debug="true" saveIntermediates="true"/>
+      <ToggleLP label="togglelp" vcLabel="rapid" dmLabel="euclidean"
+        lpLabel="sl" maxIter="5"/>
+      <ApproxSpheres label="apsph" vcLabel="pqp_solid" dmLabel="euclidean"
+        saveIntermediates="false" clearanceType="exact"
+        penetrationType="exact"/>
+      <HierarchicalLP label="hlp">
+        <LocalPlanner method="sl"/>
+        <LocalPlanner method="ras"/>
+        <LocalPlanner method="malp"/>
+      </HierarchicalLP>
+    </LocalPlanners>
+
+    <Extenders>
+      <BasicExtender label="BERO" debug="false" dmLabel="euclidean"
+        vcLabel="rapid" maxDist="1." minDist=".001"/>
+      <BasicExtender label="BESO" debug="false" dmLabel="euclidean"
+        vcLabel="rapid" maxDist="10." minDist=".001" randomOrientation="false"/>
+      <KinodynamicExtender label="KinoExtender" debug="false"
+        dmLabel="euclidean" vcLabel="rapid" fixed="false" best="true"
+        numSteps="10" minDist=".01"/>
+      <MedialAxisExtender label="MAE" maxDist="10.0" minDist="0.01"
+        extendDist="0.5" maxIntermediates="10" lpLabel="sl" vcLabel="pqp_solid"
+        dmLabel="euclidean" clearanceType="exact" penetrationType="exact"
+        useBBX="true" positional="true"/>
+      <RandomObstacleVector label="ROVRO" debug="false" dmLabel="euclidean"
+        vcLabel="rapid" maxDist="10.0" minDist=".001"/>
+      <RandomObstacleVector label="ROVSO" debug="false" dmLabel="euclidean"
+        vcLabel="rapid" maxDist="10.0" minDist=".001" randomOrientation="false"/>
+      <RotationThenTranslation label="RTT" debug="false" dmLabel="euclidean"
+        vcLabel="rapid" maxDist="10.0" minDist=".001"/>
+      <TraceCSpaceObstacle label="TCSO" debug="false" dmLabel="euclidean"
+        vcLabel="rapid" maxDist="10.0" minDist=".001"/>
+      <TraceMAPush label="TMAP" debug="false" dmLabel="euclidean" vcLabel="rapid"
+        maxDist="10.0" minDist=".001" clearanceType="exact"
+        penetrationType="exact"/>
+      <TraceObstacle label="TORO" debug="false" dmLabel="euclidean"
+        vcLabel="rapid" maxDist="10.0" minDist=".001"/>
+      <TraceObstacle label="TOSO" debug="false" dmLabel="euclidean"
+        vcLabel="rapid" maxDist="10.0" minDist=".001" randomOrientation="false"/>
+      <MixExtender label="ME">
+        <Extender label="BERO" probability="0.1"/>
+        <Extender label="BESO" probability="0.1"/>
+        <Extender label="ROVRO" probability="0.1"/>
+        <Extender label="ROVSO" probability="0.1"/>
+        <Extender label="RTT" probability="0.1"/>
+        <Extender label="TORO" probability="0.1"/>
+        <Extender label="TOSO" probability="0.1"/>
+        <Extender label="TCSO" probability="0.1"/>
+        <Extender label="TMAP" probability="0.1"/>
+      </MixExtender>
+    </Extenders>
+
+    <PathModifiers>
+      <CombinedPathModifier label="CombinedPathModifier" debug="true">
+        <Modifier label="ShortcuttingPathModifier"/>
+        <Modifier label="MedialAxisPathModifier"/>
+        <Modifier label="ResamplePathModifier"/>
+      </CombinedPathModifier>
+      <CRetractionPathModifier label="CR" iter="25"
+        vcLabel="pqp_solid" dmLabel="euclidean"
+        clearanceType="exact" penetrationType="exact"
+        useBBX="true" positional="true" debug="false"/>
+      <MedialAxisPathModifier label="MAPS"
+        pmLabel="SC" lpLabel="sl" malpLabel="malpi" debug="false"/>
+      <ResamplePathModifier label="ResamplePathModifier" debug="false"
+        typeName="MAX_CLEARANCE" numResamples="1" stepSize="0.3" userValue="0.3"
+        vcLabel="pqp_solid" dmLabel="euclidean" lpLabel="sl" clearanceType="exact"
+        penetrationType="exact" useBBX="true" positional="true"/>
+      <ShortcuttingPathModifier label="ShortcuttingPathModifier" lpLabel="sl"
+        debug="false"/>
+    </PathModifiers>
+
+    <Connectors>
+      <AdaptiveConnector label="AdaptiveCS" nfLabel="" lpLabel="sl"
+        percentRandom="0.5" checkIfSameCC="false" debug="false"
+        uniformProbability="false" fixedCost="false" fixedReward="false">
+        <NeighborFinder Method="BFNF"/>
+        <NeighborFinder Method="Nearest"/>
+        <NeighborFinder Method="RandomNF"/>
+        <NeighborFinder Method="BFNFAll"/>
+      </AdaptiveConnector>
+      <CCsConnector label="ConnectCCs" nfLabel="BFNF" lpLabel="sl" k="5"/>
+      <!--ClosestVE label="ClosestVE" kClosest="3" nfLabel="BFNF"
+           lpLabel="sl"/-->
+      <!--NeighborhoodConnector label="Closest" nfLabel="BFNF" lpLabel="sl"
+        checkIfSameCC="false" debug="false"/-->
+        <NeighborhoodConnector label="Closest" nfLabel="RadiusNF" lpLabel="sl"
+        checkIfSameCC="false" debug="false"/>
+      <NeighborhoodConnector label="SparkPRMConnector" nfLabel="Nearest"
+        lpLabel="sl" checkIfSameCC="true"/>
+      <NeighborhoodConnector label="ToggleConnect" nfLabel="BFNF" lpLabel="sl"
+        countFailures="true" fail="1" checkIfSameCC="false"/>
+      <NeighborhoodConnector label="ClosestAlwaysTrue" nfLabel="BFNF"
+        lpLabel="slAlwaysTrue" checkIfSameCC="false"/>
+      <NeighborhoodConnector label="AllToAll" nfLabel="BFNFAll" lpLabel="sl"
+        checkIfSameCC="false"/>
+      <RewireConnector label="OptimalRewire" nfLabel="OptimalK" lpLabel="sl"/>
+    </Connectors>
+
+    <Metrics>
+      <NumNodesMetric label="NumNodes"/>
+      <NumEdgesMetric label="NumEdges"/>
+      <!--CoverageMetricVectorSet label="CoverageVectorSet" filename="coverage"
+        computeAllCCs="false">
+        <Connector label="Closest"/>
+      </CoverageMetricVectorSet>
+      <ConnectivityMetricVectorSet label="ConnectivityVectorSet"
+        filename="connectivity">
+        <Connector label="Closest"/>
+      </ConnectivityMetricVectorSet-->
+      <DiameterMetric label="Diameter"/>
+      <CCDistanceMetric label="CCDistance" dmLabel="euclidean"/>
+      <TimeMetric label="TimeInSec"/>
+    </Metrics>
+
+    <MapEvaluators>
+      
+      <!-- <TrueEvaluation label="TrueEvaluator" /> -->
+      <PRMQuery label="PRMQuery" debug="false">
+        <NodeConnectionMethod method="Closest"/>
+      </PRMQuery>
+      <!--MorseQuery label="MorseQuery" debug="false" agent="ZigZag/linked.robot" inputMap="d_agent_path.paths">
+        <NodeConnectionMethod method="Closest"/>
+      </MorseQuery-->
+      
+    </MapEvaluators>
+
+   
+
+    <MPStrategies>
+
+      <!-- Basic PRM where num samples is based on Number -->
+      <BasicPRM label="BasicPRM1">
+        <Sampler method="UniformRandomFree" number="1000" attempts="10"/>
+        <!--Sampler Method="Gauss" number="10" attempts="10"/-->
+        <!--Sampler Method="OBPRM" number="10" attempts="10"/-->
+        <!--Sampler Method="MAPRM" number="10" attempts="10"/-->
+        <Connector method="Closest"/>
+        <!--ComponentConnector method="ConnectCCs"/-->
+        <Evaluator method="PRMQuery"/>
+      </BasicPRM>
+
+                   
+      <!--VRhomotopy and morse function-->
+      <VRhomotopy label="VRhomotopy" debug="true">
+      	<Sampler method="UniformRandomFree" number="100" attempts="10"/> 
+        <Connector method="Closest"/> 
+      	<Evaluator method="PRMQuery"/>
+      </VRhomotopy>
+      
+      <MorseFunction label="MorseFunction" debug="true" total="100">  
+      	<Sampler method="UniformRandomFree" number="100" attempts="10"/>
+      	<!-- <Evaluator method="NodesEval"/> -->
+        <Connector method="Closest"/>
+        <Evaluator method="PRMQuery"/>
+      </MorseFunction>
+      
+      <VRIncremental label="VRIncremental" vcLabel="rapid" nfLabel="Nearest" dmLabel="euclidean"  connectorLabel="Closest" debug="true">  
+      	<Sampler method="UniformRandomFree"/>  
+      	<Evaluator method="PRMQuery"/><!--useboundedrrt query-->
+      </VRIncremental>
+      
+      
+      
+
+    </MPStrategies>
+
+    <MPTools>
+      <ClearanceUtility label="clearanceUtil" vcLabel="pqp_solid"
+        dmLabel="euclidean" clearanceType="exact" penetrationType="exact"
+        useBBX="true" positional="true"/>
+
+      <MedialAxisUtility label="maUtil" vcLabel="pqp_solid"
+        dmLabel="euclidean" clearanceType="exact" penetrationType="exact"
+        useBBX="true" positional="true"/>
+
+      <ReebGraphConstruction debug="false" write="false" filename=""/>
+
+      <TetGenDecomposition debug="false" switches="pnQ"
+        writeFreeModel="false" writeDecompModel="false"
+        decompModelFilename=""/>
+    </MPTools>
+
+    <!-- MPProblem allows multiple solvers to be specified and executed. -->
+
+    <Solver mpStrategyLabel="MorseFunction" seed="12345678"
+      baseFilename="MorseFunction" vizmoDebug="true"/>
+
+  </Library>
+
+</MotionPlanning>

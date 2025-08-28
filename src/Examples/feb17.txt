@@ -1,0 +1,42 @@
+Automatically computed position resolution as 0.0684892
+
+
+Error:
+	Parse Exception
+Where:
+	File: CfgExamplesKuka.xml
+	Node: MorseWaitQuery
+	Line: 277
+	Col: 7
+Why:
+	Missing required attribute 'agent'.
+	Attribute description: agent robot.
+
+Automatically computed position resolution as 0.0684892
+
+
+Error:
+	Parse Exception
+Where:
+	File: CfgExamplesKuka.xml
+	Node: MorseWaitQuery
+	Line: 277
+	Col: 7
+Why:
+	Missing required attribute 'agent'.
+	Attribute description: agent robot.
+
+Automatically computed position resolution as 0.0684892
+
+
+Error:
+	Parse Exception
+Where:
+	File: CfgExamplesKuka.xml
+	Node: MorseWaitQuery
+	Line: 277
+	Col: 7
+Why:
+	Missing required attribute 'agent'.
+	Attribute description: agent robot.
+

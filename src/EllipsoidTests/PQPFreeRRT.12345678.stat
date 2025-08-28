@@ -1,0 +1,38 @@
+Roadmap Statistics:
+
+  Number of Nodes: 502
+  Number of Edges: 1002
+
+  There are 1 connected components:
+    CC[0]: 502 (vid 0)
+
+
+Collision Detection Calls                                                  Count
+
+  BasicExtender::Expand                                                   101261
+  BasicRRTStrategy                                                           986
+  All Collision Detectors                                                 102247
+
+
+Other Statistics                                                           Value
+
+  BasicRRTExtend                                                           17576
+  BruteForceNF::Nearest::NumQueries                                        16904
+  SelfCalls                                                                83985
+
+
+Clock Name                                                        Time (Seconds)
+
+  BasicRRT::AddNode                                                     0.002559
+  BasicRRT::DisperseSampling                                            0.012807
+  BasicRRT::Extend                                                       9.10642
+  BasicRRT::NeighborhoodFinding                                          5.77111
+  BasicRRTStrategy::PQPFreeRRT::EvaluateMap                             0.042732
+  BasicRRTStrategy::PQPFreeRRT::Run                                      15.2594
+  BruteForceNF::Nearest::Query                                           5.64569
+  BruteForceNF::Nearest::Total                                           5.67573
+  CollisionDetection::pqp::ObstCheck                                     8.24988
+  CollisionDetection::pqp::SelfCheck                                    0.156105
+  CollisionDetection::pqp::ValidityCheck                                 8.70151
+  ConditionalEvaluator::NodesEval                                       0.013228
+  QueryMethod::GeneratingQuery                                             2e-06

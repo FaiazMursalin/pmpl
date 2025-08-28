@@ -1,0 +1,95 @@
+Roadmap Statistics:
+
+  Number of Nodes: 50
+  Number of Edges: 12
+
+  There are 44 connected components:
+    CC[0]: 2 (vid 0)
+    CC[1]: 1 (vid 1)
+    CC[2]: 1 (vid 2)
+    CC[3]: 1 (vid 3)
+    CC[4]: 1 (vid 4)
+    CC[5]: 1 (vid 6)
+    CC[6]: 1 (vid 7)
+    CC[7]: 1 (vid 8)
+    CC[8]: 1 (vid 9)
+    CC[9]: 2 (vid 10)
+    CC[10]: 1 (vid 11)
+    CC[11]: 1 (vid 12)
+    CC[12]: 1 (vid 13)
+    CC[13]: 1 (vid 14)
+    CC[14]: 1 (vid 15)
+    CC[15]: 2 (vid 16)
+    CC[16]: 1 (vid 17)
+    CC[17]: 1 (vid 18)
+    CC[18]: 1 (vid 19)
+    CC[19]: 2 (vid 20)
+    CC[20]: 1 (vid 21)
+    CC[21]: 1 (vid 22)
+    CC[22]: 1 (vid 23)
+    CC[23]: 1 (vid 24)
+    CC[24]: 1 (vid 25)
+    CC[25]: 2 (vid 26)
+    CC[26]: 1 (vid 28)
+    CC[27]: 1 (vid 29)
+    CC[28]: 1 (vid 30)
+    CC[29]: 1 (vid 31)
+    CC[30]: 1 (vid 33)
+    CC[31]: 2 (vid 34)
+    CC[32]: 1 (vid 35)
+    CC[33]: 1 (vid 36)
+    CC[34]: 1 (vid 38)
+    CC[35]: 1 (vid 40)
+    CC[36]: 1 (vid 41)
+    CC[37]: 1 (vid 42)
+    CC[38]: 1 (vid 43)
+    CC[39]: 1 (vid 44)
+    CC[40]: 1 (vid 45)
+    CC[41]: 1 (vid 46)
+    CC[42]: 1 (vid 47)
+    CC[43]: 1 (vid 48)
+
+
+Sampler Statistics                                            Attempts Successes
+
+  UniformRandomSampler::UniformRandomQuick                          72        50
+  All Samplers                                                      72        50
+  Success Rate: 69.4%
+
+
+Local Planner Statistics                        Attempts Connections    CD Calls
+
+  StraightLine::slq                                    6           6        2123
+
+
+Collision Detection Calls                                                  Count
+
+  Skeleton Clearance                                                      135759
+  Skeleton Point Validity                                                 136483
+  StraightLine::slq::IsConnectedSLBinary                                      94
+  UniformRandomSampler::UniformRandomQuick::SampleImpl()                      36
+  All Collision Detectors                                                 272372
+
+
+Other Statistics                                                           Value
+
+  RadiusNF::RadiusNF::NumQueries                                              50
+
+
+Clock Name                                                        Time (Seconds)
+
+  BasicPRM::RapidQuick::EvaluateMap                                      0.00023
+  BasicPRM::RapidQuick::Run                                                  210
+  CollisionDetection::pqp_solid::Total                                      23.6
+  CollisionDetection::rapid::Total                                          1.96
+  ConditionalEvaluator::NodesEval                                        8.6e-05
+  NeighborhoodConnector::ClosestQ                                           1.44
+  QueryMethod::GeneratingQuery                                                 0
+  QuickValidity::qv::Total                                                   210
+  QuickValidity::qv::Validity Check                                         1.96
+  QuickValidity::qv::Validity Initialization                                 208
+  RadiusNF::RadiusNF::Query                                              0.00148
+  RadiusNF::RadiusNF::Total                                              0.00157
+  Total Connection                                                          1.44
+  Total Node Generation                                                      208
+  UniformRandomSampler::UniformRandomQuick                                   208

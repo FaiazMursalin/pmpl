@@ -1,0 +1,70 @@
+
+
+Samplers Statistics:
+                                    Name            Attempts         Successes
+
+ UniformRandomSampler::UniformRandomFree                 143                  43
+  Total Sampler Attempts: 143
+  Total Succeeded: 43
+  Success %: 30.0699
+
+
+Local Planners:
+                Name       Attempts    Connections Coll Det Calls
+    StraightLine::sl            311            101         142447
+
+
+ Graph Operation Statistics:
+
+                               Statistic                                   Value
+
+                           CC Operations                                     665
+                            Graph Search                                      15
+
+
+ Neighborhood Finder Statistics:
+
+                               Statistic                                   Value
+
+          BruteForceNF::BFNF::NumQueries                                     332
+
+
+Number of Nodes: 48
+Number of Edges: 144
+
+
+There are 14 connected components:
+CC[0]: 2 (vid=0)
+CC[1]: 29 (vid=1)
+CC[2]: 1 (vid=3)
+CC[3]: 2 (vid=4)
+CC[4]: 2 (vid=5)
+CC[5]: 1 (vid=6)
+CC[6]: 4 (vid=7)
+CC[7]: 1 (vid=11)
+CC[8]: 1 (vid=20)
+CC[9]: 1 (vid=30)
+CC[10]: 1 (vid=31)
+CC[11]: 1 (vid=37)
+CC[12]: 1 (vid=39)
+CC[13]: 1 (vid=40)
+
+Cfg::isCollision() Exact Counts:
+0) 92774 StraightLine::sl::IsConnectedSLBinary
+1) 143 UniformRandomSampler::UniformRandomFree::SampleImpl()
+Total Cfg::isCollision() = 92917
+
+Clocks 
+
+                                    Name                          Time (Seconds)
+
+AggregatePRM::AggregatePRM::EvaluateMap()                                0.364776
+       AggregatePRM::AggregatePRM::Run()                                 1.23727
+               BruteForceNF::BFNF::Query                                0.001465
+               BruteForceNF::BFNF::Total                                0.001714
+          NeighborhoodConnector::Closest                                0.870423
+                      Query Graph Search                                0.000948
+                            Query::Query                                0.364767
+                        Total Connection                                0.870436
+                   Total Node Generation                                0.002029
+ UniformRandomSampler::UniformRandomFree                                0.001972

@@ -1,0 +1,110 @@
+
+
+Samplers Statistics:
+                                    Name            Attempts         Successes
+
+ UniformRandomSampler::UniformRandomFree              361355                2645
+  Total Sampler Attempts: 361355
+  Total Succeeded: 2645
+  Success %: 0.731967
+
+
+Local Planners:
+                Name       Attempts    Connections Coll Det Calls
+    StraightLine::sl          21505          17308         442778
+
+
+ Graph Operation Statistics:
+
+                               Statistic                                   Value
+
+                           CC Operations                                  147576
+                            Graph Search                                    1888
+
+
+ Neighborhood Finder Statistics:
+
+                               Statistic                                   Value
+
+          BruteForceNF::BFNF::NumQueries                                   71904
+
+
+Number of Nodes: 2650
+Number of Edges: 19584
+
+
+There are 53 connected components:
+CC[0]: 200 (vid=0)
+CC[1]: 1859 (vid=1)
+CC[2]: 179 (vid=3)
+CC[3]: 68 (vid=13)
+CC[4]: 157 (vid=15)
+CC[5]: 35 (vid=19)
+CC[6]: 15 (vid=43)
+CC[7]: 59 (vid=113)
+CC[8]: 5 (vid=167)
+CC[9]: 3 (vid=174)
+CC[10]: 22 (vid=232)
+CC[11]: 1 (vid=290)
+CC[12]: 1 (vid=448)
+CC[13]: 1 (vid=565)
+CC[14]: 1 (vid=622)
+CC[15]: 1 (vid=655)
+CC[16]: 2 (vid=788)
+CC[17]: 1 (vid=864)
+CC[18]: 2 (vid=898)
+CC[19]: 1 (vid=1096)
+CC[20]: 2 (vid=1163)
+CC[21]: 1 (vid=1269)
+CC[22]: 1 (vid=1331)
+CC[23]: 1 (vid=1364)
+CC[24]: 1 (vid=1490)
+CC[25]: 2 (vid=1517)
+CC[26]: 1 (vid=1557)
+CC[27]: 2 (vid=1618)
+CC[28]: 1 (vid=1631)
+CC[29]: 1 (vid=1639)
+CC[30]: 1 (vid=1693)
+CC[31]: 1 (vid=1722)
+CC[32]: 1 (vid=1830)
+CC[33]: 1 (vid=1888)
+CC[34]: 1 (vid=1897)
+CC[35]: 1 (vid=1907)
+CC[36]: 1 (vid=2090)
+CC[37]: 1 (vid=2111)
+CC[38]: 1 (vid=2114)
+CC[39]: 1 (vid=2148)
+CC[40]: 1 (vid=2166)
+CC[41]: 1 (vid=2209)
+CC[42]: 1 (vid=2214)
+CC[43]: 2 (vid=2251)
+CC[44]: 1 (vid=2316)
+CC[45]: 1 (vid=2323)
+CC[46]: 1 (vid=2523)
+CC[47]: 1 (vid=2554)
+CC[48]: 1 (vid=2577)
+CC[49]: 1 (vid=2582)
+CC[50]: 1 (vid=2593)
+CC[51]: 1 (vid=2606)
+CC[52]: 1 (vid=2636)
+
+Cfg::isCollision() Exact Counts:
+0) 119302 StraightLine::sl::IsConnectedSLBinary
+1) 353355 UniformRandomSampler::UniformRandomFree::SampleImpl()
+Total Cfg::isCollision() = 472657
+
+Clocks 
+
+                                    Name                          Time (Seconds)
+
+AggregatePRM::AggregatePRM::EvaluateMap()                                 12.2068
+       AggregatePRM::AggregatePRM::Run()                                  26.499
+                   Aggregation Hierarchy                                 10.2873
+               BruteForceNF::BFNF::Query                                 4.10466
+               BruteForceNF::BFNF::Total                                 4.12258
+          NeighborhoodConnector::Closest                                 4.58069
+                      Query Graph Search                                 3.70063
+                            Query::Query                                  12.206
+                        Total Connection                                 4.58121
+                   Total Node Generation                                 9.70933
+ UniformRandomSampler::UniformRandomFree                                  9.3646

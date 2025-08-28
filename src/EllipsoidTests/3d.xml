@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MotionPlanning warnings="true" warningsAsErrors="true" print="false">
+
+  <!-- Here we specify input files, such as environment and query. -->
+  <Problem>
+
+    <Environment filename="3DShapes/3d.env"/>
+
+    <Robot label="boxy" filename="3DShapes/boxy.robot"/>
+
+    <!-- WARNING Support for multiple constraints is not yet implemented! -->
+    <!-- WARNING Workspace constraints are not finished and untested! -->
+    <!-- WARNING CSpace bounding box constraints are supported, but currently
+         the query method will just use the bounding box to sample a specific
+         goal configuration. -->
+
+    <!--Task label="query" robot="boxy">
+      <StartConstraints>
+        <CSpaceConstraint point="-2.5 6 0"/>
+      </StartConstraints>
+
+      <GoalConstraints>
+        <CSpaceConstraint point="4 -6 0"/>
+      </GoalConstraints>
+    </Task-->
+
+  </Problem>
+
+  <!-- Set available algorithms and parameters. -->
+  <Library>
+
+
+    <DistanceMetrics>
+      <Euclidean label="euclidean"/>
+    </DistanceMetrics>
+
+    <ValidityCheckers>
+      <CollisionDetection label="rapid" method="RAPID"/>
+      <CollisionDetection label="pqp" method="PQP_SOLID"/>
+			<CollisionDetection label="pqp_solid" method="PQP_SOLID"/>
+      <QuickValidity label="qv" vcLabel="rapid" simplification="1.0" concentric="5.0"/>
+			<QuickValidity label="qvp" vcLabel="pqp" simplification="1.0" concentric="5.0"/>
+    </ValidityCheckers>
+
+    <NeighborhoodFinders>
+      <BruteForceNF label="BFNF" dmLabel="euclidean" unconnected="false" k="10"/>
+      <BruteForceNF label="Nearest" dmLabel="euclidean" unconnected="false"
+        k="1"/>
+     </NeighborhoodFinders>
+
+    <Samplers>
+	    <UniformRandomSampler label="UniformRandomFree" vcLabel="rapid"/>
+			<UniformRandomSampler label="UniformRandomQuick" vcLabel="qv"/>
+			<UniformRandomSampler label="UniformRandomPQP" vcLabel="pqp"/>
+			<UniformRandomSampler label="UniformRandomPQPQuick" vcLabel="qvp"/>
+      <ObstacleBasedSampler label="OBPRM" vcLabel="rapid" useBBX="false"
+        pointSelection="cspace" dmLabel="euclidean" stepSize="0.0"
+        nShellsColl="0" nShellsFree="1" debug="false"/>
+      <GaussianSampler label="Gauss" vcLabel="rapid" d="0.2" dmLabel="euclidean"
+        useBBX="false"/>
+      <BridgeTestSampler label="Bridge" vcLabel="rapid" d="0.2"
+        dmLabel="euclidean" useBBX="true"/>
+      <MedialAxisSampler label="MAPRM" vcLabel="pqp_solid" dmLabel="euclidean"
+        clearanceType="exact" penetrationType="exact"
+        useBBX="true" debug="false" positional="true"/>
+      <UniformObstacleBasedSampler label="UOBPRM" vcLabel="rapid" useBBX="false"
+        dmLabel="euclidean" d="0.02" />
+      <UniformMedialAxisSampler label="UMAPRM" vcLabel="pqp_solid" useBBX="true"
+        dmLabel="euclidean" d="2.00" t="10" clearanceType="exact"
+        penetrationType="exact" debug="false" positional="true"/>
+      <WorkspaceImportanceSampler label="WIS" vcLabel="rapid" alpha="0.2"/>
+    </Samplers>
+
+    <LocalPlanners>
+      <StraightLine label="sl" binaryEvaluation="true" vcLabel="rapid"/>
+			<StraightLine label="slq" binaryEvaluation="true" vcLabel="qv"/>
+			<StraightLine label="slp" binaryEvaluation="true" vcLabel="pqp"/>
+			<StraightLine label="slpq" binaryEvaluation="true" vcLabel="qvp"/>
+     </LocalPlanners>
+
+    <Extenders>
+      <BasicExtender label="BERO" debug="false" dmLabel="euclidean"
+        vcLabel="rapid" maxDist="1." minDist=".001"/>
+     </Extenders>
+
+    <Connectors>
+      <CCsConnector label="ConnectCCs" nfLabel="BFNF" lpLabel="sl" k="5"/>
+      <!--ClosestVE label="ClosestVE" kClosest="3" nfLabel="BFNF"
+           lpLabel="sl"/-->
+      <NeighborhoodConnector label="Closest" nfLabel="BFNF" lpLabel="sl"
+        checkIfSameCC="false" debug="false"/>
+			<NeighborhoodConnector label="ClosestQ" nfLabel="BFNF" lpLabel="slq"
+        checkIfSameCC="false" debug="false"/>
+			<NeighborhoodConnector label="ClosestP" nfLabel="BFNF" lpLabel="slp"
+        checkIfSameCC="false" debug="false"/>
+			<NeighborhoodConnector label="ClosestPQ" nfLabel="BFNF" lpLabel="slpq"
+        checkIfSameCC="false" debug="false"/>
+    </Connectors>
+
+    <Metrics>
+      <NumNodesMetric label="NumNodes"/>
+      <NumEdgesMetric label="NumEdges"/>
+      <CoverageMetricVectorSet label="CoverageVectorSet" filename="coverage"
+        computeAllCCs="false">
+        <Connector label="Closest"/>
+      </CoverageMetricVectorSet>
+      <ConnectivityMetricVectorSet label="ConnectivityVectorSet"
+        filename="connectivity">
+        <Connector label="Closest"/>
+      </ConnectivityMetricVectorSet>
+      <DiameterMetric label="Diameter"/>
+      <CCDistanceMetric label="CCDistance" dmLabel="euclidean"/>
+      <TimeMetric label="TimeInSec"/>
+    </Metrics>
+
+    <MapEvaluators>
+      <TrueEvaluation label="TrueEvaluator" />
+      <PRMQuery label="PRMQuery" debug="false">
+        <NodeConnectionMethod method="Closest"/>
+      </PRMQuery>
+      <ConditionalEvaluator label="NodesEval" metric_method="NumNodes"
+        value="1000" operator=">="/>
+      <ConditionalEvaluator label="EdgesEval" metric_method="NumEdges"
+        value="1000" operator=">"/>
+      <ConditionalEvaluator label="FreqNodeEval" metric_method="NumNodes"
+        value="50" operator="%"/>
+      <ComposeEvaluator label="BoundedQuery" operator="or">
+        <Evaluator label="NodesEval"/>
+        <Evaluator label="PRMQuery"/>
+      </ComposeEvaluator>
+      <ComposeEvaluator label="ModQuery" operator="and">
+        <Evaluator label="FreqNodeEval"/>
+        <Evaluator label="PRMQuery"/>
+      </ComposeEvaluator>
+      <TimeEvaluator label="TimeEval" timeout="10"/>
+    </MapEvaluators>
+
+  
+
+    <MPStrategies>
+
+      <!-- Basic PRM where num samples is based on Number -->
+      <BasicPRM label="RapidFree">
+        <Sampler method="UniformRandomFree" number="1" attempts="1"/>
+				<Connector method="Closest"/>
+        <Evaluator method="NodesEval"/>
+      </BasicPRM>
+
+			<!-- Basic PRM where num samples is based on Number -->
+      <BasicPRM label="RapidQuick">
+        <Sampler method="UniformRandomQuick" number="1" attempts="1"/>
+				<Connector method="ClosestQ"/>
+        <Evaluator method="NodesEval"/>
+      </BasicPRM>
+
+			<BasicPRM label="PQPFree">
+        <Sampler method="UniformRandomPQP" number="1" attempts="1"/>
+				<Connector method="ClosestP"/>
+        <Evaluator method="NodesEval"/>
+      </BasicPRM>
+
+			<!-- Basic PRM where num samples is based on Number -->
+      <BasicPRM label="PQPQuick">
+        <Sampler method="UniformRandomPQPQuick" number="1" attempts="1"/>
+				<Connector method="ClosestPQ"/>
+        <Evaluator method="NodesEval"/>
+      </BasicPRM>
+
+			<!-- Ellipsoid  Tree test -->
+      <EllipsoidTreeTestStrategy label="TestEllipsoid" dimension="3" simplification="1.0" concentric="5.0"/>
+
+			<!-- Medial Axis -->
+      <MedialAxisTest label="TestMedial" space="1"/>
+			
+      <!-- Medial Axis -->
+      <MeanCurvatureSkeletonTest label="TestCurvatureSkeleton" filebase="3DShapes/ear-inp" space="2" quality="1" medial="1" iteration="10000000"/>
+
+      <PrimitiveSkeletonTestStrategy label="TestPrimitives" dimension="3" concentric="2" simplification="1" space="2" score="1" 
+       filebase="3DShapes/Output/test"  
+       medial="5" quality="10" iteration="1000000" inputfilebase="3DShapes/fertility-inp"/>
+
+      <ManualSkeletonTest label="TestManualSkeleton" radial="0.02" step="0.01" 
+       input="3DShapes/elk-inp" filebase="3DShapes/elk-inp1"/>
+
+      <GridOverlayTestStrategy label="TestGrid" dimension="3" length="0.02" concentric="0.02" simplification="0.01" space="2" inputfilebase="3DShapes/arma-inp"/>
+	 </MPStrategies>
+
+    <MPTools>
+      <ClearanceUtility label="clearanceUtil" vcLabel="pqp"
+        dmLabel="euclidean" clearanceType="exact" penetrationType="exact"
+        useBBX="true" positional="true"/>
+
+      <MedialAxisUtility label="maUtil" vcLabel="pqp" maSearchResFactor="0.1"
+        dmLabel="euclidean" clearanceType="exact" penetrationType="exact"
+        useBBX="true" positional="true"/>
+
+      <ReebGraphConstruction debug="false" write="false" filename=""/>
+
+      <TetGenDecomposition debug="false" switches="pnQq1.1"
+        writeFreeModel="false" writeDecompModel="false"
+        decompModelFilename=""/>
+
+      <!-- If we were going to load a pair of tetgen files in the 3D dir called
+           'decomposed.ele' and 'decomposed.node', this is what the tetgen node
+           would look like.
+      <TetGenDecomposition debug="false" switches="pnQ"
+        writeFreeModel="false" writeDecompModel="false"
+        decompModelFilename="3D/decomposed"/>
+      -->
+    </MPTools>
+
+    <!-- MPProblem allows multiple solvers to be specified and executed. -->
+
+    <Solver mpStrategyLabel="TestPrimitives" seed="12345678"
+      baseFilename="Basic" vizmoDebug="true"/>
+    <!--Solver mpStrategyLabel="TestGrid" seed="12345678"
+      baseFilename="Basic" vizmoDebug="true"/-->
+    <!--Solver mpStrategyLabel="RapidFree" seed="12345678"
+      baseFilename="RapidFree" vizmoDebug="false"/>
+
+    <Solver mpStrategyLabel="RapidQuick" seed="12345678"
+      baseFilename="RapidQuick" vizmoDebug="false"/>
+
+    <Solver mpStrategyLabel="PQPFree" seed="12345678"
+      baseFilename="PQPFree" vizmoDebug="false"/>
+
+    <Solver mpStrategyLabel="PQPQuick" seed="12345678"
+      baseFilename="PQPQuick" vizmoDebug="false"/-->
+
+
+  </Library>
+
+</MotionPlanning>

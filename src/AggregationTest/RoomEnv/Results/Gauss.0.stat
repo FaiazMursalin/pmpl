@@ -1,0 +1,65 @@
+
+
+Samplers Statistics:
+                                    Name            Attempts         Successes
+
+                  GaussianSampler::Gauss               13613                  47
+  Total Sampler Attempts: 13613
+  Total Succeeded: 47
+  Success %: 0.345258
+
+
+Local Planners:
+                Name       Attempts    Connections Coll Det Calls
+    StraightLine::sl            619            383          91656
+
+
+ Graph Operation Statistics:
+
+                               Statistic                                   Value
+
+                           CC Operations                                    3924
+                            Graph Search                                     101
+
+
+ Neighborhood Finder Statistics:
+
+                               Statistic                                   Value
+
+          BruteForceNF::BFNF::NumQueries                                    1415
+
+
+Number of Nodes: 51
+Number of Edges: 144
+
+
+There are 9 connected components:
+CC[0]: 37 (vid=0)
+CC[1]: 1 (vid=17)
+CC[2]: 1 (vid=18)
+CC[3]: 1 (vid=19)
+CC[4]: 6 (vid=23)
+CC[5]: 1 (vid=31)
+CC[6]: 2 (vid=40)
+CC[7]: 1 (vid=42)
+CC[8]: 1 (vid=47)
+
+Cfg::isCollision() Exact Counts:
+0) 27226 GaussianSampler::Gauss::SampleImpl()
+1) 13953 StraightLine::sl::IsConnectedSLBinary
+Total Cfg::isCollision() = 41179
+
+Clocks 
+
+                                    Name                          Time (Seconds)
+
+       BasicPRM::BasicPRM::EvaluateMap()                                  0.1727
+               BasicPRM::BasicPRM::Run()                                 0.38205
+               BruteForceNF::BFNF::Query                                 0.00396
+               BruteForceNF::BFNF::Total                                0.005105
+                  GaussianSampler::Gauss                                0.153948
+          NeighborhoodConnector::Closest                                 0.05505
+                      Query Graph Search                                0.001587
+                            Query::Query                                0.172595
+                        Total Connection                                0.055157
+                   Total Node Generation                                0.154065

@@ -1,0 +1,48 @@
+Automatically computed position resolution as 0.05
+Warning: MPTask is currently creating constraint boundaries from only the first constraint in each set!
+Warning: MPTask is currently creating constraint boundaries from only the first constraint in each set!
+
+
+MPLibrary is solving with MPStrategyMethod labeled TestMedial using seed 12345678.
+Obstacle 0 min: -103.289 -65.16 -0.01 
+Obstacle 0 max: 82.7107 -46.26 0.01 
+Obstacle 1 min: -20.1732 -20.3744 -0.01 
+Obstacle 1 max: 19.9268 20.4256 0.01 
+Obstacle 2 min: 25.8276 -19.9281 -0.01 
+Obstacle 2 max: 66.7276 20.0719 0.01 
+Obstacle 3 min: -66.1724 -19.9281 -0.01 
+Obstacle 3 max: -25.2724 20.0719 0.01 
+Obstacle 4 min: 126.672 11.7001 -0.01 
+Obstacle 4 max: 112.481 67.1206 0.01 
+Obstacle 5 min: 92.1555 128.372 -0.01 
+Obstacle 5 max: 147.247 112.951 0.01 
+Obstacle 6 min: -60.6181 23.1553 -0.01 
+Obstacle 6 max: -99.2181 136.555 0.01 
+Obstacle 7 min: -6.1 42.8003 -0.01 
+Obstacle 7 max: -43.9 117.2 0.01 
+Obstacle 8 min: -74.3995 -178.9 -0.01 
+Obstacle 8 max: 74.4005 -141.1 0.01 
+Obstacle 9 min: -10.2844 -135.77 -0.01 
+Obstacle 9 max: 10.6156 -114.57 0.01 
+Obstacle 10 min: -10.2844 -205.77 -0.01 
+Obstacle 10 max: 10.6156 -184.57 0.01 
+Obstacle 11 min: 29.7156 -135.77 -0.01 
+Obstacle 11 max: 50.6156 -114.57 0.01 
+Obstacle 12 min: 29.7156 -205.77 -0.01 
+Obstacle 12 max: 50.6156 -184.57 0.01 
+Obstacle 13 min: -50.2844 -135.77 -0.01 
+Obstacle 13 max: -29.3844 -114.57 0.01 
+Obstacle 14 min: -50.2844 -205.77 -0.01 
+Obstacle 14 max: -29.3844 -184.57 0.01 
+Obstacle 15 min: -100.284 -170.77 -0.01 
+Obstacle 15 max: -79.3844 -149.57 0.01 
+Obstacle 16 min: 81.7156 -170.77 -0.01 
+Obstacle 16 max: 102.616 -149.57 0.01 
+Obstacle 17 min: 49.8268 59.6256 -0.01 
+Obstacle 17 max: 89.9268 100.426 0.01 
+Obstacle 18 min: -11.1724 120.072 -0.01 
+Obstacle 18 max: 29.7276 160.072 0.01 
+Seg tree
+Built the vox map
+No of levels59
+Constructed the octtreeIntialized

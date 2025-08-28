@@ -1,0 +1,74 @@
+Roadmap Statistics:
+
+  Number of Nodes: 500
+  Number of Edges: 2086
+
+  There are 28 connected components:
+    CC[0]: 6 (vid 0)
+    CC[1]: 34 (vid 1)
+    CC[2]: 15 (vid 3)
+    CC[3]: 39 (vid 6)
+    CC[4]: 28 (vid 9)
+    CC[5]: 50 (vid 10)
+    CC[6]: 17 (vid 11)
+    CC[7]: 7 (vid 12)
+    CC[8]: 12 (vid 16)
+    CC[9]: 75 (vid 17)
+    CC[10]: 25 (vid 19)
+    CC[11]: 32 (vid 21)
+    CC[12]: 16 (vid 23)
+    CC[13]: 10 (vid 36)
+    CC[14]: 20 (vid 37)
+    CC[15]: 5 (vid 40)
+    CC[16]: 5 (vid 42)
+    CC[17]: 12 (vid 50)
+    CC[18]: 9 (vid 61)
+    CC[19]: 12 (vid 64)
+    CC[20]: 22 (vid 68)
+    CC[21]: 10 (vid 74)
+    CC[22]: 16 (vid 84)
+    CC[23]: 14 (vid 107)
+    CC[24]: 5 (vid 138)
+    CC[25]: 2 (vid 190)
+    CC[26]: 1 (vid 285)
+    CC[27]: 1 (vid 291)
+
+
+Sampler Statistics                                            Attempts Successes
+
+  UniformRandomSampler::UniformRandomFree                        12044       500
+  All Samplers                                                   12044       500
+  Success Rate: 4.15%
+
+
+Local Planner Statistics                        Attempts Connections    CD Calls
+
+  StraightLine::sl                                  1494        1043      162259
+
+
+Collision Detection Calls                                                  Count
+
+  StraightLine::sl::IsConnectedSLBinary                                   162256
+  UniformRandomSampler::UniformRandomFree::SampleImpl()                    12044
+  All Collision Detectors                                                 174300
+
+
+Other Statistics                                                           Value
+
+  BruteForceNF::BFNF::NumQueries                                             500
+
+
+Clock Name                                                        Time (Seconds)
+
+  BasicPRM::RapidFree::EvaluateMap                                        0.0193
+  BasicPRM::RapidFree::Run                                                  3.93
+  BruteForceNF::BFNF::Query                                                0.112
+  BruteForceNF::BFNF::Total                                                0.113
+  CollisionDetection::rapid::ObstCheck                                      3.07
+  CollisionDetection::rapid::ValidityCheck                                  3.34
+  ConditionalEvaluator::NodesEval                                        0.00603
+  NeighborhoodConnector::Closest                                            3.56
+  QueryMethod::GeneratingQuery                                             4e-06
+  Total Connection                                                          3.58
+  Total Node Generation                                                    0.307
+  UniformRandomSampler::UniformRandomFree                                  0.291

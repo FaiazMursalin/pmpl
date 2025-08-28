@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<MotionPlanning warnings="true" warningsAsErrors="true" print="false">
+  <MPProblem>
+
+    <Environment filename="narrow.env" saveDofs="false"/>
+
+    <DistanceMetrics>
+      <Euclidean label="euclidean"/>
+    </DistanceMetrics>
+
+    <ValidityCheckers>
+      <!--CollisionDetection label="cd" method="RAPID"/-->
+			<CollisionDetection label="cd" method="RAPID"/>
+	<CollisionDetection label="cd1" method="PQP_SOLID"/>
+    </ValidityCheckers>
+
+    <NeighborhoodFinders>
+      <BruteForceNF label="BFNF" dmLabel="euclidean" unconnected="false" k="5"/>
+    </NeighborhoodFinders>
+
+    <Samplers>
+      <UniformRandomSampler label="UniformRandomFree" vcLabel="cd"/>
+	<ObstacleBasedSampler label="OBPRM" vcLabel="cd" useBBX="false" pointSelection="cspace"
+        dmLabel="euclidean" stepSize="0.8" nShellsColl="0" nShellsFree="1" debug="false"/>
+      <GaussianSampler label="Gauss" vcLabel="cd" d="1.2" dmLabel="euclidean" useBBX="false"/>
+      <BridgeTestSampler label="Bridge" vcLabel="cd" d="0.2" dmLabel="euclidean" useBBX="true"/>
+      <MedialAxisSampler label="MAPRM" vcLabel="cd1" dmLabel="euclidean"
+        clearanceType="exact" penetrationType="exact"
+        useBBX="true" debug="false" positional="true"
+        epsilon="0.1" historyLength="100"/>
+    </Samplers>
+
+    <LocalPlanners>
+      <StraightLine label="sl" binaryEvaluation="true" vcLabel="cd"/>
+    </LocalPlanners>
+
+    <Connectors>
+      <NeighborhoodConnector label="Closest" nfLabel="BFNF" lpLabel="sl"
+        checkIfSameCC="false" debug="false"/>
+    </Connectors>
+
+    <Metrics>
+      <NumNodesMetric label="NumNodes"/>
+    </Metrics>
+	
+    <PathModifiers>
+      <ShortcuttingPathModifier label="ShortcuttingPathModifier" pathFile="Basic.smooth.path"
+        lpLabel="sl" debug="false"/>
+    </PathModifiers>
+
+
+    <MapEvaluators>
+      <ConditionalEvaluator label="NodesEval" metric_method="NumNodes"
+        value="100" operator=">="/>
+			<Query label="Query" queryFile="tourqry.query" dmLabel="euclidean"
+        lpLabel="sl" debug="false" writePaths="true" pmLabel="">
+        <NodeConnectionMethod method="Closest"/>
+      </Query>
+    </MapEvaluators>
+
+    <MPStrategies>
+
+      <!-- Basic PRM where num samples is based on Number -->
+      <BasicPRM label="BasicPRM">
+        <Sampler method="MAPRM" number="10" attempts="10"/>
+        <Connector method="Closest"/>
+        <Evaluator method="Query"/>
+      </BasicPRM>
+
+		<AggregatePRM label="AggregatePRM" method="0" query="tourqry.query">
+        <Sampler method="UniformRandomFree" number="10" attempts="10"/>
+        <Connector method="Closest"/>
+        <Evaluator method="Query"/>
+      </AggregatePRM>
+
+    </MPStrategies>
+
+    <Solver mpStrategyLabel="AggregatePRM" seed="0"
+      baseFilename="AggregatePRM"/>
+
+  </MPProblem>
+</MotionPlanning>

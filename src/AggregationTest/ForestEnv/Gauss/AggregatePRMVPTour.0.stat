@@ -1,0 +1,94 @@
+
+
+Samplers Statistics:
+                                    Name            Attempts         Successes
+
+                  GaussianSampler::Gauss               13844                  68
+  Total Sampler Attempts: 13844
+  Total Succeeded: 68
+  Success %: 0.491188
+
+
+Local Planners:
+                Name       Attempts    Connections Coll Det Calls
+    StraightLine::sl            784            358        1105112
+
+
+ Graph Operation Statistics:
+
+                               Statistic                                   Value
+
+                           CC Operations                                   29491
+                            Graph Search                                     309
+
+
+ Neighborhood Finder Statistics:
+
+                               Statistic                                   Value
+
+          BruteForceNF::BFNF::NumQueries                                   13280
+
+
+Number of Nodes: 73
+Number of Edges: 94
+
+
+There are 38 connected components:
+CC[0]: 18 (vid=0)
+CC[1]: 1 (vid=1)
+CC[2]: 4 (vid=5)
+CC[3]: 4 (vid=6)
+CC[4]: 1 (vid=7)
+CC[5]: 1 (vid=8)
+CC[6]: 1 (vid=9)
+CC[7]: 1 (vid=10)
+CC[8]: 1 (vid=11)
+CC[9]: 3 (vid=14)
+CC[10]: 2 (vid=15)
+CC[11]: 3 (vid=19)
+CC[12]: 1 (vid=20)
+CC[13]: 2 (vid=21)
+CC[14]: 4 (vid=23)
+CC[15]: 1 (vid=26)
+CC[16]: 3 (vid=27)
+CC[17]: 1 (vid=28)
+CC[18]: 1 (vid=30)
+CC[19]: 1 (vid=31)
+CC[20]: 1 (vid=32)
+CC[21]: 1 (vid=34)
+CC[22]: 1 (vid=35)
+CC[23]: 1 (vid=37)
+CC[24]: 1 (vid=42)
+CC[25]: 1 (vid=43)
+CC[26]: 1 (vid=47)
+CC[27]: 1 (vid=50)
+CC[28]: 1 (vid=52)
+CC[29]: 1 (vid=54)
+CC[30]: 1 (vid=55)
+CC[31]: 1 (vid=56)
+CC[32]: 1 (vid=57)
+CC[33]: 1 (vid=58)
+CC[34]: 1 (vid=59)
+CC[35]: 2 (vid=61)
+CC[36]: 1 (vid=67)
+CC[37]: 1 (vid=69)
+
+Cfg::isCollision() Exact Counts:
+0) 27688 GaussianSampler::Gauss::SampleImpl()
+1) 43717 StraightLine::sl::IsConnectedSLBinary
+Total Cfg::isCollision() = 71405
+
+Clocks 
+
+                                    Name                          Time (Seconds)
+
+AggregatePRM::AggregatePRM::EvaluateMap()                                   1.825
+       AggregatePRM::AggregatePRM::Run()                                 2.46878
+               BruteForceNF::BFNF::Query                                0.030533
+               BruteForceNF::BFNF::Total                                  0.0411
+                  GaussianSampler::Gauss                                0.311425
+          NeighborhoodConnector::Closest                                0.330622
+                      Query Graph Search                                0.004181
+                            Query::Query                                 1.82467
+                        Total Connection                                0.330886
+                   Total Node Generation                                0.312449

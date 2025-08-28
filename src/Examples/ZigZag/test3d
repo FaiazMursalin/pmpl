@@ -1,0 +1,25 @@
+Boundary Box [ -25:25 ; -15:15 ; -25:25 ]
+
+MultiBodies
+4
+
+Active
+2
+link.obj Volumetric Rotational
+link.obj Joint 
+Connections
+1
+0 1 Revolute -1:1
+0.7 0 0 0.0000 0.0000 0.0000
+0 0 0 0 
+0.7 0 0 0.0000 0.0000 0.0000
+
+Passive
+block.obj 0 2 0 0.0000 0.0000 0.0000
+
+Passive
+block.obj 0 -2 0 0.0000 0.0000 0.0000
+
+Passive
+/home/mursalin/Documents/faiaz/pmpl/src/Examples/ZigZag/rectangleBlock.obj -15.59 -10.06 -13.82 0.0000 0.0000 0.0000
+

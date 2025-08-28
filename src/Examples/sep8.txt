@@ -1,0 +1,751 @@
+Automatically computed position resolution as 0.014
+Warning: MPTask is currently creating constraint boundaries from only the first constraint in each set!
+Warning: MPTask is currently creating constraint boundaries from only the first constraint in each set!
+Query generation:
+	Start boundary : CSpaceBoundingBox [-8:-8 ; -6:-6 ; 0:0 ; 0:0 ; 0:0 ; 0:0 ; 0:0 ]
+	Start cfg: 0  -8.00000000000000000e+00  -6.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00 
+	Goal boundary  : CSpaceBoundingBox [8:8 ; 5:5 ; 0:0 ; 0:0 ; 0:0 ; 0:0 ; 0:0 ]
+	Goal cfg: 0   8.00000000000000000e+00   5.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00 
+Warning: MPTask is currently creating constraint boundaries from only the first constraint in each set!
+Warning: MPTask is currently creating constraint boundaries from only the first constraint in each set!
+Query generation:
+	Start boundary : CSpaceBoundingBox [-8:-8 ; -6:-6 ; 0:0 ; 0:0 ; 0:0 ; 0:0 ; 0:0 ]
+	Start cfg: 0  -8.00000000000000000e+00  -6.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00 
+	Goal boundary  : CSpaceBoundingBox [8:8 ; 5:5 ; 0:0 ; 0:0 ; 0:0 ; 0:0 ; 0:0 ]
+	Goal cfg: 0   8.00000000000000000e+00   5.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00 
+Warning: MPTask is currently creating constraint boundaries from only the first constraint in each set!
+Warning: MPTask is currently creating constraint boundaries from only the first constraint in each set!
+Query generation:
+	Start boundary : CSpaceBoundingBox [-8:-8 ; -6:-6 ; 0:0 ; 0:0 ; 0:0 ; 0:0 ; 0:0 ]
+	Start cfg: 0  -8.00000000000000000e+00  -6.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00 
+	Goal boundary  : CSpaceBoundingBox [8:8 ; 5:5 ; 0:0 ; 0:0 ; 0:0 ; 0:0 ; 0:0 ]
+	Goal cfg: 0   8.00000000000000000e+00   5.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00 
+Warning: MPTask is currently creating constraint boundaries from only the first constraint in each set!
+Warning: MPTask is currently creating constraint boundaries from only the first constraint in each set!
+Query generation:
+	Start boundary : CSpaceBoundingBox [-8:-8 ; -6:-6 ; 0:0 ; 0:0 ; 0:0 ; 0:0 ; 0:0 ]
+	Start cfg: 0  -8.00000000000000000e+00  -6.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00 
+	Goal boundary  : CSpaceBoundingBox [8:8 ; 5:5 ; 0:0 ; 0:0 ; 0:0 ; 0:0 ; 0:0 ]
+	Goal cfg: 0   8.00000000000000000e+00   5.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00 
+Warning: MPTask is currently creating constraint boundaries from only the first constraint in each set!
+Warning: MPTask is currently creating constraint boundaries from only the first constraint in each set!
+Query generation:
+	Start boundary : CSpaceBoundingBox [-8:-8 ; -6:-6 ; 0:0 ; 0:0 ; 0:0 ; 0:0 ; 0:0 ]
+	Start cfg: 0  -8.00000000000000000e+00  -6.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00 
+	Goal boundary  : CSpaceBoundingBox [8:8 ; 5:5 ; 0:0 ; 0:0 ; 0:0 ; 0:0 ; 0:0 ]
+	Goal cfg: 0   8.00000000000000000e+00   5.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00 
+Warning: MPTask is currently creating constraint boundaries from only the first constraint in each set!
+Warning: MPTask is currently creating constraint boundaries from only the first constraint in each set!
+Query generation:
+	Start boundary : CSpaceBoundingBox [-8:-8 ; -6:-6 ; 0:0 ; 0:0 ; 0:0 ; 0:0 ; 0:0 ]
+	Start cfg: 0  -8.00000000000000000e+00  -6.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00 
+	Goal boundary  : CSpaceBoundingBox [8:8 ; 5:5 ; 0:0 ; 0:0 ; 0:0 ; 0:0 ; 0:0 ]
+	Goal cfg: 0   8.00000000000000000e+00   5.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00 
+
+
+MPLibrary is solving with MPStrategyMethod labeled MorseFunction using seed 12345678.
+MorseFunction::MorseFunction
+	Sampling method: UniformRandomFree
+	MapEvaluator :	MorseQuery
+Node vertex ID 0
+Node vertex ID 1
+Node vertex ID 2
+Node vertex ID 3
+Node vertex ID 4
+Node vertex ID 5
+Node vertex ID 6
+Node vertex ID 7
+Node vertex ID 8
+Node vertex ID 9
+Node vertex ID 10
+Node vertex ID 11
+Node vertex ID 12
+Node vertex ID 13
+Node vertex ID 14
+Node vertex ID 15
+Node vertex ID 16
+Node vertex ID 17
+Node vertex ID 18
+Node vertex ID 19
+Node vertex ID 20
+Node vertex ID 21
+Node vertex ID 22
+Node vertex ID 23
+Node vertex ID 24
+Node vertex ID 25
+Node vertex ID 26
+Node vertex ID 27
+Node vertex ID 28
+Node vertex ID 29
+Node vertex ID 30
+Node vertex ID 31
+Node vertex ID 32
+Node vertex ID 33
+Node vertex ID 34
+Node vertex ID 35
+Node vertex ID 36
+Node vertex ID 37
+Node vertex ID 38
+Node vertex ID 39
+Node vertex ID 40
+Node vertex ID 41
+Node vertex ID 42
+Node vertex ID 43
+Node vertex ID 44
+Node vertex ID 45
+Node vertex ID 46
+Node vertex ID 47
+Node vertex ID 48
+Node vertex ID 49
+Node vertex ID 50
+Node vertex ID 51
+Node vertex ID 52
+Node vertex ID 53
+Node vertex ID 54
+Node vertex ID 55
+Node vertex ID 56
+Node vertex ID 57
+Node vertex ID 58
+Node vertex ID 59
+Node vertex ID 60
+Node vertex ID 61
+Node vertex ID 62
+Node vertex ID 63
+Node vertex ID 64
+Node vertex ID 65
+Node vertex ID 66
+Node vertex ID 67
+Node vertex ID 68
+Node vertex ID 69
+Node vertex ID 70
+Node vertex ID 71
+Node vertex ID 72
+Node vertex ID 73
+Node vertex ID 74
+Node vertex ID 75
+Node vertex ID 76
+Node vertex ID 77
+Node vertex ID 78
+Node vertex ID 79
+Node vertex ID 80
+Node vertex ID 81
+Node vertex ID 82
+Node vertex ID 83
+Node vertex ID 84
+Node vertex ID 85
+Node vertex ID 86
+Node vertex ID 87
+Node vertex ID 88
+Node vertex ID 89
+Node vertex ID 90
+Node vertex ID 91
+Node vertex ID 92
+Node vertex ID 93
+Node vertex ID 94
+Node vertex ID 95
+Node vertex ID 96
+Node vertex ID 97
+Node vertex ID 98
+Number of obstacle points: 1011
+Node vertex ID 99
+Node vertex ID 100
+Node vertex ID 101
+Node vertex ID 102
+Node vertex ID 103
+Node vertex ID 104
+Node vertex ID 105
+Node vertex ID 106
+Node vertex ID 107
+Node vertex ID 108
+Node vertex ID 109
+Node vertex ID 110
+Node vertex ID 111
+Node vertex ID 112
+Node vertex ID 113
+Node vertex ID 114
+Node vertex ID 115
+Node vertex ID 116
+Node vertex ID 117
+Node vertex ID 118
+Node vertex ID 119
+Node vertex ID 120
+Node vertex ID 121
+Node vertex ID 122
+Node vertex ID 123
+Node vertex ID 124
+Node vertex ID 125
+Node vertex ID 126
+Node vertex ID 127
+Node vertex ID 128
+Node vertex ID 129
+Node vertex ID 130
+Node vertex ID 131
+Node vertex ID 132
+Node vertex ID 133
+Node vertex ID 134
+Node vertex ID 135
+Node vertex ID 136
+Node vertex ID 137
+Node vertex ID 138
+Node vertex ID 139
+Node vertex ID 140
+Node vertex ID 141
+Node vertex ID 142
+Node vertex ID 143
+Node vertex ID 144
+Node vertex ID 145
+Node vertex ID 146
+Node vertex ID 147
+Node vertex ID 148
+Node vertex ID 149
+Node vertex ID 150
+Node vertex ID 151
+Node vertex ID 152
+Node vertex ID 153
+Node vertex ID 154
+Node vertex ID 155
+Node vertex ID 156
+Node vertex ID 157
+Node vertex ID 158
+Node vertex ID 159
+Node vertex ID 160
+Node vertex ID 161
+Node vertex ID 162
+Node vertex ID 163
+Node vertex ID 164
+Node vertex ID 165
+Node vertex ID 166
+Node vertex ID 167
+Node vertex ID 168
+Node vertex ID 169
+Node vertex ID 170
+Node vertex ID 171
+Node vertex ID 172
+Node vertex ID 173
+Node vertex ID 174
+Node vertex ID 175
+Node vertex ID 176
+Node vertex ID 177
+Node vertex ID 178
+Node vertex ID 179
+Node vertex ID 180
+Node vertex ID 181
+Node vertex ID 182
+Node vertex ID 183
+Node vertex ID 184
+Node vertex ID 185
+Node vertex ID 186
+Node vertex ID 187
+Node vertex ID 188
+Node vertex ID 189
+Node vertex ID 190
+Node vertex ID 191
+Node vertex ID 192
+Node vertex ID 193
+Node vertex ID 194
+Node vertex ID 195
+Node vertex ID 196
+Node vertex ID 197
+Node vertex ID 198
+Node vertex ID 199
+Node vertex ID 200
+Node vertex ID 201
+Node vertex ID 202
+Node vertex ID 203
+Node vertex ID 204
+Node vertex ID 205
+Node vertex ID 206
+Node vertex ID 207
+Node vertex ID 208
+Node vertex ID 209
+Node vertex ID 210
+Node vertex ID 211
+Node vertex ID 212
+Node vertex ID 213
+Node vertex ID 214
+Node vertex ID 215
+Node vertex ID 216
+Node vertex ID 217
+Node vertex ID 218
+Node vertex ID 219
+Node vertex ID 220
+Node vertex ID 221
+Node vertex ID 222
+Node vertex ID 223
+Node vertex ID 224
+Node vertex ID 225
+Node vertex ID 226
+Node vertex ID 227
+Node vertex ID 228
+Node vertex ID 229
+Node vertex ID 230
+Node vertex ID 231
+Node vertex ID 232
+Node vertex ID 233
+Node vertex ID 234
+Node vertex ID 235
+Node vertex ID 236
+Node vertex ID 237
+Node vertex ID 238
+Node vertex ID 239
+Node vertex ID 240
+Node vertex ID 241
+Node vertex ID 242
+Node vertex ID 243
+Node vertex ID 244
+Node vertex ID 245
+Node vertex ID 246
+Node vertex ID 247
+Node vertex ID 248
+Node vertex ID 249
+Node vertex ID 250
+Node vertex ID 251
+Node vertex ID 252
+Node vertex ID 253
+Node vertex ID 254
+Node vertex ID 255
+Node vertex ID 256
+Node vertex ID 257
+Node vertex ID 258
+Node vertex ID 259
+Node vertex ID 260
+Node vertex ID 261
+Node vertex ID 262
+Node vertex ID 263
+Node vertex ID 264
+Node vertex ID 265
+Node vertex ID 266
+Node vertex ID 267
+Node vertex ID 268
+Node vertex ID 269
+Node vertex ID 270
+Node vertex ID 271
+Node vertex ID 272
+Node vertex ID 273
+Node vertex ID 274
+Node vertex ID 275
+Node vertex ID 276
+Node vertex ID 277
+Node vertex ID 278
+Node vertex ID 279
+Node vertex ID 280
+Node vertex ID 281
+Node vertex ID 282
+Node vertex ID 283
+Node vertex ID 284
+Node vertex ID 285
+Node vertex ID 286
+Node vertex ID 287
+Node vertex ID 288
+Node vertex ID 289
+Node vertex ID 290
+Node vertex ID 291
+Node vertex ID 292
+Node vertex ID 293
+Node vertex ID 294
+Node vertex ID 295
+Node vertex ID 296
+Node vertex ID 297
+Node vertex ID 298
+Node vertex ID 299
+Node vertex ID 300
+Node vertex ID 301
+Node vertex ID 302
+Node vertex ID 303
+Node vertex ID 304
+Node vertex ID 305
+Node vertex ID 306
+Node vertex ID 307
+Node vertex ID 308
+Node vertex ID 309
+Node vertex ID 310
+Node vertex ID 311
+Node vertex ID 312
+Node vertex ID 313
+Node vertex ID 314
+Node vertex ID 315
+Node vertex ID 316
+Node vertex ID 317
+Node vertex ID 318
+Node vertex ID 319
+Node vertex ID 320
+Node vertex ID 321
+Node vertex ID 322
+Node vertex ID 323
+Node vertex ID 324
+Node vertex ID 325
+Node vertex ID 326
+Node vertex ID 327
+Node vertex ID 328
+Node vertex ID 329
+Node vertex ID 330
+Node vertex ID 331
+Node vertex ID 332
+Node vertex ID 333
+Node vertex ID 334
+Node vertex ID 335
+Node vertex ID 336
+Node vertex ID 337
+Node vertex ID 338
+Node vertex ID 339
+Node vertex ID 340
+Node vertex ID 341
+Node vertex ID 342
+Node vertex ID 343
+Node vertex ID 344
+Node vertex ID 345
+Node vertex ID 346
+Node vertex ID 347
+Node vertex ID 348
+Node vertex ID 349
+Node vertex ID 350
+Node vertex ID 351
+Node vertex ID 352
+Node vertex ID 353
+Node vertex ID 354
+Node vertex ID 355
+Node vertex ID 356
+Node vertex ID 357
+Node vertex ID 358
+Node vertex ID 359
+Node vertex ID 360
+Node vertex ID 361
+Node vertex ID 362
+Node vertex ID 363
+Node vertex ID 364
+Node vertex ID 365
+Node vertex ID 366
+Node vertex ID 367
+Node vertex ID 368
+Node vertex ID 369
+Node vertex ID 370
+Node vertex ID 371
+Node vertex ID 372
+Node vertex ID 373
+Node vertex ID 374
+Node vertex ID 375
+Node vertex ID 376
+Node vertex ID 377
+Node vertex ID 378
+Node vertex ID 379
+Node vertex ID 380
+Node vertex ID 381
+Node vertex ID 382
+Node vertex ID 383
+Node vertex ID 384
+Node vertex ID 385
+Node vertex ID 386
+Node vertex ID 387
+Node vertex ID 388
+Node vertex ID 389
+Node vertex ID 390
+Node vertex ID 391
+Node vertex ID 392
+Node vertex ID 393
+Node vertex ID 394
+Node vertex ID 395
+Node vertex ID 396
+Node vertex ID 397
+Node vertex ID 398
+Node vertex ID 399
+Node vertex ID 400
+Node vertex ID 401
+Node vertex ID 402
+Node vertex ID 403
+Node vertex ID 404
+Node vertex ID 405
+Node vertex ID 406
+Node vertex ID 407
+Node vertex ID 408
+Node vertex ID 409
+Node vertex ID 410
+Node vertex ID 411
+Node vertex ID 412
+Node vertex ID 413
+Node vertex ID 414
+Node vertex ID 415
+Node vertex ID 416
+Node vertex ID 417
+Node vertex ID 418
+Node vertex ID 419
+Node vertex ID 420
+Node vertex ID 421
+Node vertex ID 422
+Node vertex ID 423
+Node vertex ID 424
+Node vertex ID 425
+Node vertex ID 426
+Node vertex ID 427
+Node vertex ID 428
+Node vertex ID 429
+Node vertex ID 430
+Node vertex ID 431
+Node vertex ID 432
+Node vertex ID 433
+Node vertex ID 434
+Node vertex ID 435
+Node vertex ID 436
+Node vertex ID 437
+Node vertex ID 438
+Node vertex ID 439
+Node vertex ID 440
+Node vertex ID 441
+Node vertex ID 442
+Node vertex ID 443
+Node vertex ID 444
+Node vertex ID 445
+Node vertex ID 446
+Node vertex ID 447
+Node vertex ID 448
+Node vertex ID 449
+Node vertex ID 450
+Node vertex ID 451
+Node vertex ID 452
+Node vertex ID 453
+Node vertex ID 454
+Node vertex ID 455
+Node vertex ID 456
+Node vertex ID 457
+Node vertex ID 458
+Node vertex ID 459
+Node vertex ID 460
+Node vertex ID 461
+Node vertex ID 462
+Node vertex ID 463
+Node vertex ID 464
+Node vertex ID 465
+Node vertex ID 466
+Node vertex ID 467
+Node vertex ID 468
+Node vertex ID 469
+Node vertex ID 470
+Node vertex ID 471
+Node vertex ID 472
+Node vertex ID 473
+Node vertex ID 474
+Node vertex ID 475
+Node vertex ID 476
+Node vertex ID 477
+Node vertex ID 478
+Node vertex ID 479
+Node vertex ID 480
+Node vertex ID 481
+Node vertex ID 482
+Node vertex ID 483
+Node vertex ID 484
+Node vertex ID 485
+Node vertex ID 486
+Node vertex ID 487
+Node vertex ID 488
+Node vertex ID 489
+Node vertex ID 490
+Node vertex ID 491
+Node vertex ID 492
+Node vertex ID 493
+Node vertex ID 494
+Node vertex ID 495
+Node vertex ID 496
+Node vertex ID 497
+Node vertex ID 498
+Node vertex ID 499
+Node vertex ID 500
+Node vertex ID 501
+Node vertex ID 502
+Node vertex ID 503
+Node vertex ID 504
+Node vertex ID 505
+Node vertex ID 506
+Node vertex ID 507
+Node vertex ID 508
+Node vertex ID 509
+Node vertex ID 510
+Node vertex ID 511
+Node vertex ID 512
+Node vertex ID 513
+Node vertex ID 514
+Node vertex ID 515
+Node vertex ID 516
+Node vertex ID 517
+Node vertex ID 518
+Node vertex ID 519
+Node vertex ID 520
+Node vertex ID 521
+Node vertex ID 522
+Node vertex ID 523
+Node vertex ID 524
+Node vertex ID 525
+Node vertex ID 526
+Node vertex ID 527
+Node vertex ID 528
+Node vertex ID 529
+Node vertex ID 530
+Node vertex ID 531
+Node vertex ID 532
+Node vertex ID 533
+Node vertex ID 534
+Node vertex ID 535
+Node vertex ID 536
+Node vertex ID 537
+Node vertex ID 538
+Node vertex ID 539
+Node vertex ID 540
+Node vertex ID 541
+Node vertex ID 542
+Node vertex ID 543
+Node vertex ID 544
+Node vertex ID 545
+Node vertex ID 546
+Node vertex ID 547
+Node vertex ID 548
+Node vertex ID 549
+Node vertex ID 550
+Node vertex ID 551
+Node vertex ID 552
+Node vertex ID 553
+Node vertex ID 554
+Node vertex ID 555
+Node vertex ID 556
+Node vertex ID 557
+Node vertex ID 558
+Node vertex ID 559
+Node vertex ID 560
+Node vertex ID 561
+Node vertex ID 562
+Node vertex ID 563
+Node vertex ID 564
+Node vertex ID 565
+Node vertex ID 566
+Node vertex ID 567
+Node vertex ID 568
+Node vertex ID 569
+Node vertex ID 570
+Node vertex ID 571
+Node vertex ID 572
+Node vertex ID 573
+Node vertex ID 574
+Node vertex ID 575
+Node vertex ID 576
+Node vertex ID 577
+Node vertex ID 578
+Node vertex ID 579
+Node vertex ID 580
+Node vertex ID 581
+Node vertex ID 582
+Node vertex ID 583
+Node vertex ID 584
+Graph vertices: 585
+Total Connection: 7.109127 sec
+Number of cliques897
+Number of vertices deleted:0
+ClosestNode	0   1.12226095183880048e+01   2.49791147227725219e+00   1.10715384779224379e+01   0.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00 
+11.222609518388005 2.4979114722772522 11.071538477922438 
+size of obstacle poibts1011
+road 585
+Eval loop: MorseQuery
+GetName == MorseQuery
+Warning: MPTask is currently creating constraint boundaries from only the first constraint in each set!
+Warning: MPTask is currently creating constraint boundaries from only the first constraint in each set!
+Query generation:
+	Start boundary : CSpaceBoundingBox [-8:-8 ; -6:-6 ; 0:0 ; 0:0 ; 0:0 ; 0:0 ; 0:0 ]
+	Start cfg: 0  -8.00000000000000000e+00  -6.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00 
+	Goal boundary  : CSpaceBoundingBox [8:8 ; 5:5 ; 0:0 ; 0:0 ; 0:0 ; 0:0 ; 0:0 ]
+	Goal cfg: 0   8.00000000000000000e+00   5.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00 
+Initialize should be called
+Number of above/below avg -sd points12
+Number of critical points: 12
+Number of clusters12
+Number of vertices in graph: 585 635
+Run evaluate map
+number of edges: 6548
+Evaluating sub-query:
+	from 0  -8.00000000000000000e+00  -6.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00 
+	to   0   8.00000000000000000e+00   5.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00   0.00000000000000000e+00 
+cc size:1
+connected1
+map passed 1
+path size found line 542: 2621
+map passed 1
+path size found line 542: 3046
+map passed 1
+path size found line 542: 3189
+Total number of paths at the end of GetPaths = 3
+Reading dynamic agent path
+Reading dynamic agent path file 'newDpathsTest.paths
+File stream ready for dynamic agent path
+Reading dynamic agent from: ZigZag/linked.robot
+Gets dynamic agent
+0x5d2d0f2eff50
+DOF 7
+PosDOF 3
+OrientationDOF 3
+JointDOF 1
+Number of dynamic agents: 2
+Should read lines: 2575 for path 0
+Read 2575 for path 0
+Should read lines: 2663 for path 1
+Read 2663 for path 1
+Read 2 paths for dynamic agent path
+Paths size3
+Calling GetCfgs with Path: 0x5d2d0f80bb40 and size: 2621
+endcfg
+cfg size: 2628
+Found 1325 segments for Path: 0x5d2d0f80bb40
+Valid path called. Tick limit: 241
+Robot at: [-8, -6, 0, 0, 0, 0, 0]
+Dynamic agent 0 at: [-5, -6, 0, 0, 0, 0, 0]
+Dynamic agent 1 at: [-8, -6, 0, 0, 0, 0, 0]
+Collision found for Robot Cfg: [-8, -6, 0, 0, 0, 0, 0] and Dynamic Agent Cfg: [-8, -6, 0, 0, 0, 0, 0]
+Collision found.
+Collision found for path 0x5d2d0f80bb40 at [-8, -6, 0, 0, 0, 0, 0]
+------------------------ Printing Labels ------------------------
+Key: VALID Value: 1
+------------------------ Printing Stats ------------------------
+Key: succConnectionAttempts Value: 16
+Key: totalConnectionAttempts Value: 17
+[-8, -6, 0, 0, 0, 0, 0] has stat 'Critical' = 0
+Distance to goal after deflection: 19.416487838947599
+endcfg
+Diverse path cost for new path: 0x5d2d0f309760 = 19.416487838947599
+Social Navigation Strategy returned:  WAIT 
+Calling GetCfgs with Path: 0x5d2d0f309760 and size: 3046
+endcfg
+cfg size: 3054
+Found 1392 segments for Path: 0x5d2d0f309760
+Valid path called. Tick limit: 1031
+Robot at: [-8, -6, 0, 0, 0, 0, 0]
+Dynamic agent 0 at: [-5, -6, 0, 0, 0, 0, 0]
+Dynamic agent 1 at: [-8, -6, 0, 0, 0, 0, 0]
+Collision found for Robot Cfg: [-8, -6, 0, 0, 0, 0, 0] and Dynamic Agent Cfg: [-8, -6, 0, 0, 0, 0, 0]
+Collision found.
+Collision found for path 0x5d2d0f309760 at [-8, -6, 0, 0, 0, 0, 0]
+------------------------ Printing Labels ------------------------
+Key: VALID Value: 1
+------------------------ Printing Stats ------------------------
+Key: succConnectionAttempts Value: 16
+Key: totalConnectionAttempts Value: 17
+[-8, -6, 0, 0, 0, 0, 0] has stat 'Critical' = 0
+Distance to goal after deflection: 19.416487838947599
+endcfg
+Diverse path cost for new path: 0x5d2d0f80d900 = 19.416487838947599
+Social Navigation Strategy returned:  WAIT 
+Calling GetCfgs with Path: 0x5d2d0f80d900 and size: 3189
+endcfg
+cfg size: 3198
+Found 2755 segments for Path: 0x5d2d0f80d900
+Valid path called. Tick limit: 444
+Robot at: [-8, -6, 0, 0, 0, 0, 0]
+Dynamic agent 0 at: [-5, -6, 0, 0, 0, 0, 0]
+Dynamic agent 1 at: [-8, -6, 0, 0, 0, 0, 0]
+Collision found for Robot Cfg: [-8, -6, 0, 0, 0, 0, 0] and Dynamic Agent Cfg: [-8, -6, 0, 0, 0, 0, 0]
+Collision found.
+Collision found for path 0x5d2d0f80d900 at [-8, -6, 0, 0, 0, 0, 0]
+------------------------ Printing Labels ------------------------
+Key: VALID Value: 1
+------------------------ Printing Stats ------------------------
+Key: succConnectionAttempts Value: 16
+Key: totalConnectionAttempts Value: 17
+[-8, -6, 0, 0, 0, 0, 0] has stat 'Critical' = 0
+Exhausted all possible paths.
+MorseQuery::MorseQuery: 0.16436200000000001 sec
+MorseQuery::MorseQuery  (Failed)
+MorseFunction::MorseFunction::EvaluateMap: 0.164379 sec

@@ -1,0 +1,134 @@
+#!/usr/bin/python
+
+# This program is to collect data stats file given a directory or a file
+# containing the directories to look at.
+
+import sys
+import fileinput
+
+import fs_handler as fs
+import math_tools as mt
+
+def setup():
+  normalized = ""
+  gnuPrint = False
+  humanPrint = False
+  gnuDataFilename = ""
+  if not len(sys.argv) > 1:
+    print "python pmplcollect {hg:} ([Director] | [filename]) [Normalized] " 
+    sys.exit(1)
+
+  s = sys.argv[1]
+  statDir = 2
+  if not s[0] == '-':
+    print 'invalid option: - is expected before an option'
+    sys.exit(1)
+  elif s[1] == 'g':
+    gnuPrint = True
+    gnuDataFilename = sys.argv[2]
+    statDir += 1
+  elif s[1] == 'h':
+    humanPrint = True
+  else:
+    print "Invalid option {}, only h and g are recognized".format(s[1])
+    sys.exit(1)
+
+  name = sys.argv[statDir] 
+  
+  if len(sys.argv) >= statDir + 2:
+    normalized = sys.argv[statDir + 1]
+
+
+  dirs = []
+
+  if fs.isFile(name):
+    f = open(name, 'r')
+    for line in f:
+      line = line.rstrip()
+      dirs.append(line)
+  else:
+    dirs.append(name)
+  return (dirs, normalized, humanPrint, gnuPrint, gnuDataFilename)
+
+def collect(dirs):
+  data = {}
+  statData = {}
+  for d in dirs:
+    data[d] = fs.accumulate_data(d)
+  for name, da in data.iteritems():
+    lists = {}
+    for t, l in da.iteritems():
+      avg = mt.average(l)
+      std = mt.std_dev(l)
+      size = len(l)
+      lists[t] = (avg, std, size)
+    statData[name] = lists
+  return statData
+
+def print_stats(stats, norm):
+  for key in sorted(stats.iterkeys()):
+    print "".ljust(62 + 15 + 15 + 5 + 5, '-')
+    k = key
+    if not norm == "":
+      k = k.ljust(80)
+      k += "Normalized to: " + norm
+    print "|{0:100s}|".format(k)
+    print "".ljust(62 + 15 + 15 + 5 + 5, '-')
+    print"|{0:62s}|{1:15s}|{2:15s}|{3:5s}|".format("Statistic", "Avg", "Std Dev", "Num")
+    print "".ljust(62 + 15 + 15 + 5 + 5, '-')
+    for keys in sorted(stats[key].iterkeys()):
+      (avg, std, num) = stats[key][keys]
+      print"|{0:62s}|{1:15.5f}|{2:15.5f}|{3:5.0f}|".format(keys, avg, std, num)
+    print "".ljust(62 + 15 + 15 + 5 + 5, '-')
+
+def print_gnu(stats, gnuDataFilename):
+  f = open(gnuDataFilename, "r")
+  # <statname> ' ' <outstatname>
+  stat = {}
+  for line in f:
+    s = line.split(':')
+    if len(s) < 2:
+      print "Stats should be 'name:outname'"
+      continue
+    n = s[1].strip()
+    open(n + '.stats', 'w')
+    stat[s[0].strip()] = n
+  # key is the experiment name
+  for key in sorted(stats.iterkeys()):
+    for skey in sorted(stats[key].iterkeys()):
+      for x in stat:
+        # it shouldnt be too strict
+        if x in skey:
+          (avg, std, num) = stats[key][skey]
+          n = '{}_{}.stats'.format(fs.get_cdir(), stat[x])
+          f = open(n, "a")
+          s = '{0} {1:15f} {2:15f} {3:15f}\n'.format(key, avg, std, num)
+          f.write(s)
+
+def main():
+  (files, normalized, humanPrint, gnuPrint, gnuDataFilename) = setup()
+
+  files.sort()
+  stats = collect(files)
+  if not normalized == "":
+    print "Normalizing to {}".format(normalized)
+    if not stats.has_key(normalized):
+      print "normalized variable must be a directory name"
+      sys.exit(1)
+
+    norm_data = stats[normalized]
+    for nkey, ndata in norm_data.iteritems():
+      (navg, nstd, nnum) = ndata
+      for exp in stats:
+        if stats[exp].has_key(nkey):
+          t = stats[exp]
+          (avg, std, num) = t[nkey]
+          stats[exp][nkey] = (mt.normalize(avg, navg), mt.normalize(std, nstd), num)
+
+  if humanPrint:
+    print_stats(stats, normalized)
+  elif gnuPrint:
+    print_gnu(stats, gnuDataFilename)
+
+
+main()

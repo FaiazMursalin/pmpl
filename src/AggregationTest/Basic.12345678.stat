@@ -1,0 +1,62 @@
+Roadmap Statistics:
+
+  Number of Nodes: 213
+  Number of Edges: 1498
+
+  There are 10 connected components:
+    CC[0]: 185 (vid 0)
+    CC[1]: 6 (vid 3)
+    CC[2]: 10 (vid 13)
+    CC[3]: 4 (vid 22)
+    CC[4]: 2 (vid 37)
+    CC[5]: 1 (vid 38)
+    CC[6]: 2 (vid 39)
+    CC[7]: 1 (vid 123)
+    CC[8]: 1 (vid 149)
+    CC[9]: 1 (vid 185)
+
+
+Sampler Statistics                                            Attempts Successes
+
+  UniformRandomSampler::UniformRandomFree                          584       213
+  All Samplers                                                     584       213
+  Success Rate: 36.5%
+
+
+Local Planner Statistics                        Attempts Connections    CD Calls
+
+  StraightLine::sl                                  1191         768      110021
+
+
+Collision Detection Calls                                                  Count
+
+  StraightLine::sl::IsConnectedSLBinary                                   106709
+  UniformRandomSampler::UniformRandomFree::SampleImpl()                      584
+  All Collision Detectors                                                 107293
+
+
+Other Statistics                                                           Value
+
+  BruteForceNF::BFNF::NumQueries                                        1.15e+04
+  CC Operations                                                         3.05e+04
+  Graph Search                                                                 1
+
+
+Clock Name                                                        Time (Seconds)
+
+  BasicPRM::BasicPRM::EvaluateMap                                          0.296
+  BasicPRM::BasicPRM::Run                                                   1.65
+  BruteForceNF::BFNF::Query                                               0.0805
+  BruteForceNF::BFNF::Total                                               0.0953
+  CollisionDetection::rapid::ObstCheck                                      1.05
+  CollisionDetection::rapid::ValidityCheck                                   1.2
+  NeighborhoodConnector::Closest                                            1.33
+  PRMQuery::ConnectToCC                                                    0.197
+  PRMQuery::FindCCs                                                      0.00434
+  PRMQuery::PRMQuery                                                       0.295
+  QueryMethod::CCTesting                                                  0.0562
+  QueryMethod::GeneratingQuery                                           8.5e-05
+  QueryMethod::GraphSearch                                              0.000547
+  Total Connection                                                          1.33
+  Total Node Generation                                                   0.0219
+  UniformRandomSampler::UniformRandomFree                                 0.0205

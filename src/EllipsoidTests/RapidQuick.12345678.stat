@@ -1,0 +1,79 @@
+Roadmap Statistics:
+
+  Number of Nodes: 500
+  Number of Edges: 2080
+
+  There are 28 connected components:
+    CC[0]: 6 (vid 0)
+    CC[1]: 33 (vid 1)
+    CC[2]: 16 (vid 3)
+    CC[3]: 39 (vid 6)
+    CC[4]: 27 (vid 9)
+    CC[5]: 50 (vid 10)
+    CC[6]: 17 (vid 11)
+    CC[7]: 7 (vid 12)
+    CC[8]: 12 (vid 16)
+    CC[9]: 76 (vid 17)
+    CC[10]: 25 (vid 19)
+    CC[11]: 32 (vid 21)
+    CC[12]: 16 (vid 23)
+    CC[13]: 10 (vid 36)
+    CC[14]: 20 (vid 37)
+    CC[15]: 5 (vid 40)
+    CC[16]: 5 (vid 42)
+    CC[17]: 12 (vid 49)
+    CC[18]: 10 (vid 60)
+    CC[19]: 12 (vid 63)
+    CC[20]: 22 (vid 67)
+    CC[21]: 10 (vid 73)
+    CC[22]: 16 (vid 83)
+    CC[23]: 13 (vid 106)
+    CC[24]: 5 (vid 137)
+    CC[25]: 2 (vid 189)
+    CC[26]: 1 (vid 283)
+    CC[27]: 1 (vid 289)
+
+
+Sampler Statistics                                            Attempts Successes
+
+  UniformRandomSampler::UniformRandomQuick                       12085       500
+  All Samplers                                                   12085       500
+  Success Rate: 4.14%
+
+
+Local Planner Statistics                        Attempts Connections    CD Calls
+
+  StraightLine::slq                                 1494        1040      160734
+
+
+Collision Detection Calls                                                  Count
+
+  StraightLine::slq::IsConnectedSLBinary                                  160731
+  UniformRandomSampler::UniformRandomQuick::SampleImpl()                   12085
+  All Collision Detectors                                                 172816
+
+
+Other Statistics                                                           Value
+
+  BruteForceNF::BFNF::NumQueries                                             500
+  RegularCalls                                                          1.03e+05
+  RegularValid                                                          9.55e+04
+  TotalCalls                                                            1.73e+05
+
+
+Clock Name                                                        Time (Seconds)
+
+  BasicPRM::RapidQuick::EvaluateMap                                       0.0196
+  BasicPRM::RapidQuick::Run                                                 3.82
+  BruteForceNF::BFNF::Query                                                0.111
+  BruteForceNF::BFNF::Total                                                0.112
+  CollisionDetection::qv::ObstCheck                                         2.38
+  CollisionDetection::qv::Regular                                           1.68
+  CollisionDetection::qv::ValidityCheck                                     2.65
+  ConditionalEvaluator::NodesEval                                        0.00614
+  NeighborhoodConnector::ClosestQ                                           2.89
+  QueryMethod::GeneratingQuery                                             1e-06
+  SkeletonConstruct                                                        0.565
+  Total Connection                                                          2.91
+  Total Node Generation                                                    0.857
+  UniformRandomSampler::UniformRandomQuick                                 0.841

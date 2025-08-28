@@ -1,0 +1,77 @@
+Roadmap Statistics:
+
+  Number of Nodes: 39
+  Number of Edges: 32
+
+  There are 25 connected components:
+    CC[0]: 7 (vid 0)
+    CC[1]: 1 (vid 1)
+    CC[2]: 2 (vid 2)
+    CC[3]: 2 (vid 3)
+    CC[4]: 1 (vid 5)
+    CC[5]: 1 (vid 6)
+    CC[6]: 4 (vid 7)
+    CC[7]: 3 (vid 8)
+    CC[8]: 1 (vid 9)
+    CC[9]: 1 (vid 11)
+    CC[10]: 1 (vid 12)
+    CC[11]: 1 (vid 13)
+    CC[12]: 1 (vid 16)
+    CC[13]: 1 (vid 18)
+    CC[14]: 1 (vid 21)
+    CC[15]: 2 (vid 22)
+    CC[16]: 1 (vid 26)
+    CC[17]: 1 (vid 27)
+    CC[18]: 1 (vid 28)
+    CC[19]: 1 (vid 30)
+    CC[20]: 1 (vid 31)
+    CC[21]: 1 (vid 33)
+    CC[22]: 1 (vid 34)
+    CC[23]: 1 (vid 36)
+    CC[24]: 1 (vid 38)
+
+
+Sampler Statistics                                            Attempts Successes
+
+  ObstacleBasedSampler::PQOBPRM                                    100        39
+  All Samplers                                                     100        39
+  Success Rate: 39%
+
+
+Local Planner Statistics                        Attempts Connections    CD Calls
+
+  StraightLine::slpq                                 375          16       29656
+
+
+Collision Detection Calls                                                  Count
+
+  ObstacleBasedSampler::PQOBPRM::GenerateShells()                             77
+  ObstacleBasedSampler::PQOBPRM::Sampler()                                117681
+  Skeleton Clearance                                                        4417
+  Skeleton Point Validity                                                  39005
+  StraightLine::slpq::IsConnectedSLBinary                                  23554
+  All Collision Detectors                                                 184734
+
+
+Other Statistics                                                           Value
+
+  BruteForceNF::BFNF::NumQueries                                              39
+
+
+Clock Name                                                        Time (Seconds)
+
+  BasicPRM::PQPQuick::EvaluateMap                                          4e-06
+  BasicPRM::PQPQuick::Run                                                    285
+  BruteForceNF::BFNF::Query                                                0.002
+  BruteForceNF::BFNF::Total                                              0.00207
+  CollisionDetection::pqp::Total                                             166
+  CollisionDetection::pqp_solid::Total                                     0.855
+  NeighborhoodConnector::ClosestPQ                                          29.1
+  ObstacleBasedSampler::PQOBPRM                                              256
+  QueryMethod::GeneratingQuery                                             2e-06
+  QuickValidity::qvp::Total                                                  285
+  QuickValidity::qvp::Validity Check                                         167
+  QuickValidity::qvp::Validity Initialization                                118
+  Total Connection                                                          29.1
+  Total Node Generation                                                      256
+  TrueEvaluation::TrueEvaluator                                            1e-06

@@ -1,0 +1,73 @@
+
+
+Samplers Statistics:
+                                    Name            Attempts         Successes
+
+                  GaussianSampler::Gauss                6504                  31
+  Total Sampler Attempts: 6504
+  Total Succeeded: 31
+  Success %: 0.47663
+
+
+Local Planners:
+                Name       Attempts    Connections Coll Det Calls
+    StraightLine::sl            426            186         594854
+
+
+ Graph Operation Statistics:
+
+                               Statistic                                   Value
+
+                           CC Operations                                    7953
+                            Graph Search                                     159
+
+
+ Neighborhood Finder Statistics:
+
+                               Statistic                                   Value
+
+          BruteForceNF::BFNF::NumQueries                                    3229
+
+
+Number of Nodes: 36
+Number of Edges: 42
+
+
+There are 17 connected components:
+CC[0]: 18 (vid=0)
+CC[1]: 1 (vid=1)
+CC[2]: 1 (vid=6)
+CC[3]: 1 (vid=8)
+CC[4]: 2 (vid=9)
+CC[5]: 1 (vid=10)
+CC[6]: 1 (vid=11)
+CC[7]: 2 (vid=13)
+CC[8]: 1 (vid=14)
+CC[9]: 1 (vid=15)
+CC[10]: 1 (vid=20)
+CC[11]: 1 (vid=22)
+CC[12]: 1 (vid=25)
+CC[13]: 1 (vid=27)
+CC[14]: 1 (vid=28)
+CC[15]: 1 (vid=29)
+CC[16]: 1 (vid=31)
+
+Cfg::isCollision() Exact Counts:
+0) 13008 GaussianSampler::Gauss::SampleImpl()
+1) 42535 StraightLine::sl::IsConnectedSLBinary
+Total Cfg::isCollision() = 55543
+
+Clocks 
+
+                                    Name                          Time (Seconds)
+
+AggregatePRM::AggregatePRM::EvaluateMap()                                 1.15819
+       AggregatePRM::AggregatePRM::Run()                                 1.47377
+               BruteForceNF::BFNF::Query                                0.005177
+               BruteForceNF::BFNF::Total                                0.007958
+                  GaussianSampler::Gauss                                0.142411
+          NeighborhoodConnector::Closest                                0.172275
+                      Query Graph Search                                0.000856
+                            Query::Query                                 1.15805
+                        Total Connection                                 0.17234
+                   Total Node Generation                                0.143013

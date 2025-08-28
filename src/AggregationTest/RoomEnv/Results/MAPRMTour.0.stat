@@ -1,0 +1,61 @@
+
+
+Samplers Statistics:
+                                    Name            Attempts         Successes
+
+                MedialAxisSampler::MAPRM                 163                  93
+  Total Sampler Attempts: 163
+  Total Succeeded: 93
+  Success %: 57.0552
+
+
+Local Planners:
+                Name       Attempts    Connections Coll Det Calls
+    StraightLine::sl            538            315         217328
+
+
+ Graph Operation Statistics:
+
+                               Statistic                                   Value
+
+                           CC Operations                                     283
+                            Graph Search                                       3
+
+
+ Neighborhood Finder Statistics:
+
+                               Statistic                                   Value
+
+          BruteForceNF::BFNF::NumQueries                                     208
+
+
+Number of Nodes: 97
+Number of Edges: 594
+
+
+There are 4 connected components:
+CC[0]: 85 (vid=0)
+CC[1]: 8 (vid=22)
+CC[2]: 2 (vid=30)
+CC[3]: 2 (vid=51)
+
+Cfg::isCollision() Exact Counts:
+0) 684980 MedialAxisUtility::MAPRM::ExactCollisionInfo
+1) 163 MedialAxisUtility::MAPRM::PushToMedialAxis
+2) 205391 StraightLine::sl::IsConnectedSLBinary
+Total Cfg::isCollision() = 890534
+
+Clocks 
+
+                                    Name                          Time (Seconds)
+
+       BasicPRM::BasicPRM::EvaluateMap()                                0.116732
+               BasicPRM::BasicPRM::Run()                                 65.2682
+               BruteForceNF::BFNF::Query                                 0.00418
+               BruteForceNF::BFNF::Total                                 0.00436
+                MedialAxisSampler::MAPRM                                  64.206
+          NeighborhoodConnector::Closest                                0.945156
+                      Query Graph Search                                0.000445
+                            Query::Query                                0.116717
+                        Total Connection                                0.945178
+                   Total Node Generation                                 64.2062
