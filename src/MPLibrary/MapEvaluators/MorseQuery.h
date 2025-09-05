@@ -111,7 +111,7 @@ protected:
     double calculateWaitTimeCfg(vector<CfgType>& robotcfg, double startTick, vector<double>& startWindowEndtime, int r_speed=1);
     void calculateIntermediates(VID start, VID goal, vector<Cfg>& _edgeCfg);
     void GetSafeWindowsInterval(CfgType& _cfg, double _startTick, vector<pair<double, double>>& _safeWindows,  double _max_length, size_t j=INT_MAX, int r_speed=1);
-    pair<double, double> calculateWaitTime(vector<VID>& _segment, double startTick, vector<double>& _waitTimes);
+    pair<double, double> calculateWaitTime(vector<VID>& _segment, double startTick, vector<double>& _waitTimes, int r_speed);
     void ReadMapFile(const std::string& _filename);
     void InitializeAgentPaths(RoadmapType* _rdmp);
 
@@ -738,35 +738,15 @@ bool MorseQuery<MPTraits>::GetValidPath() {
         Path* newPath = new Path(this->GetRoadmap());
         bool result = true;
         double startTick = 0.0;
-        r_speed = 1;
 
-        double segmentCount = 0.0, currentCount = 0.0;
+        // Track the current attempt speed (persists across segments)
+        int current_attempt_speed = max_r_speed;
 
-        // Pre-pass to count number of segments
-        while (true) {
-            segmentCount++;
-            segment.clear();
-            auto criticals = GetNextPathRegion(start, m_paths[i], segment);
-            auto goal = segment.back();
-            vector<VID> newSegment;
+        double totalEdges = 0.0, currentEdge = 0.0;
 
-            if (!newPath->VIDs().empty() && newPath->VIDs().back() == pathVIDs.back())
-                break;
-
-            if (!newPath->VIDs().empty())
-                start = newPath->VIDs().back();
-
-            bool foundNext = GetNextSubPath(start, segment, criticals, newSegment);
-            AddToPath(newPath, segment);
-
-            if (!foundNext) {
-                cout << "Path " << i << " cannot find the next segment " << endl;
-                result = false;
-                break;
-            }
-
-            if (result)
-                start = goal;
+        // Pre-pass to count total edges in the path
+        for(auto it = pathVIDs.begin(); it + 1 < pathVIDs.end(); ++it) {
+            totalEdges++;
         }
 
         // Reset state for real construction
@@ -775,7 +755,6 @@ bool MorseQuery<MPTraits>::GetValidPath() {
         start = pathVIDs.front();
 
         while (true) {
-            currentCount++;
             segment.clear();
             vector<pair<VID, VID>> edgeToDelete;
             vector<VID> newSegment;
@@ -797,108 +776,145 @@ bool MorseQuery<MPTraits>::GetValidPath() {
             }
 
             segment.swap(newSegment);
-            cout << "Evaluating segment: start " << start << " to goal " << goal << " with speed " << r_speed << endl;
 
-            double tempTick = startTick;
-            bool validSegment = DynamicValidate(segment, tempTick, edgeToDelete, r_speed);
+            // EDGE-BASED PROCESSING: Process each edge in the segment individually
+            bool segmentSolved = true;
+            vector<VID> processedSegment;
+            processedSegment.push_back(segment[0]); // Add start vertex
 
-            if (validSegment) {
-                AddToPath(newPath, segment);
-                start = segment.back();
-                startTick = tempTick;
-                result = true;
-                for (auto vid : segment) {
-                    cout << "Setting speed for " << vid << " : " << r_speed << endl;
-                    speedRecords[i].emplace_back(vid, r_speed);
+            for (size_t edgeIdx = 0; edgeIdx < segment.size() - 1; ++edgeIdx) {
+                VID edgeStart = segment[edgeIdx];
+                VID edgeEnd = segment[edgeIdx + 1];
+                vector<VID> singleEdge = {edgeStart, edgeEnd};
+
+                cout << "Processing edge: " << edgeStart << " -> " << edgeEnd << endl;
+
+                // Try speeds with social navigation for this single edge
+                bool edgeSolved = false;
+                int edge_attempt_speed = current_attempt_speed;
+
+                while (edge_attempt_speed >= 1 && !edgeSolved) {
+                    r_speed = edge_attempt_speed;
+                    cout << "Evaluating edge: start " << edgeStart << " to goal " << edgeEnd << " with speed " << r_speed << endl;
+
+                    double tempTick = startTick;
+                    bool validEdge = DynamicValidate(singleEdge, tempTick, edgeToDelete, r_speed);
+
+                    if (validEdge) {
+                        processedSegment.push_back(edgeEnd);
+                        startTick = tempTick;
+                        result = true;
+                        cout << "Setting speed for " << edgeEnd << " : " << r_speed << endl;
+                        speedRecords[i].emplace_back(edgeEnd, r_speed);
+                        // Keep edge_attempt_speed for next edge
+                        edgeSolved = true;
+
+                    } else {
+                        // Try social navigation at current speed for this edge
+                        double deflectionCost = MAXDOUBLE, waitCost = MAXDOUBLE, diversePathCost = MAXDOUBLE;
+
+                        cout << "Calculating wait costs" << endl;
+                        vector<double> pathWaitTimes;
+                        auto waitReturn = calculateWaitTime(singleEdge, startTick, pathWaitTimes,1);
+                        double wt = waitReturn.first;
+                        waitCost = (wt < INT_MAX) ? (waitReturn.second - startTick) : MAXDOUBLE;
+                        cout << "wait cost is this :: " << waitCost << endl;
+
+                        cout << "Calculating deflection costs" << endl;
+                        Path* duplicatePath_Diverse = new Path(this->GetRoadmap());
+                        double lengthBeforeDeflection = GetSegmentLength(singleEdge);
+                        double possibleDeflectTick = startTick;
+
+                        bool deflectResult = GenerateValidSubPath(edgeStart, singleEdge, criticals, possibleDeflectTick, duplicatePath_Diverse, r_speed);
+                        cout << "Tick after deflection: " << possibleDeflectTick << " original: " << startTick << endl;
+
+                        if (deflectResult) {
+                            deflectionCost = (possibleDeflectTick - startTick);
+                            double segmentLengthAfterDeflection = GetSegmentLength(duplicatePath_Diverse->VIDs());
+                            cout << "Deflection cost: " << deflectionCost
+                                 << ", lengthAfter: " << segmentLengthAfterDeflection
+                                 << ", lengthBefore: " << lengthBeforeDeflection << endl;
+                        }
+
+                        double remainingEdges = totalEdges - currentEdge;
+                        double weightForWait = 1 - currentEdge / totalEdges;
+
+                        cout << "Remaining edges: " << remainingEdges
+                             << " weight: " << weightForWait << endl;
+
+                        auto strategy = SocialNavigation(1, 1*deflectionCost, 1*waitCost, diversePathCost);
+
+                        cout << "Social Navigation Strategy returned: ";
+                        PrettyPrintSocialNavigationStrategy(strategy);
+                        cout << endl;
+
+                        switch (strategy) {
+                            case SocialNavigationStrategy::DEFLECT:
+                                result = deflectResult;
+                                if (result) {
+                                    // Add deflection vertices to processed segment
+                                    for (size_t j = 1; j < duplicatePath_Diverse->VIDs().size(); ++j) {
+                                        processedSegment.push_back(duplicatePath_Diverse->VIDs()[j]);
+                                        cout << "In deflect, setting speed for " << duplicatePath_Diverse->VIDs()[j] << " : " << r_speed << endl;
+                                        speedRecords[i].emplace_back(duplicatePath_Diverse->VIDs()[j], r_speed);
+                                    }
+                                    startTick = possibleDeflectTick;
+                                    // Keep edge_attempt_speed for next edge
+                                    edgeSolved = true;
+                                }
+                                break;
+
+                            case SocialNavigationStrategy::WAIT:
+                                for (size_t index = 0; index < pathWaitTimes.size(); ++index) {
+                                    if (pathWaitTimes[index] > 0)
+                                        waitTimes[i].emplace_back(singleEdge[index], pathWaitTimes[index]);
+                                }
+
+                                if (!waitTimes[i].empty() && waitCost < MAXDOUBLE) {
+                                    result = true;
+                                    processedSegment.push_back(edgeEnd);
+                                    startTick = waitReturn.second;
+                                    cout << "In wait, setting speed for " << edgeEnd << " : 1" << endl;
+                                    speedRecords[i].emplace_back(edgeEnd, 1);
+                                    current_attempt_speed = 1; // Next edge starts with speed 1
+                                    edge_attempt_speed = 1; // Current edge also uses speed 1
+                                    edgeSolved = true;
+                                } else result = false;
+                                break;
+
+                            default:
+                                result = false;
+                                break;
+                        }
+
+                        delete duplicatePath_Diverse;
+
+                        if (!edgeSolved) {
+                            // Both social navigation strategies failed, try next speed
+                            cout << "Social navigation failed at speed " << edge_attempt_speed << ", trying lower speed" << endl;
+                            edge_attempt_speed--;
+                        }
+                    }
                 }
-                r_speed = 1;
+
+                // Update current edge count
+                currentEdge += 1.0;
+
+                if (!edgeSolved) {
+                    cout << "Could not solve edge " << edgeStart << " -> " << edgeEnd << " with any speed or strategy" << endl;
+                    segmentSolved = false;
+                    break;
+                }
+            }
+
+            if (segmentSolved) {
+                // Add the successfully processed segment to the path
+                AddToPath(newPath, processedSegment);
+                start = processedSegment.back();
             } else {
-                double deflectionCost = MAXDOUBLE, waitCost = MAXDOUBLE, diversePathCost = MAXDOUBLE;
-
-                cout << "Calculating wait costs" << endl;
-                vector<double> pathWaitTimes;
-                auto waitReturn = calculateWaitTime(segment, startTick, pathWaitTimes);
-                double wt = waitReturn.first;
-                waitCost = (wt < INT_MAX) ? (waitReturn.second - startTick) : MAXDOUBLE;
-                cout << "wait cost is this :: " << waitCost << endl;
-
-                cout << "Calculating deflection costs" << endl;
-                Path* duplicatePath_Diverse = new Path(this->GetRoadmap());
-                double lengthBeforeDeflection = GetSegmentLength(segment);
-                double possibleDeflectTick = startTick;
-
-                bool deflectResult = GenerateValidSubPath(start, segment, criticals, possibleDeflectTick, duplicatePath_Diverse, r_speed);
-                cout << "Tick after deflection: " << possibleDeflectTick << " original: " << startTick << endl;
-
-                if (deflectResult) { // defelction is valid
-                    deflectionCost = (possibleDeflectTick - startTick);
-                    double segmentLengthAfterDeflection = GetSegmentLength(duplicatePath_Diverse->VIDs());
-                    cout << "Deflection cost: " << deflectionCost
-                         << ", lengthAfter: " << segmentLengthAfterDeflection
-                         << ", lengthBefore: " << lengthBeforeDeflection << endl;
-                }
-
-                double remainingSegments = segmentCount - currentCount;
-                double weightForWait = 1 - (remainingSegments / segmentCount);
-
-                cout << "Remaining segments: " << remainingSegments
-                     << " weight: " << weightForWait << endl;
-
-//                auto strategy = SocialNavigation(1, weightForWait * deflectionCost, (1 - weightForWait) * waitCost, diversePathCost);
-                auto strategy = SocialNavigation(1, 1*deflectionCost, 1*waitCost, diversePathCost);
-
-                cout << "Social Navigation Strategy returned: ";
-                PrettyPrintSocialNavigationStrategy(strategy);
-                cout << endl;
-
-                switch (strategy) {
-                    case SocialNavigationStrategy::DEFLECT:
-                        result = deflectResult;
-                        if (result) {
-                            AddToPath(newPath, duplicatePath_Diverse->VIDs());
-                            startTick = possibleDeflectTick;
-                            for (auto vid : duplicatePath_Diverse->VIDs()) {
-                                cout << "In deflect, setting speed for " << vid << " : " << r_speed << endl;
-                                speedRecords[i].emplace_back(vid, r_speed);
-                            }
-                            r_speed = 1;
-                        }
-                        break;
-
-                    case SocialNavigationStrategy::WAIT:
-                        for (size_t index = 0; index < pathWaitTimes.size(); ++index) {
-                            if (pathWaitTimes[index] > 0)
-                                waitTimes[i].emplace_back(segment[index], pathWaitTimes[index]);
-                        }
-
-                        if (!waitTimes[i].empty() && waitCost < MAXDOUBLE) {
-                            result = true;
-                            AddToPath(newPath, segment);
-                            startTick = waitReturn.second;
-                            for (auto vid : segment) {
-                                cout << "In wait, setting speed for " << vid << " : " << r_speed << endl;
-                                speedRecords[i].emplace_back(vid, r_speed);
-                            }
-                            r_speed = 1;
-                        } else result = false;
-                        break;
-
-                    default:
-                        result = false;
-                        break;
-                }
-                //we neeed to do  speed jump so need to find the radius of the robots free space to
-                if (!result) { // if we did not solve by either wait or deflect, try increasing speed
-                    auto next_speed = r_speed+1;
-                    if (next_speed <= (max_r_speed) && foundNext) { // check whether speed can be increased and if we found next segment
-                        std::cout<<"Increasing speed \ncurrent speed: "<<r_speed<<endl;
-                        r_speed = next_speed;
-                        std::cout<<"new speed: "<<r_speed<<endl;
-                        currentCount -= 1; // since we did not travel this segment, reset current count.
-                    } else break; // speed cannot be increased, go to next path
-                } else { // segment traversed
-                    start = goal;
-                }
+                cout << "Could not solve segment with any speed or strategy" << endl;
+                result = false;
+                break;
             }
         }
 
@@ -1369,7 +1385,7 @@ GetSafeWindows(CfgType& _cfg, int _startTick, vector<vector<pair<int, int>>>& _s
 template<class MPTraits>
 pair<double, double>
 MorseQuery<MPTraits>::
-calculateWaitTime(vector<VID>& _segment, double startTick, vector<double>& _waitTimes) {// Function calculates total wait time needed for a path segment
+calculateWaitTime(vector<VID>& _segment, double startTick, vector<double>& _waitTimes, int r_speed) {// Function calculates total wait time needed for a path segment
     // Vector to store configurations along edges
     vector<Cfg> edgeCfg;
     // Current time tracking
