@@ -99,7 +99,7 @@
       <PRMQuery label="PRMQuery" debug="false">
         <NodeConnectionMethod method="Closest"/>
       </PRMQuery>
-      <MorseQuery label="MorseQuery" debug="false" r_speed="3" numAgents="10" numPaths="10" agent="Kuka/boxy.robot" agentRdmp="testkuka.map" cdMethod="RAPID">
+      <MorseQuery label="MorseQuery" debug="false" r_speed="3" numAgents="4 " numPaths="10" agent="Kuka/boxy_scaled.robot" agentRdmp="agentPRMMapKukaDA.map" cdMethod="RAPID">
         <NodeConnectionMethod method="Closest"/>
       </MorseQuery>
       <RRTQuery label="RRTQuery" goalDist="0"
@@ -148,8 +148,8 @@
 
     <!-- MPProblem allows multiple solvers to be specified 8765412
      and executed. -->
-    <Solver mpStrategyLabel="MorseFunction" seed="8765412"
-            baseFilename="testkuka" vizmoDebug="true"/>
+    <Solver mpStrategyLabel="MorseFunction" seed="12345678"
+            baseFilename="KukaTESTSPEED" vizmoDebug="true"/>
 
   </Library>
 
