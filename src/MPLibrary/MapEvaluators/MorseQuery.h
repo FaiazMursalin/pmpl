@@ -798,13 +798,13 @@ bool MorseQuery<MPTraits>::GetValidPath() {
                     cout << "Evaluating edge: start " << edgeStart << " to goal " << edgeEnd << " with speed " << r_speed << endl;
 
                     double tempTick = startTick;
-                    bool validEdge = DynamicValidate(singleEdge, tempTick, edgeToDelete, r_speed);
+                    bool validEdge = DynamicValidate(singleEdge, tempTick, edgeToDelete, r_speed); //the speeds list would go to the dynamic validate
 
                     if (validEdge) {
                         processedSegment.push_back(edgeEnd);
                         startTick = tempTick;
                         result = true;
-                        cout << "Setting speed for " << edgeEnd << " : " << r_speed << endl;
+                        cout << "Setting speed for " << edgeEnd << " : " << r_speed << endl; //change this setting speed to inner most region
                         speedRecords[i].emplace_back(edgeEnd, r_speed);
                         // Keep edge_attempt_speed for next edge
                         edgeSolved = true;
@@ -815,7 +815,7 @@ bool MorseQuery<MPTraits>::GetValidPath() {
 
                         cout << "Calculating wait costs" << endl;
                         vector<double> pathWaitTimes;
-                        auto waitReturn = calculateWaitTime(singleEdge, startTick, pathWaitTimes,1);
+                        auto waitReturn = calculateWaitTime(singleEdge, startTick, pathWaitTimes,1);//it should return similar for the speeds like path wait times
                         double wt = waitReturn.first;
                         waitCost = (wt < INT_MAX) ? (waitReturn.second - startTick) : MAXDOUBLE;
                         cout << "wait cost is this :: " << waitCost << endl;
@@ -825,7 +825,9 @@ bool MorseQuery<MPTraits>::GetValidPath() {
                         double lengthBeforeDeflection = GetSegmentLength(singleEdge);
                         double possibleDeflectTick = startTick;
 
-                        bool deflectResult = GenerateValidSubPath(edgeStart, singleEdge, criticals, possibleDeflectTick, duplicatePath_Diverse, r_speed);
+                        bool deflectResult = GenerateValidSubPath(edgeStart, singleEdge, criticals, possibleDeflectTick, duplicatePath_Diverse, r_speed); //it is still doing the edge based change it to segment based
+                        //after this change inside generatevalidsubpath would call the dynamic validate with the speed
+                        //do it one at a time first change the dynamic validate and comment wait then
                         cout << "Tick after deflection: " << possibleDeflectTick << " original: " << startTick << endl;
 
                         if (deflectResult) {
@@ -1181,52 +1183,87 @@ bool
 MorseQuery<MPTraits>::
 DynamicValidate(vector<VID>& _segment, double &_startTick, vector<pair<VID, VID>>& _edgeToDelete, int r_speed){
   auto g = this->GetRoadmap()->GetGraph();
-  // start configuration validity check
-   CfgType startCfg = g->GetVertex(_segment.front());
-  // validate the start _cfg
+  CfgType startCfg = g->GetVertex(_segment.front());
+
+  // Validate start configuration
   if(!ValidCfg(startCfg, _startTick, r_speed)) return false;
-  double tick = _startTick; // - 1; // using pre-increment on ticks on validation call
+
+  double tick = _startTick;
+
   // Validate each edge
   for(auto it = _segment.begin(); it + 1 < _segment.end(); ++it) {
-    // Get the next edge.
+    // Get the next edge
     typename GraphType::adj_edge_iterator ei;
     {
       typename GraphType::edge_descriptor ed(*it, *(it+1));
       typename GraphType::vertex_iterator vi;
       g->find_edge(ed, vi, ei);
     }
+
     typename MPTraits::MPLibrary::LocalPlannerPointer lp;
     try {
         lp = this->GetLocalPlanner(ei->property().GetLPLabel());
-      }
-      catch(...) {
+    }
+    catch(...) {
         lp = this->GetLocalPlanner("sl");
-      }
-    vector<CfgType> inter = ei->property().GetIntermediates(); // intermediates represent each tick
-     // Recreate this edge, including intermediates.
+    }
+
+    vector<CfgType> inter = ei->property().GetIntermediates();
     inter.insert(inter.begin(), g->GetVertex(*it));
-    CfgType& e   = g->GetVertex(*(it+1));
+    CfgType& e = g->GetVertex(*(it+1));
     inter.push_back(e);
-    // Construct a resolution-level path along the recreated edge.
+
     vector<CfgType> edgeCfg;
     for(auto cit = inter.begin(); cit + 1 != inter.end(); ++cit) {
       vector<CfgType> edge = lp->ReconstructPath(*cit, *(cit+1),
-          vector<CfgType>(), this->GetEnvironment()->GetPositionRes(), this->GetEnvironment()->GetOrientationRes());
+          vector<CfgType>(), this->GetEnvironment()->GetPositionRes(),
+          this->GetEnvironment()->GetOrientationRes());
       edgeCfg.insert(edgeCfg.end(), edge.begin(), edge.end());
     }
     edgeCfg.push_back(e);
-    double tickIncrement = 1.0 / r_speed;
-//    cout << "before for loop tick increment " << tickIncrement << endl;
-    for(auto& c: edgeCfg){
-      tick += tickIncrement;
-//      cout << "tick increment: " << tick << endl;
-      if(!ValidCfg(c, tick, r_speed)  ) {
-        _edgeToDelete.push_back(make_pair(*it, *(it+1)));
-        return false;
+
+    // Try different speeds for THIS edge
+    bool edgeValid = false;
+    int currentSpeed = r_speed;
+    double validTick = tick;
+    int validSpeed = r_speed;
+
+    while(currentSpeed >= 1 && !edgeValid) {
+      double tempTick = tick;
+      double tickIncrement = 1.0 / currentSpeed;
+      bool allConfigsValid = true;
+
+      // Validate all configurations in this edge at currentSpeed
+      for(auto& c: edgeCfg){
+        tempTick += tickIncrement;
+        if(!ValidCfg(c, tempTick, currentSpeed)) {
+          allConfigsValid = false;
+          break; // Break from config loop, try next speed
+        }
+      }
+
+      if(allConfigsValid) {
+        edgeValid = true;
+        validTick = tempTick;
+        validSpeed = currentSpeed;
+        // Store the speed for the end vertex of this edge
+        g->GetVertex(*(it+1)).SetStat("speed", validSpeed);
+        cout << "Edge " << *it << " -> " << *(it+1) << " valid at speed " << validSpeed << endl;
+      } else {
+        currentSpeed--; // Try slower speed
       }
     }
-   }
-   _startTick = tick;//-1; // decrement for next segment start point = end point for this
+
+    if(!edgeValid) {
+      // All speeds failed for this edge
+      _edgeToDelete.push_back(make_pair(*it, *(it+1)));
+      return false;
+    }
+
+    tick = validTick; // Update tick with the valid speed's final tick
+  }
+
+  _startTick = tick;
   return true;
 }
 
