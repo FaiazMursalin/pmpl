@@ -777,147 +777,124 @@ bool MorseQuery<MPTraits>::GetValidPath() {
 
             segment.swap(newSegment);
 
-            // EDGE-BASED PROCESSING: Process each edge in the segment individually
-            bool segmentSolved = true;
-            vector<VID> processedSegment;
-            processedSegment.push_back(segment[0]); // Add start vertex
+            // SEGMENT-BASED PROCESSING: Process the entire segment at once
+            cout << "Processing segment from " << segment.front() << " to " << segment.back() << " with " << segment.size() << " vertices" << endl;
 
-            for (size_t edgeIdx = 0; edgeIdx < segment.size() - 1; ++edgeIdx) {
-                VID edgeStart = segment[edgeIdx];
-                VID edgeEnd = segment[edgeIdx + 1];
-                vector<VID> singleEdge = {edgeStart, edgeEnd};
+            bool segmentSolved = false;
+            int segment_attempt_speed = current_attempt_speed;
 
-                cout << "Processing edge: " << edgeStart << " -> " << edgeEnd << endl;
+            while (segment_attempt_speed >= 1 && !segmentSolved) {
+                r_speed = segment_attempt_speed;
+                cout << "Evaluating segment: start " << segment.front() << " to goal " << segment.back() << " with speed " << r_speed << endl;
 
-                // Try speeds with social navigation for this single edge
-                bool edgeSolved = false;
-                int edge_attempt_speed = current_attempt_speed;
+                double tempTick = startTick;
+                edgeToDelete.clear();
+                bool validSegment = DynamicValidate(segment, tempTick, edgeToDelete, r_speed);
 
-                while (edge_attempt_speed >= 1 && !edgeSolved) {
-                    r_speed = edge_attempt_speed;
-                    cout << "Evaluating edge: start " << edgeStart << " to goal " << edgeEnd << " with speed " << r_speed << endl;
+                if (validSegment) {
+                    // Segment is valid at this speed
+                    AddToPath(newPath, segment);
+                    startTick = tempTick;
+                    result = true;
+                    segmentSolved = true;
+                    cout << "Segment solved at speed " << r_speed << endl;
 
-                    double tempTick = startTick;
-                    bool validEdge = DynamicValidate(singleEdge, tempTick, edgeToDelete, r_speed); //the speeds list would go to the dynamic validate
+                } else {
+                    // Try social navigation at current speed for this segment
+                    double deflectionCost = MAXDOUBLE, waitCost = MAXDOUBLE, diversePathCost = MAXDOUBLE;
 
-                    if (validEdge) {
-                        processedSegment.push_back(edgeEnd);
-                        startTick = tempTick;
-                        result = true;
-                        cout << "Setting speed for " << edgeEnd << " : " << r_speed << endl; //change this setting speed to inner most region
-                        speedRecords[i].emplace_back(edgeEnd, r_speed);
-                        // Keep edge_attempt_speed for next edge
-                        edgeSolved = true;
+                    cout << "Calculating wait costs" << endl;
+                    vector<double> pathWaitTimes;
+                    auto waitReturn = calculateWaitTime(segment, startTick, pathWaitTimes, 1);
+                    double wt = waitReturn.first;
+                    waitCost = (wt < INT_MAX) ? (waitReturn.second - startTick) : MAXDOUBLE;
+                    cout << "wait cost is this :: " << waitCost << endl;
 
-                    } else {
-                        // Try social navigation at current speed for this edge
-                        double deflectionCost = MAXDOUBLE, waitCost = MAXDOUBLE, diversePathCost = MAXDOUBLE;
+                    cout << "Calculating deflection costs" << endl;
+                    Path* duplicatePath_Diverse = new Path(this->GetRoadmap());
+                    double lengthBeforeDeflection = GetSegmentLength(segment);
+                    double possibleDeflectTick = startTick;
 
-                        cout << "Calculating wait costs" << endl;
-                        vector<double> pathWaitTimes;
-                        auto waitReturn = calculateWaitTime(singleEdge, startTick, pathWaitTimes,1);//it should return similar for the speeds like path wait times
-                        double wt = waitReturn.first;
-                        waitCost = (wt < INT_MAX) ? (waitReturn.second - startTick) : MAXDOUBLE;
-                        cout << "wait cost is this :: " << waitCost << endl;
+                    bool deflectResult = GenerateValidSubPath(segment.front(), segment, criticals, possibleDeflectTick, duplicatePath_Diverse, r_speed);
+                    cout << "Tick after deflection: " << possibleDeflectTick << " original: " << startTick << endl;
 
-                        cout << "Calculating deflection costs" << endl;
-                        Path* duplicatePath_Diverse = new Path(this->GetRoadmap());
-                        double lengthBeforeDeflection = GetSegmentLength(singleEdge);
-                        double possibleDeflectTick = startTick;
+                    if (deflectResult) {
+                        deflectionCost = (possibleDeflectTick - startTick);
+                        double segmentLengthAfterDeflection = GetSegmentLength(duplicatePath_Diverse->VIDs());
+                        cout << "Deflection cost: " << deflectionCost
+                             << ", lengthAfter: " << segmentLengthAfterDeflection
+                             << ", lengthBefore: " << lengthBeforeDeflection << endl;
+                    }
 
-                        bool deflectResult = GenerateValidSubPath(edgeStart, singleEdge, criticals, possibleDeflectTick, duplicatePath_Diverse, r_speed); //it is still doing the edge based change it to segment based
-                        //after this change inside generatevalidsubpath would call the dynamic validate with the speed
-                        //do it one at a time first change the dynamic validate and comment wait then
-                        cout << "Tick after deflection: " << possibleDeflectTick << " original: " << startTick << endl;
+                    double remainingEdges = totalEdges - currentEdge;
+                    double weightForWait = 1 - currentEdge / totalEdges;
 
-                        if (deflectResult) {
-                            deflectionCost = (possibleDeflectTick - startTick);
-                            double segmentLengthAfterDeflection = GetSegmentLength(duplicatePath_Diverse->VIDs());
-                            cout << "Deflection cost: " << deflectionCost
-                                 << ", lengthAfter: " << segmentLengthAfterDeflection
-                                 << ", lengthBefore: " << lengthBeforeDeflection << endl;
-                        }
+                    cout << "Remaining edges: " << remainingEdges
+                         << " weight: " << weightForWait << endl;
 
-                        double remainingEdges = totalEdges - currentEdge;
-                        double weightForWait = 1 - currentEdge / totalEdges;
+                    auto strategy = SocialNavigation(1, 1*deflectionCost, 1*waitCost, diversePathCost);
 
-                        cout << "Remaining edges: " << remainingEdges
-                             << " weight: " << weightForWait << endl;
+                    cout << "Social Navigation Strategy returned: ";
+                    PrettyPrintSocialNavigationStrategy(strategy);
+                    cout << endl;
 
-                        auto strategy = SocialNavigation(1, 1*deflectionCost, 1*waitCost, diversePathCost);
+                    switch (strategy) {
+                        case SocialNavigationStrategy::DEFLECT:
+                            result = deflectResult;
+                            if (result) {
+                                AddToPath(newPath, duplicatePath_Diverse->VIDs());
+                                startTick = possibleDeflectTick;
+                                segmentSolved = true;
+                                cout << "Deflection successful for segment" << endl;
+                            }
+                            break;
 
-                        cout << "Social Navigation Strategy returned: ";
-                        PrettyPrintSocialNavigationStrategy(strategy);
-                        cout << endl;
+                        case SocialNavigationStrategy::WAIT:
+                            for (size_t index = 0; index < pathWaitTimes.size(); ++index) {
+                                if (pathWaitTimes[index] > 0)
+                                    waitTimes[i].emplace_back(segment[index], pathWaitTimes[index]);
+                            }
 
-                        switch (strategy) {
-                            case SocialNavigationStrategy::DEFLECT:
-                                result = deflectResult;
-                                if (result) {
-                                    // Add deflection vertices to processed segment
-                                    for (size_t j = 1; j < duplicatePath_Diverse->VIDs().size(); ++j) {
-                                        processedSegment.push_back(duplicatePath_Diverse->VIDs()[j]);
-                                        cout << "In deflect, setting speed for " << duplicatePath_Diverse->VIDs()[j] << " : " << r_speed << endl;
-                                        speedRecords[i].emplace_back(duplicatePath_Diverse->VIDs()[j], r_speed);
-                                    }
-                                    startTick = possibleDeflectTick;
-                                    // Keep edge_attempt_speed for next edge
-                                    edgeSolved = true;
-                                }
-                                break;
-
-                            case SocialNavigationStrategy::WAIT:
-                                for (size_t index = 0; index < pathWaitTimes.size(); ++index) {
-                                    if (pathWaitTimes[index] > 0)
-                                        waitTimes[i].emplace_back(singleEdge[index], pathWaitTimes[index]);
-                                }
-
-                                if (!waitTimes[i].empty() && waitCost < MAXDOUBLE) {
-                                    result = true;
-                                    processedSegment.push_back(edgeEnd);
-                                    startTick = waitReturn.second;
-                                    cout << "In wait, setting speed for " << edgeEnd << " : 1" << endl;
-                                    speedRecords[i].emplace_back(edgeEnd, 1);
-                                    current_attempt_speed = 1; // Next edge starts with speed 1
-                                    edge_attempt_speed = 1; // Current edge also uses speed 1
-                                    edgeSolved = true;
-                                } else result = false;
-                                break;
-
-                            default:
+                            if (!waitTimes[i].empty() && waitCost < MAXDOUBLE) {
+                                result = true;
+                                AddToPath(newPath, segment);
+                                startTick = waitReturn.second;
+                                cout << "Wait successful for segment, new tick: " << startTick << endl;
+                                current_attempt_speed = 1;
+                                segment_attempt_speed = 1;
+                                segmentSolved = true;
+                            } else {
                                 result = false;
-                                break;
-                        }
+                            }
+                            break;
 
-                        delete duplicatePath_Diverse;
+                        default:
+                            result = false;
+                            break;
+                    }
 
-                        if (!edgeSolved) {
-                            // Both social navigation strategies failed, try next speed
-                            cout << "Social navigation failed at speed " << edge_attempt_speed << ", trying lower speed" << endl;
-                            edge_attempt_speed--;
-                        }
+                    delete duplicatePath_Diverse;
+
+                    if (!segmentSolved) {
+                        cout << "Social navigation failed at speed " << segment_attempt_speed << ", trying lower speed" << endl;
+                        segment_attempt_speed--;
                     }
                 }
-
-                // Update current edge count
-                currentEdge += 1.0;
-
-                if (!edgeSolved) {
-                    cout << "Could not solve edge " << edgeStart << " -> " << edgeEnd << " with any speed or strategy" << endl;
-                    segmentSolved = false;
-                    break;
-                }
+//                if (!segmentSolved) {
+//     			   segment_attempt_speed--;
+//    			}
             }
 
-            if (segmentSolved) {
-                // Add the successfully processed segment to the path
-                AddToPath(newPath, processedSegment);
-                start = processedSegment.back();
-            } else {
-                cout << "Could not solve segment with any speed or strategy" << endl;
+            // Update current edge count (add number of edges in this segment)
+            currentEdge += (segment.size() - 1);
+
+            if (!segmentSolved) {
+                cout << "Could not solve segment from " << segment.front() << " to " << segment.back() << " with any speed or strategy" << endl;
                 result = false;
                 break;
             }
+
+            start = segment.back();
         }
 
         cout << "Path " << i << " success: " << (result? "true" : "false") << endl;
@@ -1758,6 +1735,130 @@ ReadMapFile(const std::string& _filename){
     WeightType::inputRobot = nullptr;
     delete agentRdmp;
 }
+//
+//template <typename MPTraits>
+//void
+//MorseQuery<MPTraits>::
+//InitializeAgentPaths(RoadmapType* _rdmp){
+//  auto g = _rdmp->GetGraph();
+//  vector<VID> vids; // for random selection
+//  /*auto qrypoints = PRMQuery<MPTraits>::GetQuery();
+//  vector<Vector3d> qryPts;
+//  for(auto q: qrypoints)
+//    qryPts.push_back(q.GetPoint());
+//  double radiusThreshold = 1.0;*/
+//  for(auto v= g->begin(); v!= g->end(); v++){
+//    //for(auto q: qryPts)
+//      //auto q = qryPts[0];
+//     // if((q - v->property().GetPoint()).norm() >= radiusThreshold){
+//       // auto p = v->property().GetPoint();
+//       // if((p[0] < 0 /*|| p[0] > 35*/) && p[1] < 10)// bounding box clipping //state in which regions i want to
+//          vids.push_back(v->descriptor());
+//      //}
+//  }
+//  //std::shuffle(vids.begin(), vids.end(), std::default_random_engine(0));
+//  // find ccs
+//  vector<pair<size_t, VID>> ccs;
+//  stapl::sequential::vector_property_map<GraphType, size_t> cmap;
+//  get_cc_stats(*g, cmap, ccs);
+//  cout << "Finding path for random start and goal" << endl;
+//  for(int i= 0; i < m_numAgents; i++){
+//    bool connected = false;
+//    size_t attempt = 0;
+//    VID start, goal;
+//    do{
+//    start = vids[LRand() % vids.size()];
+//    goal = vids[LRand() % vids.size()];
+//    stapl::sequential::vector_property_map<GraphType, size_t> ccmap;
+//    connected = is_same_cc(*g, ccmap, start, goal);
+//    attempt++;
+//    }while(!connected && attempt < 10);
+//    // Find path
+//    if(!connected) break;
+//    cout<<"Found a path ";
+//    vector<VID> path;
+//    switch(m_searchAlg) {
+//    case DIJKSTRAS:
+//      find_path_dijkstra(*g, start, goal, path, MPTraits::WeightType::MaxWeight());
+//      break;
+//    case ASTAR:
+//      Heuristic<MPTraits> heuristic(g->GetVertex(goal),
+//          this->GetEnvironment()->GetPositionRes(),
+//          this->GetEnvironment()->GetOrientationRes());
+//      astar(*g, start, goal, path, heuristic);
+//      break;
+//    }
+//    Path* newPath = new Path(_rdmp);
+//    *newPath += path;
+//    //dynamicAgentPaths.push_back(newPath->FullCfgs(this->GetMPLibrary()));
+//    std::cout << "number of paths added: " << dynamicAgentPaths.size() << std::endl;
+////      m_maxPlanningTime = std::max(m_maxPlanningTime, 2*dynamicAgentPaths.size());
+//
+//  //}
+//    // Length-wise curbing - length in workspace
+//    double lengthLimit = 50;
+//    auto pathCfgs = newPath->FullCfgs(this->GetMPLibrary());
+//    if(pathCfgs.empty()) continue;
+//    size_t len = pathCfgs.size();
+//	int max_r_speed=10;
+//    std::random_device rd;
+//	std::mt19937 gen(rd());
+//	std::uniform_int_distribution<int> behaviorDist(0, 1); // 0 or 1
+//    int toggle = behaviorDist(gen);
+//    if(toggle == 0) {//wait/slowdown
+//      vector<CfgType> out;
+//      out.push_back(pathCfgs[0]);
+//      std::random_device rd;
+//      std::mt19937 gen(rd());
+//      std::uniform_int_distribution<size_t> distr(1, max_r_speed); // replace 10 with max_r_speed
+//	  int randomWait = distr(gen);
+//      double sum = 0;
+//      for(size_t k = 1; k < len && sum < lengthLimit; k++){
+//		for(int i = 0; i < randomWait; i++) {
+//          out.push_back(pathCfgs[k]);
+//        }
+//        sum += (out.back().GetPoint() - pathCfgs[k].GetPoint()).norm();
+//      }
+//      dynamicAgentPaths.push_back(out);
+//    }
+//    else{//speed
+//      vector<CfgType> curbedPath;
+//      curbedPath.push_back(pathCfgs[0]);
+//      double sum = 0;
+//      std::random_device rd;
+//      std::mt19937 gen(rd());
+//      std::uniform_int_distribution<size_t> distr(1, max_r_speed); // replace 10 with max_r_speed
+//	  int randomSpeed = distr(gen);
+//      //int accSpeed = 1;
+//      for(size_t k = 1; k < len && sum < lengthLimit; k+=randomSpeed){
+//        sum += (curbedPath.back().GetPoint() - pathCfgs[k].GetPoint()).norm();
+//        curbedPath.push_back(pathCfgs[k]);
+//      }
+//      dynamicAgentPaths.push_back(curbedPath);
+//    }
+//  }
+//  std::string outfileName = this->GetBaseFilename() + "agent" +std::to_string(dynamicAgentPaths.size()) + ".paths";
+//  std::ofstream ofs(outfileName);
+//  if(!ofs)
+//    throw RunTimeException(WHERE, "Cannot open file \"" + outfileName + "\"");
+//
+//  // Print header.
+//  ofs << dynamicAgentPaths.size() << std::endl;
+//  // Print path.
+//  for(auto path : dynamicAgentPaths){
+//    ofs<< path.size() << std::endl;
+//    for(auto cit = path.begin(); cit != path.end(); ++cit)
+//    ofs << *cit << std::endl;
+//  }
+//
+//  for (const auto& path : dynamicAgentPaths) {
+//    m_maxPlanningTime = std::max(m_maxPlanningTime, static_cast<double>(2*path.size()));
+//  }
+//
+//
+//  std::cout<<"Number of agent paths:"<<dynamicAgentPaths.size()<<std::endl;
+//}
+
 
 template <typename MPTraits>
 void
@@ -1823,42 +1924,15 @@ InitializeAgentPaths(RoadmapType* _rdmp){
     auto pathCfgs = newPath->FullCfgs(this->GetMPLibrary());
     if(pathCfgs.empty()) continue;
     size_t len = pathCfgs.size();
-	int max_r_speed=10;
-    std::random_device rd;
-	std::mt19937 gen(rd());
-	std::uniform_int_distribution<int> behaviorDist(0, 1); // 0 or 1
-    int toggle = behaviorDist(gen);
-    if(toggle == 0) {//wait/slowdown
-      vector<CfgType> out;
-      out.push_back(pathCfgs[0]);
-      std::random_device rd;
-      std::mt19937 gen(rd());
-      std::uniform_int_distribution<size_t> distr(1, max_r_speed); // replace 10 with max_r_speed
-	  int randomWait = distr(gen);
-      double sum = 0;
-      for(size_t k = 1; k < len && sum < lengthLimit; k++){
-		for(int i = 0; i < randomWait; i++) {
-          out.push_back(pathCfgs[k]);
-        }
-        sum += (out.back().GetPoint() - pathCfgs[k].GetPoint()).norm();
-      }
-      dynamicAgentPaths.push_back(out);
-    }
-    else{//speed
-      vector<CfgType> curbedPath;
-      curbedPath.push_back(pathCfgs[0]);
-      double sum = 0;
-      std::random_device rd;
-      std::mt19937 gen(rd());
-      std::uniform_int_distribution<size_t> distr(1, max_r_speed); // replace 10 with max_r_speed
-	  int randomSpeed = distr(gen);
-      //int accSpeed = 1;
-      for(size_t k = 1; k < len && sum < lengthLimit; k+=randomSpeed){
-        sum += (curbedPath.back().GetPoint() - pathCfgs[k].GetPoint()).norm();
+    vector<CfgType> curbedPath;
+    curbedPath.push_back(pathCfgs[0]);
+    double sum = 0;
+    for(size_t k = 1; k < len && sum < lengthLimit; k++){
+      sum += (curbedPath.back().GetPoint() - pathCfgs[k].GetPoint()).norm();
+ //     for(int l = 0; l < m_speed; l++)
         curbedPath.push_back(pathCfgs[k]);
-      }
-      dynamicAgentPaths.push_back(curbedPath);
     }
+    dynamicAgentPaths.push_back(curbedPath);
   }
   std::string outfileName = this->GetBaseFilename() + "agent" +std::to_string(dynamicAgentPaths.size()) + ".paths";
   std::ofstream ofs(outfileName);
@@ -1875,109 +1949,12 @@ InitializeAgentPaths(RoadmapType* _rdmp){
   }
 
   for (const auto& path : dynamicAgentPaths) {
-    m_maxPlanningTime = std::max(m_maxPlanningTime, static_cast<double>(2*path.size()));
+    m_maxPlanningTime = std::max(m_maxPlanningTime, 2.0*path.size());
   }
 
 
   std::cout<<"Number of agent paths:"<<dynamicAgentPaths.size()<<std::endl;
 }
-
-
-//template <typename MPTraits>
-//void
-//MorseQuery<MPTraits>::
-//InitializeAgentPaths(RoadmapType* _rdmp){
-//  auto g = _rdmp->GetGraph();
-//  vector<VID> vids; // for random selection
-//  /*auto qrypoints = PRMQuery<MPTraits>::GetQuery();
-//  vector<Vector3d> qryPts;
-//  for(auto q: qrypoints)
-//    qryPts.push_back(q.GetPoint());
-//  double radiusThreshold = 1.0;*/
-//  for(auto v= g->begin(); v!= g->end(); v++){
-//    //for(auto q: qryPts)
-//      //auto q = qryPts[0];
-//     // if((q - v->property().GetPoint()).norm() >= radiusThreshold){
-//       // auto p = v->property().GetPoint();
-//       // if((p[0] < 0 /*|| p[0] > 35*/) && p[1] < 10)// bounding box clipping //state in which regions i want to
-//          vids.push_back(v->descriptor());
-//      //}
-//  }
-//  //std::shuffle(vids.begin(), vids.end(), std::default_random_engine(0));
-//  // find ccs
-//  vector<pair<size_t, VID>> ccs;
-//  stapl::sequential::vector_property_map<GraphType, size_t> cmap;
-//  get_cc_stats(*g, cmap, ccs);
-//  cout << "Finding path for random start and goal" << endl;
-//  for(int i= 0; i < m_numAgents; i++){
-//    bool connected = false;
-//    size_t attempt = 0;
-//    VID start, goal;
-//    do{
-//    start = vids[LRand() % vids.size()];
-//    goal = vids[LRand() % vids.size()];
-//    stapl::sequential::vector_property_map<GraphType, size_t> ccmap;
-//    connected = is_same_cc(*g, ccmap, start, goal);
-//    attempt++;
-//    }while(!connected && attempt < 10);
-//    // Find path
-//    if(!connected) break;
-//    cout<<"Found a path ";
-//    vector<VID> path;
-//    switch(m_searchAlg) {
-//    case DIJKSTRAS:
-//      find_path_dijkstra(*g, start, goal, path, MPTraits::WeightType::MaxWeight());
-//      break;
-//    case ASTAR:
-//      Heuristic<MPTraits> heuristic(g->GetVertex(goal),
-//          this->GetEnvironment()->GetPositionRes(),
-//          this->GetEnvironment()->GetOrientationRes());
-//      astar(*g, start, goal, path, heuristic);
-//      break;
-//    }
-//    Path* newPath = new Path(_rdmp);
-//    *newPath += path;
-//    //dynamicAgentPaths.push_back(newPath->FullCfgs(this->GetMPLibrary()));
-//    std::cout << "number of paths added: " << dynamicAgentPaths.size() << std::endl;
-////      m_maxPlanningTime = std::max(m_maxPlanningTime, 2*dynamicAgentPaths.size());
-//
-//  //}
-//    // Length-wise curbing - length in workspace
-//    double lengthLimit = 50;
-//    auto pathCfgs = newPath->FullCfgs(this->GetMPLibrary());
-//    if(pathCfgs.empty()) continue;
-//    size_t len = pathCfgs.size();
-//    vector<CfgType> curbedPath;
-//    curbedPath.push_back(pathCfgs[0]);
-//    double sum = 0;
-//    for(size_t k = 1; k < len && sum < lengthLimit; k++){
-//      sum += (curbedPath.back().GetPoint() - pathCfgs[k].GetPoint()).norm();
-// //     for(int l = 0; l < m_speed; l++)
-//        curbedPath.push_back(pathCfgs[k]);
-//    }
-//    dynamicAgentPaths.push_back(curbedPath);
-//  }
-//  std::string outfileName = this->GetBaseFilename() + "agent" +std::to_string(dynamicAgentPaths.size()) + ".paths";
-//  std::ofstream ofs(outfileName);
-//  if(!ofs)
-//    throw RunTimeException(WHERE, "Cannot open file \"" + outfileName + "\"");
-//
-//  // Print header.
-//  ofs << dynamicAgentPaths.size() << std::endl;
-//  // Print path.
-//  for(auto path : dynamicAgentPaths){
-//    ofs<< path.size() << std::endl;
-//    for(auto cit = path.begin(); cit != path.end(); ++cit)
-//    ofs << *cit << std::endl;
-//  }
-//
-//  for (const auto& path : dynamicAgentPaths) {
-//    m_maxPlanningTime = std::max(m_maxPlanningTime, 2.0*path.size());
-//  }
-//
-//
-//  std::cout<<"Number of agent paths:"<<dynamicAgentPaths.size()<<std::endl;
-//}
 
 
 #endif
