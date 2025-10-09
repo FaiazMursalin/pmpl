@@ -79,6 +79,7 @@ protected:
     enum class SocialNavigationStrategy {
         WAIT,
         DEFLECT,
+      	DIVERSE,
         INCREASE_SPEED_OR_DIVERSE
     };
 
@@ -701,247 +702,249 @@ double MorseQuery<MPTraits>::calculateWaitTimeCfg(vector<CfgType>& robotcfgs, do
 
 
 template<class MPTraits>
-bool MorseQuery<MPTraits>::GetValidPath() {
+bool
+MorseQuery<MPTraits>::
+GetValidPath(/*vector<typename MPTraits::Path *>& m_paths*/){
 
-    static auto AddToPath = [&](Path* _newPath, const vector<VID>& _segment) {
-        vector<VID> addVID;
-        if (!_newPath->VIDs().empty())
-            addVID.insert(addVID.end(), _segment.begin() + 1, _segment.end());
-        else
-            addVID.insert(addVID.end(), _segment.begin(), _segment.end());
+  static auto  AddToPath = [&](Path* _newPath,const vector<VID>& _segment) {
+     vector<VID> addVID;
+      if(!_newPath->VIDs().empty()){
+          addVID.insert(addVID.end(), _segment.begin()+1, _segment.end());
+      }else{
+       addVID.insert(addVID.end(), _segment.begin(), _segment.end());
+      }
+      *_newPath += addVID;
+  };
+  if(dynamicAgentPaths.empty()){
+    if(m_paths.empty()) return false;
+    this->GetPath()->Clear();
+    *this->GetPath() += m_paths[0]->VIDs();
+    return true;
+  }
+  bool oneSuccess = false;
+  Path *bestPath = nullptr;
+  size_t bestPathIndex; double bestPathTick;
+  std::unordered_map<size_t, std::vector<std::pair<VID, double>>> waitTimes;
+  for(size_t i = 0; i < m_paths.size(); ++i){
+    cout<<"path size for path:"<<i<<" is "<<m_paths[i]->Length()<<endl;
+    auto pathLengthBefore = m_paths[i]->Length(); // store the length before deflection
+    auto pathVIDs = m_paths[i]->VIDs();
+    auto start = pathVIDs.front();
+    vector<VID> segment;
+    Path* newPath = new Path(this->GetRoadmap()); // to store the new path created
+    bool result = true;
+    double startTick = 0;
 
-        *_newPath += addVID;
-    };
 
-    if (dynamicAgentPaths.empty()) {
-        if (m_paths.empty()) return false;
-        this->GetPath()->Clear();
-        *this->GetPath() += m_paths[0]->VIDs();
-        return true;
-    }
+	// count number of segements
+	double segmentCount = 0.0; double currentCount = 0.0;
 
-    bool oneSuccess = false;
-    Path* bestPath = nullptr;
-    size_t bestPathIndex;
-    int bestPathTick;
+	while(true){
+		segmentCount++;
+		segment.clear();
+	 	auto criticals = GetNextPathRegion(start, m_paths[i], segment); // get the critical point set
+        auto goal = segment.back();
+		vector<VID> newSegment;
+		if(!newPath->VIDs().empty() && newPath->VIDs().back() == pathVIDs.back()) // reached the end
+                break;
 
-    std::unordered_map<size_t, std::vector<std::pair<VID, double>>> waitTimes;
-    std::unordered_map<size_t, std::vector<std::pair<VID, int>>> speedRecords;
+		if(!(newPath->VIDs().empty()))
+               start = newPath->VIDs().back(); // start is where the last region stopped
 
-    for (size_t i = 0; i < m_paths.size(); ++i) {
-        cout << "path size for path:" << i << " is " << m_paths[i]->Length() << endl;
+		bool foundNext = GetNextSubPath(start, segment, criticals, newSegment); // get the sub-path from the last point to one of the feasible critical point
 
-        auto pathLengthBefore = m_paths[i]->Length();
-        auto pathVIDs = m_paths[i]->VIDs();
-        auto start = pathVIDs.front();
-        vector<VID> segment;
-        Path* newPath = new Path(this->GetRoadmap());
-        bool result = true;
-        double startTick = 0.0;
-
-        // Track the current attempt speed (persists across segments)
-        int current_attempt_speed = max_r_speed;
-
-        double totalEdges = 0.0, currentEdge = 0.0;
-
-        // Pre-pass to count total edges in the path
-        for(auto it = pathVIDs.begin(); it + 1 < pathVIDs.end(); ++it) {
-            totalEdges++;
+		AddToPath(newPath, segment);
+        // cannot construct the path from last spot to next
+        if(!foundNext) {
+        	std::cout<<"Path " << i << " cannot find the next segment "<<std::endl;
+        	result = false;
+       		break;
         }
 
-        // Reset state for real construction
-        segment.clear();
-        newPath->Clear();
-        start = pathVIDs.front();
+		if (!result) {
+			break;
+		} else {
+			start = goal;
+		}
+	}
 
-        while (true) {
+	// clean up from counting
+	segment.clear();
+	newPath->Clear();
+	start = pathVIDs.front();
+
+    // go region-by-region
+    while(true){
+			currentCount++;
             segment.clear();
             vector<pair<VID, VID>> edgeToDelete;
             vector<VID> newSegment;
-            auto criticals = GetNextPathRegion(start, m_paths[i], segment);
-            auto goal = segment.back();
-
-            if (!newPath->VIDs().empty() && newPath->VIDs().back() == pathVIDs.back())
+            auto criticals = GetNextPathRegion(start, m_paths[i], segment); // get the critical point set
+            auto goal = segment.back(); //if success then we need to store the next start
+            if(!newPath->VIDs().empty() && newPath->VIDs().back() == pathVIDs.back()) // reached the end
                 break;
-
-            if (!newPath->VIDs().empty())
-                start = newPath->VIDs().back();
-
-            bool foundNext = GetNextSubPath(start, segment, criticals, newSegment);
-
-            if (!foundNext) {
-                cout << "Path " << i << " cannot find the next segment " << endl;
-                result = false;
-                break;
+            ////// To update the next path segment if last segment deflected
+            if(!(newPath->VIDs().empty()))
+               start = newPath->VIDs().back(); // start is where the last region stopped
+            bool foundNext = GetNextSubPath(start, segment, criticals, newSegment); // get the sub-path from the last point to one of the feasible critical point
+            // cannot construct the path from last spot to next
+            if(!foundNext) {
+               std::cout<<"Path " << i << " cannot find the next segment "<<std::endl;
+               result = false;
+               break;
             }
+            segment.swap(newSegment); // update the segment that starts from possibly deflected path last position
+            ////////////////////
 
-            segment.swap(newSegment);
+            double tempTick = startTick;
+            bool validSegment = DynamicValidate(segment, tempTick, edgeToDelete,1);//no need
+			//do not need the following if (validSegment)
+            if(validSegment){ // if valid, add segment to path
+                AddToPath(newPath, segment);
+                start = segment.back();//do it after successfully deflected also
+                startTick = tempTick; // update tick
+                result = true;
+            } else { // segment not valid
+                //cout << "Segment with criticals: " << criticals.first << ", " << criticals.second << " not valid. Starttick: " << startTick << endl;
+               double deflectionCost = MAXDOUBLE, waitCost = MAXDOUBLE, diversePathCost = MAXDOUBLE;
+                // case wait
+               cout << "Calculating wait costs" << endl;
+				vector<double> pathWaitTimes;
+                auto waitReturn = calculateWaitTime(segment, startTick, pathWaitTimes,1);
+                double wt = waitReturn.first;
+                waitCost = (wt < INT_MAX)? (waitReturn.second-startTick) : MAXDOUBLE ;//look into this coming negative
+                cout<<"wait cost is this :: " << waitCost << " wait tick:" << waitReturn.second << " wt:" << wt << " startTick:" << startTick <<endl;
+                cout << "Calculating deflection costs\nBefore deflection, segment: " << endl;
+//
+                // assume segment was valid and add the vids to get a length
+                Path *duplicatePath_Diverse = new Path(this->GetRoadmap());
+                double lengthBeforeDeflection = GetSegmentLength(segment);
+                double possibleDeflectTick = startTick;
+                bool deflectResult = GenerateValidSubPath(start, segment, criticals, possibleDeflectTick, duplicatePath_Diverse,1);  // deflect
+                cout << "Tick after generatevalidsubpath: possible: " << possibleDeflectTick << " original:" << startTick<< endl;
 
-            // SEGMENT-BASED PROCESSING: Process the entire segment at once
-            cout << "Processing segment from " << segment.front() << " to " << segment.back() << " with " << segment.size() << " vertices" << endl;
-
-            bool segmentSolved = false;
-            int segment_attempt_speed = current_attempt_speed;
-
-            while (segment_attempt_speed >= 1 && !segmentSolved) {
-                r_speed = segment_attempt_speed;
-                cout << "Evaluating segment: start " << segment.front() << " to goal " << segment.back() << " with speed " << r_speed << endl;
-
-                double tempTick = startTick;
-                edgeToDelete.clear();
-                bool validSegment = DynamicValidate(segment, tempTick, edgeToDelete, r_speed);
-
-                if (validSegment) {
-                    // Segment is valid at this speed
-                    AddToPath(newPath, segment);
-                    startTick = tempTick;
-                    result = true;
-                    segmentSolved = true;
-                    cout << "Segment solved at speed " << r_speed << endl;
-
-                } else {
-                    // Try social navigation at current speed for this segment
-                    double deflectionCost = MAXDOUBLE, waitCost = MAXDOUBLE, diversePathCost = MAXDOUBLE;
-
-                    cout << "Calculating wait costs" << endl;
-                    vector<double> pathWaitTimes;
-                    auto waitReturn = calculateWaitTime(segment, startTick, pathWaitTimes, 1);
-                    double wt = waitReturn.first;
-                    waitCost = (wt < INT_MAX) ? (waitReturn.second - startTick) : MAXDOUBLE;
-                    cout << "wait cost is this :: " << waitCost << endl;
-
-                    cout << "Calculating deflection costs" << endl;
-                    Path* duplicatePath_Diverse = new Path(this->GetRoadmap());
-                    double lengthBeforeDeflection = GetSegmentLength(segment);
-                    double possibleDeflectTick = startTick;
-
-                    bool deflectResult = GenerateValidSubPath(segment.front(), segment, criticals, possibleDeflectTick, duplicatePath_Diverse, r_speed);
-                    cout << "Tick after deflection: " << possibleDeflectTick << " original: " << startTick << endl;
-
-                    if (deflectResult) {
-                        deflectionCost = (possibleDeflectTick - startTick);
-                        double segmentLengthAfterDeflection = GetSegmentLength(duplicatePath_Diverse->VIDs());
-                        cout << "Deflection cost: " << deflectionCost
-                             << ", lengthAfter: " << segmentLengthAfterDeflection
-                             << ", lengthBefore: " << lengthBeforeDeflection << endl;
+                if (deflectResult) {//valid deflection
+                    deflectionCost = (possibleDeflectTick - startTick);
+                    // below is for cost calcul;ation
+                    //*duplicatePath_Diverse += vector<VID>{segment.back()}; // contains the deflected vid of just the region
+                    double segmentLengthAfterDeflection = GetSegmentLength(duplicatePath_Diverse->VIDs()); // length of the deflected path till end of current segment
+                     // 12/07/24 - chnaged cost to tick // length of segment after deflection - length of segment before deflection
+                    cout << "Deflection cost: "<< deflectionCost <<
+                        " segment lengthAfterDeflection:" << segmentLengthAfterDeflection <<
+                        " segment lengthBeforeDeflection:"<< lengthBeforeDeflection << endl;
+                } // if deflection fails, the deflection cost is infinite (chcek initialzation above)
+                std::cout<<"Deflection success: "<<deflectResult<<std::endl;
+                // case deflect end;
+                //case diverse start
+               // if (i +1 < m_paths.size()) {
+               //     diversePathCost = m_paths[i+1]->Length();
+                //}
+                // case diverse end
+				double remainingSegments = (segmentCount - currentCount);
+				double weightForWait = 1 - (remainingSegments/segmentCount);
+				cout << "remainingSegments: " << remainingSegments << " total segments: " << segmentCount << "; weight: " << weightForWait << endl;
+				cout << "Wait cost before weight: " << waitCost << " Deflection cost before weight: " << deflectionCost << endl;
+                auto strategy = SocialNavigation(1, (weightForWait*deflectionCost), ((1-weightForWait)*waitCost), diversePathCost);
+                cout << "Social Navigation Strategy returned: ";
+                PrettyPrintSocialNavigationStrategy(strategy);
+                cout << endl;
+                switch (strategy)
+                {
+                    case SocialNavigationStrategy::DEFLECT: {
+                         result = deflectResult;
+                         if (result){
+                            AddToPath(newPath, duplicatePath_Diverse->VIDs());
+                            startTick = possibleDeflectTick;
+                         }
+                        //start = segment.back(); // successful delection - find next region
+                        break;
                     }
 
-                    double remainingEdges = totalEdges - currentEdge;
-                    double weightForWait = 1 - currentEdge / totalEdges;
+                    case SocialNavigationStrategy::WAIT: {
+                        for(size_t index = 0; index < pathWaitTimes.size(); ++index) {
+                          if(pathWaitTimes[index] > 0){
+                              waitTimes[i].push_back(make_pair(segment[index], pathWaitTimes[index]));
 
-                    cout << "Remaining edges: " << remainingEdges
-                         << " weight: " << weightForWait << endl;
+                          } else {
+                              cout << "path wait times size: " << pathWaitTimes.size() << ". No wait times set" << endl;
+                            cout << "pathWaitTimes["<<index<<"] is = " << pathWaitTimes[index] << endl;
+                          }
+                        }
+                        std::cout << "Set wait times for " << pathWaitTimes.size() << " or " << waitTimes[i].size() << " vertices " << "for path " << i<<endl;
+                        if (waitTimes[i].size() > 0 && waitCost < MAXDOUBLE) {
+                          result = true;
+                          AddToPath(newPath, segment);
+                            startTick  = waitReturn.second;//+= for wait scenario
+                         // start = segment.back();
+                        }
+                        else  result = false;
 
-                    auto strategy = SocialNavigation(1, 1*deflectionCost, 1*waitCost, diversePathCost);
-
-                    cout << "Social Navigation Strategy returned: ";
-                    PrettyPrintSocialNavigationStrategy(strategy);
-                    cout << endl;
-
-                    switch (strategy) {
-                        case SocialNavigationStrategy::DEFLECT:
-                            result = deflectResult;
-                            if (result) {
-                                AddToPath(newPath, duplicatePath_Diverse->VIDs());
-                                startTick = possibleDeflectTick;
-                                segmentSolved = true;
-                                cout << "Deflection successful for segment" << endl;
-                            }
-                            break;
-
-                        case SocialNavigationStrategy::WAIT:
-                            for (size_t index = 0; index < pathWaitTimes.size(); ++index) {
-                                if (pathWaitTimes[index] > 0)
-                                    waitTimes[i].emplace_back(segment[index], pathWaitTimes[index]);
-                            }
-
-                            if (!waitTimes[i].empty() && waitCost < MAXDOUBLE) {
-                                result = true;
-                                AddToPath(newPath, segment);
-                                startTick = waitReturn.second;
-                                cout << "Wait successful for segment, new tick: " << startTick << endl;
-                                current_attempt_speed = 1;
-                                segment_attempt_speed = 1;
-                                segmentSolved = true;
-                            } else {
-                                result = false;
-                            }
-                            break;
-
-                        default:
-                            result = false;
-                            break;
+                        break;
                     }
-
-                    delete duplicatePath_Diverse;
-
-                    if (!segmentSolved) {
-                        cout << "Social navigation failed at speed " << segment_attempt_speed << ", trying lower speed" << endl;
-                        segment_attempt_speed--;
-                    }
+                    case SocialNavigationStrategy::DIVERSE:
+                    default:
+                        result = false; // go to next path
+                        break;
                 }
-//                if (!segmentSolved) {
-//     			   segment_attempt_speed--;
-//    			}
-            }
 
-            // Update current edge count (add number of edges in this segment)
-            currentEdge += (segment.size() - 1);
-
-            if (!segmentSolved) {
-                cout << "Could not solve segment from " << segment.front() << " to " << segment.back() << " with any speed or strategy" << endl;
-                result = false;
-                break;
-            }
-
-            start = segment.back();
+            }//end else
+            if (!result) break;
+            else
+               start = goal;
         }
+        std::cout<<"Path "<<i<< " success: "<<result<<std::endl;
+	cout << "segment count: " << segmentCount << endl;
+	cout << "current count: " << currentCount << endl;
+	cout << "path : " << i << endl;
 
-        cout << "Path " << i << " success: " << (result? "true" : "false") << endl;
-        if (result) {
-            if (!oneSuccess) {
+        if(result ){
+            //if(!oneSuccess) oneSuccess = true;
+//            for (auto vvvid: newPath->VIDs()) {
+//                cout << vvvid << ", ";
+//            }
+//            cout << endl;
+            std::cout<<"Current path length "<<newPath->Length() <<" before deflection: "<<pathLengthBefore<<std::endl;
+            //if(i < m_paths.size()-1) std::cout<<"Next path length before deform:"<<m_paths[i+1]->Length()<<std::endl;
+            if(!oneSuccess){
+              	cout<< "setting the best path first time for index"<<i<<endl;
                 bestPath = newPath;
                 oneSuccess = true;
                 bestPathIndex = i;
                 bestPathTick = startTick;
                 break;
-            } else if (newPath->Length() < bestPath->Length()) {
+            }
+            else if(newPath->Length() < bestPath->Length()) {
                 bestPath = newPath;
                 bestPathIndex = i;
-            } else {
-                delete newPath;
             }
-        } else {
-            delete newPath;
+            else  delete newPath;
+        //return true; // early quit on success
         }
-
-        cout << "================================================xxxxxx================================================" << endl;
+        else delete newPath;
+        cout<<"================================================xxxxxx================================================"<<endl;
     }
 
-    if (oneSuccess) {
-        cout << "Stored path tick : " << bestPathTick << endl;
-        cout << "Stored best path length: " << bestPath->Length() << endl;
-        cout << "Deflection length: " << GetDeflectionLength(bestPath, m_paths[bestPathIndex]) << endl;
-
+    if(oneSuccess){
+        std::cout << "Stored path tick : " << bestPathTick << std::endl;
+        std::cout<<"Stored best path length:"<<bestPath->Length()<<std::endl;
+        std::cout<<"Deflection length: "<<GetDeflectionLength(bestPath, m_paths[bestPathIndex])<<std::endl;
+       	cout << "Best path index: "<< bestPathIndex << ", " << (waitTimes.find(bestPathIndex) != waitTimes.end()) << ", " << waitTimes[bestPathIndex].size()<< endl;
         if (waitTimes.find(bestPathIndex) != waitTimes.end()) {
             for (const auto& pair : waitTimes[bestPathIndex]) {
-                cout << "(vid: " << pair.first << ", wait: " << pair.second << ") ";
+                std::cout << "(vid: " << pair.first << ", wait: " << pair.second << ") ";
                 bestPath->GetRoadmap()->GetGraph()->GetVertex(pair.first).SetStat("waittime", pair.second);
             }
-            cout << endl;
+            std::cout << std::endl;
+        }else{
+          cout<<"couldnt find best path"<<std::endl;
         }
-
-        for (const auto& pair : speedRecords[bestPathIndex]) {
-            cout << "(vid: " << pair.first << ", speed: " << pair.second << ") ";
-            bestPath->GetRoadmap()->GetGraph()->GetVertex(pair.first).SetStat("speed", pair.second);
-        }
-
         this->GetPath()->Clear();
         *this->GetPath() += bestPath->VIDs();
     }
-
     return oneSuccess;
+
 }
+
 
 
 template<class MPTraits>
@@ -1224,8 +1227,9 @@ DynamicValidate(vector<VID>& _segment, double &_startTick, vector<pair<VID, VID>
         validTick = tempTick;
         validSpeed = currentSpeed;
         // Store the speed for the end vertex of this edge
-        g->GetVertex(*(it+1)).SetStat("speed", validSpeed);
-        cout << "Edge " << *it << " -> " << *(it+1) << " valid at speed " << validSpeed << endl;
+        //instead store it in a vector like wait like speed records at this function which is a vecctor and set it later after one succcess
+        //g->GetVertex(*(it+1)).SetStat("speed", validSpeed);
+        //cout << "Edge " << *it << " -> " << *(it+1) << " valid at speed " << validSpeed << endl;
       } else {
         currentSpeed--; // Try slower speed
       }

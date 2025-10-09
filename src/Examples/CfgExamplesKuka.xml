@@ -17,7 +17,7 @@
 
     <Task label="query" robot="boxy">
       <StartConstraints>
-        <CSpaceConstraint point="-56.4 30 0"/> <!---8.26667 15.7333-->
+        <CSpaceConstraint point="-56.4 70.8 0"/> <!---8.26667 15.7333-->
       </StartConstraints>
 
       <GoalConstraints>
@@ -99,7 +99,7 @@
       <PRMQuery label="PRMQuery" debug="false">
         <NodeConnectionMethod method="Closest"/>
       </PRMQuery>
-      <MorseQuery label="MorseQuery" debug="false" r_speed="3" numAgents="4 " numPaths="10" agent="Kuka/boxy_scaled.robot" agentRdmp="agentPRMMapKukaDA.map" cdMethod="RAPID">
+      <MorseQuery label="MorseQuery" debug="false" r_speed="3" numAgents="10 " numPaths="10" agent="Kuka/boxy_scaled.robot" agentRdmp="agentPRMMapKukaDA.map" cdMethod="RAPID">
         <NodeConnectionMethod method="Closest"/>
       </MorseQuery>
       <RRTQuery label="RRTQuery" goalDist="0"
